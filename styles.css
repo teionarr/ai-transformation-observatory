@@ -10,9 +10,9 @@
   --fg-2: #8A8A92;
   --fg-3: #5A5A62;
   --fg-4: #3A3A42;
-  --accent: oklch(0.72 0.14 290);
-  --accent-dim: oklch(0.72 0.14 290 / 0.15);
-  --accent-line: oklch(0.72 0.14 290 / 0.4);
+  --accent: #FFE100;
+  --accent-dim: rgba(255, 225, 0, 0.15);
+  --accent-line: rgba(255, 225, 0, 0.42);
   --red: #FF4B4B;
   --red-dim: rgba(255, 75, 75, 0.08);
   --red-line: rgba(255, 75, 75, 0.35);
@@ -37,9 +37,9 @@
   --fg-2: #52525B;
   --fg-3: #82828C;
   --fg-4: #B4B4BC;
-  --accent: oklch(0.55 0.17 290);
-  --accent-dim: oklch(0.55 0.17 290 / 0.12);
-  --accent-line: oklch(0.55 0.17 290 / 0.35);
+  --accent: #8A6B00;
+  --accent-dim: rgba(138, 107, 0, 0.13);
+  --accent-line: rgba(138, 107, 0, 0.38);
 }
 /* Category tags: the dark pastels wash out on light, so darken them */
 [data-theme="light"] .tag.cat-feeds   { color: #4C6075; }

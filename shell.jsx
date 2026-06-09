@@ -27,7 +27,7 @@ function TopBar({ active }) {
       <div className="topbar-actions">
         <a
           className="repo-link"
-          href="https://github.com/teionarr/codos-competion-dashboard-"
+          href="https://github.com/teionarr/codos-competitive-observatory"
           target="_blank"
           rel="noreferrer"
           title="View source on GitHub"
