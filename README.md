@@ -1,11 +1,13 @@
 # CODOS Observatory
 
-A weekly **F&B competitive-intelligence dashboard**. Every Sunday it sweeps the
-competitive landscape — news velocity, competitor website changes, and
-AI-synthesized insights — and renders them as a live, zero-build dashboard.
+A weekly **competitive-intelligence dashboard** for the AI-transformation /
+agentic-deployment market. Every Sunday it sweeps the competitive landscape —
+news velocity, competitor website changes, and AI-synthesized insights — and
+renders them as a live, zero-build dashboard.
 
-It maps every player on one axis: the **data-depth → decision-velocity
-spectrum** (Data Feeds → Data Vaults → Trend Radars → Decision Engines).
+It maps every player across six bands (advisory ↔ autonomous, horizontal ↔
+vertical): **Transformation Titans → Forward Deployers → Agent Foundries →
+Platform Gravity → Digital Labor → Vertical Specialists**.
 
 ---
 

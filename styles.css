@@ -1,4 +1,4 @@
-/* Tastewise Observatory — F&B competitive intelligence deck (dark command-center) */
+/* CODOS Observatory — AI-transformation competitive intelligence deck (dark command-center) */
 
 :root {
   --bg: #0A0A0B;
@@ -42,11 +42,13 @@
   --accent-line: rgba(138, 107, 0, 0.38);
 }
 /* Category tags: the dark pastels wash out on light, so darken them */
-[data-theme="light"] .tag.cat-feeds   { color: #4C6075; }
-[data-theme="light"] .tag.cat-vaults  { color: #1E7E76; }
-[data-theme="light"] .tag.cat-radars  { color: #5B45A6; }
-[data-theme="light"] .tag.cat-engines { color: #1F8A5B; }
-[data-theme="light"] .tag.cat-other   { color: #756B52; }
+[data-theme="light"] .tag.cat-titans    { color: #4C6075; }
+[data-theme="light"] .tag.cat-deployers { color: #1F8A5B; }
+[data-theme="light"] .tag.cat-foundries { color: #5B45A6; }
+[data-theme="light"] .tag.cat-gravity   { color: #1E7E76; }
+[data-theme="light"] .tag.cat-labor     { color: #9A6A1E; }
+[data-theme="light"] .tag.cat-verticals { color: #A23E78; }
+[data-theme="light"] .tag.cat-other     { color: #756B52; }
 
 [data-density="compact"] {
   --row-h: 32px;
@@ -428,11 +430,13 @@ a { color: inherit; text-decoration: none; }
   color: var(--fg-2);
   letter-spacing: 0.02em;
 }
-.tag.cat-feeds   { color: #B9C3CC; border-color: rgba(150, 165, 180, 0.4); }
-.tag.cat-vaults  { color: #9FE6E0; border-color: rgba(90, 190, 180, 0.4); }
-.tag.cat-radars  { color: #D6C8FF; border-color: rgba(150, 130, 200, 0.4); }
-.tag.cat-engines { color: #B3FFD6; border-color: rgba(90, 200, 150, 0.45); }
-.tag.cat-other   { color: #C9C2B4; border-color: rgba(180, 168, 140, 0.4); }
+.tag.cat-titans    { color: #A9B6C4; border-color: rgba(150, 165, 185, 0.4); }
+.tag.cat-deployers { color: #B3FFD6; border-color: rgba(90, 200, 150, 0.45); }
+.tag.cat-foundries { color: #D6C8FF; border-color: rgba(150, 130, 200, 0.4); }
+.tag.cat-gravity   { color: #9FE6E0; border-color: rgba(90, 190, 180, 0.4); }
+.tag.cat-labor     { color: #F0C89A; border-color: rgba(220, 170, 110, 0.4); }
+.tag.cat-verticals { color: #F2B5D4; border-color: rgba(220, 140, 185, 0.4); }
+.tag.cat-other     { color: #C9C2B4; border-color: rgba(180, 168, 140, 0.4); }
 
 .status {
   font-family: var(--font-mono); font-size: 10px;

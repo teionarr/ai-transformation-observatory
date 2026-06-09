@@ -3,19 +3,21 @@ import re
 import time
 
 
-PROMPT_TEMPLATE = """You are an F&B competitive-intelligence analyst tracking the food & beverage
-intelligence market for Tastewise. You map every player on one axis: the
-data-depth → decision-velocity spectrum, in four bands:
+PROMPT_TEMPLATE = """You are a competitive-intelligence analyst tracking the AI-transformation
+and agentic-deployment market for Codos. You map every player across six bands
+(advisory ↔ autonomous, horizontal ↔ vertical):
 
-  Data Feeds       — commoditized / generic data providers (social listening, media monitoring)
-  Data Vaults      — deep syndicated & panel data + analytics (NIQ, Circana, Mintel)
-  Trend Radars     — AI-native predictive insight platforms (trend/flavor/sensory prediction)
-  Decision Engines — deep F&B data + agentic execution (Tastewise's band: insight → finished asset)
+  Transformation Titans  — global consultancies & SIs (Accenture, McKinsey QB, BCG X, Deloitte)
+  Forward Deployers      — AI-native transformation boutiques (Codos's band: ship agents, outcomes in weeks)
+  Agent Foundries        — horizontal agentic deployment platforms (Sierra, Relevance, Aily, Beam)
+  Platform Gravity       — enterprise orchestration / infra you build on (Salesforce, Microsoft, ServiceNow, AWS)
+  Digital Labor          — AI employees / outcomes-as-a-service (Decagon, 11x, Cognition, Moveworks)
+  Vertical Specialists   — function / industry-deep agents (Harvey, Hippocratic, Cresta)
 
 You will receive:
 1. RAW_SIGNALS — recent market signals (news, press releases, social) from the past 7 days
 2. COMPETITOR_MAP — current tracked competitors; changed ones include a `diff` (git-diff of what actually changed on their site)
-3. CATEGORIES — Data Feeds | Data Vaults | Trend Radars | Decision Engines
+3. CATEGORIES — Transformation Titans | Forward Deployers | Agent Foundries | Platform Gravity | Digital Labor | Vertical Specialists
 
 Return a single valid JSON object with exactly this structure (no markdown fences, no preamble):
 
@@ -24,18 +26,18 @@ Return a single valid JSON object with exactly this structure (no markdown fence
     {{
       "id": "v1",
       "title": "<title from signal>",
-      "domain": "<domain only, e.g. fooddive.com>",
+      "domain": "<domain only, e.g. sierra.ai>",
       "hours_ago": <integer>,
       "velocity": <integer 1-100; 90+ = paradigm-shift, 50 = notable, <30 = noise>,
-      "why": "<max 15 words: the underlying truth this signal reveals for the F&B intel market>",
+      "why": "<max 15 words: the underlying truth this signal reveals for the AI-transformation market>",
       "source_url": "<full url>",
       "sources": ["exa"],
-      "category": "<Data Feeds | Data Vaults | Trend Radars | Decision Engines>"
+      "category": "<Transformation Titans | Forward Deployers | Agent Foundries | Platform Gravity | Digital Labor | Vertical Specialists>"
     }}
     // top 7 signals only, sorted by velocity descending, id as v1..v7
   ],
   "competitor_deltas": {{
-    "<competitor_id>": "<2-sentence max: what changed on their site and why it matters to Tastewise>"
+    "<competitor_id>": "<2-sentence max: what changed on their site and why it matters to Codos>"
     // only include competitors where changed = true; ground the summary in their `diff`, not speculation
   }}
 }}
@@ -53,14 +55,14 @@ COMPETITOR_MAP:
 """
 
 
-INSIGHTS_PROMPT_TEMPLATE = """You are the lead market analyst for Tastewise, the F&B AI intelligence platform.
-Produce this week's TOP STRATEGIC INSIGHTS about the food & beverage intelligence market
-(players span: Data Feeds → Data Vaults → Trend Radars → Decision Engines).
+INSIGHTS_PROMPT_TEMPLATE = """You are the lead market analyst for Codos, the AI-transformation layer.
+Produce this week's TOP STRATEGIC INSIGHTS about the AI-transformation / agentic-deployment market
+(players span: Transformation Titans → Forward Deployers → Agent Foundries → Platform Gravity → Digital Labor → Vertical Specialists).
 
 You have four inputs:
 1. RAW_SIGNALS — this week's market signals (news, funding, launches) from neural search
 2. COMPETITOR_CHANGES — competitors whose sites changed this week, with a summary of what changed
-3. LIVE WEB RESEARCH — use search to research the latest F&B data/intelligence developments over the
+3. LIVE WEB RESEARCH — use search to research the latest AI-transformation / agentic-deployment developments over the
    PAST WEEK and fill gaps the signals miss
 4. PRIOR_INSIGHTS — insights already published in earlier weeks (id + title + takeaway). This is memory.
 
@@ -72,9 +74,9 @@ Produce ONLY genuinely NEW insights vs PRIOR_INSIGHTS. Quality over quantity —
 Return a single valid JSON ARRAY (no markdown fences, no preamble). Each element:
 {{
   "title": "<6-10 word headline>",
-  "insight": "<2-3 sentences: the strategic takeaway for Tastewise>",
+  "insight": "<2-3 sentences: the strategic takeaway for Codos>",
   "trend": "<1-2 sentences: WHY this is happening — the underlying market force, not a restatement>",
-  "category": "<Data Feeds | Data Vaults | Trend Radars | Decision Engines>",
+  "category": "<Transformation Titans | Forward Deployers | Agent Foundries | Platform Gravity | Digital Labor | Vertical Specialists>",
   "magnitude": <integer 1-100; 90+ = market-defining, 50 = notable, <30 = minor>,
   "sources": ["<exa|web|competition>", ...],
   "evidence": ["<short fact or url backing this>", ...],
@@ -84,7 +86,7 @@ Return a single valid JSON ARRAY (no markdown fences, no preamble). Each element
 RULES:
 - Ground every insight in the inputs or your web research — no speculation.
 - "trend" must explain the causal force (why now), not restate the headline.
-- Frame through Tastewise's edge: insight → execution, unifying consumer + foodservice + retail + recipe.
+- Frame through Codos's edge: diagnose → deploy → continuously optimize, agents across functions with outcomes in weeks.
 - Return ONLY the JSON array. No markdown. No explanation.
 
 RAW_SIGNALS:
@@ -98,27 +100,28 @@ PRIOR_INSIGHTS:
 """
 
 
-DISCOVERY_PROMPT_TEMPLATE = """You are a market scout for Tastewise, the F&B AI intelligence platform.
-Your job: surface NEW companies entering the food & beverage intelligence market that are
-NOT already on Tastewise's tracked board — real competitors, entrants, or adjacent players.
+DISCOVERY_PROMPT_TEMPLATE = """You are a market scout for Codos, the AI-transformation layer.
+Your job: surface NEW companies entering the AI-transformation / agentic-deployment market that are
+NOT already on Codos's tracked board — real competitors, entrants, or adjacent players.
 
-The market spans five bands:
-  Data Feeds        — commoditized / generic data providers (social listening, media monitoring)
-  Data Vaults       — deep syndicated & panel data + analytics
-  Trend Radars      — AI-native predictive insight platforms (trend/flavor/sensory prediction)
-  Decision Engines  — deep F&B data + agentic execution (Tastewise's band)
-  Other             — anything real and relevant that doesn't fit the four bands above
-                      (e.g. brand-side in-house AI programs, adjacent references)
+The market spans these bands:
+  Transformation Titans  — global consultancies & SIs (enterprise scale)
+  Forward Deployers      — AI-native transformation boutiques (Codos's band)
+  Agent Foundries        — horizontal agentic deployment platforms
+  Platform Gravity       — enterprise orchestration / infra you build on
+  Digital Labor          — AI employees / outcomes-as-a-service
+  Vertical Specialists   — function / industry-deep agents
+  Other                  — anything real and relevant that doesn't fit the six bands above
 
 Inputs:
 1. RAW_SIGNALS — this week's market signals (news, funding, launches) from neural search
-2. LIVE WEB RESEARCH — use search to find NEW F&B data/intelligence companies, funding rounds,
+2. LIVE WEB RESEARCH — use search to find NEW AI-transformation / agentic-deployment companies, funding rounds,
    product launches, and stealth exits from the PAST WEEK
 3. ALREADY_TRACKED — companies already on the board. Do NOT return any of these (match by name OR domain).
 
 Return a single valid JSON ARRAY (no markdown fences, no preamble). Only include a company if it is:
 - REAL (you can name its website domain), and
-- relevant to the F&B intelligence / consumer-insight / product-development market, and
+- relevant to the AI-transformation / agentic-deployment / digital-labor market, and
 - NOT already in ALREADY_TRACKED.
 If nothing new and credible surfaced this week, return an empty array [].
 
@@ -126,16 +129,16 @@ Each element:
 {{
   "name": "<company name>",
   "url": "<bare domain, e.g. example.com — no https://, no path>",
-  "category": "<Data Feeds | Data Vaults | Trend Radars | Decision Engines | Other>",
-  "why": "<1-2 sentences: what they do and why they belong on Tastewise's board>",
-  "relevance": <integer 0-100; how directly they compete with / matter to Tastewise>,
+  "category": "<Transformation Titans | Forward Deployers | Agent Foundries | Platform Gravity | Digital Labor | Vertical Specialists | Other>",
+  "why": "<1-2 sentences: what they do and why they belong on Codos's board>",
+  "relevance": <integer 0-100; how directly they compete with / matter to Codos>,
   "evidence": "<short fact or url backing this — funding, launch, etc.>"
 }}
 
 RULES:
 - Quality over quantity. Better to return [] than to invent or pad.
 - Never guess a domain. If you can't name a real website, omit the company.
-- Do not return parent brands of products, generic agencies, or anything not F&B-intelligence relevant.
+- Do not return parent brands of products, generic agencies, or anything not AI-transformation relevant.
 - Return ONLY the JSON array.
 
 RAW_SIGNALS:

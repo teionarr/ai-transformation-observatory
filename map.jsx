@@ -2,10 +2,12 @@
 
 function catSlug(c) {
   return {
-    "Data Feeds": "feeds",
-    "Data Vaults": "vaults",
-    "Trend Radars": "radars",
-    "Decision Engines": "engines",
+    "Transformation Titans": "titans",
+    "Forward Deployers": "deployers",
+    "Agent Foundries": "foundries",
+    "Platform Gravity": "gravity",
+    "Digital Labor": "labor",
+    "Vertical Specialists": "verticals",
     "Other": "other",
   }[c] || "x";
 }
