@@ -1,5 +1,117 @@
 [
   {
+    "id": "ins-2026-06-14-1",
+    "scan_date": "2026-06-14",
+    "generated_at": "2026-06-14T08:28:23.703399+00:00",
+    "title": "Foundational AI Providers Pivot to Direct Enterprise Deployment",
+    "insight": "Major LLM developers like OpenAI are increasingly engaging directly with enterprises for AI deployments or partnering with large system integrators. This shift, exemplified by OpenAI's acquisition of Ona to boost Codex enterprise capabilities and Anthropic's partnership with TCS, indicates a move to capture more value downstream and accelerate real-world adoption. For Codos, this presents both potential new partnership opportunities with these foundational model providers and increased competition in the direct deployment space, necessitating a focus on our unique 'diagnose \u2192 deploy \u2192 continuously optimize' agentic approach.",
+    "trend": "As AI models mature, foundational providers seek to accelerate adoption and demonstrate real-world value, leading them to engage directly in complex enterprise integration and transformation projects, blurring the lines between model development and solution deployment.",
+    "category": "Forward Deployers",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "OpenAI acquires AI agent orchestration startup Ona - SiliconANGLE",
+      "OpenAI Acquires Ona to Boost Codex Enterprise Cloud Deployment.",
+      "Anthropic taps TCS to scale its enterprise AI deployments | TechCrunch"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-14-2",
+    "scan_date": "2026-06-14",
+    "generated_at": "2026-06-14T08:28:23.703399+00:00",
+    "title": "Agent Reliability and Orchestration Drive New Investment",
+    "insight": "The market is seeing significant investment and product launches focused on solving the critical challenges of AI agent failures, ensuring reliability, and enabling robust orchestration. Companies like ChatSee.ai are raising funds to tackle agent failures by preserving context and capturing remediation knowledge, while platforms like Pega are enhancing agent orchestration and development tools with a focus on governance and cost control. Codos's core value proposition of continuous optimization and agent deployment directly addresses this burgeoning need for reliable, manageable agentic systems.",
+    "trend": "As enterprises move beyond experimental AI agent deployments, the practical realities of production-grade reliability, error handling, and multi-agent coordination are becoming paramount, leading to a new wave of infrastructure and tooling development.",
+    "category": "Agent Foundries",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "ChatSee.ai Raises $6.5M led by True Ventures to Tackle the Growing Problem of AI Agent Failures",
+      "Pega expands AI platform with agent orchestration, development tools and new pricing model - SiliconANGLE",
+      "Sedai Launches the First Autonomous Platform for AI Agent Optimization",
+      "Cresta Launches Conductor, the Agent for AI Agent Development",
+      "Kyndryl Launches AI Orchestration for Business to Accelerate Agent-Driven Transformation"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-14-3",
+    "scan_date": "2026-06-14",
+    "generated_at": "2026-06-14T08:28:23.703399+00:00",
+    "title": "Enterprise Context Layer Becomes Critical for Agentic AI",
+    "insight": "Companies are heavily investing in and acquiring solutions to build robust context layers and knowledge graphs for enterprise AI agents. Jedify's $24M funding round, with strategic participation from Snowflake, highlights the recognition that agents require deep, structured understanding of business relationships, domain terminology, and access controls to act accurately. This emphasizes that Codos must continue to emphasize its ability to diagnose and integrate with complex enterprise data environments to provide the necessary context for agents to deliver outcomes.",
+    "trend": "The limitations of AI agents without comprehensive, real-time enterprise context are driving demand for specialized platforms and acquisitions that can provide this foundational 'missing layer' for effective agent operation and reduce errors in LLM-generated answers.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Jedify raises $24M to build the context layer that gives enterprise AI agents something to actually work with - Startup Fortune",
+      "Jedify Secures $24 Million Series A to Expand Real-Time Enterprise AI Context Platform",
+      "Ardoq Acquires GraphLake to Establish the EA-Grade Context Graph for Enterprise AI",
+      "Jedify Raises $24 Million to Bring Context to Enterprise AI | Whalesbook"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-14-4",
+    "scan_date": "2026-06-14",
+    "generated_at": "2026-06-14T08:28:23.703399+00:00",
+    "title": "Vertical Agentic Solutions See Rapid Growth and Consolidation",
+    "insight": "The market is witnessing a surge in specialized agentic AI solutions targeting specific enterprise functions and industries, often accompanied by M&A activity. Examples include Gradient Labs securing $26M for regulated financial workflows and Minerva launching an AI platform for consumer marketing with OpenAI collaboration. This indicates a maturing market where Codos can leverage its cross-functional agent deployment capabilities to address specific vertical needs or partner with these specialists to accelerate transformation.",
+    "trend": "As the capabilities of AI agents become more refined, businesses are seeking tailored solutions for their unique operational challenges, leading to a proliferation of vertical-specific agentic platforms and strategic consolidation through M&A, as vendors aim to own the 'execution layer' for AI.",
+    "category": "Vertical Specialists",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Minerva Launches AI Platform for Consumer Marketing with $20M from The General Partnership, 8VC, Lingotto Innovation, Topology Ventures and NBA Investments, Alongside OpenAI Collaboration - Business Wire",
+      "Vertical AI for banking just hit $26M: Gradient Labs bets autonomous agents beat co-pilots on compliance - FinanceX Magazine",
+      "Recent Acquisitions Announcements Show Enterprise Software Vendors Are Buying the AI Execution Layer - ERP Today",
+      "Infinity Constellation Raises $24M Series A to Take On Professional Services",
+      "Happiest Minds Launches Rel(AI)Build, an Agentic AI Platform to Transform Enterprise Software Delivery"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-14-5",
+    "scan_date": "2026-06-14",
+    "generated_at": "2026-06-14T08:28:23.703399+00:00",
+    "title": "Physical AI and Robotics Attract Billions in Funding",
+    "insight": "The 'physical AI' sector, encompassing advanced robotics and AI for real-world engineering, is attracting unprecedented investment, with NEURA Robotics raising up to $1.4 billion in Series C funding to accelerate its Physical AI platform and expand cognitive robot deployment. This massive capital inflow into physical AI signals a broader, long-term vision for AI's impact across all industries. While Codos focuses on the AI-transformation layer for software agents, this trend highlights the expanding frontier of AI and potential future integration points for Codos's agentic frameworks in hybrid physical-digital environments.",
+    "trend": "The ambition to deploy AI beyond digital realms into physical operations and engineering is driving enormous capital allocation, pushing the boundaries of what AI can achieve in the real world, with a focus on cognitive robots that continuously learn and share capabilities.",
+    "category": "Transformation Titans",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "NEURA Robotics Announces Record Series C of up to $1.4 Billion to Accelerate the World's Leading Physical AI Platform",
+      "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI",
+      "Germany's NEURA Robotics raises up to \u20ac1.2 billion in Series C round to build Physical AI from Europe",
+      "NEURA Robotics Raises $1.4B for Physical AI - AI Business",
+      "The Week's 10 Biggest Funding Rounds: NinjaOne Leads With $400M As Large Deals Also Go To Blockchain, Cloud Infrastructure, Biotech And Robotics - Crunchbase News"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-05-31-4",
     "scan_date": "2026-05-31",
     "generated_at": "2026-05-31T13:22:01.119090+00:00",

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "mendo",
+    "name": "Mendo",
+    "url": "mendo.eu",
+    "category": "Forward Deployers",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Mendo is focused on scaling enterprise AI adoption in Europe, positioning them as an AI-native transformation boutique.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 85,
+    "evidence": "Secures \u20ac12M to scale enterprise AI adoption."
+  },
+  {
+    "id": "prometheus-ai",
+    "name": "Prometheus AI",
+    "url": "prometheus.ai",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Prometheus AI offers AI automation services and deploys AI agents for business functions like sales, reception, and workflow automation, acting as an embedded AI team for mid-size firms.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 80,
+    "evidence": "Provides AI agents for business that scale operations 24/7."
+  },
+  {
+    "id": "infinity-constellation",
+    "name": "Infinity Constellation",
+    "url": "infinityconstellation.com",
+    "category": "Forward Deployers",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Infinity Constellation is an AI-native holding company that builds and operates full-stack AI service businesses to automate and replace traditional professional services.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 90,
+    "evidence": "Raises $24M Series A funding."
+  },
+  {
+    "id": "happiest-minds",
+    "name": "Happiest Minds",
+    "url": "happiestminds.com",
+    "category": "Transformation Titans",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Happiest Minds, a digital engineering and IT company, launched Rel(AI)Build, an agentic AI platform to transform enterprise software delivery, making them a significant player in AI transformation.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 75,
+    "evidence": "Launches Rel(AI)Build, an Agentic AI Platform."
+  },
+  {
+    "id": "poetic",
+    "name": "Poetic",
+    "url": "poetic.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Poetic is focused on automating complex enterprise processes with reliable AI, aiming to fix issues where AI agents currently fail, indicating a platform for robust agentic deployment.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 95,
+    "evidence": "Raises $50M Series A funding."
+  },
+  {
+    "id": "jedify",
+    "name": "Jedify",
+    "url": "jedify.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Jedify is building a 'context layer' to provide enterprise AI agents with the necessary information to function effectively, addressing a foundational need for agent deployment.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 80,
+    "evidence": "Raises $24M funding to build the context layer for enterprise AI agents."
+  },
+  {
+    "id": "chatsee-ai",
+    "name": "ChatSee.ai",
+    "url": "chatsee.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "ChatSee.ai is tackling the problem of AI agent failures, suggesting a platform for monitoring, debugging, or optimizing AI agents for reliable operation.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 70,
+    "evidence": "Raises $6.5M funding to tackle AI agent failures."
+  },
+  {
+    "id": "recursive",
+    "name": "Recursive",
+    "url": "recursive.com",
+    "category": "Other",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Recursive is focused on self-improving AI where models build models, representing a foundational advancement that could significantly impact future agentic systems and AI transformation.",
+    "discovered": true,
+    "discovered_at": "2026-06-14",
+    "discovery_relevance": 60,
+    "evidence": "Secures $650 Million in funding."
+  }
+]

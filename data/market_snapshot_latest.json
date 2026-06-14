@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-09T00:00:00+00:00",
-  "run_duration_seconds": 640,
+  "generated_at": "2026-06-14T08:29:15.827522+00:00",
+  "run_duration_seconds": 856,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -22,8 +22,8 @@
       "name": "Exa.ai",
       "kind": "neural search",
       "glyph": "hex",
-      "calls": 64,
-      "last_call": "2026-06-09T00:00:00+00:00",
+      "calls": 59,
+      "last_call": "2026-06-14T08:29:15.827522+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 51,
-      "last_call": "2026-06-09T00:00:00+00:00",
+      "calls": 52,
+      "last_call": "2026-06-14T08:29:15.827522+00:00",
       "status": "healthy"
     },
     {
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 2,
-      "last_call": "2026-06-09T00:00:00+00:00",
+      "last_call": "2026-06-14T08:29:15.827522+00:00",
       "status": "healthy"
     },
     {
@@ -49,89 +49,85 @@
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 1,
-      "last_call": "2026-06-09T00:00:00+00:00",
+      "calls": 2,
+      "last_call": "2026-06-14T08:29:15.827522+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
     {
       "id": "v1",
-      "title": "Sierra raises $950M Series C at a $15.8B valuation",
-      "domain": "sierra.ai",
-      "hours_ago": 120,
+      "title": "Jeff Bezos's Prometheus raises $12B to build an 'artificial general engineer' for the physical world | TechCrunch",
+      "domain": "techcrunch.com",
+      "hours_ago": 56,
       "velocity": 98,
-      "why": "Outcome-priced agents hit $15.8B — 'sell the work' goes megacap.",
-      "source_url": "https://sierra.ai/",
+      "why": "Massive investment signals AGI for physical world, impacting future digital labor.",
+      "source_url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
       "sources": [
-        "exa",
-        "web"
-      ],
-      "category": "Agent Foundries"
-    },
-    {
-      "id": "v2",
-      "title": "Decagon closes $250M Series D at a $4.5B valuation",
-      "domain": "decagon.ai",
-      "hours_ago": 168,
-      "velocity": 94,
-      "why": "CX digital labor at $4.5B on per-resolution pricing — outcomes model compounding.",
-      "source_url": "https://decagon.ai/",
-      "sources": [
-        "exa",
-        "web"
+        "exa"
       ],
       "category": "Digital Labor"
     },
     {
-      "id": "v3",
-      "title": "ServiceNow completes $2.85B Moveworks acquisition",
-      "domain": "servicenow.com",
-      "hours_ago": 220,
-      "velocity": 92,
-      "why": "Platform giant absorbs employee-support agents — orchestration gravity intensifies.",
-      "source_url": "https://www.servicenow.com/",
-      "sources": [
-        "exa",
-        "web"
-      ],
-      "category": "Platform Gravity"
-    },
-    {
-      "id": "v4",
-      "title": "Harvey raises $200M at an $11B valuation",
-      "domain": "harvey.ai",
-      "hours_ago": 260,
-      "velocity": 88,
-      "why": "Vertical legal agents at $11B — deep-moat specialists out-raise horizontals.",
-      "source_url": "https://www.harvey.ai/",
+      "id": "v2",
+      "title": "OpenAI acquires AI agent orchestration startup Ona - SiliconANGLE",
+      "domain": "siliconangle.com",
+      "hours_ago": 56,
+      "velocity": 98,
+      "why": "OpenAI's acquisition of Ona signals consolidation and moves into agent orchestration.",
+      "source_url": "https://siliconangle.com/2026/06/11/openai-acquires-ai-agent-orchestration-startup-ona/",
       "sources": [
         "exa"
       ],
-      "category": "Vertical Specialists"
+      "category": "Agent Foundries"
     },
     {
-      "id": "v5",
-      "title": "Multiverse raises $70M at $2.1B, claims the 'AI adoption layer'",
-      "domain": "multiverse.io",
-      "hours_ago": 300,
-      "velocity": 84,
-      "why": "A rival names the 'transformation layer' category — via upskilling, not agents.",
-      "source_url": "https://www.multiverse.io/",
+      "id": "v3",
+      "title": "The Forward-Deploy Pivot: Why Anthropic and OpenAI Are Becoming Consulting Firms in the Same Week - Cyber Media Creations",
+      "domain": "cybermediacreations.com",
+      "hours_ago": 80,
+      "velocity": 95,
+      "why": "Foundational model providers are directly entering the forward-deployment services market.",
+      "source_url": "https://cybermediacreations.com/the-forward-deploy-pivot-why-anthropic-and-openai-are-becoming-consulting-firms/",
       "sources": [
-        "exa",
-        "web"
+        "exa"
       ],
       "category": "Forward Deployers"
     },
     {
+      "id": "v4",
+      "title": "Anthropic taps TCS to scale its enterprise AI deployments | TechCrunch",
+      "domain": "techcrunch.com",
+      "hours_ago": 80,
+      "velocity": 95,
+      "why": "Foundational models partner with SIs, intensifying competition for Forward Deployers.",
+      "source_url": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Transformation Titans"
+    },
+    {
+      "id": "v5",
+      "title": "Poetic Raises $50M Series A to Automate the World's Most Complex Enterprise Processes with Reliable AI",
+      "domain": "www.prnewswire.com",
+      "hours_ago": 104,
+      "velocity": 95,
+      "why": "Significant funding for reliable enterprise AI agents validates agentic deployment.",
+      "source_url": "https://www.prnewswire.com/news-releases/poetic-raises-50m-series-a-to-automate-the-worlds-most-complex-enterprise-processes-with-reliable-ai-302796939.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries"
+    },
+    {
       "id": "v6",
-      "title": "Distyl AI raises $175M Series B at a $1.8B valuation",
-      "domain": "distyl.ai",
-      "hours_ago": 360,
-      "velocity": 80,
-      "why": "Codos's closest peer scales 'scan to roadmap to production in weeks'.",
-      "source_url": "https://www.distyl.ai/",
+      "title": "Analytics India Magazine \u2014 AI & Data Science News",
+      "domain": "analyticsindiamag.com",
+      "hours_ago": 104,
+      "velocity": 95,
+      "why": "Outcome-based pricing for AI agents validates Codos's value proposition.",
+      "source_url": "https://analyticsindiamag.com/ai-news/ltm-unveils-outcome-based-pricing-model-as-ai-agents-reshape-it-services-contracts",
       "sources": [
         "exa"
       ],
@@ -139,16 +135,16 @@
     },
     {
       "id": "v7",
-      "title": "Sequoia essay 'Services: The New Software' reframes the market",
-      "domain": "sequoiacap.com",
-      "hours_ago": 410,
-      "velocity": 72,
-      "why": "VC thesis codifies service-as-software — tailwind for outcomes-in-weeks pitches.",
-      "source_url": "https://www.sequoiacap.com/",
+      "title": "5 Acquisitions in 14 Days. The AI Agent Stack Is Being Bought. | THE D[AI]LY BRIEF",
+      "domain": "www.beri.net",
+      "hours_ago": 128,
+      "velocity": 95,
+      "why": "Rapid consolidation in the AI agent stack indicates market maturity and competition.",
+      "source_url": "https://www.beri.net/article/enterprise-ai-execution-layer-acquisition-wave-2026",
       "sources": [
-        "web"
+        "exa"
       ],
-      "category": "Forward Deployers"
+      "category": "Agent Foundries"
     }
   ],
   "competitor_map": [
@@ -160,14 +156,17 @@
       "status": "Emerging",
       "funding": "Stealth / pre-launch",
       "team": null,
-      "why": "ANCHOR. 'The layer for AI-transformation' — diagnoses, installs and keeps a company evolving on its own, with agents deployed across functions and real outcomes in weeks. Straddles Forward Deployers + Agent Foundries: a continuous-optimization layer, not a one-time project.",
+      "why": "ANCHOR. 'The layer for AI-transformation' \u2014 diagnoses, installs and keeps a company evolving on its own, with agents deployed across functions and real outcomes in weeks. Straddles Forward Deployers + Agent Foundries: a continuous-optimization layer, not a one-time project.",
       "anchor": true,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:16",
+      "hash": "79796c7783",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "accenture",
@@ -175,16 +174,19 @@
       "url": "accenture.com",
       "category": "Transformation Titans",
       "status": "Incumbent",
-      "funding": "Public · $3B Data&AI",
+      "funding": "Public \u00b7 $3B Data&AI",
       "team": null,
       "why": "Incumbent SI; $3B committed to Data & AI scaling toward ~80k AI specialists; NVIDIA 'AI Refinery'; OpenAI Frontier Alliance. Owns the C-suite transformation relationship at enterprise scale.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:16",
+      "hash": "d18a3b8d68",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "deloitte",
@@ -196,12 +198,15 @@
       "team": null,
       "why": "Big-Four incumbent driving AI/agentic transformation via NVIDIA alliance and acquisitions; standardized a large workforce on Claude. Consulting-led, project-based economics.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:17",
+      "hash": "5c8d18839f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "mckinsey",
@@ -213,12 +218,15 @@
       "team": null,
       "why": "QuantumBlack AI arm (~5,000 experts); 'rewire the enterprise' with agentic workflows; Frontier Alliance + internal Lilli platform. Strategy-led transformation authority.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:18",
+      "hash": "343e841dcd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "bcgx",
@@ -230,12 +238,15 @@
       "team": null,
       "why": "BCG's build arm (~3,000 technologists); ~20% of BCG's $13.5B revenue is AI; OpenAI/Anthropic alliances. Strategy plus working prototypes at enterprise scale.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:18",
+      "hash": "1662b40e96",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "bain",
@@ -243,16 +254,19 @@
       "url": "bain.com",
       "category": "Transformation Titans",
       "status": "Incumbent",
-      "funding": "Private · ~18k upskilled",
+      "funding": "Private \u00b7 ~18k upskilled",
       "team": null,
       "why": "Equipped its ~18,000-person team with AI; dedicated OpenAI Center of Excellence. Strategy-led, enterprise transformation budgets.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:18",
+      "hash": "11758a2bed",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "ibmconsulting",
@@ -264,12 +278,15 @@
       "team": null,
       "why": "~160,000 consultants with platform access; model-agnostic Consulting Assistants. Scale delivery of enterprise AI.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:18",
+      "hash": "68ee071bcb",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "ey",
@@ -281,12 +298,15 @@
       "team": null,
       "why": "~$1.4B EY.ai investment; NVIDIA sovereign agentic platform; 50,000+ internal agents. Agentic transformation across service lines.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:18",
+      "hash": "a536fc0819",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "pwc",
@@ -298,12 +318,15 @@
       "team": null,
       "why": "'agent OS' + agentic managed services, outcomes-based; 200,000-seat ChatGPT Enterprise rollout. Closest Big-Four firm to outcome-priced agent delivery.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:19",
+      "hash": "375470ff80",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "kpmg",
@@ -315,12 +338,15 @@
       "team": null,
       "why": "Multibillion Microsoft cloud/AI spend; ISO 42001 governance claim; large Claude rollout. Governed enterprise AI transformation.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:19",
+      "hash": "add8db9708",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "capgemini",
@@ -328,16 +354,19 @@
       "url": "capgemini.com",
       "category": "Transformation Titans",
       "status": "Incumbent",
-      "funding": "€2B / 3 yrs",
+      "funding": "\u20ac2B / 3 yrs",
       "team": null,
-      "why": "€2B AI investment over three years; Google Cloud Partner of the Year; Frontier Alliance. AI-powered business transformation at scale.",
+      "why": "\u20ac2B AI investment over three years; Google Cloud Partner of the Year; Frontier Alliance. AI-powered business transformation at scale.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:19",
+      "hash": "128325e186",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "distyl",
@@ -345,16 +374,19 @@
       "url": "distyl.ai",
       "category": "Forward Deployers",
       "status": "Scaling",
-      "funding": "$175M Series B · $1.8B",
+      "funding": "$175M Series B \u00b7 $1.8B",
       "team": null,
       "why": "DIRECT. $175M Series B at $1.8B (Sept 2025); 'SEAL Team Six of AI engineering' + Distillery platform; 'Distyl Scans' give an AI-readiness score/roadmap; $100M+ impact, production in weeks. Codos's closest, best-funded peer.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:19",
+      "hash": "c81575bd35",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "tribe",
@@ -362,16 +394,19 @@
       "url": "tribe.ai",
       "category": "Forward Deployers",
       "status": "Scaling",
-      "funding": "Private · founded ~2019",
+      "funding": "Private \u00b7 founded ~2019",
       "team": null,
       "why": "DIRECT. Network of senior applied-AI practitioners, forward-deployed; takes companies to production in weeks; OpenAI/Anthropic founding partner.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:19",
+      "hash": "27994d8328",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "sand",
@@ -379,16 +414,19 @@
       "url": "sandtech.com",
       "category": "Forward Deployers",
       "status": "Scaling",
-      "funding": "Scale-up · 7yr 2x",
+      "funding": "Scale-up \u00b7 7yr 2x",
       "team": null,
       "why": "DIRECT. Global AI-native scale-up; seven years of 2x annual growth; enterprise AI + SandOS decision platform across utilities/insurance/healthcare/telecom.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:19",
+      "hash": "3eef74789a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "slalom",
@@ -400,12 +438,15 @@
       "team": null,
       "why": "DIRECT. AI-readiness assessment to agent-driven workflows; 'AI as a platform of managed agents'; partners Google/Microsoft/Databricks/Salesforce.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:20",
+      "hash": "2265ca766a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "faculty",
@@ -417,12 +458,15 @@
       "team": null,
       "why": "DIRECT. UK applied-AI / decision-intelligence firm deploying models and agents into operations across government and enterprise.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:20",
+      "hash": "889032a268",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "neurons",
@@ -432,14 +476,17 @@
       "status": "Emerging",
       "funding": "Boutique",
       "team": null,
-      "why": "DIRECT. Boutique agentic-AI consultancy (UK/Singapore) building agents for regulated BFSI; live in 8–12 weeks.",
+      "why": "DIRECT. Boutique agentic-AI consultancy (UK/Singapore) building agents for regulated BFSI; live in 8\u201312 weeks.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:20",
+      "hash": "54953f010e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "devoteam",
@@ -447,16 +494,19 @@
       "url": "devoteam.com",
       "category": "Forward Deployers",
       "status": "Incumbent",
-      "funding": "Public · 11k+",
+      "funding": "Public \u00b7 11k+",
       "team": null,
       "why": "DIRECT. European AI services consultancy (11,000+); 'ADAPT' 4-week prototype program; agentic accelerators across Google/AWS/Microsoft/ServiceNow.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:20",
+      "hash": "fd08be0fdd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "mechorchard",
@@ -466,14 +516,17 @@
       "status": "Scaling",
       "funding": "VC-backed",
       "team": null,
-      "why": "Adjacent–Direct. AI-native services modernizing legacy systems with agents ('Cursor for COBOL'); founder Rob Mee (ex-Pivotal).",
+      "why": "Adjacent\u2013Direct. AI-native services modernizing legacy systems with agents ('Cursor for COBOL'); founder Rob Mee (ex-Pivotal).",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:20",
+      "hash": "fb3f85161e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "webuildai",
@@ -485,12 +538,15 @@
       "team": null,
       "why": "DIRECT. Early-stage AI-native consultancy embedding AI coding/automation, redesigning org structures and responsible-AI controls.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:20",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "error"
     },
     {
       "id": "multiverse",
@@ -498,16 +554,19 @@
       "url": "multiverse.io",
       "category": "Forward Deployers",
       "status": "Scaling",
-      "funding": "$70M · $2.1B val",
+      "funding": "$70M \u00b7 $2.1B val",
       "team": null,
-      "why": "Adjacent. The 'AI adoption layer' via upskilling; $70M at $2.1B (May 2026); £2B+ tracked ROI. Bridges people to AI through skills, not deployed agents.",
+      "why": "Adjacent. The 'AI adoption layer' via upskilling; $70M at $2.1B (May 2026); \u00a32B+ tracked ROI. Bridges people to AI through skills, not deployed agents.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:20",
+      "hash": "1c71102ed3",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "sierra",
@@ -515,16 +574,19 @@
       "url": "sierra.ai",
       "category": "Agent Foundries",
       "status": "Scaling",
-      "funding": "$950M Series C · $15.8B",
+      "funding": "$950M Series C \u00b7 $15.8B",
       "team": null,
-      "why": "Direct–Adjacent. Bret Taylor / Clay Bavor; $950M Series C at $15.8B (May 2026), ~$150M ARR; managed, outcome-priced agents (~$1–2.50/resolution) expanding to 'Agent OS'.",
+      "why": "Direct\u2013Adjacent. Bret Taylor / Clay Bavor; $950M Series C at $15.8B (May 2026), ~$150M ARR; managed, outcome-priced agents (~$1\u20132.50/resolution) expanding to 'Agent OS'.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:21",
+      "hash": "dedb4f1d97",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "relevanceai",
@@ -536,12 +598,15 @@
       "team": null,
       "why": "DIRECT. Build an 'AI workforce' / teams of agents, tool- and model-agnostic; 40,000 agents registered in a single month.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:21",
+      "hash": "2c1ece887f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "lyzr",
@@ -553,12 +618,15 @@
       "team": null,
       "why": "DIRECT. Enterprise 'Agentic OS' for secure, governed agents across operations; ~$14.5M raised.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:21",
+      "hash": "6da7020d2e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "lindy",
@@ -568,14 +636,17 @@
       "status": "Emerging",
       "funding": "VC-backed",
       "team": null,
-      "why": "Adjacent. No-code agent builder (Flo Crivello) for workflow/email/ops automation; SMB–mid-market.",
+      "why": "Adjacent. No-code agent builder (Flo Crivello) for workflow/email/ops automation; SMB\u2013mid-market.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:21",
+      "hash": "864d8bd036",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "crewai",
@@ -587,12 +658,15 @@
       "team": null,
       "why": "Adjacent. Open-source multi-agent orchestration framework + enterprise studio; 1,200+ integrations; developer-led.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:21",
+      "hash": "b685de4fa7",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "beam",
@@ -604,12 +678,15 @@
       "team": null,
       "why": "DIRECT. No-code agentic automation (Germany): 'upload your SOP, get a working agent'; live at F500, white-glove setup in weeks.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:22",
+      "hash": "f258e8a8b8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "stackai",
@@ -619,14 +696,17 @@
       "status": "Emerging",
       "funding": "YC / seed",
       "team": null,
-      "why": "Direct–Adjacent. YC no-code/low-code agent orchestration with on-prem option; democratizes agent building.",
+      "why": "Direct\u2013Adjacent. YC no-code/low-code agent orchestration with on-prem option; democratizes agent building.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:22",
+      "hash": "cad4f5dcdf",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "knowlee",
@@ -636,14 +716,17 @@
       "status": "Emerging",
       "funding": "Early-stage",
       "team": null,
-      "why": "DIRECT. EU 'orchestration layer for agentic work' — agent-fleet dashboard, automation registry, multi-vertical.",
+      "why": "DIRECT. EU 'orchestration layer for agentic work' \u2014 agent-fleet dashboard, automation registry, multi-vertical.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:22",
+      "hash": "2f9bd08f87",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "aily",
@@ -655,12 +738,15 @@
       "team": null,
       "why": "DIRECT. 'Super Agent' orchestrating 1,000+ agents for decision intelligence across finance/supply-chain/R&D; ~$80M raised; 1-day integration, P&L outcomes.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:23",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "error"
     },
     {
       "id": "writer",
@@ -672,12 +758,15 @@
       "team": null,
       "why": "Adjacent. Full-stack enterprise generative-AI platform with agents across functions; ~$1.9B valuation.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:23",
+      "hash": "9561f03e93",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "agentforce",
@@ -689,12 +778,15 @@
       "team": null,
       "why": "Adjacent. CRM-native agents (Atlas engine), ~$2/conversation; deploy across service/sales/marketing. The platform enterprises may build on instead of buying a layer.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:23",
+      "hash": "bd863cd6bd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "copilotstudio",
@@ -706,12 +798,15 @@
       "team": null,
       "why": "Adjacent. Build agents across M365/Dataverse/Azure; $30/user Copilot + credit packs. Owns the enterprise desktop runtime.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:23",
+      "hash": "ae15db1fe3",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "servicenow",
@@ -719,16 +814,19 @@
       "url": "servicenow.com",
       "category": "Platform Gravity",
       "status": "Incumbent",
-      "funding": "Public · bought Moveworks",
+      "funding": "Public \u00b7 bought Moveworks",
       "team": null,
       "why": "Adjacent. 'AI control tower', Autonomous Workforce, AI Agent Fabric/Orchestrator; acquired Moveworks ($2.85B). Workflow-platform gravity.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:24",
+      "hash": "20581c1c3b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "googlecloud",
@@ -740,12 +838,15 @@
       "team": null,
       "why": "Adjacent. Vertex AI Agent Builder + Google Cloud Consulting 'delta' team for agentic transformation.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:24",
+      "hash": "f497f1537e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "aws",
@@ -757,12 +858,15 @@
       "team": null,
       "why": "Adjacent. Fully-managed services to build/deploy/operate agents at scale, any framework or model.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:24",
+      "hash": "32550da237",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "koreai",
@@ -772,14 +876,17 @@
       "status": "Scaling",
       "funding": "VC-backed",
       "team": null,
-      "why": "Direct–Adjacent. Enterprise multi-agent orchestration across CX/EX/ops with on-prem and governance-first posture.",
+      "why": "Direct\u2013Adjacent. Enterprise multi-agent orchestration across CX/EX/ops with on-prem and governance-first posture.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:24",
+      "hash": "dda749d0da",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "c3ai",
@@ -791,12 +898,15 @@
       "team": null,
       "why": "Adjacent. Public C3 Agentic AI Platform + turnkey enterprise apps for manufacturing/energy/financial services.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:24",
+      "hash": "2560e6cafd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "glean",
@@ -804,16 +914,19 @@
       "url": "glean.com",
       "category": "Platform Gravity",
       "status": "Scaling",
-      "funding": "$150M Series F · $400M+",
+      "funding": "$150M Series F \u00b7 $400M+",
       "team": null,
       "why": "Adjacent. Enterprise search + custom agents that act on context; $150M Series F (2025), $400M+ total.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:24",
+      "hash": "9d25ee0a2b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "oracle",
@@ -823,14 +936,17 @@
       "status": "Incumbent",
       "funding": "Public",
       "team": null,
-      "why": "Adjacent. OCI Enterprise AI — build/deploy production agents across ERP/HCM/CRM with governance and sovereign options.",
+      "why": "Adjacent. OCI Enterprise AI \u2014 build/deploy production agents across ERP/HCM/CRM with governance and sovereign options.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:25",
+      "hash": "b72a181377",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "cognigy",
@@ -842,12 +958,15 @@
       "team": null,
       "why": "Adjacent. Enterprise conversational/agentic CX, voice gateway, on-prem; acquired by NiCE ($955M). Incremental upgrade vs rip-and-replace.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:25",
+      "hash": "1f4a9e9a5e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "elevenx",
@@ -857,14 +976,17 @@
       "status": "Scaling",
       "funding": "~$74M (a16z)",
       "team": null,
-      "why": "Adjacent. 'Digital workers, human results' — Alice (SDR), Julian/Jordan (voice); ~$74M (a16z). (TechCrunch documented disputed traction claims.)",
+      "why": "Adjacent. 'Digital workers, human results' \u2014 Alice (SDR), Julian/Jordan (voice); ~$74M (a16z). (TechCrunch documented disputed traction claims.)",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:25",
+      "hash": "de3c66b503",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "artisan",
@@ -876,12 +998,15 @@
       "team": null,
       "why": "Adjacent. 'Ava' AI BDR automating outbound; ~$37M raised, ~$5M ARR / ~250 customers (company-stated).",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:26",
+      "hash": "7c2b7d611c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "decagon",
@@ -889,16 +1014,19 @@
       "url": "decagon.ai",
       "category": "Digital Labor",
       "status": "Scaling",
-      "funding": "$250M Series D · $4.5B",
+      "funding": "$250M Series D \u00b7 $4.5B",
       "team": null,
       "why": "Adjacent. CX agents, $250M Series D at $4.5B (Jan 2026), ~$35M ARR, 80%+ deflection, outcome/conversation pricing.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:26",
+      "hash": "bc222c0d78",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "cognition",
@@ -910,12 +1038,15 @@
       "team": null,
       "why": "Adjacent. Devin, the autonomous AI software engineer; ~$10.2B (targeting ~$25B), ~$492M run-rate; acquired Windsurf; ACU usage pricing.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:26",
+      "hash": "88d5a74aba",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "moveworks",
@@ -927,12 +1058,15 @@
       "team": null,
       "why": "Adjacent. Employee-support AI assistant + Reasoning Engine across IT/HR/finance; ~5M users in ~18 months; acquired by ServiceNow ($2.85B).",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:26",
+      "hash": "30cc9751f5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "harvey",
@@ -940,16 +1074,19 @@
       "url": "harvey.ai",
       "category": "Vertical Specialists",
       "status": "Scaling",
-      "funding": "$11B val · ~$1.22B",
+      "funding": "$11B val \u00b7 ~$1.22B",
       "team": null,
       "why": "Adjacent. Legal AI agents for elite firms/enterprises; $11B valuation, ~$1.22B raised. Deep vertical moat competing for the legal-function budget.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:26",
+      "hash": "0d3adf107a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "hippocratic",
@@ -957,16 +1094,19 @@
       "url": "hippocraticai.com",
       "category": "Vertical Specialists",
       "status": "Scaling",
-      "funding": "~$404M · $1.6B val",
+      "funding": "~$404M \u00b7 $1.6B val",
       "team": null,
       "why": "Adjacent. Non-diagnostic healthcare voice agents with a physician safety board; ~$404M raised, ~$1.6B valuation; NVIDIA partner.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:26",
+      "hash": "2cca99a30a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "cresta",
@@ -978,12 +1118,15 @@
       "team": null,
       "why": "Adjacent. Real-time contact-center intelligence running AI + human agents on dual tracks, learning from every call.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:27",
+      "hash": "be9f00ef1e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "fazeshift",
@@ -995,12 +1138,15 @@
       "team": null,
       "why": "Adjacent. YC; AI agents automating accounts-receivable / order-to-cash as an 'intelligent control layer'; $17M Series A.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:27",
+      "hash": "2bec310b7a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "eloquent",
@@ -1012,134 +1158,470 @@
       "team": null,
       "why": "Adjacent. YC 'AI operator' for regulated financial back-office (disputes, KYC, servicing); learns SOPs and drives apps without APIs; $7.4M seed.",
       "anchor": false,
-      "scanned": "2026-06-09 00:00",
-      "hash": "—",
+      "discovered": false,
+      "discovered_at": null,
+      "discovery_relevance": null,
+      "scanned": "2026-06-14 08:27",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
+      "delta": null,
+      "crawl_status": "error"
+    },
+    {
+      "id": "mendo",
+      "name": "Mendo",
+      "url": "mendo.eu",
+      "category": "Forward Deployers",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Mendo is focused on scaling enterprise AI adoption in Europe, positioning them as an AI-native transformation boutique.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 85,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "prometheus-ai",
+      "name": "Prometheus AI",
+      "url": "prometheus.ai",
+      "category": "Digital Labor",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Prometheus AI offers AI automation services and deploys AI agents for business functions like sales, reception, and workflow automation, acting as an embedded AI team for mid-size firms.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 80,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "infinity-constellation",
+      "name": "Infinity Constellation",
+      "url": "infinityconstellation.com",
+      "category": "Forward Deployers",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Infinity Constellation is an AI-native holding company that builds and operates full-stack AI service businesses to automate and replace traditional professional services.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 90,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "happiest-minds",
+      "name": "Happiest Minds",
+      "url": "happiestminds.com",
+      "category": "Transformation Titans",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Happiest Minds, a digital engineering and IT company, launched Rel(AI)Build, an agentic AI platform to transform enterprise software delivery, making them a significant player in AI transformation.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 75,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "poetic",
+      "name": "Poetic",
+      "url": "poetic.ai",
+      "category": "Agent Foundries",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Poetic is focused on automating complex enterprise processes with reliable AI, aiming to fix issues where AI agents currently fail, indicating a platform for robust agentic deployment.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 95,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "jedify",
+      "name": "Jedify",
+      "url": "jedify.com",
+      "category": "Platform Gravity",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Jedify is building a 'context layer' to provide enterprise AI agents with the necessary information to function effectively, addressing a foundational need for agent deployment.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 80,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "chatsee-ai",
+      "name": "ChatSee.ai",
+      "url": "chatsee.ai",
+      "category": "Platform Gravity",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "ChatSee.ai is tackling the problem of AI agent failures, suggesting a platform for monitoring, debugging, or optimizing AI agents for reliable operation.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 70,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "recursive",
+      "name": "Recursive",
+      "url": "recursive.com",
+      "category": "Other",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Recursive is focused on self-improving AI where models build models, representing a foundational advancement that could significantly impact future agentic systems and AI transformation.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-06-14",
+      "discovery_relevance": 60,
+      "scanned": "2026-06-14",
+      "hash": "\u2014",
+      "changed": false,
       "delta": null,
       "crawl_status": "pending"
     }
   ],
   "insights": [
     {
-      "id": "ins-2026-06-09-1",
-      "scan_date": "2026-06-09",
-      "generated_at": "2026-06-09T00:00:00+00:00",
-      "title": "Pricing is shifting from seats to outcomes",
-      "insight": "Sierra (~$1–2.50/resolution), Intercom Fin ($0.99), Agentforce (~$2/conversation) and Devin (Agent Compute Units) are repricing software as billed work. Whoever 'sells the work' compounds with every model improvement instead of racing the model.",
-      "trend": "As agents do the work, value shifts from per-seat licenses to per-outcome economics — structurally favoring deployed-agent and services-as-software players over tool vendors.",
-      "category": "Digital Labor",
+      "id": "ins-2026-06-14-1",
+      "scan_date": "2026-06-14",
+      "generated_at": "2026-06-14T08:28:23.703399+00:00",
+      "title": "Foundational AI Providers Pivot to Direct Enterprise Deployment",
+      "insight": "Major LLM developers like OpenAI are increasingly engaging directly with enterprises for AI deployments or partnering with large system integrators. This shift, exemplified by OpenAI's acquisition of Ona to boost Codex enterprise capabilities and Anthropic's partnership with TCS, indicates a move to capture more value downstream and accelerate real-world adoption. For Codos, this presents both potential new partnership opportunities with these foundational model providers and increased competition in the direct deployment space, necessitating a focus on our unique 'diagnose \u2192 deploy \u2192 continuously optimize' agentic approach.",
+      "trend": "As AI models mature, foundational providers seek to accelerate adoption and demonstrate real-world value, leading them to engage directly in complex enterprise integration and transformation projects, blurring the lines between model development and solution deployment.",
+      "category": "Forward Deployers",
+      "magnitude": 95,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "OpenAI acquires AI agent orchestration startup Ona - SiliconANGLE",
+        "OpenAI Acquires Ona to Boost Codex Enterprise Cloud Deployment.",
+        "Anthropic taps TCS to scale its enterprise AI deployments | TechCrunch"
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-06-14-2",
+      "scan_date": "2026-06-14",
+      "generated_at": "2026-06-14T08:28:23.703399+00:00",
+      "title": "Agent Reliability and Orchestration Drive New Investment",
+      "insight": "The market is seeing significant investment and product launches focused on solving the critical challenges of AI agent failures, ensuring reliability, and enabling robust orchestration. Companies like ChatSee.ai are raising funds to tackle agent failures by preserving context and capturing remediation knowledge, while platforms like Pega are enhancing agent orchestration and development tools with a focus on governance and cost control. Codos's core value proposition of continuous optimization and agent deployment directly addresses this burgeoning need for reliable, manageable agentic systems.",
+      "trend": "As enterprises move beyond experimental AI agent deployments, the practical realities of production-grade reliability, error handling, and multi-agent coordination are becoming paramount, leading to a new wave of infrastructure and tooling development.",
+      "category": "Agent Foundries",
       "magnitude": 90,
       "sources": [
         "exa",
-        "web",
-        "gemini"
+        "web"
       ],
       "evidence": [
-        "Sequoia — 'Services: The New Software' (Julien Bek, Mar 2026)",
-        "Sierra per-resolution pricing ($1–2.50)"
+        "ChatSee.ai Raises $6.5M led by True Ventures to Tackle the Growing Problem of AI Agent Failures",
+        "Pega expands AI platform with agent orchestration, development tools and new pricing model - SiliconANGLE",
+        "Sedai Launches the First Autonomous Platform for AI Agent Optimization",
+        "Cresta Launches Conductor, the Agent for AI Agent Development",
+        "Kyndryl Launches AI Orchestration for Business to Accelerate Agent-Driven Transformation"
       ],
       "supersedes": null,
       "superseded_by": null
     },
     {
-      "id": "ins-2026-06-09-2",
-      "scan_date": "2026-06-09",
-      "generated_at": "2026-06-09T00:00:00+00:00",
-      "title": "The GenAI paradox is the wedge every transformation player sells against",
-      "insight": "78%+ of companies use GenAI yet 80%+ see no enterprise EBIT impact, and fewer than 10% of use cases pass pilot (McKinsey). Codos's 'real outcomes in weeks' aims straight at this pilot-to-production gap.",
-      "trend": "The bottleneck is no longer model access but deployment and adoption — durable budget flows to whoever closes the pilot-to-production gap, not whoever ships another model.",
-      "category": "Forward Deployers",
-      "magnitude": 87,
-      "sources": [
-        "exa",
-        "web",
-        "gemini"
-      ],
-      "evidence": [
-        "McKinsey 'The state of AI' (Mar 2025)",
-        "QuantumBlack 'Seizing the agentic AI advantage'"
-      ],
-      "supersedes": null,
-      "superseded_by": null
-    },
-    {
-      "id": "ins-2026-06-09-3",
-      "scan_date": "2026-06-09",
-      "generated_at": "2026-06-09T00:00:00+00:00",
-      "title": "Consolidation is accelerating at the top",
-      "insight": "ServiceNow/Moveworks ($2.85B), NiCE/Cognigy ($955M) and Cognition/Windsurf concentrate agent capability inside platforms, while OpenAI's 'Frontier Alliance' ties BCG/McKinsey/Accenture/Capgemini to one stack. The mid-tier independent layer gets squeezed.",
-      "trend": "Platforms and consultancies are absorbing agent capability through M&A and alliances — raising the bar for an independent layer to prove cross-vendor, outcome-accountable differentiation.",
+      "id": "ins-2026-06-14-3",
+      "scan_date": "2026-06-14",
+      "generated_at": "2026-06-14T08:28:23.703399+00:00",
+      "title": "Enterprise Context Layer Becomes Critical for Agentic AI",
+      "insight": "Companies are heavily investing in and acquiring solutions to build robust context layers and knowledge graphs for enterprise AI agents. Jedify's $24M funding round, with strategic participation from Snowflake, highlights the recognition that agents require deep, structured understanding of business relationships, domain terminology, and access controls to act accurately. This emphasizes that Codos must continue to emphasize its ability to diagnose and integrate with complex enterprise data environments to provide the necessary context for agents to deliver outcomes.",
+      "trend": "The limitations of AI agents without comprehensive, real-time enterprise context are driving demand for specialized platforms and acquisitions that can provide this foundational 'missing layer' for effective agent operation and reduce errors in LLM-generated answers.",
       "category": "Platform Gravity",
       "magnitude": 85,
       "sources": [
         "exa",
-        "web",
-        "gemini"
+        "web"
       ],
       "evidence": [
-        "ServiceNow completes $2.85B Moveworks acquisition",
-        "OpenAI 'Frontier Alliance' (BCG, McKinsey, Accenture, Capgemini)"
+        "Jedify raises $24M to build the context layer that gives enterprise AI agents something to actually work with - Startup Fortune",
+        "Jedify Secures $24 Million Series A to Expand Real-Time Enterprise AI Context Platform",
+        "Ardoq Acquires GraphLake to Establish the EA-Grade Context Graph for Enterprise AI",
+        "Jedify Raises $24 Million to Bring Context to Enterprise AI | Whalesbook"
       ],
       "supersedes": null,
       "superseded_by": null
     },
     {
-      "id": "ins-2026-06-09-4",
-      "scan_date": "2026-06-09",
-      "generated_at": "2026-06-09T00:00:00+00:00",
-      "title": "A new category — the 'AI transformation layer' — is being named",
-      "insight": "Multiverse's Euan Blair framed the missing 'layer that bridges' companies and AI; Codos claims the same bridge but via deployed agents and continuous optimization rather than upskilling. The category label is still up for grabs.",
-      "trend": "Whoever defines and owns the 'transformation layer' narrative captures the AI-transformation budget — the contest is upskilling vs deployed-agents vs platform-native.",
-      "category": "Forward Deployers",
-      "magnitude": 80,
+      "id": "ins-2026-06-14-4",
+      "scan_date": "2026-06-14",
+      "generated_at": "2026-06-14T08:28:23.703399+00:00",
+      "title": "Vertical Agentic Solutions See Rapid Growth and Consolidation",
+      "insight": "The market is witnessing a surge in specialized agentic AI solutions targeting specific enterprise functions and industries, often accompanied by M&A activity. Examples include Gradient Labs securing $26M for regulated financial workflows and Minerva launching an AI platform for consumer marketing with OpenAI collaboration. This indicates a maturing market where Codos can leverage its cross-functional agent deployment capabilities to address specific vertical needs or partner with these specialists to accelerate transformation.",
+      "trend": "As the capabilities of AI agents become more refined, businesses are seeking tailored solutions for their unique operational challenges, leading to a proliferation of vertical-specific agentic platforms and strategic consolidation through M&A, as vendors aim to own the 'execution layer' for AI.",
+      "category": "Vertical Specialists",
+      "magnitude": 85,
       "sources": [
         "exa",
-        "web",
-        "gemini"
+        "web"
       ],
       "evidence": [
-        "Euan Blair / Multiverse funding announcement (May 15, 2026)"
+        "Minerva Launches AI Platform for Consumer Marketing with $20M from The General Partnership, 8VC, Lingotto Innovation, Topology Ventures and NBA Investments, Alongside OpenAI Collaboration - Business Wire",
+        "Vertical AI for banking just hit $26M: Gradient Labs bets autonomous agents beat co-pilots on compliance - FinanceX Magazine",
+        "Recent Acquisitions Announcements Show Enterprise Software Vendors Are Buying the AI Execution Layer - ERP Today",
+        "Infinity Constellation Raises $24M Series A to Take On Professional Services",
+        "Happiest Minds Launches Rel(AI)Build, an Agentic AI Platform to Transform Enterprise Software Delivery"
       ],
       "supersedes": null,
       "superseded_by": null
     },
     {
-      "id": "ins-2026-06-09-5",
-      "scan_date": "2026-06-09",
-      "generated_at": "2026-06-09T00:00:00+00:00",
-      "title": "Codos's real differentiator is continuous optimization, not one-time transformation",
-      "insight": "Most boutiques run project engagements that end and most platforms are enterprise-only; the white space is a horizontal layer that diagnoses, deploys AND keeps re-optimizing — especially for the mid-market, priced on results.",
-      "trend": "The defensible position is a continuous-optimization loop that compounds, versus engagements that end — exactly the gap Codos's 'keeps your company evolving on its own' targets.",
-      "category": "Forward Deployers",
-      "magnitude": 76,
+      "id": "ins-2026-06-14-5",
+      "scan_date": "2026-06-14",
+      "generated_at": "2026-06-14T08:28:23.703399+00:00",
+      "title": "Physical AI and Robotics Attract Billions in Funding",
+      "insight": "The 'physical AI' sector, encompassing advanced robotics and AI for real-world engineering, is attracting unprecedented investment, with NEURA Robotics raising up to $1.4 billion in Series C funding to accelerate its Physical AI platform and expand cognitive robot deployment. This massive capital inflow into physical AI signals a broader, long-term vision for AI's impact across all industries. While Codos focuses on the AI-transformation layer for software agents, this trend highlights the expanding frontier of AI and potential future integration points for Codos's agentic frameworks in hybrid physical-digital environments.",
+      "trend": "The ambition to deploy AI beyond digital realms into physical operations and engineering is driving enormous capital allocation, pushing the boundaries of what AI can achieve in the real world, with a focus on cognitive robots that continuously learn and share capabilities.",
+      "category": "Transformation Titans",
+      "magnitude": 95,
       "sources": [
         "exa",
-        "web",
-        "gemini"
+        "web"
       ],
       "evidence": [
-        "Codos.ai positioning — 'keeps your company evolving on its own'"
+        "NEURA Robotics Announces Record Series C of up to $1.4 Billion to Accelerate the World's Leading Physical AI Platform",
+        "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI",
+        "Germany's NEURA Robotics raises up to \u20ac1.2 billion in Series C round to build Physical AI from Europe",
+        "NEURA Robotics Raises $1.4B for Physical AI - AI Business",
+        "The Week's 10 Biggest Funding Rounds: NinjaOne Leads With $400M As Large Deals Also Go To Blockchain, Cloud Infrastructure, Biotech And Robotics - Crunchbase News"
       ],
       "supersedes": null,
       "superseded_by": null
+    },
+    {
+      "id": "ins-2026-05-31-4",
+      "scan_date": "2026-05-31",
+      "generated_at": "2026-05-31T13:22:01.119090+00:00",
+      "title": "AI Becomes Core to Predictive Food Formulation & Sensory Optimization",
+      "insight": "Competitors are deepening AI's role in product development, moving beyond ideation to active formulation, ingredient interaction prediction, and sensory optimization. This requires Tastewise to demonstrate its capability in not only identifying trends but also providing actionable, AI-driven guidance for precise product creation and refinement for food scientists and CPG brands.",
+      "trend": "The underlying market force is the demand for faster, more efficient, and data-driven R&D cycles, where AI acts as a co-creator and predictive tool to reduce development costs and improve product success rates by simulating complex ingredient interactions and sensory outcomes.",
+      "category": "Decision Engines",
+      "magnitude": 95,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "TraceGains Unveils Formula AI, an AI-Powered Laboratory and Workspace for Food Scientists",
+        "Ipsos Launches Product Studio: A New Era of Product Testing",
+        "Food Makers Deploy AI Across Full Product Development Cycle",
+        "AI enables faster food formulation cycles, as \u201cgenerative tools can explore thousands of ideas rapidly.\u201d",
+        "AI predicts taste, mouthfeel, melting, crispiness and guides optimization for alt-meat, alt-dairy, beverages, and ready meals.",
+        "Cargill is embedding AI across the full innovation journey, from early consumer insight and concept development through formulation, scale-up, and execution.",
+        "AI framework suggests 1-3 ingredient swaps for healthier, cheaper meals."
+      ],
+      "supersedes": "ins-2026-05-31-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-05-31-5",
+      "scan_date": "2026-05-31",
+      "generated_at": "2026-05-31T13:22:01.119090+00:00",
+      "title": "AI Drives Proactive & Predictive Restaurant Operational Intelligence",
+      "insight": "New solutions are enhancing restaurant operations with AI for proactive risk management, real-time kitchen optimization, and comprehensive revenue intelligence. Tastewise must integrate its consumer and menu trend data into these advanced operational AI layers to offer a holistic view that connects demand signals directly to predictive operational adjustments and profitability strategies.",
+      "trend": "The market is shifting towards AI solutions that provide predictive and prescriptive insights, enabling restaurants to move from reactive management to proactive optimization of costs, labor, inventory, and customer experience in real-time.",
+      "category": "Decision Engines",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "allO Raises $14M Series A to Scale the First AI-Native Operating System for Restaurants",
+        "Sapaad Launches \"Sapaad Signals,\" One of the Industry's First Pre-Loss Intelligence Systems for Restaurants",
+        "Restrofi: Revolutionizing Indian Restaurants with Smart Automation and RestroAI Revenue Intelligence",
+        "Tech Spotlight: PreciTaste and the Power of Vision AI in the Kitchen",
+        "AI is helping restaurants go beyond basic personalization by using customer behavior and order history to predict demand and guide decisions.",
+        "AI helps operators improve labor, reduce waste, and make faster, more informed decisions."
+      ],
+      "supersedes": "ins-2026-05-31-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-05-31-6",
+      "scan_date": "2026-05-31",
+      "generated_at": "2026-05-31T13:22:01.119090+00:00",
+      "title": "Agentic AI & Social Commerce Redefine Personalized Grocery & Retail",
+      "insight": "The F&B retail landscape is evolving with agentic AI for automated grocery assistance and social commerce solutions that leverage behavioral models for dynamic intent prediction. Tastewise should focus on connecting its trend insights with these granular, predictive behavioral models to enable hyper-targeted marketing, personalized product recommendations, and optimized retail strategies, including emerging social selling channels.",
+      "trend": "Consumer expectations for hyper-personalization and convenience are driving the adoption of AI agents that can automate shopping, analyze social behavior, and deliver dynamic, individualized retail experiences, shifting influence from traditional supermarkets to direct-to-consumer and social channels.",
+      "category": "Decision Engines",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Tre'dish Revolutionizes Grocery Shopping with AI",
+        "NIQ Launches Survey Groups to Connect Consumer Sentiment with Real Purchase Behavior",
+        "Circana Introduces Social Commerce Solution to Decode Social Sales Performance",
+        "ZeroToOne.AI Deploys its Large Behavioral Model at Advertising Scale Through GroundTruth, Launching Dynamic Intent Prediction Audiences",
+        "AI systems are being used to regularly fill weekly household grocery orders without human input.",
+        "One Singaporean retailer has accumulated sufficient data on shopping patterns to generate 200 personalised advertisements per customer.",
+        "Agentic AI, where digital assistants help consumers manage pantry inventory, recommend products, and automate reordering."
+      ],
+      "supersedes": "ins-2026-05-31-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-05-31-7",
+      "scan_date": "2026-05-31",
+      "generated_at": "2026-05-31T13:22:01.119090+00:00",
+      "title": "Food-as-Medicine Ecosystems Emerge with AI-Driven Personalized Health",
+      "insight": "A significant new market is forming around 'Food as Medicine' and personalized nutrition, with platforms integrating health data, dietary recommendations, and food delivery to address chronic conditions. Tastewise has a unique opportunity to provide the underlying food and beverage intelligence for these ecosystems, connecting consumer health trends, specific ingredient efficacy, and recipe development to support personalized health outcomes.",
+      "trend": "The increasing prevalence of chronic diseases and a growing consumer demand for personalized health and wellness solutions are driving the convergence of healthcare, nutrition science, and food technology, creating integrated platforms that leverage AI for tailored dietary interventions.",
+      "category": "Data Vaults",
+      "magnitude": 85,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Qina launches Food Health Ecosystem to improve access to real-world data",
+        "KC-built Attane Health merges with digital grocery pioneer to forge food-is-medicine platform",
+        "Fresh Connect Now Offers Four Benefit Cards and an App",
+        "Personalized Nutrition AI Platforms market was estimated at USD 1.48 billion in 2024 and is expected to grow to USD 18.7 billion by 2034.",
+        "Food & Health Angels Network launches to accelerate metabolic health innovations to market",
+        "AI framework that suggests just one to three ingredient swaps can make meals meaningfully more nutritious and less expensive.",
+        "The growing importance of \u201cFood as Medicine\u201d and how retailers can use analytics to support healthier purchasing decisions."
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-05-31-1",
+      "scan_date": "2026-05-31",
+      "generated_at": "2026-05-31T12:53:24.370597+00:00",
+      "title": "AI Accelerates End-to-End F&B Product Development",
+      "insight": "Competitors are launching AI-powered platforms that integrate real-time data with AI-driven formulation and testing, enabling food scientists and CPG brands to accelerate new product development from concept to market. This signifies a move towards AI as a co-creator in innovation, requiring Tastewise to demonstrate its capability in guiding not just trend identification but also tangible product formulation and optimization.",
+      "trend": "The increasing sophistication of AI models and the demand for faster, more efficient innovation cycles are pushing AI's role beyond analytics into direct R&D and product creation, streamlining the entire product lifecycle.",
+      "category": "Decision Engines",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "https://www.prnewswire.com/news-releases/tracegains-unveils-formula-ai-an-ai-powered-laboratory-and-workspace-for-food-scientists-302782707.html",
+        "https://www.ipsos.com/en/ipsos-launches-product-studio-new-era-product-testing",
+        "https://mathco.com/article/orchestrating-cpg-launches-with-an-end-to-end-synthetic-intelligence-ecosystem/",
+        "https://theconsumerdaily.co/news/food-makers-deploy-ai-across-full-product-development-cycle-f69b3dfd"
+      ],
+      "supersedes": null,
+      "superseded_by": "ins-2026-05-31-4"
+    },
+    {
+      "id": "ins-2026-05-31-2",
+      "scan_date": "2026-05-31",
+      "generated_at": "2026-05-31T12:53:24.370597+00:00",
+      "title": "AI-Native Operating Systems Transform Restaurant Operations",
+      "insight": "A significant influx of investment and new product launches focuses on AI-native operating systems for restaurants, addressing everything from customer experience and revenue intelligence to pre-loss prevention and kitchen efficiency. Tastewise must integrate its deep consumer and menu trend data into these operational AI layers to provide a holistic view that connects consumer demand directly to restaurant execution and profitability.",
+      "trend": "The acute need for operational efficiency, cost reduction, and enhanced customer experiences in the competitive foodservice sector is driving the adoption of comprehensive AI platforms that automate and optimize core restaurant functions.",
+      "category": "Decision Engines",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "https://bebeez.eu/2026/05/27/munichs-allo-raises-e12-million-series-a-to-expand-its-ai-operating-system-for-restaurants-across-europe/",
+        "https://www.tribuneindia.com/news/business/sapaad-launches-sapaad-signals-one-of-the-industrys-first-pre-loss-intelligence-systems-for-restaurants/",
+        "https://restaurantfinanceadvisors.com/tech-spotlight-precitaste-and-the-power-of-vision-ai-in-the-kitchen/",
+        "https://martechedge.com/news/moxie-labs-launches-fngrfood-for-restaurant-cx",
+        "https://indiabreakingbuzz.co.in/restrofi-revolutionizing-indian-restaurants-with-smart-automation-and-restroai-revenue-intelligence/"
+      ],
+      "supersedes": null,
+      "superseded_by": "ins-2026-05-31-5"
+    },
+    {
+      "id": "ins-2026-05-31-3",
+      "scan_date": "2026-05-31",
+      "generated_at": "2026-05-31T12:53:24.370597+00:00",
+      "title": "Predictive Behavioral AI Drives Hyper-Personalized Consumer Engagement",
+      "insight": "New solutions are emerging that leverage large behavioral models and survey groups to connect consumer sentiment with real purchase behavior, enabling dynamic intent prediction and hyper-personalized grocery assistance. For Tastewise, this highlights the growing demand for granular, predictive consumer intelligence that can directly inform targeted marketing, retail strategies, and product offerings, emphasizing the need to connect broad trend insights with individual-level behavioral predictions.",
+      "trend": "Advances in AI and the availability of diverse, real-world behavioral data are enabling a shift from demographic-based targeting to highly accurate, predictive models of individual consumer intent and purchasing patterns, fostering a new era of hyper-personalization.",
+      "category": "Decision Engines",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "https://retail-insider.com/retail-insider/2026/05/tredish-launches-sproutai-the-first-ai-grocery-assistant-built-to-optimize-budgets/",
+        "https://nielseniq.com/global/en/news-center/2026/niq-launches-survey-groups-to-connect-consumer-sentiment-with-real-purchase-behavior/",
+        "https://www.circana.com/post/circana-introduces-social-commerce-solution-to-decode-social-sales-performance",
+        "https://www.prnewswire.com/news-releases/zerotooneai-deploys-its-large-behavioral-model-at-advertising-scale-through-groundtruth-launching-dynamic-intent-prediction-audiences-302784692.html",
+        "https://www.doppeliq.ai/atlas"
+      ],
+      "supersedes": null,
+      "superseded_by": "ins-2026-05-31-6"
     }
   ],
   "scan_history": [
     {
-      "date": "2026-06-09",
-      "generated_at": "2026-06-09T00:00:00+00:00",
-      "events_scanned": 96,
+      "date": "2026-06-14",
+      "generated_at": "2026-06-14T08:29:15.827522+00:00",
+      "events_scanned": 563,
       "red_deltas": 0,
       "new_insights": 5,
-      "new_competitors": 0,
+      "new_competitors": 8,
       "competitors_scanned": 51,
-      "duration_seconds": 640
+      "duration_seconds": 856
+    },
+    {
+      "date": "2026-05-31",
+      "generated_at": "2026-05-31T13:22:01.121146+00:00",
+      "events_scanned": 414,
+      "red_deltas": 0,
+      "new_insights": 4,
+      "competitors_scanned": 49,
+      "duration_seconds": 1070
     }
   ],
   "meta": {
-    "competitors_tracked": 51,
-    "bands": 6,
-    "note": "Seeded from Codos competitive-landscape research; awaiting first live scan."
+    "competitors_scanned": 59,
+    "red_alert_count": 0
   }
 }
