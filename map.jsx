@@ -13,6 +13,18 @@ function catSlug(c) {
   }[c] || "x";
 }
 
+// A company whose only link is a directory/profile (YC, LinkedIn, …) has no real
+// website on file — flag it like an unreachable site so it can be filled in.
+const DIRECTORY_DOMAINS = [
+  "ycombinator.com", "linkedin.com", "crunchbase.com", "wellfound.com", "angel.co",
+  "producthunt.com", "pitchbook.com", "tracxn.com", "github.com", "medium.com",
+];
+function needsSite(r) {
+  if (r.crawl_status === "error") return true;
+  const d = String(r.url || "").replace(/^https?:\/\//i, "").replace(/^www\./i, "").split("/")[0].toLowerCase();
+  return DIRECTORY_DOMAINS.includes(d);
+}
+
 function CompetitorMap() {
   const [catFilter, setCatFilter] = React.useState(new Set());
   const [statusFilter, setStatusFilter] = React.useState(new Set());
@@ -127,7 +139,7 @@ function CompetitorMap() {
                   <span className="name">{r.name}</span>
                   {r.anchor && <span className="anchor-badge">anchor</span>}
                   {r.discovered && <span className="new-badge" title="Auto-discovered by weekly research">new</span>}
-                  {r.crawl_status === "error" && <span className="unreachable-badge" title="Site couldn't be fetched — verify or fix the URL">site?</span>}
+                  {needsSite(r) && <span className="unreachable-badge" title="No real website on file — find and add the company's URL">site?</span>}
                   <a className="url" href={"https://" + r.url} target="_blank" rel="noopener noreferrer" style={{ cursor: "pointer", color: "var(--fg-3)", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 3 }}
                     onMouseEnter={(e) => e.currentTarget.style.color = "var(--accent)"}
                     onMouseLeave={(e) => e.currentTarget.style.color = "var(--fg-3)"}
