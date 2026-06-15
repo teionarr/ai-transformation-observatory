@@ -66,6 +66,7 @@ INSIGHTS_HISTORY_PATH = "data/insights_history.json"
 SCAN_HISTORY_PATH = "data/scan_history.json"
 DISCOVERED_PATH = "data/discovered_competitors.json"
 BAND_OVERRIDES_PATH = "data/band_overrides.json"  # {id: band} — classification-determined bands, applied each scan
+FUNDING_OVERRIDES_PATH = "data/funding_overrides.json"  # {id: funding} — funding refreshed from weekly news
 URL_OVERRIDES_PATH = "data/url_overrides.json"    # {id: url}  — websites found by the monthly site-finder
 # Aggregator/profile domains that are not a company's real website — these get the
 # "site?" tag and the site-finder tries to resolve them to the actual homepage.
@@ -119,6 +120,21 @@ def load_url_overrides(path: str = URL_OVERRIDES_PATH) -> dict:
 
 
 def save_url_overrides(overrides: dict, path: str = URL_OVERRIDES_PATH) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(overrides, f, indent=2)
+
+
+def load_funding_overrides(path: str = FUNDING_OVERRIDES_PATH) -> dict:
+    try:
+        with open(path) as f:
+            d = json.load(f)
+            return d if isinstance(d, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_funding_overrides(overrides: dict, path: str = FUNDING_OVERRIDES_PATH) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         json.dump(overrides, f, indent=2)
@@ -343,6 +359,12 @@ def main():
             c["category"] = band_overrides[c["id"]]
     tbd_at_start = {c["id"] for c in competitor_statuses if c.get("category") == "TBD"}
 
+    # Apply funding refreshed by prior weeks' news so the column stays current.
+    funding_overrides = load_funding_overrides()
+    for c in competitor_statuses:
+        if c["id"] in funding_overrides:
+            c["funding"] = funding_overrides[c["id"]]
+
     # Step 3 — Gemini synthesis (velocity feed + competitor deltas)
     print("[codos] step 3/5: Gemini synthesis…")
     gemini = GeminiWorker(api_key=gemini_key, model_name=config.GEMINI_MODEL)
@@ -353,6 +375,26 @@ def main():
     for comp in competitor_statuses:
         if comp["id"] in deltas:
             comp["delta"] = deltas[comp["id"]]
+
+    # Refresh the Funding column from this week's news: when a signal reports a new
+    # round/valuation that differs from the stored value, update it, flag it as a red
+    # delta, and persist it so it sticks across future scans.
+    funding_updates = synthesis.get("competitor_funding", {}) or {}
+    funding_changed = 0
+    for comp in competitor_statuses:
+        nf = funding_updates.get(comp["id"])
+        if isinstance(nf, str) and nf.strip() and nf.strip() != (comp.get("funding") or "").strip():
+            old = comp.get("funding") or "—"
+            comp["funding"] = nf.strip()
+            funding_overrides[comp["id"]] = nf.strip()
+            note = f"Funding update: {old} → {nf.strip()}"
+            comp["delta"] = (comp["delta"] + " · " + note) if comp.get("delta") else note
+            comp["changed"] = True
+            funding_changed += 1
+    if funding_changed:
+        save_funding_overrides(funding_overrides)
+        red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
+        print(f"  [codos] {funding_changed} funding update(s) from this week's news")
 
     real_bands = [b for b in config.CATEGORIES if b != "TBD"]
 
@@ -402,6 +444,9 @@ def main():
             eid = e.get("id") or e.get("url")
             if eid in band_overrides and e.get("category") != band_overrides[eid]:
                 e["category"] = band_overrides[eid]
+                updated = True
+            if eid in funding_overrides and e.get("funding") != funding_overrides[eid]:
+                e["funding"] = funding_overrides[eid]
                 updated = True
         if updated:
             with open("data/watchlist.json", "w") as wf:

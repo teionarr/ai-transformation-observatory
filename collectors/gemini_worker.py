@@ -39,12 +39,19 @@ Return a single valid JSON object with exactly this structure (no markdown fence
   "competitor_deltas": {{
     "<competitor_id>": "<2-sentence max: what changed on their site and why it matters to Codos>"
     // only include competitors where changed = true; ground the summary in their `diff`, not speculation
+  }},
+  "competitor_funding": {{
+    "<competitor_id>": "<updated funding string, e.g. '$200M Series C · $11B'>"
+    // ONLY competitors where THIS WEEK's RAW_SIGNALS report a NEW funding round, valuation,
+    // or acquisition that DIFFERS from their current `funding` in COMPETITOR_MAP.
+    // Match the existing format. Omit a competitor if there is no funding news this week.
   }}
 }}
 
 RULES:
 - velocity 90-100: reserved for funding rounds, acquisitions, major product/agent launches, leadership shifts, paradigm pivots
 - why must be ≤ 15 words, stating the *implication* not the headline
+- competitor_funding: include a competitor ONLY when this week's signals report funding/valuation news that differs from their current value; never restate unchanged funding
 - Return ONLY the JSON. No markdown. No explanation. No trailing text.
 
 RAW_SIGNALS:
