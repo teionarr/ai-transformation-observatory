@@ -65,6 +65,7 @@ def build_data_sources(source_counts: dict, generated_at: str) -> list[dict]:
 INSIGHTS_HISTORY_PATH = "data/insights_history.json"
 SCAN_HISTORY_PATH = "data/scan_history.json"
 DISCOVERED_PATH = "data/discovered_competitors.json"
+BAND_OVERRIDES_PATH = "data/band_overrides.json"  # {id: band} — classification-determined bands, applied each scan
 SCAN_HISTORY_KEEP = 52  # ~1 year of weekly runs
 MAX_NEW_DISCOVERIES = 8  # cap per run — guard against a noisy week flooding the board
 
@@ -83,6 +84,21 @@ def _save_json_list(data: list[dict], path: str) -> None:
     with open(tmp, "w") as f:
         json.dump(data, f, indent=2)
     os.replace(tmp, path)
+
+
+def load_band_overrides(path: str = BAND_OVERRIDES_PATH) -> dict:
+    try:
+        with open(path) as f:
+            d = json.load(f)
+            return d if isinstance(d, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_band_overrides(overrides: dict, path: str = BAND_OVERRIDES_PATH) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(overrides, f, indent=2)
 
 
 def load_insights_history(path: str = INSIGHTS_HISTORY_PATH) -> list[dict]:
@@ -290,6 +306,14 @@ def main():
     red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
     print(f"  [firecrawl] {red_alerts} red alerts detected")
 
+    # Apply persisted band classifications (from prior TBD/reclassify passes) so
+    # they survive weekly scans, which otherwise reset bands from config.py.
+    band_overrides = load_band_overrides()
+    for c in competitor_statuses:
+        if c["id"] in band_overrides:
+            c["category"] = band_overrides[c["id"]]
+    tbd_at_start = {c["id"] for c in competitor_statuses if c.get("category") == "TBD"}
+
     # Step 3 — Gemini synthesis (velocity feed + competitor deltas)
     print("[codos] step 3/5: Gemini synthesis…")
     gemini = GeminiWorker(api_key=gemini_key, model_name=config.GEMINI_MODEL)
@@ -301,30 +325,60 @@ def main():
         if comp["id"] in deltas:
             comp["delta"] = deltas[comp["id"]]
 
-    # Classify any user-added companies still tagged "TBD" into a real band,
-    # then persist the assignment back to watchlist.json so it sticks (self-heals).
+    real_bands = [b for b in config.CATEGORIES if b != "TBD"]
+
+    # First-time classification: assign a real band to any user-added ("TBD")
+    # company and persist it. Quiet — a TBD→band change is NOT a market signal.
     tbd = [c for c in competitor_statuses if c.get("category") == "TBD"]
     if tbd:
-        bands = [b for b in config.CATEGORIES if b != "TBD"]
-        assigned = gemini.classify(tbd, bands)
+        assigned = gemini.classify(tbd, real_bands)
+        n = 0
         for c in competitor_statuses:
-            if c.get("category") == "TBD" and assigned.get(c["id"]) in bands:
+            if c.get("category") == "TBD" and assigned.get(c["id"]) in real_bands:
                 c["category"] = assigned[c["id"]]
-        try:
-            with open("data/watchlist.json") as wf:
-                wl = json.load(wf)
-            updated = False
-            for e in wl:
-                eid = e.get("id") or e.get("url")
-                if e.get("category") in (None, "TBD") and assigned.get(eid) in bands:
-                    e["category"] = assigned[eid]
-                    updated = True
-            if updated:
-                with open("data/watchlist.json", "w") as wf:
-                    json.dump(wl, wf, indent=2)
-                print(f"  [codos] classified {sum(1 for e in wl if e.get('category') not in (None,'TBD'))} watchlist compan(ies)")
-        except Exception:
-            pass
+                band_overrides[c["id"]] = c["category"]
+                n += 1
+        print(f"  [codos] classified {n} new (TBD) compan(ies)")
+
+    # Bimonthly: re-classify ALL established companies and flag genuine band SHIFTS
+    # as red deltas + move them to the new band. Excludes first-time TBD classification.
+    if os.getenv("RECLASSIFY") == "1":
+        candidates = [c for c in competitor_statuses
+                      if c.get("category") != "TBD" and c["id"] not in tbd_at_start]
+        print(f"[codos] bimonthly re-classification of {len(candidates)} companies…")
+        new_bands = gemini.classify(candidates, real_bands)
+        shifts = 0
+        for c in candidates:
+            nb = new_bands.get(c["id"])
+            old = c.get("category")
+            if nb in real_bands and nb != old:
+                note = f"Band shift: {old} → {nb}"
+                c["delta"] = (c["delta"] + " · " + note) if c.get("delta") else note
+                c["changed"] = True
+                c["category"] = nb
+                band_overrides[c["id"]] = nb
+                shifts += 1
+        red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
+        print(f"  [codos] {shifts} band shift(s) flagged")
+
+    save_band_overrides(band_overrides)
+
+    # Reflect classified bands back into watchlist.json so the dashboard shows them
+    # before the next scan (frontend merges watchlist on load).
+    try:
+        with open("data/watchlist.json") as wf:
+            wl = json.load(wf)
+        updated = False
+        for e in wl:
+            eid = e.get("id") or e.get("url")
+            if eid in band_overrides and e.get("category") != band_overrides[eid]:
+                e["category"] = band_overrides[eid]
+                updated = True
+        if updated:
+            with open("data/watchlist.json", "w") as wf:
+                json.dump(wl, wf, indent=2)
+    except Exception:
+        pass
 
     # Step 4 — Gemini deep-research insights (accumulating, supersede-aware feed)
     print("[codos] step 4/5: Gemini deep-research insights…")
