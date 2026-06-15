@@ -61,9 +61,15 @@ jobs:
         run: |
           git config user.name  "CODOS Observatory Bot"
           git config user.email "observatory-bot@users.noreply.github.com"
-          git add -A data/   # snapshot + insights/scan history + discovered-competitors ledger
-          git diff --cached --quiet || git commit -m "chore: weekly scan $(date -u '+%Y-%m-%d')"
-          git push
+          git add -A data/   # snapshot + insights/scan history + ledgers + overrides
+          if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
+          git commit -m "chore: scan $(date -u '+%Y-%m-%d %H:%M')"
+          # Rebase onto anything that landed during the scan (e.g. a mid-scan add), then push — retry.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then exit 0; fi
+            echo "push attempt $i failed; retrying…"; sleep 5
+          done
+          echo "push failed after retries"; exit 1
 
       # Optional: deploy refreshed data to your own server over rsync/SSH.
       # Skipped automatically unless the VPS_HOST repo variable is set.
