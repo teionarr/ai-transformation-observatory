@@ -45,6 +45,12 @@ Return a single valid JSON object with exactly this structure (no markdown fence
     // ONLY competitors where THIS WEEK's RAW_SIGNALS report a NEW funding round, valuation,
     // or acquisition that DIFFERS from their current `funding` in COMPETITOR_MAP.
     // Match the existing format. Omit a competitor if there is no funding news this week.
+  }},
+  "competitor_status": {{
+    "<competitor_id>": "<Incumbent | Scaling | Emerging | Acquired>"
+    // ONLY competitors where THIS WEEK's signals show a lifecycle change vs their current
+    // `status` — most importantly an ACQUISITION (→ Acquired), or a clear stage shift.
+    // Omit a competitor if there is no such news this week.
   }}
 }}
 
@@ -52,6 +58,7 @@ RULES:
 - velocity 90-100: reserved for funding rounds, acquisitions, major product/agent launches, leadership shifts, paradigm pivots
 - why must be ≤ 15 words, stating the *implication* not the headline
 - competitor_funding: include a competitor ONLY when this week's signals report funding/valuation news that differs from their current value; never restate unchanged funding
+- competitor_status: include a competitor ONLY on a real lifecycle change (acquisition, or a clear stage shift) reported this week; value must be exactly one of Incumbent | Scaling | Emerging | Acquired
 - Return ONLY the JSON. No markdown. No explanation. No trailing text.
 
 RAW_SIGNALS:
@@ -195,6 +202,26 @@ COMPANIES:
 """
 
 
+RECLASSIFY_PROMPT_TEMPLATE = """You are re-evaluating companies in the AI-transformation market for Codos.
+
+Assign the SINGLE best-fitting band and write a fresh one-line rationale for where each sits today:
+  Transformation Titans  — global consultancies & SIs
+  Forward Deployers      — AI-native transformation boutiques (ship agents, outcomes in weeks)
+  Agent Foundries        — horizontal agentic deployment platforms
+  Platform Gravity       — enterprise orchestration / infra you build on
+  Digital Labor          — AI employees / outcomes-as-a-service
+  Vertical Specialists   — function / industry-deep agents
+  Other                  — real and relevant but doesn't fit the six bands
+Valid bands: {bands}
+
+Research each company (use web search), then return ONLY a valid JSON object (no markdown):
+{{ "<id>": {{ "band": "<one band above>", "why": "<one line, <= 30 words, current positioning>" }}, ... }}
+
+COMPANIES:
+{companies}
+"""
+
+
 class GeminiWorker:
     def __init__(self, api_key: str, model_name: str = "gemini-2.5-flash"):
         from google import genai
@@ -328,6 +355,29 @@ class GeminiWorker:
                 raw = self._generate(prompt, grounded)
             except Exception as e:
                 print(f"    [gemini] grounded site-finder failed ({e}); retrying without web search")
+        if raw is None:
+            raw = self._generate(prompt, self._text_config())
+        data = self._parse_json(raw, expect="object")
+        return data if isinstance(data, dict) else {}
+
+    # ---- bimonthly re-evaluation: band + fresh rationale ---------------------
+    def reclassify(self, companies: list[dict], bands: list[str]) -> dict:
+        """companies: [{id,name,url}] → {id: {"band","why"}}. Grounded web research."""
+        if not companies:
+            return {}
+        compact = [{"id": c["id"], "name": c.get("name"), "url": c.get("url")} for c in companies]
+        print(f"  [gemini] re-evaluating {len(compact)} companies (band + rationale)…")
+        prompt = RECLASSIFY_PROMPT_TEMPLATE.format(
+            bands=" | ".join(bands),
+            companies=json.dumps(compact, indent=2),
+        )
+        raw = None
+        grounded = self._grounded_config()
+        if grounded is not None:
+            try:
+                raw = self._generate(prompt, grounded)
+            except Exception as e:
+                print(f"    [gemini] grounded reclassify failed ({e}); retrying without web search")
         if raw is None:
             raw = self._generate(prompt, self._text_config())
         data = self._parse_json(raw, expect="object")

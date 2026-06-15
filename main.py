@@ -67,6 +67,8 @@ SCAN_HISTORY_PATH = "data/scan_history.json"
 DISCOVERED_PATH = "data/discovered_competitors.json"
 BAND_OVERRIDES_PATH = "data/band_overrides.json"  # {id: band} — classification-determined bands, applied each scan
 FUNDING_OVERRIDES_PATH = "data/funding_overrides.json"  # {id: funding} — funding refreshed from weekly news
+STATUS_OVERRIDES_PATH = "data/status_overrides.json"    # {id: status}  — lifecycle (acquisitions, stage shifts)
+WHY_OVERRIDES_PATH = "data/why_overrides.json"          # {id: why}     — rationale refreshed on bimonthly reclassify
 URL_OVERRIDES_PATH = "data/url_overrides.json"    # {id: url}  — websites found by the monthly site-finder
 # Aggregator/profile domains that are not a company's real website — these get the
 # "site?" tag and the site-finder tries to resolve them to the actual homepage.
@@ -138,6 +140,21 @@ def save_funding_overrides(overrides: dict, path: str = FUNDING_OVERRIDES_PATH) 
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         json.dump(overrides, f, indent=2)
+
+
+def _load_dict(path: str) -> dict:
+    try:
+        with open(path) as f:
+            d = json.load(f)
+            return d if isinstance(d, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _save_dict(data: dict, path: str) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
 
 
 def load_insights_history(path: str = INSIGHTS_HISTORY_PATH) -> list[dict]:
@@ -359,11 +376,17 @@ def main():
             c["category"] = band_overrides[c["id"]]
     tbd_at_start = {c["id"] for c in competitor_statuses if c.get("category") == "TBD"}
 
-    # Apply funding refreshed by prior weeks' news so the column stays current.
+    # Apply funding / status / why refreshed by prior runs so they stay current.
     funding_overrides = load_funding_overrides()
+    status_overrides = _load_dict(STATUS_OVERRIDES_PATH)
+    why_overrides = _load_dict(WHY_OVERRIDES_PATH)
     for c in competitor_statuses:
         if c["id"] in funding_overrides:
             c["funding"] = funding_overrides[c["id"]]
+        if c["id"] in status_overrides:
+            c["status"] = status_overrides[c["id"]]
+        if c["id"] in why_overrides:
+            c["why"] = why_overrides[c["id"]]
 
     # Step 3 — Gemini synthesis (velocity feed + competitor deltas)
     print("[codos] step 3/5: Gemini synthesis…")
@@ -396,6 +419,25 @@ def main():
         red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
         print(f"  [codos] {funding_changed} funding update(s) from this week's news")
 
+    # Refresh Status from this week's news (acquisitions, stage shifts). "Acquired" is sticky.
+    status_updates = synthesis.get("competitor_status", {}) or {}
+    status_changed = 0
+    for comp in competitor_statuses:
+        ns = status_updates.get(comp["id"])
+        cur = (comp.get("status") or "").strip()
+        if (isinstance(ns, str) and ns.strip() in config.STATUSES
+                and ns.strip() != cur and cur != "Acquired"):
+            comp["status"] = ns.strip()
+            status_overrides[comp["id"]] = ns.strip()
+            note = f"Status: {cur or '—'} → {ns.strip()}"
+            comp["delta"] = (comp["delta"] + " · " + note) if comp.get("delta") else note
+            comp["changed"] = True
+            status_changed += 1
+    if status_changed:
+        _save_dict(status_overrides, STATUS_OVERRIDES_PATH)
+        red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
+        print(f"  [codos] {status_changed} status change(s) from this week's news")
+
     real_bands = [b for b in config.CATEGORIES if b != "TBD"]
 
     # First-time classification: assign a real band to any user-added ("TBD")
@@ -417,10 +459,12 @@ def main():
         candidates = [c for c in competitor_statuses
                       if c.get("category") != "TBD" and c["id"] not in tbd_at_start]
         print(f"[codos] bimonthly re-classification of {len(candidates)} companies…")
-        new_bands = gemini.classify(candidates, real_bands)
+        result = gemini.reclassify(candidates, real_bands)
         shifts = 0
         for c in candidates:
-            nb = new_bands.get(c["id"])
+            r = result.get(c["id"]) or {}
+            nb = r.get("band") if isinstance(r, dict) else None
+            nw = r.get("why") if isinstance(r, dict) else None
             old = c.get("category")
             if nb in real_bands and nb != old:
                 note = f"Band shift: {old} → {nb}"
@@ -429,6 +473,11 @@ def main():
                 c["category"] = nb
                 band_overrides[c["id"]] = nb
                 shifts += 1
+            # Refresh the rationale (quiet — keeping it current, not a flagged signal).
+            if isinstance(nw, str) and nw.strip() and nw.strip() != (c.get("why") or "").strip():
+                c["why"] = nw.strip()
+                why_overrides[c["id"]] = nw.strip()
+        _save_dict(why_overrides, WHY_OVERRIDES_PATH)
         red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
         print(f"  [codos] {shifts} band shift(s) flagged")
 
@@ -447,6 +496,12 @@ def main():
                 updated = True
             if eid in funding_overrides and e.get("funding") != funding_overrides[eid]:
                 e["funding"] = funding_overrides[eid]
+                updated = True
+            if eid in status_overrides and e.get("status") != status_overrides[eid]:
+                e["status"] = status_overrides[eid]
+                updated = True
+            if eid in why_overrides and e.get("why") != why_overrides[eid]:
+                e["why"] = why_overrides[eid]
                 updated = True
         if updated:
             with open("data/watchlist.json", "w") as wf:
