@@ -67,6 +67,13 @@ SCAN_HISTORY_PATH = "data/scan_history.json"
 DISCOVERED_PATH = "data/discovered_competitors.json"
 BAND_OVERRIDES_PATH = "data/band_overrides.json"  # {id: band} — classification-determined bands, applied each scan
 URL_OVERRIDES_PATH = "data/url_overrides.json"    # {id: url}  — websites found by the monthly site-finder
+# Aggregator/profile domains that are not a company's real website — the site-finder
+# resolves these to the actual homepage (alongside hard crawl errors).
+DIRECTORY_DOMAINS = {
+    "ycombinator.com", "linkedin.com", "crunchbase.com", "twitter.com", "x.com",
+    "github.com", "producthunt.com", "pitchbook.com", "tracxn.com", "wellfound.com",
+    "angel.co", "facebook.com", "medium.com",
+}
 SCAN_HISTORY_KEEP = 52  # ~1 year of weekly runs
 MAX_NEW_DISCOVERIES = 8  # cap per run — guard against a noisy week flooding the board
 
@@ -402,38 +409,55 @@ def main():
     except Exception:
         pass
 
-    # Monthly: find official websites for companies whose site couldn't be crawled
-    # ("site?" flagged), disambiguated by the observatory topic. The found URL is
-    # persisted and applied on the next scan, which clears the flag.
+    # Monthly: find official websites for companies that are unreachable OR pinned to a
+    # directory/profile URL (YC, LinkedIn, …), disambiguated by the observatory topic.
+    # Resolved sites are re-crawled + re-classified in-run, so they fix immediately.
     if os.getenv("FIND_SITES") == "1":
-        errored = [c for c in competitor_statuses if c.get("crawl_status") == "error"]
-        if errored:
-            print(f"[codos] monthly site-finder for {len(errored)} unreachable compan(ies)…")
-            found = gemini.find_websites(errored, getattr(config, "OBSERVATORY_TOPIC", ""))
-            n = 0
-            for c in errored:
-                u = found.get(c["id"])
-                nd = _norm_domain(u) if isinstance(u, str) else ""
-                if nd and nd != _norm_domain(c.get("url", "")):
+        need = [c for c in competitor_statuses
+                if c.get("crawl_status") == "error"
+                or _norm_domain(c.get("url", "")) in DIRECTORY_DOMAINS]
+        if need:
+            print(f"[codos] monthly site-finder for {len(need)} compan(ies) (errors + directory URLs)…")
+            found = gemini.find_websites(need, getattr(config, "OBSERVATORY_TOPIC", ""))
+            fixed = []
+            for c in need:
+                nd = _norm_domain(found.get(c["id"]) or "")
+                if nd and nd not in DIRECTORY_DOMAINS and nd != _norm_domain(c.get("url", "")):
                     url_overrides[c["id"]] = nd
-                    n += 1
-            if n:
+                    c["url"] = nd
+                    fixed.append(c)
+            if fixed:
                 save_url_overrides(url_overrides)
+                # Re-crawl the fixed companies with their real URL…
+                recrawled = {r["id"]: r for r in firecrawl.run([dict(c, crawl_paths=["/"]) for c in fixed])}
+                for i, c in enumerate(competitor_statuses):
+                    if c["id"] in recrawled:
+                        competitor_statuses[i] = recrawled[c["id"]]
+                # …and re-classify the ones that now crawl into a real band (quiet, not a shift).
+                ok = [r for r in recrawled.values() if r.get("crawl_status") == "success"]
+                if ok:
+                    reassigned = gemini.classify(ok, real_bands)
+                    ok_ids = {r["id"] for r in ok}
+                    for c in competitor_statuses:
+                        if c["id"] in ok_ids and reassigned.get(c["id"]) in real_bands:
+                            c["category"] = reassigned[c["id"]]
+                            band_overrides[c["id"]] = c["category"]
+                    save_band_overrides(band_overrides)
+                # Reflect resolved URL + band back into watchlist.json
                 try:
                     with open("data/watchlist.json") as wf:
                         wl = json.load(wf)
-                    ch = False
                     for e in wl:
                         eid = e.get("id") or e.get("url")
-                        if eid in url_overrides and e.get("url") != url_overrides[eid]:
+                        if eid in url_overrides:
                             e["url"] = url_overrides[eid]
-                            ch = True
-                    if ch:
-                        with open("data/watchlist.json", "w") as wf:
-                            json.dump(wl, wf, indent=2)
+                        if eid in band_overrides:
+                            e["category"] = band_overrides[eid]
+                    with open("data/watchlist.json", "w") as wf:
+                        json.dump(wl, wf, indent=2)
                 except Exception:
                     pass
-            print(f"  [codos] found {n} website(s) — applied on the next crawl")
+            print(f"  [codos] resolved {len(fixed)} website(s)")
 
     # Step 4 — Gemini deep-research insights (accumulating, supersede-aware feed)
     print("[codos] step 4/5: Gemini deep-research insights…")
