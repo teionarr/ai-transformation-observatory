@@ -142,5 +142,131 @@
     "discovered_at": "2026-06-14",
     "discovery_relevance": 60,
     "evidence": "Secures $650 Million in funding."
+  },
+  {
+    "id": "generativex",
+    "name": "GenerativeX",
+    "url": "generativex.com",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "GenerativeX secured JPY 650m in Series A funding to accelerate global AI agent deployment, indicating a focus on platforms for deploying AI agents.",
+    "discovered": true,
+    "discovered_at": "2026-06-15",
+    "discovery_relevance": 85,
+    "evidence": "Secured JPY 650m Series A funding on 2026-06-08."
+  },
+  {
+    "id": "relai",
+    "name": "Relai",
+    "url": "relai.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Relai raised $6.9M to develop a platform enabling verifiable and continuous learning for AI agents, addressing a key challenge in robust agentic deployment.",
+    "discovered": true,
+    "discovered_at": "2026-06-15",
+    "discovery_relevance": 80,
+    "evidence": "Raises $6.9M funding on 2026-06-10."
+  },
+  {
+    "id": "phoenixai",
+    "name": "PhoenixAI",
+    "url": "phoenixai.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "PhoenixAI raised $80M in Series B funding to power an agentic AI database, providing a foundational layer for AI agent operations.",
+    "discovered": true,
+    "discovered_at": "2026-06-15",
+    "discovery_relevance": 75,
+    "evidence": "Raises $80M Series B funding on 2026-06-11."
+  },
+  {
+    "id": "2x",
+    "name": "2X",
+    "url": "2x.ai",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "2X acquired Knownwell to create the first GTM human-agentic services company, unifying B2B marketing, sales, and customer success with AI agents.",
+    "discovered": true,
+    "discovered_at": "2026-06-15",
+    "discovery_relevance": 60,
+    "evidence": "Acquires Knownwell on 2026-06-10 to build GTM human-agentic services."
+  },
+  {
+    "id": "sedai",
+    "name": "Sedai",
+    "url": "sedai.com",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Sedai launched an autonomous platform for AI agent optimization, providing tools to intelligently route and manage AI agents from various models.",
+    "discovered": true,
+    "discovered_at": "2026-06-15",
+    "discovery_relevance": 80,
+    "evidence": "Launches autonomous platform on 2026-06-09."
+  },
+  {
+    "id": "centerprise-ai",
+    "name": "Centerprise AI",
+    "url": "centerprise.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Centerprise AI introduced its platform for the agentic evolution of data integration and management, providing critical infrastructure for enterprise AI agents.",
+    "discovered": true,
+    "discovered_at": "2026-06-15",
+    "discovery_relevance": 70,
+    "evidence": "Introduced on 2026-06-10."
+  },
+  {
+    "id": "decisions",
+    "name": "Decisions",
+    "url": "decisions.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Decisions unveiled a new brand to power the missing control layer for enterprise AI, helping orchestrate AI agents, people, and systems at scale.",
+    "discovered": true,
+    "discovered_at": "2026-06-15",
+    "discovery_relevance": 75,
+    "evidence": "Unveiled new brand on 2026-06-09."
   }
 ]

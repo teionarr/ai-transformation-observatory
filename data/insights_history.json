@@ -1,5 +1,107 @@
 [
   {
+    "id": "ins-2026-06-15-1",
+    "scan_date": "2026-06-15",
+    "generated_at": "2026-06-15T11:08:34.446539+00:00",
+    "title": "Foundational Models Pivot to Direct Enterprise Consulting",
+    "insight": "Major LLM developers like OpenAI and Anthropic are aggressively moving beyond API provision to act as direct enterprise consultants and solution deployers, often through strategic partnerships or acquisitions. This shift, exemplified by OpenAI acquiring Ona and Anthropic partnering with TCS, signifies a direct challenge to traditional system integrators and forward deployers, intensifying competition for Codos in the end-to-end AI transformation space.",
+    "trend": "As foundational models mature, their creators seek to capture more value downstream by directly influencing and implementing enterprise AI strategies, driven by the need for deeper integration and specialized deployment expertise.",
+    "category": "Forward Deployers",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Anthropic and OpenAI are becoming consulting firms",
+      "Anthropic taps TCS to scale its enterprise AI deployments",
+      "OpenAI acquires AI agent orchestration startup Ona"
+    ],
+    "supersedes": "ins-2026-06-14-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-15-2",
+    "scan_date": "2026-06-15",
+    "generated_at": "2026-06-15T11:08:34.446539+00:00",
+    "title": "Agent Reliability, Optimization, and Control Emerge as Key Market",
+    "insight": "A significant and growing market segment is forming around ensuring the reliability, continuous optimization, and robust control of AI agents in enterprise environments. New funding rounds for companies like ChatSee.ai and Poetic, alongside launches from Sedai, Kyndryl, and Cresta, highlight the critical need for platforms that manage agent failures, enable verifiable learning, and provide orchestration layers. Codos's focus on continuous optimization and agent deployment is directly aligned with this burgeoning demand for trustworthy and manageable agentic systems.",
+    "trend": "The increasing deployment of AI agents in complex enterprise workflows is exposing critical needs for governance, debugging, and performance management, driving investment into specialized platforms that ensure agents deliver consistent, reliable outcomes.",
+    "category": "Platform Gravity",
+    "magnitude": 95,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "ChatSee.ai Raises $6.5M to Tackle AI Agent Failures",
+      "Poetic Raises $50M for reliable AI in complex enterprise processes",
+      "Relai raises $6.9M for verifiable and continuous learning for AI agents",
+      "Sedai Launches Autonomous Platform for AI Agent Optimization",
+      "Kyndryl Launches AI Orchestration for Business",
+      "Cresta Launches Conductor, the Agent for AI Agent Development",
+      "Decisions Unveils New Brand to Power the Missing Control Layer for Enterprise AI",
+      "GitLab Announces New Capabilities to Give Enterprises Speed and Control at Agentic Scale"
+    ],
+    "supersedes": "ins-2026-06-14-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-15-3",
+    "scan_date": "2026-06-15",
+    "generated_at": "2026-06-15T11:08:34.446539+00:00",
+    "title": "Enterprise Context Layer Becomes Foundational AI Infrastructure",
+    "insight": "The 'context layer' for enterprise AI agents is rapidly solidifying as a critical piece of foundational infrastructure, attracting significant investment and M&A activity. Jedify's $24M funding and Ardoq's acquisition of GraphLake to build an 'EA-Grade Context Graph' underscore the market's recognition that agents require deeply integrated, structured, and governed enterprise knowledge to function effectively. Codos must continue to emphasize its diagnostic capabilities to integrate with and leverage these complex enterprise data environments, providing the essential context for agent success.",
+    "trend": "As agentic AI moves from experimentation to production, enterprises realize that robust, real-time access to accurate and contextualized internal data is non-negotiable for agents to deliver meaningful business outcomes.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Jedify raises $24M to build the context layer for enterprise AI agents",
+      "Ardoq Acquires GraphLake to Establish the EA-Grade Context Graph for Enterprise AI"
+    ],
+    "supersedes": "ins-2026-06-14-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-15-4",
+    "scan_date": "2026-06-15",
+    "generated_at": "2026-06-15T11:08:34.446539+00:00",
+    "title": "Billions Flow into Physical AI for Industrial Transformation",
+    "insight": "The 'physical AI' sector, encompassing advanced robotics and AI for real-world engineering, is experiencing an unprecedented influx of capital, with NEURA Robotics raising up to $1.4 billion and Jeff Bezos's Prometheus securing $12 billion for an 'artificial general engineer.' This massive investment signals a market-defining, long-term vision for AI's transformative impact across physical industries, indicating a future where Codos's agentic frameworks could integrate into hybrid physical-digital operational environments.",
+    "trend": "The convergence of advanced robotics, sensor technology, and AI is enabling the automation and optimization of physical processes at an industrial scale, attracting vast capital as investors bet on the next frontier of AI-driven productivity.",
+    "category": "Vertical Specialists",
+    "magnitude": 98,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "NEURA Robotics Announces Record Series C of up to $1.4 Billion to Accelerate the World\u2019s Leading Physical AI Platform",
+      "Jeff Bezos's Prometheus raises $12B to build an 'artificial general engineer' for the physical world",
+      "Generalist AI: $400M Raise at $2B Valuation Splits Robotics Stack"
+    ],
+    "supersedes": "ins-2026-06-14-5",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-15-5",
+    "scan_date": "2026-06-15",
+    "generated_at": "2026-06-15T11:08:34.446539+00:00",
+    "title": "Outcome-Based Pricing Emerges for AI Agent Services",
+    "insight": "The introduction of outcome-based pricing models for IT services, driven by the capabilities of AI agents, signals a fundamental shift in how enterprises procure and value AI-driven transformation. LTM's unveiling of such a model indicates a maturing market where demonstrable, measurable business outcomes are becoming the primary currency for AI service providers. For Codos, this reinforces the strategic importance of our 'diagnose, deploy, and continuously optimize' approach, which directly ties agent performance to tangible business results.",
+    "trend": "As AI agents become more capable of delivering quantifiable business improvements, the traditional time-and-materials model for IT services is being challenged by outcome-based contracts, reflecting a greater emphasis on value delivery.",
+    "category": "Transformation Titans",
+    "magnitude": 70,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "LTM Unveils Outcome-Based Pricing Model as AI Agents Reshape IT Services Contracts"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-06-14-1",
     "scan_date": "2026-06-14",
     "generated_at": "2026-06-14T08:28:23.703399+00:00",
@@ -18,7 +120,7 @@
       "Anthropic taps TCS to scale its enterprise AI deployments | TechCrunch"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-15-1"
   },
   {
     "id": "ins-2026-06-14-2",
@@ -41,7 +143,7 @@
       "Kyndryl Launches AI Orchestration for Business to Accelerate Agent-Driven Transformation"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-15-2"
   },
   {
     "id": "ins-2026-06-14-3",
@@ -63,7 +165,7 @@
       "Jedify Raises $24 Million to Bring Context to Enterprise AI | Whalesbook"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-15-3"
   },
   {
     "id": "ins-2026-06-14-4",
@@ -109,7 +211,7 @@
       "The Week's 10 Biggest Funding Rounds: NinjaOne Leads With $400M As Large Deals Also Go To Blockchain, Cloud Infrastructure, Biotech And Robotics - Crunchbase News"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-15-4"
   },
   {
     "id": "ins-2026-05-31-4",
