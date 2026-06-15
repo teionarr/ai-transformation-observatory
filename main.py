@@ -66,6 +66,7 @@ INSIGHTS_HISTORY_PATH = "data/insights_history.json"
 SCAN_HISTORY_PATH = "data/scan_history.json"
 DISCOVERED_PATH = "data/discovered_competitors.json"
 BAND_OVERRIDES_PATH = "data/band_overrides.json"  # {id: band} — classification-determined bands, applied each scan
+URL_OVERRIDES_PATH = "data/url_overrides.json"    # {id: url}  — websites found by the monthly site-finder
 SCAN_HISTORY_KEEP = 52  # ~1 year of weekly runs
 MAX_NEW_DISCOVERIES = 8  # cap per run — guard against a noisy week flooding the board
 
@@ -96,6 +97,21 @@ def load_band_overrides(path: str = BAND_OVERRIDES_PATH) -> dict:
 
 
 def save_band_overrides(overrides: dict, path: str = BAND_OVERRIDES_PATH) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(overrides, f, indent=2)
+
+
+def load_url_overrides(path: str = URL_OVERRIDES_PATH) -> dict:
+    try:
+        with open(path) as f:
+            d = json.load(f)
+            return d if isinstance(d, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_url_overrides(overrides: dict, path: str = URL_OVERRIDES_PATH) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         json.dump(overrides, f, indent=2)
@@ -298,6 +314,12 @@ def main():
         print(f"[codos] {len(discovered_ledger)} previously-discovered entrant(s) folded in "
               f"→ {len(tracked)} tracked")
 
+    # Apply websites found by the monthly site-finder (corrects unreachable URLs).
+    url_overrides = load_url_overrides()
+    for t in tracked:
+        if t.get("id") in url_overrides:
+            t["url"] = url_overrides[t["id"]]
+
     # Step 2 — Firecrawl change-tracking
     print("[codos] step 2/5: Firecrawl change-tracking scan…")
     firecrawl = FirecrawlWorker(api_key=firecrawl_key)
@@ -379,6 +401,39 @@ def main():
                 json.dump(wl, wf, indent=2)
     except Exception:
         pass
+
+    # Monthly: find official websites for companies whose site couldn't be crawled
+    # ("site?" flagged), disambiguated by the observatory topic. The found URL is
+    # persisted and applied on the next scan, which clears the flag.
+    if os.getenv("FIND_SITES") == "1":
+        errored = [c for c in competitor_statuses if c.get("crawl_status") == "error"]
+        if errored:
+            print(f"[codos] monthly site-finder for {len(errored)} unreachable compan(ies)…")
+            found = gemini.find_websites(errored, getattr(config, "OBSERVATORY_TOPIC", ""))
+            n = 0
+            for c in errored:
+                u = found.get(c["id"])
+                nd = _norm_domain(u) if isinstance(u, str) else ""
+                if nd and nd != _norm_domain(c.get("url", "")):
+                    url_overrides[c["id"]] = nd
+                    n += 1
+            if n:
+                save_url_overrides(url_overrides)
+                try:
+                    with open("data/watchlist.json") as wf:
+                        wl = json.load(wf)
+                    ch = False
+                    for e in wl:
+                        eid = e.get("id") or e.get("url")
+                        if eid in url_overrides and e.get("url") != url_overrides[eid]:
+                            e["url"] = url_overrides[eid]
+                            ch = True
+                    if ch:
+                        with open("data/watchlist.json", "w") as wf:
+                            json.dump(wl, wf, indent=2)
+                except Exception:
+                    pass
+            print(f"  [codos] found {n} website(s) — applied on the next crawl")
 
     # Step 4 — Gemini deep-research insights (accumulating, supersede-aware feed)
     print("[codos] step 4/5: Gemini deep-research insights…")

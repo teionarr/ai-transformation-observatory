@@ -171,6 +171,23 @@ COMPANIES:
 """
 
 
+FIND_SITES_PROMPT_TEMPLATE = """You are finding the official website for each company below.
+
+Context: these companies operate in the space of "{topic}". Use this to disambiguate
+generic or common names — choose the company that fits that space.
+
+For each company, use web search to find its OFFICIAL website — the company's own
+domain, NOT a directory, YC profile, LinkedIn, Crunchbase, app store, or news article.
+
+Return ONLY a valid JSON object mapping each company's "id" to its bare domain
+(no https://, no path), or to null if you cannot confidently find it:
+{{ "<id>": "<domain.com or null>", ... }}
+
+COMPANIES:
+{companies}
+"""
+
+
 class GeminiWorker:
     def __init__(self, api_key: str, model_name: str = "gemini-2.5-flash"):
         from google import genai
@@ -281,6 +298,29 @@ class GeminiWorker:
                 raw = self._generate(prompt, grounded)
             except Exception as e:
                 print(f"    [gemini] grounded classify failed ({e}); retrying without web search")
+        if raw is None:
+            raw = self._generate(prompt, self._text_config())
+        data = self._parse_json(raw, expect="object")
+        return data if isinstance(data, dict) else {}
+
+    # ---- find official websites for unreachable companies --------------------
+    def find_websites(self, companies: list[dict], topic: str) -> dict:
+        """companies: [{id, name}] → {id: domain or None}. Grounded web search."""
+        if not companies:
+            return {}
+        compact = [{"id": c["id"], "name": c.get("name")} for c in companies]
+        print(f"  [gemini] finding websites for {len(compact)} unreachable company(ies)…")
+        prompt = FIND_SITES_PROMPT_TEMPLATE.format(
+            topic=topic or "AI / software companies",
+            companies=json.dumps(compact, indent=2),
+        )
+        raw = None
+        grounded = self._grounded_config()
+        if grounded is not None:
+            try:
+                raw = self._generate(prompt, grounded)
+            except Exception as e:
+                print(f"    [gemini] grounded site-finder failed ({e}); retrying without web search")
         if raw is None:
             raw = self._generate(prompt, self._text_config())
         data = self._parse_json(raw, expect="object")

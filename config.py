@@ -13,6 +13,10 @@ EXA_DAYS_BACK = 7          # weekly assurance sweep
 EXA_NUM_RESULTS = 20
 GEMINI_MODEL = "gemini-2.5-flash"
 
+# Disambiguation context for the monthly site-finder: when a company's site can't
+# be crawled, search for its real website and prefer the match in this space.
+OBSERVATORY_TOPIC = "AI tools for company memory, knowledge, and transformation"
+
 # Discovery scan — auto-detect new entrants not yet on the board
 DISCOVERY_ENABLED = True
 DISCOVERY_RELEVANCE_THRESHOLD = 60   # 0-100; Gemini relevance score to auto-add
