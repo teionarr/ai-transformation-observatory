@@ -9,6 +9,7 @@ function catSlug(c) {
     "Digital Labor": "labor",
     "Vertical Specialists": "verticals",
     "Other": "other",
+    "TBD": "tbd",
   }[c] || "x";
 }
 

@@ -149,6 +149,28 @@ ALREADY_TRACKED:
 """
 
 
+CLASSIFY_PROMPT_TEMPLATE = """You are classifying companies into the AI-transformation market bands for Codos.
+
+Assign each company to the SINGLE best-fitting band:
+  Transformation Titans  — global consultancies & SIs (Accenture, McKinsey QB, BCG X, Deloitte)
+  Forward Deployers      — AI-native transformation boutiques (ship agents, outcomes in weeks)
+  Agent Foundries        — horizontal agentic deployment platforms (Sierra, Relevance, Aily, Beam)
+  Platform Gravity       — enterprise orchestration / infra you build on (Salesforce, Microsoft, AWS)
+  Digital Labor          — AI employees / outcomes-as-a-service (Decagon, 11x, Cognition, Moveworks)
+  Vertical Specialists   — function / industry-deep agents (Harvey, Hippocratic, Cresta)
+  Other                  — real and relevant but doesn't fit the six bands above
+
+Research each company (use web search) from its name + domain, then choose its band.
+Valid bands: {bands}
+
+Return ONLY a valid JSON object mapping each company's "id" to its band (no markdown, no preamble):
+{{ "<id>": "<one band from the list above>", ... }}
+
+COMPANIES:
+{companies}
+"""
+
+
 class GeminiWorker:
     def __init__(self, api_key: str, model_name: str = "gemini-2.5-flash"):
         from google import genai
@@ -240,6 +262,29 @@ class GeminiWorker:
 
         candidates = self._parse_json(raw, expect="array")
         return candidates if isinstance(candidates, list) else []
+
+    # ---- classify user-added ("TBD") companies into a real band --------------
+    def classify(self, companies: list[dict], bands: list[str]) -> dict:
+        """companies: [{id, name, url}] → returns {id: band}. Grounded when available."""
+        if not companies:
+            return {}
+        compact = [{"id": c["id"], "name": c.get("name"), "url": c.get("url")} for c in companies]
+        print(f"  [gemini] classifying {len(compact)} user-added company(ies) into bands…")
+        prompt = CLASSIFY_PROMPT_TEMPLATE.format(
+            bands=" | ".join(bands),
+            companies=json.dumps(compact, indent=2),
+        )
+        raw = None
+        grounded = self._grounded_config()
+        if grounded is not None:
+            try:
+                raw = self._generate(prompt, grounded)
+            except Exception as e:
+                print(f"    [gemini] grounded classify failed ({e}); retrying without web search")
+        if raw is None:
+            raw = self._generate(prompt, self._text_config())
+        data = self._parse_json(raw, expect="object")
+        return data if isinstance(data, dict) else {}
 
     # ---- generation + config -------------------------------------------------
     def _generate(self, prompt: str, config, max_retries: int = 3) -> str:

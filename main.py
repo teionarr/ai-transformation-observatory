@@ -301,6 +301,31 @@ def main():
         if comp["id"] in deltas:
             comp["delta"] = deltas[comp["id"]]
 
+    # Classify any user-added companies still tagged "TBD" into a real band,
+    # then persist the assignment back to watchlist.json so it sticks (self-heals).
+    tbd = [c for c in competitor_statuses if c.get("category") == "TBD"]
+    if tbd:
+        bands = [b for b in config.CATEGORIES if b != "TBD"]
+        assigned = gemini.classify(tbd, bands)
+        for c in competitor_statuses:
+            if c.get("category") == "TBD" and assigned.get(c["id"]) in bands:
+                c["category"] = assigned[c["id"]]
+        try:
+            with open("data/watchlist.json") as wf:
+                wl = json.load(wf)
+            updated = False
+            for e in wl:
+                eid = e.get("id") or e.get("url")
+                if e.get("category") in (None, "TBD") and assigned.get(eid) in bands:
+                    e["category"] = assigned[eid]
+                    updated = True
+            if updated:
+                with open("data/watchlist.json", "w") as wf:
+                    json.dump(wl, wf, indent=2)
+                print(f"  [codos] classified {sum(1 for e in wl if e.get('category') not in (None,'TBD'))} watchlist compan(ies)")
+        except Exception:
+            pass
+
     # Step 4 — Gemini deep-research insights (accumulating, supersede-aware feed)
     print("[codos] step 4/5: Gemini deep-research insights…")
     history = load_insights_history()

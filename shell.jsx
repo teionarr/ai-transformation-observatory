@@ -42,11 +42,28 @@ function TopBar({ active }) {
   );
 }
 
-// Topbar quick-add: instant (in-memory + this-browser), then best-effort durable
-// sync to /api/add (cross-browser + picked up by the weekly scan) when an add-key is set.
+// Topbar quick-add: instant (in-memory + this-browser), then durable sync to /api/add
+// (cross-browser + fed into the weekly scan). New adds get a "TBD" band that the
+// weekly scan auto-classifies. Sync result is shown — never fails silently.
 function AddCompany() {
   const [url, setUrl] = React.useState("");
   const [busy, setBusy] = React.useState(false);
+  const [status, setStatus] = React.useState(null); // {kind, msg}
+
+  // POST to the watchlist API with the cached add-key. Returns a result code.
+  const postAdd = async (domain, name) => {
+    const key = localStorage.getItem("obs.addkey") || "";
+    if (!key) return "nokey";
+    try {
+      const res = await fetch("/api/add", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "x-add-key": key },
+        body: JSON.stringify({ url: domain, name }),
+      });
+      if (res.status === 401) return "unauth";
+      return res.ok ? "synced" : "error";
+    } catch (_) { return "error"; }
+  };
 
   const submit = async (e) => {
     e.preventDefault();
@@ -56,11 +73,11 @@ function AddCompany() {
     if (!domain || !domain.includes(".")) return;
     const id = domain.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
     const exists = (window.COMPETITORS || []).some((c) => (c.id || c.url) === id || c.url === domain);
-    if (exists) { setUrl(""); return; }
+    if (exists) { setUrl(""); setStatus({ kind: "warn", msg: "already tracked" }); setTimeout(() => setStatus(null), 4000); return; }
 
     const today = new Date().toISOString().slice(0, 10);
     const entry = {
-      id, name: domain, url: domain, category: "Other", status: "Emerging",
+      id, name: domain, url: domain, category: "TBD", status: "Emerging",
       funding: "—", team: null, why: "Added to watchlist.", anchor: false,
       scanned: "—", hash: "—", changed: false, changed_pages: [], delta: null,
       crawl_status: "pending", discovered: true, discovered_at: today,
@@ -76,23 +93,28 @@ function AddCompany() {
     setUrl("");
     window.dispatchEvent(new CustomEvent("obs:data-changed"));
 
-    // Durable: sync to the watchlist API so it survives across browsers + feeds the scan.
+    // Durable sync, with feedback. Ask for the add-key once if never set.
     setBusy(true);
-    try {
-      let key = localStorage.getItem("obs.addkey");
-      if (key === null) {
-        key = window.prompt("Add-key to sync this across devices & the weekly scan\n(leave blank to keep adds in this browser only):") || "";
-        localStorage.setItem("obs.addkey", key);
-      }
-      if (key) {
-        await fetch("/api/add", {
-          method: "POST",
-          headers: { "Content-Type": "application/json", "x-add-key": key },
-          body: JSON.stringify({ url: domain, name: domain }),
-        });
-      }
-    } catch (_) { /* stays local-only */ }
+    setStatus({ kind: "pending", msg: "saving…" });
+    if (localStorage.getItem("obs.addkey") === null) {
+      const k = window.prompt("Enter your add-key to sync across devices & the weekly scan\n(leave blank to keep adds in this browser only):");
+      localStorage.setItem("obs.addkey", k || "");
+    }
+    let r = await postAdd(domain, entry.name);
+    if (r === "unauth") {
+      const k = window.prompt("Add-key was rejected. Re-enter it\n(leave blank to keep this add local only):");
+      localStorage.setItem("obs.addkey", k || "");
+      r = k ? await postAdd(domain, entry.name) : "nokey";
+    }
+    const map = {
+      synced: { kind: "ok", msg: "synced ✓" },
+      nokey: { kind: "warn", msg: "saved locally" },
+      unauth: { kind: "err", msg: "key rejected — saved locally" },
+      error: { kind: "err", msg: "sync failed — saved locally" },
+    };
+    setStatus(map[r] || { kind: "warn", msg: "saved locally" });
     setBusy(false);
+    setTimeout(() => setStatus(null), 6000);
   };
 
   return (
@@ -107,6 +129,7 @@ function AddCompany() {
       <button type="submit" title="Add to watchlist" aria-label="Add company" disabled={busy}>
         <Icon.plus />
       </button>
+      {status && <span className={"add-status " + status.kind}>{status.msg}</span>}
     </form>
   );
 }

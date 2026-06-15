@@ -34,7 +34,7 @@ module.exports = async function handler(req, res) {
 
   const entry = {
     id, name: (body.name || domain), url: domain,
-    category: body.category || "Other", status: "Emerging",
+    category: body.category || "TBD", status: "Emerging",
     funding: "—", team: null, why: "Added to watchlist.", anchor: false,
     scanned: "—", hash: "—", changed: false, changed_pages: [], delta: null,
     crawl_status: "pending", discovered: true, discovered_at: today,
