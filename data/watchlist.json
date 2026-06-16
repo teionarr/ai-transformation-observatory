@@ -853,5 +853,24 @@
     "crawl_status": "pending",
     "discovered": true,
     "discovered_at": "2026-06-15"
+  },
+  {
+    "id": "rippling-com",
+    "name": "rippling.com",
+    "url": "rippling.com",
+    "category": "TBD",
+    "status": "Emerging",
+    "funding": "—",
+    "team": null,
+    "why": "Added to watchlist.",
+    "anchor": false,
+    "scanned": "—",
+    "hash": "—",
+    "changed": false,
+    "changed_pages": [],
+    "delta": null,
+    "crawl_status": "pending",
+    "discovered": true,
+    "discovered_at": "2026-06-16"
   }
 ]
