@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CODOS Observatory — weekly competitive intelligence scan."""
+"""AI-Transformation Market Observatory — weekly market intelligence scan."""
 
 import json
 import os
@@ -163,14 +163,14 @@ def load_insights_history(path: str = INSIGHTS_HISTORY_PATH) -> list[dict]:
 
 def save_insights_history(history: list[dict], path: str = INSIGHTS_HISTORY_PATH) -> None:
     _save_json_list(history, path)
-    print(f"[codos] insights history → {path} ({len(history)} total)")
+    print(f"[obs] insights history → {path} ({len(history)} total)")
 
 
 def record_scan(entry: dict, path: str = SCAN_HISTORY_PATH) -> list[dict]:
     """Prepend this run's metrics; keep the most recent SCAN_HISTORY_KEEP."""
     history = ([entry] + _load_json_list(path))[:SCAN_HISTORY_KEEP]
     _save_json_list(history, path)
-    print(f"[codos] scan history → {path} ({len(history)} runs)")
+    print(f"[obs] scan history → {path} ({len(history)} runs)")
     return history
 
 
@@ -229,7 +229,7 @@ def load_discovered(path: str = DISCOVERED_PATH) -> list[dict]:
 
 def save_discovered(discovered: list[dict], path: str = DISCOVERED_PATH) -> None:
     _save_json_list(discovered, path)
-    print(f"[codos] discovered ledger → {path} ({len(discovered)} total)")
+    print(f"[obs] discovered ledger → {path} ({len(discovered)} total)")
 
 
 def merge_discoveries(candidates, tracked, ledger, scan_date, threshold, cap):
@@ -300,7 +300,7 @@ def save_snapshot(snapshot: dict, path: str = "data/market_snapshot_latest.json"
     with open(tmp, "w") as f:
         json.dump(snapshot, f, indent=2)
     os.replace(tmp, path)
-    print(f"[codos] snapshot written → {path}")
+    print(f"[obs] snapshot written → {path}")
 
 
 def main():
@@ -312,15 +312,15 @@ def main():
 
     missing = [k for k, v in [("EXA_API_KEY", exa_key), ("FIRECRAWL_API_KEY", firecrawl_key), ("GEMINI_API_KEY", gemini_key)] if not v]
     if missing:
-        print(f"[codos] missing env vars: {', '.join(missing)}")
-        print("[codos] run via Doppler (doppler run -- python main.py) or export the keys directly")
+        print(f"[obs] missing env vars: {', '.join(missing)}")
+        print("[obs] run via Doppler (doppler run -- python main.py) or export the keys directly")
         sys.exit(1)
 
     started_at = time.time()
-    print(f"[codos] scan started at {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"[obs] scan started at {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
 
     # Step 1 — Exa neural search
-    print("[codos] step 1/3: Exa neural search…")
+    print("[obs] step 1/3: Exa neural search…")
     exa = ExaWorker(api_key=exa_key)
     signals = exa.run(
         competitors=config.COMPETITORS,
@@ -349,9 +349,9 @@ def main():
         pass
     tracked = config.COMPETITORS + watchlist + discovered_ledger
     if watchlist:
-        print(f"[codos] {len(watchlist)} user-added compan(ies) from watchlist folded in")
+        print(f"[obs] {len(watchlist)} user-added compan(ies) from watchlist folded in")
     if discovered_ledger:
-        print(f"[codos] {len(discovered_ledger)} previously-discovered entrant(s) folded in "
+        print(f"[obs] {len(discovered_ledger)} previously-discovered entrant(s) folded in "
               f"→ {len(tracked)} tracked")
 
     # Apply websites found by the monthly site-finder (corrects unreachable URLs).
@@ -361,7 +361,7 @@ def main():
             t["url"] = url_overrides[t["id"]]
 
     # Step 2 — Firecrawl change-tracking
-    print("[codos] step 2/5: Firecrawl change-tracking scan…")
+    print("[obs] step 2/5: Firecrawl change-tracking scan…")
     firecrawl = FirecrawlWorker(api_key=firecrawl_key)
     competitor_statuses = firecrawl.run(tracked)
     scanned_count = len(competitor_statuses)
@@ -389,7 +389,7 @@ def main():
             c["why"] = why_overrides[c["id"]]
 
     # Step 3 — Gemini synthesis (velocity feed + competitor deltas)
-    print("[codos] step 3/5: Gemini synthesis…")
+    print("[obs] step 3/5: Gemini synthesis…")
     gemini = GeminiWorker(api_key=gemini_key, model_name=config.GEMINI_MODEL)
     synthesis = gemini.run(signals, competitor_statuses)
 
@@ -417,7 +417,7 @@ def main():
     if funding_changed:
         save_funding_overrides(funding_overrides)
         red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
-        print(f"  [codos] {funding_changed} funding update(s) from this week's news")
+        print(f"  [obs] {funding_changed} funding update(s) from this week's news")
 
     # Refresh Status from this week's news (acquisitions, stage shifts). "Acquired" is sticky.
     status_updates = synthesis.get("competitor_status", {}) or {}
@@ -436,7 +436,7 @@ def main():
     if status_changed:
         _save_dict(status_overrides, STATUS_OVERRIDES_PATH)
         red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
-        print(f"  [codos] {status_changed} status change(s) from this week's news")
+        print(f"  [obs] {status_changed} status change(s) from this week's news")
 
     real_bands = [b for b in config.CATEGORIES if b != "TBD"]
 
@@ -451,14 +451,14 @@ def main():
                 c["category"] = assigned[c["id"]]
                 band_overrides[c["id"]] = c["category"]
                 n += 1
-        print(f"  [codos] classified {n} new (TBD) compan(ies)")
+        print(f"  [obs] classified {n} new (TBD) compan(ies)")
 
     # Bimonthly: re-classify ALL established companies and flag genuine band SHIFTS
     # as red deltas + move them to the new band. Excludes first-time TBD classification.
     if os.getenv("RECLASSIFY") == "1":
         candidates = [c for c in competitor_statuses
                       if c.get("category") != "TBD" and c["id"] not in tbd_at_start]
-        print(f"[codos] bimonthly re-classification of {len(candidates)} companies…")
+        print(f"[obs] bimonthly re-classification of {len(candidates)} companies…")
         result = gemini.reclassify(candidates, real_bands)
         shifts = 0
         for c in candidates:
@@ -479,7 +479,7 @@ def main():
                 why_overrides[c["id"]] = nw.strip()
         _save_dict(why_overrides, WHY_OVERRIDES_PATH)
         red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
-        print(f"  [codos] {shifts} band shift(s) flagged")
+        print(f"  [obs] {shifts} band shift(s) flagged")
 
     save_band_overrides(band_overrides)
 
@@ -518,7 +518,7 @@ def main():
                 if c.get("crawl_status") == "error"
                 or _norm_domain(c.get("url", "")) in DIRECTORY_DOMAINS]
         if need:
-            print(f"[codos] monthly site-finder for {len(need)} 'site?' compan(ies)…")
+            print(f"[obs] monthly site-finder for {len(need)} 'site?' compan(ies)…")
             found = gemini.find_websites(need, getattr(config, "OBSERVATORY_TOPIC", ""))
             fixed = []
             for c in need:
@@ -558,10 +558,10 @@ def main():
                         json.dump(wl, wf, indent=2)
                 except Exception:
                     pass
-            print(f"  [codos] resolved {len(fixed)}/{len(need)} website(s)")
+            print(f"  [obs] resolved {len(fixed)}/{len(need)} website(s)")
 
     # Step 4 — Gemini deep-research insights (accumulating, supersede-aware feed)
-    print("[codos] step 4/5: Gemini deep-research insights…")
+    print("[obs] step 4/5: Gemini deep-research insights…")
     history = load_insights_history()
     new_insights = gemini.research_insights(signals, competitor_statuses, history)
     scan_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -572,7 +572,7 @@ def main():
     # Step 5 — Discovery scout: auto-add new entrants found via web research
     new_competitors = []
     if config.DISCOVERY_ENABLED:
-        print("[codos] step 5/5: discovery scout…")
+        print("[obs] step 5/5: discovery scout…")
         candidates = gemini.discover_entrants(signals, tracked)
         new_competitors, discovered_ledger = merge_discoveries(
             candidates, tracked, discovered_ledger, scan_date,
@@ -635,7 +635,7 @@ def main():
     )
     save_snapshot(snapshot)
 
-    print(f"[codos] done in {snapshot['run_duration_seconds']}s — "
+    print(f"[obs] done in {snapshot['run_duration_seconds']}s — "
           f"{red_alerts} red alerts, "
           f"{len(snapshot['velocity_feed'])} velocity events, "
           f"{len(new_insights)} new insights ({len(insights)} total), "

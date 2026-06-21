@@ -4,11 +4,11 @@ import time
 
 
 PROMPT_TEMPLATE = """You are a competitive-intelligence analyst tracking the AI-transformation
-and agentic-deployment market for Codos. You map every player across six bands
+and agentic-deployment market. You map every player across six bands
 (advisory ↔ autonomous, horizontal ↔ vertical):
 
   Transformation Titans  — global consultancies & SIs (Accenture, McKinsey QB, BCG X, Deloitte)
-  Forward Deployers      — AI-native transformation boutiques (Codos's band: ship agents, outcomes in weeks)
+  Forward Deployers      — AI-native transformation boutiques that ship agents, outcomes in weeks
   Agent Foundries        — horizontal agentic deployment platforms (Sierra, Relevance, Aily, Beam)
   Platform Gravity       — enterprise orchestration / infra you build on (Salesforce, Microsoft, ServiceNow, AWS)
   Digital Labor          — AI employees / outcomes-as-a-service (Decagon, 11x, Cognition, Moveworks)
@@ -37,7 +37,7 @@ Return a single valid JSON object with exactly this structure (no markdown fence
     // top 7 signals only, sorted by velocity descending, id as v1..v7
   ],
   "competitor_deltas": {{
-    "<competitor_id>": "<2-sentence max: what changed on their site and why it matters to Codos>"
+    "<competitor_id>": "<2-sentence max: what changed on their site and why it matters in the AI-transformation market>"
     // only include competitors where changed = true; ground the summary in their `diff`, not speculation
   }},
   "competitor_funding": {{
@@ -69,7 +69,7 @@ COMPETITOR_MAP:
 """
 
 
-INSIGHTS_PROMPT_TEMPLATE = """You are the lead market analyst for Codos, the AI-transformation layer.
+INSIGHTS_PROMPT_TEMPLATE = """You are the lead analyst tracking the AI-transformation market.
 Produce this week's TOP STRATEGIC INSIGHTS about the AI-transformation / agentic-deployment market
 (players span: Transformation Titans → Forward Deployers → Agent Foundries → Platform Gravity → Digital Labor → Vertical Specialists).
 
@@ -88,7 +88,7 @@ Produce ONLY genuinely NEW insights vs PRIOR_INSIGHTS. Quality over quantity —
 Return a single valid JSON ARRAY (no markdown fences, no preamble). Each element:
 {{
   "title": "<6-10 word headline>",
-  "insight": "<2-3 sentences: the strategic takeaway for Codos>",
+  "insight": "<2-3 sentences: the strategic takeaway about the AI-transformation market>",
   "trend": "<1-2 sentences: WHY this is happening — the underlying market force, not a restatement>",
   "category": "<Transformation Titans | Forward Deployers | Agent Foundries | Platform Gravity | Digital Labor | Vertical Specialists>",
   "magnitude": <integer 1-100; 90+ = market-defining, 50 = notable, <30 = minor>,
@@ -100,7 +100,7 @@ Return a single valid JSON ARRAY (no markdown fences, no preamble). Each element
 RULES:
 - Ground every insight in the inputs or your web research — no speculation.
 - "trend" must explain the causal force (why now), not restate the headline.
-- Frame through Codos's edge: diagnose → deploy → continuously optimize, agents across functions with outcomes in weeks.
+- Frame through the underlying market force — who is winning the shift to deployed, outcome-priced AI.
 - Return ONLY the JSON array. No markdown. No explanation.
 
 RAW_SIGNALS:
@@ -114,13 +114,13 @@ PRIOR_INSIGHTS:
 """
 
 
-DISCOVERY_PROMPT_TEMPLATE = """You are a market scout for Codos, the AI-transformation layer.
+DISCOVERY_PROMPT_TEMPLATE = """You are a market scout tracking the AI-transformation market.
 Your job: surface NEW companies entering the AI-transformation / agentic-deployment market that are
-NOT already on Codos's tracked board — real competitors, entrants, or adjacent players.
+NOT already on the tracked board — real competitors, entrants, or adjacent players.
 
 The market spans these bands:
   Transformation Titans  — global consultancies & SIs (enterprise scale)
-  Forward Deployers      — AI-native transformation boutiques (Codos's band)
+  Forward Deployers      — AI-native transformation boutiques
   Agent Foundries        — horizontal agentic deployment platforms
   Platform Gravity       — enterprise orchestration / infra you build on
   Digital Labor          — AI employees / outcomes-as-a-service
@@ -144,8 +144,8 @@ Each element:
   "name": "<company name>",
   "url": "<bare domain, e.g. example.com — no https://, no path>",
   "category": "<Transformation Titans | Forward Deployers | Agent Foundries | Platform Gravity | Digital Labor | Vertical Specialists | Other>",
-  "why": "<1-2 sentences: what they do and why they belong on Codos's board>",
-  "relevance": <integer 0-100; how directly they compete with / matter to Codos>,
+  "why": "<1-2 sentences: what they do and why they belong on the board>",
+  "relevance": <integer 0-100; how directly they matter to the AI-transformation market>,
   "evidence": "<short fact or url backing this — funding, launch, etc.>"
 }}
 
@@ -163,7 +163,7 @@ ALREADY_TRACKED:
 """
 
 
-CLASSIFY_PROMPT_TEMPLATE = """You are classifying companies into the AI-transformation market bands for Codos.
+CLASSIFY_PROMPT_TEMPLATE = """You are classifying companies into the AI-transformation market bands.
 
 Assign each company to the SINGLE best-fitting band:
   Transformation Titans  — global consultancies & SIs (Accenture, McKinsey QB, BCG X, Deloitte)
@@ -202,7 +202,7 @@ COMPANIES:
 """
 
 
-RECLASSIFY_PROMPT_TEMPLATE = """You are re-evaluating companies in the AI-transformation market for Codos.
+RECLASSIFY_PROMPT_TEMPLATE = """You are re-evaluating companies in the AI-transformation market.
 
 Assign the SINGLE best-fitting band and write a fresh one-line rationale for where each sits today:
   Transformation Titans  — global consultancies & SIs

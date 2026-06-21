@@ -1,8 +1,8 @@
-# CODOS Competitive Observatory — scan configuration
+# AI-Transformation Market Observatory — scan configuration
 #
 # Band framing (the AI-transformation / agentic-deployment market):
 #   Transformation Titans  → global consultancies & SIs (enterprise scale)
-#   Forward Deployers      → AI-native transformation boutiques (Codos's band)
+#   Forward Deployers      → AI-native transformation boutiques
 #   Agent Foundries        → horizontal agentic deployment platforms
 #   Platform Gravity       → enterprise orchestration / infra you build on
 #   Digital Labor          → AI employees / outcomes-as-a-service
@@ -26,12 +26,12 @@ DISCOVERY_RELEVANCE_THRESHOLD = 60   # 0-100; Gemini relevance score to auto-add
 CATEGORIES = ["Transformation Titans", "Forward Deployers", "Agent Foundries", "Platform Gravity", "Digital Labor", "Vertical Specialists", "Other"]
 STATUSES   = ["Incumbent", "Scaling", "Emerging", "Acquired"]
 
-# --- Competitors (50 players + Codos anchor, from the competitive map) ---
+# --- Competitors (51 players incl. Codos.ai, from the competitive map) ---
 # why = one-line rationale for why the player sits on the board (powers the "why tracked" popup)
 COMPETITORS = [
-    # ── Forward Deployers — AI-native transformation boutiques (Codos's band) ──
-    {"id": "codos", "name": "Codos.ai", "url": "codos.ai", "category": "Forward Deployers", "crawl_paths": ["/", "/product"], "funding": "Stealth / pre-launch", "team": None, "status": "Emerging", "anchor": True,
-     "why": "ANCHOR. 'The layer for AI-transformation' — diagnoses, installs and keeps a company evolving on its own, with agents deployed across functions and real outcomes in weeks. Straddles Forward Deployers + Agent Foundries: a continuous-optimization layer, not a one-time project."},
+    # ── Forward Deployers — AI-native transformation boutiques ──
+    {"id": "codos", "name": "Codos.ai", "url": "codos.ai", "category": "Forward Deployers", "crawl_paths": ["/", "/product"], "funding": "Stealth / pre-launch", "team": None, "status": "Emerging",
+     "why": "'The layer for AI-transformation' — diagnoses, installs and keeps a company evolving on its own, with agents deployed across functions and real outcomes in weeks. Straddles Forward Deployers + Agent Foundries: a continuous-optimization layer, not a one-time project."},
     # ── Transformation Titans — global consultancies & SIs ──
     {"id": "accenture", "name": "Accenture", "url": "accenture.com", "category": "Transformation Titans", "crawl_paths": ["/"], "funding": "Public · $3B Data&AI", "team": None, "status": "Incumbent",
      "why": "Incumbent SI; $3B committed to Data & AI scaling toward ~80k AI specialists; NVIDIA 'AI Refinery'; OpenAI Frontier Alliance. Owns the C-suite transformation relationship at enterprise scale."},
@@ -54,7 +54,7 @@ COMPETITORS = [
     {"id": "capgemini", "name": "Capgemini", "url": "capgemini.com", "category": "Transformation Titans", "crawl_paths": ["/"], "funding": "€2B / 3 yrs", "team": None, "status": "Incumbent",
      "why": "€2B AI investment over three years; Google Cloud Partner of the Year; Frontier Alliance. AI-powered business transformation at scale."},
     {"id": "distyl", "name": "Distyl AI", "url": "distyl.ai", "category": "Forward Deployers", "crawl_paths": ["/"], "funding": "$175M Series B · $1.8B", "team": None, "status": "Scaling",
-     "why": "DIRECT. $175M Series B at $1.8B (Sept 2025); 'SEAL Team Six of AI engineering' + Distillery platform; 'Distyl Scans' give an AI-readiness score/roadmap; $100M+ impact, production in weeks. Codos's closest, best-funded peer."},
+     "why": "DIRECT. $175M Series B at $1.8B (Sept 2025); 'SEAL Team Six of AI engineering' + Distillery platform; 'Distyl Scans' give an AI-readiness score/roadmap; $100M+ impact, production in weeks. The closest, best-funded peer in this band."},
     {"id": "tribe", "name": "Tribe AI", "url": "tribe.ai", "category": "Forward Deployers", "crawl_paths": ["/"], "funding": "Private · founded ~2019", "team": None, "status": "Scaling",
      "why": "DIRECT. Network of senior applied-AI practitioners, forward-deployed; takes companies to production in weeks; OpenAI/Anthropic founding partner."},
     {"id": "sand", "name": "Sand Technologies", "url": "sandtech.com", "category": "Forward Deployers", "crawl_paths": ["/"], "funding": "Scale-up · 7yr 2x", "team": None, "status": "Scaling",

@@ -4,8 +4,8 @@ function Shell({ active, setActive, children, density }) {
   return (
     <div className="shell" data-density={density}>
       <div className="brand">
-        <span className="brand-mark"><img src="favicon.png" alt="CODOS" style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }} /></span>
-        <span className="brand-name">CODOS<span> / observatory</span></span>
+        <span className="brand-mark"><img src="favicon.png" alt="AI-transformation market" style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }} /></span>
+        <span className="brand-name">ai-transformation<span> / market</span></span>
       </div>
       <TopBar active={active} />
       <Sidebar active={active} setActive={setActive} />
@@ -18,9 +18,9 @@ function TopBar({ active }) {
   return (
     <div className="topbar">
       <div className="topbar-breadcrumb">
-        <span>codos</span>
+        <span>ai-transformation</span>
         <span className="sep">/</span>
-        <span>observatory</span>
+        <span>market</span>
         <span className="sep">/</span>
         <span style={{ color: "var(--fg)" }}>{activeLabel(active)}</span>
       </div>
@@ -28,7 +28,7 @@ function TopBar({ active }) {
         <AddCompany />
         <a
           className="repo-link"
-          href="https://github.com/teionarr/codos-competitive-observatory"
+          href="https://github.com/teionarr/ai-transformation-observatory"
           target="_blank"
           rel="noreferrer"
           title="View source on GitHub"

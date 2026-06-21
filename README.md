@@ -1,4 +1,4 @@
-# CODOS Observatory
+# AI-Transformation Market Observatory
 
 A weekly **competitive-intelligence dashboard** for the AI-transformation /
 agentic-deployment market. Every Sunday it sweeps the competitive landscape —
@@ -126,4 +126,4 @@ on each weekly run. Safe to delete — the dashboard falls back to `data.js`.
 
 ## License
 
-[MIT](LICENSE) © 2026 Codos.
+[MIT](LICENSE) © 2026 Oren Levitin.

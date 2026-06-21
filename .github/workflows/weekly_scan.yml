@@ -1,4 +1,4 @@
-name: CODOS Observatory Weekly Scan
+name: AI-Transformation Market Weekly Scan
 
 on:
   schedule:
@@ -48,7 +48,7 @@ jobs:
       - name: Install Doppler CLI
         uses: dopplerhq/cli-action@v3
 
-      - name: Run CODOS Observatory scan (via Doppler)
+      - name: Run AI-Transformation Market scan (via Doppler)
         env:
           DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
           # RECLASSIFY=1 on the bimonthly cron or when manually toggled
@@ -59,7 +59,7 @@ jobs:
 
       - name: Commit updated snapshot
         run: |
-          git config user.name  "CODOS Observatory Bot"
+          git config user.name  "AI-Transformation Market Bot"
           git config user.email "observatory-bot@users.noreply.github.com"
           git add -A data/   # snapshot + insights/scan history + ledgers + overrides
           if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
