@@ -1,5 +1,117 @@
 [
   {
+    "id": "ins-2026-06-21-1",
+    "scan_date": "2026-06-21",
+    "generated_at": "2026-06-21T04:44:30.577508+00:00",
+    "title": "Foundational Models Directly Enter Enterprise Consulting",
+    "insight": "Major AI foundational model providers, notably OpenAI, are aggressively moving beyond API provision to directly offer enterprise AI consulting and deployment services, often through strategic acquisitions like Ona. This vertical integration challenges traditional system integrators and forward deployers, intensifying competition for Codos in delivering end-to-end AI transformation.",
+    "trend": "The increasing maturity of foundational models and the desire to capture more value downstream are driving these providers to directly engage with enterprises, accelerating adoption and ensuring their models are deployed effectively.",
+    "category": "Transformation Titans",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "OpenAI DeployCo $4B: Enterprise AI Consulting Explained 2026",
+      "OpenAI Acquires Ona to Run Codex Agents in Enterprise Clouds",
+      "The deployment. How the AI labs verticallyintegrated into the serviceslayer \u2014 the Palantir modelat scale."
+    ],
+    "supersedes": "ins-2026-06-15-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-21-2",
+    "scan_date": "2026-06-21",
+    "generated_at": "2026-06-21T04:44:30.577508+00:00",
+    "title": "Agent Governance, Orchestration, and Security Intensify",
+    "insight": "The market is witnessing a significant surge in solutions focused on the robust governance, orchestration, and security of enterprise AI agents, moving beyond basic reliability to comprehensive control. New platforms like Zensar's ZenseAI.AgentMesh and Thoughtworks' Agent/works, alongside acquisitions by SailPoint (Entro) and Quest (Anetac) for agent security, highlight the critical need for Codos to emphasize its capabilities in managing complex agent deployments, ensuring trust, and mitigating risks.",
+    "trend": "As enterprises scale agentic deployments, the challenges of 'pilot purgatory,' security vulnerabilities, and managing diverse agent ecosystems are driving demand for sophisticated platforms that provide end-to-end lifecycle management, identity security, and cross-platform interoperability.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Zensar Technologies Launches 'ZenseAI.AgentMesh' to Accelerate Enterprise AI Adoption at Scale",
+      "Konecta launches Kolibri, an agentic platform, to speed up enterprise deployment of agentic AI and end \u201cpilot purgatory\u201d",
+      "Salesforce Signs Definitive Agreement to Acquire Fin",
+      "Cognizant expands cross-platform agentic AI with new ServiceNow AI Agent interoperability",
+      "Thoughtworks Launches Agent/works\u2122 to Govern and Run Enterprise AI Agents Across Any Cloud",
+      "SailPoint acquires AI agent security startup Entro for reported $200M",
+      "Clearlake-backed Quest Software Acquires Anetac to Advance Identity Security for the Agentic AI Era",
+      "UiPath Introduces Maestro Case to Orchestrate Dynamic Business Processes"
+    ],
+    "supersedes": "ins-2026-06-15-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-21-3",
+    "scan_date": "2026-06-21",
+    "generated_at": "2026-06-21T04:44:30.577508+00:00",
+    "title": "Enterprise Context Layer Becomes Core AI Infrastructure",
+    "insight": "The 'context layer' for enterprise AI agents is solidifying as a critical piece of foundational infrastructure, attracting continued significant investment. Jedify's $24M Series A and Zaro.ai's $5.1M funding specifically for building and unifying context layers underscore the market's recognition that agents require deeply integrated, structured, and governed enterprise knowledge to function effectively. Codos must continue to emphasize its diagnostic capabilities to integrate with and leverage these complex enterprise data environments, providing the essential context for agent success.",
+    "trend": "The realization that AI agents are only as effective as the context they operate within is driving investment into dedicated platforms that can aggregate, organize, and make enterprise data accessible and actionable for agentic systems.",
+    "category": "Platform Gravity",
+    "magnitude": 80,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Jedify Raises $24M in Series A Funding to Build Context Graphs for Enterprise AI Agents",
+      "Zaro.ai Secures $5.1M to Unify Enterprise AI Agents, Data, and Applications in a Single Context Layer",
+      "Jedify Funding update: \u2014 \u2192 $24M Series A"
+    ],
+    "supersedes": "ins-2026-06-15-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-21-4",
+    "scan_date": "2026-06-21",
+    "generated_at": "2026-06-21T04:44:30.577508+00:00",
+    "title": "Hyper-Specialization of Agentic AI for Digital Labor",
+    "insight": "The market is experiencing a rapid hyper-specialization of agentic AI solutions targeting specific enterprise functions and digital labor tasks, exemplified by Convey's $38M for AI teammates automating repetitive work, Gradial's $65M for agentic marketing AI, and Salesforce's $3.6B acquisition of Fin for customer service agents. This trend signifies a maturing market where Codos can leverage its cross-functional agent deployment capabilities to address specific vertical needs or partner with these specialists to accelerate transformation.",
+    "trend": "Enterprises are seeking immediate, tangible ROI from AI, driving demand for highly focused agentic solutions that can deliver measurable outcomes in specific, well-defined business processes and functions, leading to accelerated funding and M&A in these niche areas.",
+    "category": "Digital Labor",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Convey closes on $38M round to help companies automate repetitive work with AI teammates",
+      "Agentic marketing AI startup Gradial grabs $65M in fresh funding",
+      "Salesforce Signs Definitive Agreement to Acquire Fin",
+      "Salesforce acquires AI customer service platform Fin for $3.6B",
+      "Kantata Launches Expertise Agent, the First AI Superagent Built for Professional Services"
+    ],
+    "supersedes": "ins-2026-06-14-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-21-5",
+    "scan_date": "2026-06-21",
+    "generated_at": "2026-06-21T04:44:30.577508+00:00",
+    "title": "Rise of Sovereign AI Initiatives and National Champions",
+    "insight": "The emergence of 'Sovereign AI' initiatives, highlighted by Sarvam AI's $234M funding and $1.5B valuation to build India's sovereign AI model, indicates a growing trend of nations investing heavily in developing their own AI capabilities and foundational models. This creates a new competitive landscape where national interests and data sovereignty drive significant capital allocation, potentially influencing Codos's market entry and partnership strategies in different geopolitical regions.",
+    "trend": "Geopolitical considerations, national security, and the desire for technological independence are compelling governments and large domestic enterprises to fund and develop indigenous AI infrastructure and models, fostering national AI champions.",
+    "category": "Agent Foundries",
+    "magnitude": 70,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Sarvam AI Hits $1.5 Billion Valuation as HCLTech Bets $150 Million on India Sovereign AI",
+      "Sarvam raises $234 million in first close of $300 million Series B at $1.5 billion valuation",
+      "Sarvam Becomes AI Unicorn After $234 Million HCLTech-Led Funding",
+      "Sarvam Wins $234M to Build India's Sovereign AI Model",
+      "Sarvam raises $234 million led by HCLTech at $1.5\u2026"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-06-15-1",
     "scan_date": "2026-06-15",
     "generated_at": "2026-06-15T11:08:34.446539+00:00",
@@ -17,7 +129,7 @@
       "OpenAI acquires AI agent orchestration startup Ona"
     ],
     "supersedes": "ins-2026-06-14-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-21-1"
   },
   {
     "id": "ins-2026-06-15-2",
@@ -42,7 +154,7 @@
       "GitLab Announces New Capabilities to Give Enterprises Speed and Control at Agentic Scale"
     ],
     "supersedes": "ins-2026-06-14-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-21-2"
   },
   {
     "id": "ins-2026-06-15-3",
@@ -61,7 +173,7 @@
       "Ardoq Acquires GraphLake to Establish the EA-Grade Context Graph for Enterprise AI"
     ],
     "supersedes": "ins-2026-06-14-3",
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-21-3"
   },
   {
     "id": "ins-2026-06-15-4",
@@ -188,7 +300,7 @@
       "Happiest Minds Launches Rel(AI)Build, an Agentic AI Platform to Transform Enterprise Software Delivery"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-21-4"
   },
   {
     "id": "ins-2026-06-14-5",

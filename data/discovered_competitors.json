@@ -2,7 +2,7 @@
   {
     "id": "mendo",
     "name": "Mendo",
-    "url": "mendo.eu",
+    "url": "mendo.cloud",
     "category": "Forward Deployers",
     "crawl_paths": [
       "/"
@@ -74,7 +74,7 @@
   {
     "id": "poetic",
     "name": "Poetic",
-    "url": "poetic.ai",
+    "url": "poetic.com",
     "category": "Agent Foundries",
     "crawl_paths": [
       "/"
@@ -268,5 +268,149 @@
     "discovered_at": "2026-06-15",
     "discovery_relevance": 75,
     "evidence": "Unveiled new brand on 2026-06-09."
+  },
+  {
+    "id": "openai-deployco",
+    "name": "OpenAI DeployCo",
+    "url": "openai.com",
+    "category": "Transformation Titans",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "OpenAI DeployCo is a new, well-funded initiative by OpenAI to directly provide enterprise AI consulting and deployment services, including embedding 'Forward Deployed Engineers' to help integrate AI into workflows.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 95,
+    "evidence": "Launched with $4 billion in funding and acquired AI consulting firm Tomoro."
+  },
+  {
+    "id": "conduct",
+    "name": "Conduct",
+    "url": "conduct.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Conduct offers an AI-driven platform that uses agentic AI to optimize and modernize legacy ERP systems, starting with SAP, by providing visibility into customizations and accelerating system changes.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 80,
+    "evidence": "Raised $60 million in Series A funding."
+  },
+  {
+    "id": "sarvam-ai",
+    "name": "Sarvam AI",
+    "url": "sarvam.ai",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Sarvam AI is a full-stack generative AI platform building language technologies and AI agents specifically for Indian languages, enabling multilingual AI solutions and conversational agents for various sectors.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 60,
+    "evidence": "Achieved $1.5 billion valuation with $234 million Series B funding."
+  },
+  {
+    "id": "zensar-technologies-zenseai-agentmesh",
+    "name": "Zensar Technologies (ZenseAI.AgentMesh)",
+    "url": "zensar.com",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Zensar's ZenseAI.AgentMesh is a new platform offering a universal operating system for agentic AI, with pre-built agents and governance features to accelerate enterprise AI adoption and deployment.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 85,
+    "evidence": "Launched ZenseAI.AgentMesh, an enterprise-grade agentic AI platform."
+  },
+  {
+    "id": "zaro-ai",
+    "name": "Zaro.ai",
+    "url": "zaro.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Zaro.ai provides a platform to unify enterprise AI agents, data, and applications within a single context layer, facilitating more cohesive and effective agent deployments.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 75,
+    "evidence": "Secured $5.1 million in funding."
+  },
+  {
+    "id": "konecta-kolibri",
+    "name": "Konecta (Kolibri)",
+    "url": "konecta.com",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Konecta's Kolibri is an agentic AI orchestration platform designed to accelerate enterprise AI deployment by offering pre-built, sector-specific use cases and governance, leveraging their extensive CX expertise.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 85,
+    "evidence": "Launched Kolibri, an agentic AI orchestration platform."
+  },
+  {
+    "id": "cognizant-neuro-ai-multi-agent-accelerator",
+    "name": "Cognizant (Neuro AI Multi-Agent Accelerator)",
+    "url": "cognizant.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Cognizant's Neuro AI Multi-Agent Accelerator is a platform that enables enterprises to orchestrate AI agents from different vendors (like ServiceNow) and custom systems within a single, unified environment.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 70,
+    "evidence": "Launched Neuro AI Multi-Agent Accelerator interoperability with ServiceNow AI Agents."
+  },
+  {
+    "id": "thoughtworks-agent-works",
+    "name": "Thoughtworks (Agent/works\u2122)",
+    "url": "thoughtworks.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Thoughtworks' Agent/works is a platform designed to address agent sprawl and governance challenges by providing a single control plane and runtime for enterprise AI agents across multi-cloud environments.",
+    "discovered": true,
+    "discovered_at": "2026-06-21",
+    "discovery_relevance": 75,
+    "evidence": "Launched Agent/works\u2122, a platform for governing and running enterprise AI agents."
   }
 ]
