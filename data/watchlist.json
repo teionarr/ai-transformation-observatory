@@ -891,5 +891,24 @@
     "crawl_status": "pending",
     "discovered": true,
     "discovered_at": "2026-06-21"
+  },
+  {
+    "id": "reindeer-ai",
+    "name": "reindeer.ai",
+    "url": "reindeer.ai",
+    "category": "TBD",
+    "status": "Emerging",
+    "funding": "—",
+    "team": null,
+    "why": "Added to watchlist.",
+    "anchor": false,
+    "scanned": "—",
+    "hash": "—",
+    "changed": false,
+    "changed_pages": [],
+    "delta": null,
+    "crawl_status": "pending",
+    "discovered": true,
+    "discovered_at": "2026-06-21"
   }
 ]
