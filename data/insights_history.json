@@ -1,5 +1,102 @@
 [
   {
+    "id": "ins-2026-06-28-1",
+    "scan_date": "2026-06-28",
+    "generated_at": "2026-06-28T04:23:39.324675+00:00",
+    "title": "Agent Training Shifts to Digital World Models",
+    "insight": "Patronus AI's $50M Series B for digital world models marks a critical shift towards rigorous pre-deployment training and simulation for AI agents. This investment highlights the market's demand for robust validation environments to ensure agent reliability and safety before real-world operational deployment.",
+    "trend": "The increasing complexity and autonomy of enterprise AI agents necessitate sophisticated testing and validation frameworks, driving investment into virtual environments that can simulate diverse real-world scenarios and stress-test agent behavior at scale.",
+    "category": "Agent Foundries",
+    "magnitude": 70,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html",
+      "https://overcentral.com/en/patronus-ai-50m-stress-test-ai-agents/"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-28-2",
+    "scan_date": "2026-06-28",
+    "generated_at": "2026-06-28T04:23:39.324675+00:00",
+    "title": "AI-Native Consulting Reshapes Transformation Delivery",
+    "insight": "New ventures like Vishal Sikka's Hang Ten ($32M) and zeb's AI-Native Operating Model signal a fundamental re-architecture of enterprise consulting and IT services around AI. These firms are building service delivery from the ground up with AI as the core, moving beyond merely applying AI tools to existing models.",
+    "trend": "The imperative for enterprises to achieve deep AI transformation is driving the emergence of consulting models where AI is not just a tool but the foundational operating system, promising more efficient, outcome-driven, and scalable deployment of agentic solutions.",
+    "category": "Transformation Titans",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://technologytangle.com/2026/06/25/ex-infosys-ceo-vishal-sikkas-new-ai-venture-hang-ten-bags-32-mn",
+      "https://www.prnewswire.com/news-releases/zeb-unveils-ai-native-operating-model-to-reinvent-consulting-delivery-302807144.html",
+      "https://www.beri.net/article/vishal-sikka-hang-ten-ai-native-services-it-industry-disruption-2026"
+    ],
+    "supersedes": "ins-2026-06-21-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-28-3",
+    "scan_date": "2026-06-28",
+    "generated_at": "2026-06-28T04:23:39.324675+00:00",
+    "title": "MLOps and Vertical Agentic AI Consolidate",
+    "insight": "Acquisitions like TrueFoundry's of Seldon AI for MLOps and MoEngage's of Aampe for agentic marketing decisioning demonstrate a dual trend of integrating robust MLOps capabilities with agentic workflows, and a continued drive towards specialized, outcome-focused agentic solutions within specific verticals. This signals a maturing market where foundational agent infrastructure and targeted applications are converging.",
+    "trend": "As enterprises move from experimental to production-grade AI agent deployments, the need for seamless MLOps integration and highly specialized, domain-aware agents drives both horizontal platform consolidation and vertical market specialization through M&A.",
+    "category": "Platform Gravity | Vertical Specialists",
+    "magnitude": 75,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://siliconangle.com/2026/06/25/truefoundry-acquires-mlops-pioneer-seldon-ai-accelerate-enterprise-agentic-ai/",
+      "https://www.truefoundry.com/blog/truefoundry-seldon-unified-control-plane-for-enterprise-ai",
+      "https://www.prnewswire.com/apac/news-releases/moengage-acquires-aampe-to-bring-11-agentic-decisioning-to-b2c-marketing-teams-302808001.html",
+      "https://pulse2.com/why-moengage-acquired-aampe/"
+    ],
+    "supersedes": "ins-2026-06-21-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-28-4",
+    "scan_date": "2026-06-28",
+    "generated_at": "2026-06-28T04:23:39.324675+00:00",
+    "title": "Dedicated Infrastructure for Agent Performance & Security",
+    "insight": "Significant funding for Sail Research ($80M for max-efficiency infrastructure) and NeuralTrust ($20M for securing AI agents) underscores the critical and growing demand for specialized infrastructure and security solutions tailored specifically for deployed AI agents. This highlights the market's focus on ensuring agents operate efficiently, reliably, and securely at scale.",
+    "trend": "The proliferation of autonomous AI agents in enterprise environments is creating an urgent need for purpose-built infrastructure that can guarantee high performance, optimize resource utilization, and provide robust security layers to manage the inherent risks of agentic systems.",
+    "category": "Platform Gravity | Agent Foundries",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://www.morningstar.com/news/pr-newswire/20260625sf91901/sail-research-raises-80-million-to-build-max-efficiency-infrastructure-for-ai-agents",
+      "https://theaiinsider.tech/2026/06/25/neuraltrust-raises-20m-to-secure-the-growing-swarm-of-ai-agents-in-the-enterprise/"
+    ],
+    "supersedes": "ins-2026-06-21-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-06-28-5",
+    "scan_date": "2026-06-28",
+    "generated_at": "2026-06-28T04:23:39.324675+00:00",
+    "title": "Hardware-Software Co-design for AI Platforms",
+    "insight": "Qualcomm's acquisition of Modular, an AI-native platform, signifies a deepening strategic focus on hardware-software co-design at the foundational level of AI development and deployment. This move aims to optimize AI performance and efficiency by integrating the AI stack from the chip to the application layer.",
+    "trend": "As AI models and agentic systems become more complex and resource-intensive, the industry is recognizing that significant performance gains and cost efficiencies can only be achieved through tight integration and co-optimization across the entire hardware and software stack.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://www.modular.com/blog/qualcomm-to-acquire-modular?from_theconsensus=1"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-06-21-1",
     "scan_date": "2026-06-21",
     "generated_at": "2026-06-21T04:44:30.577508+00:00",
@@ -18,7 +115,7 @@
       "The deployment. How the AI labs verticallyintegrated into the serviceslayer \u2014 the Palantir modelat scale."
     ],
     "supersedes": "ins-2026-06-15-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-28-2"
   },
   {
     "id": "ins-2026-06-21-2",
@@ -43,7 +140,7 @@
       "UiPath Introduces Maestro Case to Orchestrate Dynamic Business Processes"
     ],
     "supersedes": "ins-2026-06-15-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-28-4"
   },
   {
     "id": "ins-2026-06-21-3",
@@ -87,7 +184,7 @@
       "Kantata Launches Expertise Agent, the First AI Superagent Built for Professional Services"
     ],
     "supersedes": "ins-2026-06-14-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-06-28-3"
   },
   {
     "id": "ins-2026-06-21-5",

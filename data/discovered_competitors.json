@@ -412,5 +412,149 @@
     "discovered_at": "2026-06-21",
     "discovery_relevance": 75,
     "evidence": "Launched Agent/works\u2122, a platform for governing and running enterprise AI agents."
+  },
+  {
+    "id": "patronus-ai",
+    "name": "Patronus AI",
+    "url": "patronus.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Patronus AI develops digital world models for training and simulating AI agents before deployment, providing critical infrastructure for agentic solutions.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 95,
+    "evidence": "Raised $50 Million Series B funding."
+  },
+  {
+    "id": "zeb",
+    "name": "zeb",
+    "url": "zeb.eu",
+    "category": "Transformation Titans",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "zeb, a consultancy, has unveiled an AI-native operating model to reinvent its consulting delivery, signaling a strategic shift towards AI-driven transformation services.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 80,
+    "evidence": "Unveiled AI-Native Operating Model."
+  },
+  {
+    "id": "hang-ten-systems",
+    "name": "Hang Ten Systems",
+    "url": "hangten.ai",
+    "category": "Forward Deployers",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Founded by ex-Infosys CEO Vishal Sikka, Hang Ten Systems is a new AI venture focused on building AI-native enterprise services to disrupt traditional IT services.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 90,
+    "evidence": "Raised $32 Million in funding."
+  },
+  {
+    "id": "runlayer",
+    "name": "Runlayer",
+    "url": "runlayer.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Runlayer offers a platform for AI enablement and governance, helping enterprises to fully integrate and manage AI solutions.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 90,
+    "evidence": "Raised $30 Million Series A funding."
+  },
+  {
+    "id": "runpod",
+    "name": "Runpod",
+    "url": "runpod.io",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Runpod provides an AI Developer Cloud platform, offering essential infrastructure for developers to build and scale AI applications.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 75,
+    "evidence": "Raised $100 Million in funding."
+  },
+  {
+    "id": "scaled-cognition",
+    "name": "Scaled Cognition",
+    "url": "scaledcognition.com",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Scaled Cognition focuses on automating high-stakes customer interactions, indicating the deployment of AI agents for customer service and engagement.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 90,
+    "evidence": "Raised $100 Million in funding."
+  },
+  {
+    "id": "orthogonal",
+    "name": "Orthogonal",
+    "url": "orthogonal.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Orthogonal is developing a platform for AI agent service discovery, orchestration, and payments, addressing core aspects of agentic deployment.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 95,
+    "evidence": "Raised $4.3 Million Seed funding."
+  },
+  {
+    "id": "neuraltrust",
+    "name": "NeuralTrust",
+    "url": "neuraltrust.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "NeuralTrust provides security solutions specifically designed for the increasing deployment of AI agents within enterprise environments.",
+    "discovered": true,
+    "discovered_at": "2026-06-28",
+    "discovery_relevance": 85,
+    "evidence": "Raised $20 Million in funding."
   }
 ]
