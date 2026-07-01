@@ -1,5 +1,121 @@
 [
   {
+    "id": "ins-2026-07-01-1",
+    "scan_date": "2026-07-01",
+    "generated_at": "2026-07-01T05:45:26.458501+00:00",
+    "title": "Cloud Giants Accelerate Direct AI Agent Deployment",
+    "insight": "Amazon Web Services (AWS) has launched a new $1 billion Forward Deployed Engineering (FDE) organization, mirroring similar moves by OpenAI and Anthropic, to embed AI engineers directly with customers and accelerate agentic AI adoption. This significant investment by a major cloud provider signals an aggressive shift towards hands-on, direct deployment of AI agents within enterprise environments.",
+    "trend": "Major platform players are moving beyond API provision to directly enable and accelerate enterprise AI transformation, recognizing that deep, embedded engineering support is crucial for successful agentic AI integration and outcome delivery.",
+    "category": "Forward Deployers",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers",
+      "https://thenextweb.com/news/aws-1bn-forward-deployed-engineers-enterprise-ai",
+      "https://rollingout.com/2026/06/30/amazon-launches-1b-fde-org-to/",
+      "https://siliconangle.com/2026/06/30/aws-launches-forward-deployed-engineering-team-speed-enterprise-agentic-ai-adoption/",
+      "GenerativeX: Funding update: \u2014 \u2192 $4M Series A"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-01-2",
+    "scan_date": "2026-07-01",
+    "generated_at": "2026-07-01T05:45:26.458501+00:00",
+    "title": "Massive Capital Influx into AI Agent World Models",
+    "insight": "The market is witnessing an unprecedented surge in investment for digital world models and simulation environments crucial for training and stress-testing AI agents, with Patronus AI raising $50 million Series B, Odyssey securing $310 million, and General Intuition making a $2.3 billion bet on video game-based training. This massive capital flow underscores the critical need for robust, scalable, and realistic simulation to ensure the reliability and safety of increasingly complex AI agents before real-world deployment.",
+    "trend": "As AI agents become more autonomous, the demand for sophisticated, controlled environments to develop, validate, and refine their behavior is exploding, driving significant investment into foundational simulation technologies.",
+    "category": "Agent Foundries",
+    "magnitude": 98,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html",
+      "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "https://aintelligencehub.com/articles/odyssey-310m-world-models",
+      "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "Patronus AI: Funding update: \u2014 \u2192 $50M Series B"
+    ],
+    "supersedes": "ins-2026-06-28-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-01-3",
+    "scan_date": "2026-07-01",
+    "generated_at": "2026-07-01T05:45:26.458501+00:00",
+    "title": "Agentic MLOps and Vertical AI Solutions Consolidate",
+    "insight": "The market is seeing continued consolidation and specialization in agentic AI, with TrueFoundry acquiring Seldon AI to unify MLOps and agentic capabilities, and numerous acquisitions and funding rounds targeting specific vertical applications. This trend highlights the dual need for robust, enterprise-grade infrastructure to manage the lifecycle of AI agents and highly specialized solutions that deliver outcome-based value within distinct industry verticals.",
+    "trend": "The maturing AI market is driving both horizontal integration of MLOps with agentic workflows and deep vertical specialization, as enterprises seek comprehensive platforms and tailored solutions for specific business problems.",
+    "category": "Vertical Specialists",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://www.unite.ai/truefoundry-acquires-seldon-ai-to-unify-enterprise-mlops-and-agentic-ai/",
+      "https://www.truefoundry.com/press-room/truefoundry-acquires-seldon-ai-to-accelerate-agentic-ai-capabilities-for-enterprise-customers",
+      "https://siliconangle.com/2026/06/25/truefoundry-acquires-mlops-pioneer-seldon-ai-accelerate-enterprise-agentic-ai/",
+      "https://www.morningstar.com/news/pr-newswire/20260624cn89823/moengage-acquires-aampe-to-bring-11-agentic-decisioning-to-b2c-marketing-teams",
+      "https://www.intelligentcio.com/north-america/2026/06/30/genesys-acquires-pinkfish-to-expand-agentic-ai-and-workflow-automation-capabilities/",
+      "https://www.globenewswire.com/news-release/2026/06/30/3319766/0/en/ServiceTrade-Acquires-Mura-to-Deliver-AI-Powered-Revenue-Growth-Across-the-Commercial-Service-Lifecycle.html",
+      "https://tech.eu/2026/06/30/hypefy-ai-raises-72m-series-a-to-automate-global-influencer-campaigns/",
+      "https://labelbox.com/blog/introducing-recursion-enterprise-agent-rl-platform/"
+    ],
+    "supersedes": "ins-2026-06-28-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-01-4",
+    "scan_date": "2026-07-01",
+    "generated_at": "2026-07-01T05:45:26.458501+00:00",
+    "title": "AI Agent Governance, Security, and Cost Optimization Mature",
+    "insight": "The market is rapidly maturing its focus on the operational aspects of AI agents, with new solutions emerging for comprehensive governance, security against AI-powered attacks, and critical cost optimization. Perforce's Agentic Gateway for governance and token cost reduction, Engram's $98M funding for 100x token cost cuts, and Aikido's acquisition of Root for open-source AI security highlight the growing demand for platforms that ensure agents are not only effective but also secure, compliant, and economically viable at scale.",
+    "trend": "As AI agent deployments scale, enterprises are demanding robust 'Platform Gravity' solutions that address the full lifecycle of agent management, including critical concerns around security, compliance, and the economic efficiency of agent operations.",
+    "category": "Platform Gravity",
+    "magnitude": 92,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "https://siliconangle.com/2026/06/30/perforce-launches-agentic-gateway-govern-ai-agents-cut-token-costs/",
+      "https://www.prnewswire.com/news-releases/orthogonal-raises-4-3m-seed-for-ai-agent-service-discovery-orchestration-and-payments-across-the-internet-302806969.html",
+      "https://www.techtimes.com/articles/319106/20260625/enterprise-ai-token-costs-engram-exits-stealth-98m-claims-100x-cut.htm",
+      "https://www.globenewswire.com/news-release/2026/06/30/3319854/0/en/Aikido-Acquires-Root-to-Defend-Open-Source-From-AI-Powered-Attacks.html",
+      "Orthogonal: Funding update: \u2014 \u2192 $4.3M Seed"
+    ],
+    "supersedes": "ins-2026-06-21-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-01-5",
+    "scan_date": "2026-07-01",
+    "generated_at": "2026-07-01T05:45:26.458501+00:00",
+    "title": "Established Consulting Firms Re-position as AI Transformation Titans",
+    "insight": "Major consulting and IT services firms like Slalom, Devoteam, Cognizant, and Thoughtworks are explicitly re-positioning themselves from 'Forward Deployers' or 'Platform Gravity' players to 'Transformation Titans' in the AI market. This strategic shift indicates that established service providers are elevating their AI offerings to lead comprehensive, enterprise-wide AI transformations, competing directly at the highest strategic level.",
+    "trend": "The increasing maturity and strategic importance of AI are compelling traditional consulting and IT services giants to re-architect their core offerings and market positioning to capture the full scope of enterprise AI transformation.",
+    "category": "Transformation Titans",
+    "magnitude": 90,
+    "sources": [
+      "competition"
+    ],
+    "evidence": [
+      "Slalom: Band shift: Forward Deployers \u2192 Transformation Titans",
+      "Devoteam: Band shift: Forward Deployers \u2192 Transformation Titans",
+      "Cognizant (Neuro AI Multi-Agent Accelerator): Band shift: Platform Gravity \u2192 Transformation Titans",
+      "Thoughtworks (Agent/works\u2122): Band shift: Platform Gravity \u2192 Transformation Titans"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-06-28-1",
     "scan_date": "2026-06-28",
     "generated_at": "2026-06-28T04:23:39.324675+00:00",
@@ -16,7 +132,7 @@
       "https://overcentral.com/en/patronus-ai-50m-stress-test-ai-agents/"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-01-2"
   },
   {
     "id": "ins-2026-06-28-2",
@@ -57,7 +173,7 @@
       "https://pulse2.com/why-moengage-acquired-aampe/"
     ],
     "supersedes": "ins-2026-06-21-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-01-3"
   },
   {
     "id": "ins-2026-06-28-4",
@@ -140,7 +256,7 @@
       "UiPath Introduces Maestro Case to Orchestrate Dynamic Business Processes"
     ],
     "supersedes": "ins-2026-06-15-2",
-    "superseded_by": "ins-2026-06-28-4"
+    "superseded_by": "ins-2026-07-01-4"
   },
   {
     "id": "ins-2026-06-21-3",

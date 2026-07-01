@@ -556,5 +556,149 @@
     "discovered_at": "2026-06-28",
     "discovery_relevance": 85,
     "evidence": "Raised $20 Million in funding."
+  },
+  {
+    "id": "8090",
+    "name": "8090",
+    "url": "8090.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "8090 offers an AI-native software factory platform that enables teams and AI agents to build and change enterprise software collaboratively, providing full control, visibility, and auditability throughout the software development lifecycle.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 90,
+    "evidence": "Raised $135M Series A led by Salesforce."
+  },
+  {
+    "id": "1001",
+    "name": "1001",
+    "url": "1001.ai",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "1001 develops sovereign AI operating systems that create live operational models to help organizations in critical infrastructure predict issues, automate decisions, and optimize operations with local ownership and governance.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 95,
+    "evidence": "Raised $30M Series A led by Lux Capital."
+  },
+  {
+    "id": "odyssey",
+    "name": "Odyssey",
+    "url": "odyssey.ml",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Odyssey is an AI lab pioneering general world models, which are causal, multimodal systems that learn to predict and interact with the world over long horizons, with applications in robotics and gaming.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 85,
+    "evidence": "Raised $310M Series B to accelerate world simulation."
+  },
+  {
+    "id": "engram",
+    "name": "Engram",
+    "url": "engram.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Engram provides a memory layer for AI systems that learns an organization's world in advance, allowing AI agents to recall context and institutional knowledge more efficiently and significantly reduce token costs for enterprise AI.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 90,
+    "evidence": "Exited stealth with $98M in funding from General Catalyst, Kleiner Perkins, and Sequoia Capital."
+  },
+  {
+    "id": "general-intuition",
+    "name": "General Intuition",
+    "url": "generalintuition.com",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "General Intuition is a frontier AI research lab that develops foundation models and general agents for spatial and temporal reasoning, leveraging video game data to train AI agents for real-world interaction and robotics.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 88,
+    "evidence": "Raised $320M Series A at a $2.3B post-money valuation."
+  },
+  {
+    "id": "hypefy-ai",
+    "name": "Hypefy AI",
+    "url": "hypefy.ai",
+    "category": "Other",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Hypefy AI uses AI to automate and streamline the entire influencer marketing campaign process, from brief creation and influencer discovery to outreach and performance tracking, including the use of an AI agent for campaign guidance.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 60,
+    "evidence": "Raised $7.2M Series A."
+  },
+  {
+    "id": "truefoundry",
+    "name": "TrueFoundry",
+    "url": "truefoundry.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "TrueFoundry provides an enterprise-grade AI infrastructure platform that enables companies to build, ship, and govern agentic AI applications securely and at scale through its AI Gateway and Agentic Deployment platform.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 92,
+    "evidence": "Acquired Seldon AI to unify enterprise MLOps and agentic AI."
+  },
+  {
+    "id": "cxai",
+    "name": "CXAI",
+    "url": "cxaitechnologies.com",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "CXAI offers an agentic operating layer and real-time AI team assistants for enterprises, focusing on transforming customer experience and workplace operations by deploying inline workspace copilots that execute cross-system verification and data updating tasks.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 85,
+    "evidence": "Introduced CXAI 2.0: The Agentic Operating Layer for Enterprises of All Sizes."
   }
 ]
