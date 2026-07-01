@@ -700,5 +700,95 @@
     "discovered_at": "2026-07-01",
     "discovery_relevance": 85,
     "evidence": "Introduced CXAI 2.0: The Agentic Operating Layer for Enterprises of All Sizes."
+  },
+  {
+    "id": "circeus",
+    "name": "Circeus",
+    "url": "circeus.com",
+    "category": "Forward Deployers",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Circeus is an AI-native holding company that acquires software businesses and integrates a central AI capability, including agentic workflows, across its portfolio to drive transformation.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 90,
+    "evidence": "Launched as an AI-native holding company with EBRD equity investment."
+  },
+  {
+    "id": "pinkfish",
+    "name": "Pinkfish",
+    "url": "pinkfish.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Pinkfish offers an Enterprise AI Agent Platform and a business orchestration platform that uses AI agents to run multi-step workflows with system integrations, focusing on agentic automation for enterprises.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 95,
+    "evidence": "Acquired by Genesys to expand agentic AI and workflow automation capabilities. Previously raised $7.6 million pre-seed funding."
+  },
+  {
+    "id": "aampe",
+    "name": "Aampe",
+    "url": "aampe.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Aampe provides agentic infrastructure for personalized customer experiences, deploying individual AI agents to guide users towards specific goals and automating personalized messaging in B2C marketing.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 90,
+    "evidence": "Acquired by MoEngage to bring 1:1 agentic decisioning to B2C marketing teams."
+  },
+  {
+    "id": "harness",
+    "name": "Harness",
+    "url": "harness.io",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Harness is an AI-native software delivery platform that accelerates DevOps, testing, security, and cloud cost optimization through autonomous worker agents and intelligent automation across the software delivery lifecycle.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 85,
+    "evidence": "Launched Autonomous Worker Agents for Software Delivery."
+  },
+  {
+    "id": "mura",
+    "name": "Mura",
+    "url": "mura.co",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Mura provides AI-powered billing and dispatch software for commercial field services, integrating with existing field service management systems to drive revenue growth.",
+    "discovered": true,
+    "discovered_at": "2026-07-01",
+    "discovery_relevance": 80,
+    "evidence": "Acquired by ServiceTrade to deliver AI-Powered Revenue Growth Across the Commercial Service Lifecycle."
   }
 ]

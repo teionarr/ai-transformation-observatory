@@ -14,10 +14,10 @@
   "ressl": "Other",
   "jinba": "Other",
   "cofia": "Digital Labor",
-  "foaster": "Other",
-  "ontora": "Other",
-  "hessian": "Other",
-  "autostep": "Other",
+  "foaster": "Forward Deployers",
+  "ontora": "Digital Labor",
+  "hessian": "Agent Foundries",
+  "autostep": "Agent Foundries",
   "tasklet": "Agent Foundries",
   "openwork": "Other",
   "tensol": "Digital Labor",
@@ -32,8 +32,8 @@
   "hexa": "Other",
   "revnu": "Digital Labor",
   "qomplement": "Other",
-  "modern": "Other",
-  "netter": "Other",
+  "modern": "Platform Gravity",
+  "netter": "Platform Gravity",
   "smartbase": "Other",
   "walter": "Other",
   "the-company-company": "Other",
@@ -49,5 +49,6 @@
   "slalom": "Transformation Titans",
   "devoteam": "Transformation Titans",
   "cognizant-neuro-ai-multi-agent-accelerator": "Transformation Titans",
-  "thoughtworks-agent-works": "Transformation Titans"
+  "thoughtworks-agent-works": "Transformation Titans",
+  "sedai": "Platform Gravity"
 }

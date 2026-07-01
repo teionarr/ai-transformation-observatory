@@ -135,7 +135,7 @@
   {
     "id": "memory-store",
     "name": "Memory Store",
-    "url": "ycombinator.com/companies/memory-store",
+    "url": "memorystore.ai",
     "category": "Platform Gravity",
     "status": "Emerging",
     "funding": "\u2014",
@@ -173,7 +173,7 @@
   {
     "id": "epicenter",
     "name": "Epicenter",
-    "url": "ycombinator.com/companies/epicenter",
+    "url": "epicenter.com",
     "category": "Other",
     "status": "Emerging",
     "funding": "\u2014",
@@ -325,8 +325,8 @@
   {
     "id": "foaster",
     "name": "Foaster",
-    "url": "ycombinator.com/companies/foaster",
-    "category": "Other",
+    "url": "foaster.ai",
+    "category": "Forward Deployers",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -344,8 +344,8 @@
   {
     "id": "ontora",
     "name": "Ontora",
-    "url": "ycombinator.com/companies/ontora",
-    "category": "Other",
+    "url": "ontora.com",
+    "category": "Digital Labor",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -363,8 +363,8 @@
   {
     "id": "hessian",
     "name": "Hessian",
-    "url": "ycombinator.com/companies/hessian",
-    "category": "Other",
+    "url": "hessian.ai",
+    "category": "Agent Foundries",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -382,8 +382,8 @@
   {
     "id": "autostep",
     "name": "Autostep",
-    "url": "ycombinator.com/companies/autostep",
-    "category": "Other",
+    "url": "autostep.com",
+    "category": "Agent Foundries",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -667,8 +667,8 @@
   {
     "id": "modern",
     "name": "Modern",
-    "url": "ycombinator.com/companies/modern",
-    "category": "Other",
+    "url": "modern.ai",
+    "category": "Platform Gravity",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -686,8 +686,8 @@
   {
     "id": "netter",
     "name": "Netter",
-    "url": "ycombinator.com/companies/netter",
-    "category": "Other",
+    "url": "netter.ai",
+    "category": "Platform Gravity",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
