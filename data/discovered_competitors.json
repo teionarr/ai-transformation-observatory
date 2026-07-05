@@ -218,7 +218,7 @@
   {
     "id": "sedai",
     "name": "Sedai",
-    "url": "sedai.com",
+    "url": "sedai.io",
     "category": "Agent Foundries",
     "crawl_paths": [
       "/"
@@ -790,5 +790,149 @@
     "discovered_at": "2026-07-01",
     "discovery_relevance": 80,
     "evidence": "Acquired by ServiceTrade to deliver AI-Powered Revenue Growth Across the Commercial Service Lifecycle."
+  },
+  {
+    "id": "venice-ai",
+    "name": "Venice AI",
+    "url": "venice.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Venice AI offers a privacy-first, uncensored AI platform for generating text, images, code, and characters, with an OpenAI-compatible API designed for agent stacks and building consistent personalities for interactive AI.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 95,
+    "evidence": "Raised $65 million Series A"
+  },
+  {
+    "id": "kapture-cx",
+    "name": "Kapture CX",
+    "url": "kapture.cx",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Kapture CX provides an enterprise-grade AI-powered omnichannel Customer Experience management platform, deeply focused on customer support, utilizing Vertical LLMs and a no-code Agent Builder to deploy AI agents across various channels.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 90,
+    "evidence": "Secured $10 Mn Pre-Series B Funding"
+  },
+  {
+    "id": "vnomic",
+    "name": "Vnomic",
+    "url": "vnomic.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Vnomic offers AgentContract\u2122 support for Microsoft MAI Models, providing a platform for governed, end-to-end agentic AI-powered transformation for global enterprises.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 85,
+    "evidence": "Announced AgentContract\u2122 support for Microsoft MAI Models"
+  },
+  {
+    "id": "genesys",
+    "name": "Genesys",
+    "url": "genesys.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Genesys, a major customer experience platform, acquired Pinkfish to enhance autonomous customer experiences and integrate enterprise AI tools into its contact center platform, strengthening its agentic AI capabilities.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 85,
+    "evidence": "Acquired Pinkfish to enhance autonomous customer experiences"
+  },
+  {
+    "id": "sailpoint",
+    "name": "SailPoint",
+    "url": "sailpoint.com",
+    "category": "Other",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "SailPoint, an identity security company, acquired Entro Security to secure agentic identities, positioning itself as a crucial adjacent player in the secure deployment of AI agents.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 75,
+    "evidence": "Acquired Entro Security to secure agentic identities"
+  },
+  {
+    "id": "symbotic",
+    "name": "Symbotic",
+    "url": "symbotic.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Symbotic is a robotics warehouse automation company that uses AI in its software to deliver fully automated, end-to-end supply chain solutions for retailers and wholesalers, and recently acquired ARMS Innovations to further enhance its industrial AI capabilities.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 90,
+    "evidence": "Acquired ARMS Innovations"
+  },
+  {
+    "id": "digital-workforce",
+    "name": "Digital Workforce",
+    "url": "digitalworkforce.com",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Digital Workforce is expanding its use of agentic AI by acquiring a conversational AI business for customer service, focusing on digital labor and AI employees for customer support outcomes.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 85,
+    "evidence": "Acquired conversational AI business from Front AI Oy"
+  },
+  {
+    "id": "easyvista",
+    "name": "EasyVista",
+    "url": "easyvista.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "EasyVista provides an AI-powered IT Service Management (ITSM) platform that integrates service management, automation, monitoring, and asset discovery, and recently acquired Konverso to bring AI Agents to the core of its IT platform.",
+    "discovered": true,
+    "discovered_at": "2026-07-05",
+    "discovery_relevance": 85,
+    "evidence": "Acquired Konverso, bringing AI Agents to the core of its IT platform"
   }
 ]

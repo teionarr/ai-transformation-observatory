@@ -1,5 +1,110 @@
 [
   {
+    "id": "ins-2026-07-05-1",
+    "scan_date": "2026-07-05",
+    "generated_at": "2026-07-05T03:37:38.553841+00:00",
+    "title": "Microsoft Escalates Direct Enterprise AI Deployment",
+    "insight": "Microsoft's launch of Frontier Company with a $2.5 billion commitment and 6,000 engineers signifies a major escalation in cloud giants directly embedding AI expertise within customer organizations. This aggressive move aims to overcome AI pilot failures and capture the full value of AI implementation, rather than just selling models or infrastructure.",
+    "trend": "The increasing complexity of enterprise AI adoption and the need for deep, hands-on integration is driving foundational model providers and cloud giants to move further downstream, directly competing with traditional system integrators and consulting firms to ensure successful, outcome-driven deployments.",
+    "category": "Transformation Titans",
+    "magnitude": 95,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Microsoft launches Frontier Company, a $2.5B AI consulting firm",
+      "embed AI engineers inside customers",
+      "target AI pilot failures",
+      "own AI implementation instead of selling it"
+    ],
+    "supersedes": "ins-2026-07-01-6",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-05-2",
+    "scan_date": "2026-07-05",
+    "generated_at": "2026-07-05T03:37:38.553841+00:00",
+    "title": "Agentic AI Maturity Drives Specialized M&A",
+    "insight": "The market is maturing with a wave of acquisitions focused on integrating specialized agentic AI capabilities into existing enterprise platforms, particularly for customer service, IT, and marketing. These M&A activities, coupled with significant funding for 'reliable enterprise AI' and 'governed transformation,' underscore a critical shift towards ensuring agents are not only specialized but also robust, secure, and seamlessly integrated.",
+    "trend": "Enterprises demand proven, reliable, and governable agentic solutions that can be quickly embedded into their existing workflows, leading platform providers to acquire specialized agentic startups to accelerate feature delivery and address specific operational pain points.",
+    "category": "Vertical Specialists",
+    "magnitude": 75,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Genesys acquires Pinkfish to speed up contact center AI deployments",
+      "MoEngage Acquires Aampe to Bring 1:1 Agentic Decisioning",
+      "Digital Workforce acquires Agentic AI for customer service",
+      "EasyVista Acquires Konverso, Brining AI Agents to the Core of Its IT Platform",
+      "SailPoint completes acquisition of Entro Security to secure agentic identities",
+      "Scaled Cognition Announces $100M Series A to Build Reliable Enterprise AI",
+      "Vnomic Announces AgentContract\u2122 Support for Microsoft MAI Models to Deliver Governed, End-to-End Agentic AI Powered Transformation"
+    ],
+    "supersedes": "ins-2026-07-01-9",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-05-3",
+    "scan_date": "2026-07-05",
+    "generated_at": "2026-07-05T03:37:38.553841+00:00",
+    "title": "Industrial AI Transformation Attracts Billions",
+    "insight": "Major industrial players are making multi-billion dollar acquisitions to embed advanced AI platforms into their operational technology, signaling an accelerated push for AI-driven transformation in physical industries. This focus on industrial data and AI platforms aims to optimize complex operations, supply chains, and manufacturing processes at scale.",
+    "trend": "The immense potential for efficiency gains and competitive advantage in capital-intensive physical industries is driving large-scale strategic investments to integrate AI directly into industrial infrastructure and data ecosystems.",
+    "category": "Vertical Specialists",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Schneider Electric Acquires Cognite for $3.1 Billion to Advance Industrial AI Platform",
+      "Symbotic Announces Acquisition of ARMS Innovations, Advancing a New Era of Warehouse Operations Optimization"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-05-4",
+    "scan_date": "2026-07-05",
+    "generated_at": "2026-07-05T03:37:38.553841+00:00",
+    "title": "New Platforms Orchestrate Agentic AI Deployment",
+    "insight": "A growing number of platforms and methodologies are emerging to specifically orchestrate and manage the deployment of agentic AI within enterprises, focusing on turning AI into measurable operational value. These solutions aim to provide the necessary governance, scalability, and integration layers to accelerate enterprise AI adoption beyond pilot phases.",
+    "trend": "As enterprises move from experimenting with individual AI agents to deploying them at scale, there's a critical demand for dedicated platforms that can manage the entire agent lifecycle, ensure governance, and demonstrate clear ROI, bridging the gap between agent development and operational impact.",
+    "category": "Forward Deployers",
+    "magnitude": 70,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Capita launches Forward Deployed Orchestrator\u2122 to help clients turn agentic AI into measurable operational value",
+      "Introducing HeyAdmin.ai \u2013 an Enterprise-grade Agentic AI Platform",
+      "Kapture CX Secures $10 Mn Pre-Series B Funding to Scale Agentic Enterprise Stack",
+      "Virtusa and UnifyApps Announce Strategic Partnership to Accelerate Enterprise AI Adoption with \"Assembly-First\" Methodology"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-05-5",
+    "scan_date": "2026-07-05",
+    "generated_at": "2026-07-05T03:37:38.553841+00:00",
+    "title": "Outcome-Based AI Pricing Gains Traction",
+    "insight": "The debate around AI pricing models is intensifying, with a clear shift towards outcome-based pricing for AI agent services, moving beyond traditional per-seat or per-usage models. This trend reflects the market's demand for demonstrable, measurable business value from AI investments, aligning vendor incentives with client success.",
+    "trend": "As AI deployments mature and deliver tangible business results, enterprises are increasingly demanding pricing structures that tie directly to the value generated, pushing service providers to adopt outcome-centric models to protect margins and prove ROI.",
+    "category": "Transformation Titans",
+    "magnitude": 60,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "AI Pricing Models Per-Seat Per-Outcome and the Value Capture Debate - Alex Smale",
+      "Capita launches Forward Deployed Orchestrator\u2122 to help clients turn agentic AI into measurable operational value"
+    ],
+    "supersedes": "ins-2026-06-15-5",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-07-01-6",
     "scan_date": "2026-07-01",
     "generated_at": "2026-07-01T06:45:05.862345+00:00",
@@ -20,7 +125,7 @@
       "Amazon launches $1B FDE org to deploy AI for enterprises"
     ],
     "supersedes": "ins-2026-07-01-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-05-1"
   },
   {
     "id": "ins-2026-07-01-7",
@@ -89,7 +194,7 @@
       "Genesys buys Pinkfish to boost cloud AI automation"
     ],
     "supersedes": "ins-2026-07-01-3",
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-05-2"
   },
   {
     "id": "ins-2026-07-01-10",
@@ -536,7 +641,7 @@
       "LTM Unveils Outcome-Based Pricing Model as AI Agents Reshape IT Services Contracts"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-05-5"
   },
   {
     "id": "ins-2026-06-14-1",

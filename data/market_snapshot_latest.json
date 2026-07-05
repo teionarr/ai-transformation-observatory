@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-01T06:45:35.319628+00:00",
-  "run_duration_seconds": 1656,
+  "generated_at": "2026-07-05T03:38:13.210056+00:00",
+  "run_duration_seconds": 201,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-07-01T06:45:35.319628+00:00",
+      "last_call": "2026-07-05T03:38:13.210056+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 149,
-      "last_call": "2026-07-01T06:45:35.319628+00:00",
+      "calls": 145,
+      "last_call": "2026-07-05T03:38:13.210056+00:00",
       "status": "healthy"
     },
     {
@@ -40,8 +40,8 @@
       "name": "Gemini 2.5 Flash",
       "kind": "synthesis",
       "glyph": "diamond",
-      "calls": 1,
-      "last_call": "2026-07-01T06:45:35.319628+00:00",
+      "calls": 2,
+      "last_call": "2026-07-05T03:38:13.210056+00:00",
       "status": "healthy"
     },
     {
@@ -49,12 +49,110 @@
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 4,
-      "last_call": "2026-07-01T06:45:35.319628+00:00",
+      "calls": 2,
+      "last_call": "2026-07-05T03:38:13.210056+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Kling AI closes $3B round at $18B valuation as Alibaba and Tencent back China's Sora rival: report \u2014 TFN",
+      "domain": "techfundingnews.com",
+      "hours_ago": 51,
+      "velocity": 99,
+      "why": "Kling AI's $3B funding shows intense global competition in foundational AI models and capabilities.",
+      "source_url": "https://techfundingnews.com/kling-ai-closes-3b-round-at-18b-valuation-as-alibaba-and-tencent-back-chinas-sora-rival/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-07-05"
+    },
+    {
+      "id": "v2",
+      "title": "Together AI Raises $800 Million at $8.3 Billion Valuation to Make Frontier AI Accessible to All | Morningstar",
+      "domain": "www.morningstar.com",
+      "hours_ago": 99,
+      "velocity": 98,
+      "why": "Massive funding for Together AI accelerates accessible frontier AI, boosting underlying agentic infrastructure.",
+      "source_url": "https://www.morningstar.com/news/business-wire/20260701243402/together-ai-raises-800-million-at-83-billion-valuation-to-make-frontier-ai-accessible-to-all",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-07-05"
+    },
+    {
+      "id": "v3",
+      "title": "Scaled Cognition Announces $100M Series A Led by Khosla Ventures to Build Reliable Enterprise AI",
+      "domain": "theaiinsider.tech",
+      "hours_ago": 51,
+      "velocity": 95,
+      "why": "Significant Series A for Scaled Cognition validates demand for reliable, high-stakes enterprise AI agents.",
+      "source_url": "https://theaiinsider.tech/2026/07/03/scaled-cognition-announces-100m-series-a-led-by-khosla-ventures-to-build-reliable-enterprise-ai/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-07-05"
+    },
+    {
+      "id": "v4",
+      "title": "Microsoft launches Frontier Company, a $2.5B AI consulting firm to help enterprises get better returns from AI - Tech Startups",
+      "domain": "techstartups.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "Microsoft's $2.5B AI consulting firm signals platform giants directly entering transformation services.",
+      "source_url": "https://techstartups.com/2026/07/02/microsoft-launches-frontier-company-with-2-5b-to-help-enterprises-choose-the-best-ai-models-and-maximize-roi/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Transformation Titans",
+      "scan_date": "2026-07-05"
+    },
+    {
+      "id": "v5",
+      "title": "ServiceNow acquires ai.work for tens of millions, deepening Israel buying spree | Ctech",
+      "domain": "www.calcalistech.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "ServiceNow's acquisition of ai.work strengthens its platform's AI agent capabilities for enterprise workflows.",
+      "source_url": "https://www.calcalistech.com/ctechnews/article/hjckic7qze",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-07-05"
+    },
+    {
+      "id": "v6",
+      "title": "Genesys Acquires Pinkfish to Enhance the Future of Autonomous Customer Experiences |",
+      "domain": "businessnewsforprofit.com",
+      "hours_ago": 99,
+      "velocity": 95,
+      "why": "Genesys acquires Pinkfish, integrating agentic AI to enhance autonomous customer experience platforms.",
+      "source_url": "https://businessnewsforprofit.com/business/genesys-acquires-pinkfish-to-enhance-the-future-of-autonomous-customer-experiences/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-07-05"
+    },
+    {
+      "id": "v7",
+      "title": "Schneider Electric Acquires Cognite for $3.1 Billion to Advance Industrial AI Platform",
+      "domain": "www.druckfin.com",
+      "hours_ago": 99,
+      "velocity": 95,
+      "why": "Schneider Electric's $3.1B acquisition of Cognite accelerates industrial AI transformation and vertical integration.",
+      "source_url": "https://www.druckfin.com/en/articles/schneider-electric-acquires-cognite-for-31-billion-to-advance-industrial-ai-plat-20260701",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-07-05"
+    },
     {
       "id": "v1",
       "title": "Odyssey raises $310M for world models on AWS Trainium | AIntelligenceHub",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-07-01"
-    },
-    {
-      "id": "v1",
-      "title": "Patronus AI Raises $50 Million Series B and Unveils First Digital World Models for AI Agent Training and Simulation",
-      "domain": "www.prnewswire.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "New funding and digital world models advance robust AI agent deployment and testing.",
-      "source_url": "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-06-28"
-    },
-    {
-      "id": "v2",
-      "title": "Scaled Cognition nabs $100M to automate high stakes customer interactions - SiliconANGLE",
-      "domain": "siliconangle.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "Significant funding boosts AI agents automating high-stakes customer interactions.",
-      "source_url": "https://siliconangle.com/2026/06/25/scaled-cognition-nabs-100m-automate-high-stakes-customer-interactions/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-06-28"
-    },
-    {
-      "id": "v3",
-      "title": "TrueFoundry acquires MLOps pioneer Seldon AI to accelerate enterprise agentic AI - SiliconANGLE",
-      "domain": "siliconangle.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "TrueFoundry acquires Seldon AI to enhance its platform for enterprise agentic AI.",
-      "source_url": "https://siliconangle.com/2026/06/25/truefoundry-acquires-mlops-pioneer-seldon-ai-accelerate-enterprise-agentic-ai/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-06-28"
-    },
-    {
-      "id": "v4",
-      "title": "Sail Research Raises $80 Million to Build Max-Efficiency Infrastructure for AI Agents | Morningstar",
-      "domain": "www.morningstar.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "$80M funding targets high-efficiency infrastructure crucial for scalable AI agents.",
-      "source_url": "https://www.morningstar.com/news/pr-newswire/20260625sf91901/sail-research-raises-80-million-to-build-max-efficiency-infrastructure-for-ai-agents",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-06-28"
-    },
-    {
-      "id": "v5",
-      "title": "Runpod Raises $100M Led by Summit Partners to Accelerate the AI Developer Cloud",
-      "domain": "www.prnewswire.com",
-      "hours_ago": 99,
-      "velocity": 95,
-      "why": "$100M funding accelerates critical cloud infrastructure for AI developers.",
-      "source_url": "https://www.prnewswire.com/news-releases/runpod-raises-100m-led-by-summit-partners-to-accelerate-the-ai-developer-cloud-302808689.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-06-28"
-    },
-    {
-      "id": "v6",
-      "title": "MoEngage Acquires Aampe to Bring 1:1 Agentic Decisioning to B2C Marketing Teams",
-      "domain": "www.prnewswire.com",
-      "hours_ago": 99,
-      "velocity": 95,
-      "why": "MoEngage acquires Aampe, integrating agentic decisioning into its B2C marketing platform.",
-      "source_url": "https://www.prnewswire.com/apac/news-releases/moengage-acquires-aampe-to-bring-11-agentic-decisioning-to-b2c-marketing-teams-302808001.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-06-28"
-    },
-    {
-      "id": "v7",
-      "title": "Modular: Qualcomm to Acquire Modular",
-      "domain": "www.modular.com",
-      "hours_ago": 99,
-      "velocity": 95,
-      "why": "Qualcomm acquires Modular, integrating its AI-native platform for accelerated AI.",
-      "source_url": "https://www.modular.com/blog/qualcomm-to-acquire-modular?from_theconsensus=1",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-06-28"
     }
   ],
   "competitor_map": [
@@ -266,12 +266,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:19",
-      "hash": "79796c7783",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "accenture",
@@ -286,12 +286,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:19",
-      "hash": "2b18138837",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "deloitte",
@@ -306,12 +306,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:20",
-      "hash": "dd03a4b76d",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "mckinsey",
@@ -326,12 +326,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:20",
-      "hash": "2a3bdf3280",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "bcgx",
@@ -346,12 +346,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:20",
-      "hash": "1662b40e96",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "bain",
@@ -366,12 +366,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:20",
-      "hash": "729c6bae7e",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "ibmconsulting",
@@ -386,12 +386,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:21",
-      "hash": "6eabbe8c5c",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "ey",
@@ -406,12 +406,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:21",
-      "hash": "9755db48cb",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "pwc",
@@ -426,12 +426,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:21",
-      "hash": "3696e06c26",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "kpmg",
@@ -446,12 +446,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:21",
-      "hash": "de0bb09473",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "capgemini",
@@ -466,12 +466,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:21",
-      "hash": "bdb75f93c2",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "distyl",
@@ -486,12 +486,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:21",
-      "hash": "0287e0b72d",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "tribe",
@@ -506,12 +506,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:21",
-      "hash": "27994d8328",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "sand",
@@ -526,12 +526,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:22",
-      "hash": "0c3c41b18a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "slalom",
@@ -546,12 +546,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:22",
-      "hash": "535e7dcafb",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "faculty",
@@ -566,12 +566,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:22",
-      "hash": "4f476595e1",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "neurons",
@@ -586,12 +586,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:22",
-      "hash": "54953f010e",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "devoteam",
@@ -606,12 +606,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:22",
-      "hash": "de82c907bd",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "mechorchard",
@@ -626,12 +626,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:22",
-      "hash": "d78a67b748",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "webuildai",
@@ -646,12 +646,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:23",
-      "hash": "534f7cb509",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "multiverse",
@@ -666,12 +666,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:23",
-      "hash": "1affdc26f8",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "sierra",
@@ -686,12 +686,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:23",
-      "hash": "9333834994",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "relevanceai",
@@ -706,12 +706,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:23",
-      "hash": "2c1ece887f",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "lyzr",
@@ -726,12 +726,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:23",
-      "hash": "e85978062a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "lindy",
@@ -746,12 +746,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:23",
-      "hash": "0739e49051",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "crewai",
@@ -766,12 +766,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:24",
-      "hash": "19e6bc6c1a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "beam",
@@ -786,12 +786,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:24",
-      "hash": "6b34357e51",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "stackai",
@@ -806,12 +806,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:24",
-      "hash": "1e5d34ae27",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "knowlee",
@@ -826,12 +826,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:24",
-      "hash": "4bd0066d9e",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "aily",
@@ -846,12 +846,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:24",
-      "hash": "15e5264790",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "writer",
@@ -866,12 +866,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:24",
-      "hash": "32c04937af",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "agentforce",
@@ -886,12 +886,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:24",
-      "hash": "d0c257088c",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "copilotstudio",
@@ -906,12 +906,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:25",
-      "hash": "326505ae9b",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "servicenow",
@@ -926,12 +926,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:25",
-      "hash": "20581c1c3b",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "googlecloud",
@@ -946,12 +946,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:25",
-      "hash": "b43d4ad24a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "aws",
@@ -966,12 +966,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:25",
-      "hash": "90b9e2351c",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "koreai",
@@ -986,12 +986,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:26",
-      "hash": "dda749d0da",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "c3ai",
@@ -1006,12 +1006,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:26",
-      "hash": "2560e6cafd",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "glean",
@@ -1026,12 +1026,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:26",
-      "hash": "1ad7a7da06",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "oracle",
@@ -1046,12 +1046,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:26",
-      "hash": "b72a181377",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "cognigy",
@@ -1066,12 +1066,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:26",
-      "hash": "d43080bf0e",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "elevenx",
@@ -1086,12 +1086,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:26",
-      "hash": "569bc4f99a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "artisan",
@@ -1106,12 +1106,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:26",
-      "hash": "1fefbb23f2",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "decagon",
@@ -1126,12 +1126,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:27",
-      "hash": "fd87bfb710",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "cognition",
@@ -1146,12 +1146,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:27",
-      "hash": "d5b6fe88c8",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "moveworks",
@@ -1166,12 +1166,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:27",
-      "hash": "dc011d4216",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "harvey",
@@ -1186,12 +1186,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:27",
-      "hash": "07b2e76105",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "hippocratic",
@@ -1206,12 +1206,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:27",
-      "hash": "016b13958f",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "cresta",
@@ -1226,12 +1226,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:27",
-      "hash": "1f07e51838",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "fazeshift",
@@ -1246,12 +1246,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
-      "hash": "2bec310b7a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "eloquent",
@@ -1266,7 +1266,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
+      "scanned": "2026-07-05 03:36",
       "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
@@ -1286,12 +1286,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
-      "hash": "6d1368b8f9",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "heyhyper-ai",
@@ -1306,12 +1306,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
-      "hash": "5a16769b38",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "wato",
@@ -1326,12 +1326,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
-      "hash": "5ce33b587a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "pentagon",
@@ -1346,12 +1346,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
-      "hash": "ef826f57ac",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "hyperspell",
@@ -1366,12 +1366,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
-      "hash": "94f8cfe8e7",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "captain",
@@ -1386,12 +1386,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:28",
-      "hash": "0ec8657c75",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "corvera",
@@ -1406,12 +1406,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:29",
-      "hash": "49824627f3",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "memory-store",
@@ -1426,12 +1426,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:43",
-      "hash": "1f934152b4",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "nozomio",
@@ -1446,12 +1446,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:29",
-      "hash": "2b23554896",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "epicenter",
@@ -1466,12 +1466,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:43",
-      "hash": "488afa4dc4",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "glen",
@@ -1486,12 +1486,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:29",
-      "hash": "74d951bbbb",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "salesgraph",
@@ -1506,12 +1506,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:29",
-      "hash": "bcc19b1dbd",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "cerenovus",
@@ -1526,12 +1526,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:29",
-      "hash": "f4cc2b75ba",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "flowscope",
@@ -1546,12 +1546,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:30",
-      "hash": "88ae970cba",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "ressl",
@@ -1566,12 +1566,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:30",
-      "hash": "d056b82661",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "jinba",
@@ -1586,12 +1586,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:30",
-      "hash": "25840fb9bd",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "cofia",
@@ -1606,12 +1606,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:30",
-      "hash": "a13857d0b3",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "foaster",
@@ -1626,12 +1626,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:43",
-      "hash": "e52c1678b8",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "ontora",
@@ -1646,12 +1646,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:43",
-      "hash": "ce518e88a6",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "hessian",
@@ -1666,12 +1666,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:43",
-      "hash": "44f9786540",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "autostep",
@@ -1686,12 +1686,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:44",
-      "hash": "526ae5de1b",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "tasklet",
@@ -1706,12 +1706,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:31",
-      "hash": "57aa126b45",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "openwork",
@@ -1726,12 +1726,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:32",
-      "hash": "b479bf3822",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "tensol",
@@ -1746,12 +1746,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:32",
-      "hash": "5904b62183",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "ramain",
@@ -1766,12 +1766,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:32",
-      "hash": "755c701619",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "fullseam",
@@ -1786,12 +1786,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:32",
-      "hash": "6a94a7627c",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "haladir",
@@ -1806,12 +1806,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:32",
-      "hash": "2ca8a3090c",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "bubble-lab",
@@ -1826,12 +1826,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:32",
-      "hash": "022f34045b",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "o11",
@@ -1846,12 +1846,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:32",
-      "hash": "34ab690065",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "eos-ai",
@@ -1866,12 +1866,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:33",
-      "hash": "9e7238a1a9",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "akkari",
@@ -1886,12 +1886,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:33",
-      "hash": "8d3ba07543",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "korso",
@@ -1906,12 +1906,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:33",
-      "hash": "10043c5b93",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "hexa",
@@ -1926,12 +1926,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:33",
-      "hash": "969a13f80d",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "revnu",
@@ -1946,12 +1946,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:33",
-      "hash": "0b46c2ce8a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "qomplement",
@@ -1966,12 +1966,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:33",
-      "hash": "8323caa481",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "modern",
@@ -1986,12 +1986,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:44",
-      "hash": "90bcd656b4",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "netter",
@@ -2006,12 +2006,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:44",
-      "hash": "3ca2f9c064",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "smartbase",
@@ -2026,12 +2026,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:34",
-      "hash": "3e3ad63806",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "walter",
@@ -2046,12 +2046,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:34",
-      "hash": "057e5e3f49",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "the-company-company",
@@ -2066,12 +2066,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:34",
-      "hash": "50e8db0a3b",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "item",
@@ -2086,12 +2086,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:34",
-      "hash": "d0e4f08e7e",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "lunavo",
@@ -2106,12 +2106,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:34",
-      "hash": "e9107b989a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "lark",
@@ -2126,12 +2126,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:35",
-      "hash": "902f246f2d",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "ambral",
@@ -2146,12 +2146,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:35",
-      "hash": "10efff7794",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "monday-com",
@@ -2166,12 +2166,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:35",
-      "hash": "ffa2a58911",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "rippling-com",
@@ -2186,12 +2186,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:35",
-      "hash": "1452a310bd",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "jeen-ai",
@@ -2206,12 +2206,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:35",
-      "hash": "811f08f62e",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "reindeer-ai",
@@ -2226,12 +2226,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:35",
-      "hash": "87f6521ab3",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "o9solutions-com",
@@ -2246,12 +2246,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-07-01 06:35",
-      "hash": "e7e45e6765",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "mendo",
@@ -2266,12 +2266,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01 06:36",
-      "hash": "87be67f70f",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "prometheus-ai",
@@ -2286,12 +2286,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 80,
-      "scanned": "2026-07-01 06:36",
-      "hash": "ee1aef2527",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "infinity-constellation",
@@ -2306,12 +2306,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01 06:36",
-      "hash": "31e3dcf0e5",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "happiest-minds",
@@ -2326,12 +2326,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 75,
-      "scanned": "2026-07-01 06:36",
-      "hash": "1aece0a941",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "poetic",
@@ -2346,12 +2346,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 95,
-      "scanned": "2026-07-01 06:36",
-      "hash": "9328eae25f",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "jedify",
@@ -2366,12 +2366,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 80,
-      "scanned": "2026-07-01 06:36",
-      "hash": "99bdca1f69",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "chatsee-ai",
@@ -2386,12 +2386,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 70,
-      "scanned": "2026-07-01 06:36",
-      "hash": "330cf8a931",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "recursive",
@@ -2406,12 +2406,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 60,
-      "scanned": "2026-07-01 06:37",
-      "hash": "b271c3d133",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "generativex",
@@ -2426,12 +2426,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01 06:37",
-      "hash": "c84a891a22",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "relai",
@@ -2446,12 +2446,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 80,
-      "scanned": "2026-07-01 06:37",
-      "hash": "08535399e8",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "phoenixai",
@@ -2466,12 +2466,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 75,
-      "scanned": "2026-07-01 06:37",
-      "hash": "8b4e95a921",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "2x",
@@ -2486,12 +2486,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 60,
-      "scanned": "2026-07-01 06:37",
-      "hash": "a9c51ec769",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "sedai",
@@ -2506,12 +2506,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 80,
-      "scanned": "2026-07-01 06:44",
-      "hash": "88cf44a893",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "centerprise-ai",
@@ -2526,12 +2526,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 70,
-      "scanned": "2026-07-01 06:38",
-      "hash": "82fc208928",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "decisions",
@@ -2546,12 +2546,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 75,
-      "scanned": "2026-07-01 06:38",
-      "hash": "e0fbf8dbba",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "openai-deployco",
@@ -2566,12 +2566,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 95,
-      "scanned": "2026-07-01 06:38",
-      "hash": "cc5499a497",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "conduct",
@@ -2586,12 +2586,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 80,
-      "scanned": "2026-07-01 06:38",
-      "hash": "11ecfb89cc",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "sarvam-ai",
@@ -2606,12 +2606,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 60,
-      "scanned": "2026-07-01 06:38",
-      "hash": "101b385998",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "zensar-technologies-zenseai-agentmesh",
@@ -2626,12 +2626,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01 06:38",
-      "hash": "7305135ca9",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "zaro-ai",
@@ -2646,12 +2646,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 75,
-      "scanned": "2026-07-01 06:39",
-      "hash": "aa990c9abf",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "konecta-kolibri",
@@ -2666,12 +2666,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01 06:39",
-      "hash": "6f4722ba8e",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "cognizant-neuro-ai-multi-agent-accelerator",
@@ -2686,12 +2686,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 70,
-      "scanned": "2026-07-01 06:39",
-      "hash": "325fa6bf56",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "thoughtworks-agent-works",
@@ -2706,12 +2706,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 75,
-      "scanned": "2026-07-01 06:39",
-      "hash": "6add64e023",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "patronus-ai",
@@ -2726,12 +2726,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 95,
-      "scanned": "2026-07-01 06:39",
-      "hash": "efe01be1f5",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "zeb",
@@ -2746,12 +2746,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 80,
-      "scanned": "2026-07-01 06:39",
-      "hash": "1a2bb9eefa",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "hang-ten-systems",
@@ -2766,12 +2766,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01 06:39",
-      "hash": "ba52743264",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "runlayer",
@@ -2786,12 +2786,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01 06:40",
-      "hash": "181c66461c",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "runpod",
@@ -2806,12 +2806,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 75,
-      "scanned": "2026-07-01 06:40",
-      "hash": "c4c2e61b41",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "scaled-cognition",
@@ -2819,19 +2819,19 @@
       "url": "scaledcognition.com",
       "category": "Digital Labor",
       "status": "Emerging",
-      "funding": "\u2014",
+      "funding": "$100M Series A \u00b7 $750M",
       "team": null,
       "why": "Scaled Cognition focuses on automating high-stakes customer interactions, indicating the deployment of AI agents for customer service and engagement.",
       "anchor": false,
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01 06:40",
-      "hash": "fbedd6593a",
-      "changed": false,
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": true,
       "changed_pages": [],
-      "delta": null,
-      "crawl_status": "success"
+      "delta": "Funding update: \u2014 \u2192 $100M Series A \u00b7 $750M",
+      "crawl_status": "error"
     },
     {
       "id": "orthogonal",
@@ -2846,12 +2846,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 95,
-      "scanned": "2026-07-01 06:40",
-      "hash": "d49c269925",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "neuraltrust",
@@ -2866,12 +2866,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01 06:40",
-      "hash": "d4c3975bd2",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "8090",
@@ -2886,12 +2886,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01 06:40",
-      "hash": "9d319242d2",
-      "changed": true,
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $135M Series A",
-      "crawl_status": "success"
+      "delta": null,
+      "crawl_status": "error"
     },
     {
       "id": "1001",
@@ -2906,12 +2906,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 95,
-      "scanned": "2026-07-01 06:40",
-      "hash": "7eaa9319bd",
-      "changed": true,
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $30M Series A",
-      "crawl_status": "success"
+      "delta": null,
+      "crawl_status": "error"
     },
     {
       "id": "odyssey",
@@ -2926,12 +2926,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01 06:41",
-      "hash": "34355399c7",
-      "changed": true,
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $310M",
-      "crawl_status": "success"
+      "delta": null,
+      "crawl_status": "error"
     },
     {
       "id": "engram",
@@ -2946,12 +2946,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01 06:41",
-      "hash": "4159cccc87",
-      "changed": true,
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $98M",
-      "crawl_status": "success"
+      "delta": null,
+      "crawl_status": "error"
     },
     {
       "id": "general-intuition",
@@ -2966,12 +2966,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 88,
-      "scanned": "2026-07-01 06:41",
-      "hash": "dc7033ca5a",
-      "changed": true,
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $2.3B",
-      "crawl_status": "success"
+      "delta": null,
+      "crawl_status": "error"
     },
     {
       "id": "hypefy-ai",
@@ -2986,12 +2986,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 60,
-      "scanned": "2026-07-01 06:41",
-      "hash": "08b01e5720",
-      "changed": true,
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $7.2M Series A",
-      "crawl_status": "success"
+      "delta": null,
+      "crawl_status": "error"
     },
     {
       "id": "truefoundry",
@@ -3006,12 +3006,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 92,
-      "scanned": "2026-07-01 06:41",
-      "hash": "a5b551696a",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "cxai",
@@ -3026,12 +3026,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01 06:41",
-      "hash": "3865a363f9",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "error"
     },
     {
       "id": "circeus",
@@ -3046,18 +3046,19 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01",
+      "scanned": "2026-07-05 03:36",
       "hash": "\u2014",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "error"
     },
     {
       "id": "pinkfish",
       "name": "Pinkfish",
       "url": "pinkfish.ai",
       "category": "Agent Foundries",
-      "status": "Emerging",
+      "status": "Acquired",
       "funding": "\u2014",
       "team": null,
       "why": "Pinkfish offers an Enterprise AI Agent Platform and a business orchestration platform that uses AI agents to run multi-step workflows with system integrations, focusing on agentic automation for enterprises.",
@@ -3065,18 +3066,19 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 95,
-      "scanned": "2026-07-01",
+      "scanned": "2026-07-05 03:36",
       "hash": "\u2014",
-      "changed": false,
-      "delta": null,
-      "crawl_status": "pending"
+      "changed": true,
+      "changed_pages": [],
+      "delta": "Status: Emerging \u2192 Acquired",
+      "crawl_status": "error"
     },
     {
       "id": "aampe",
       "name": "Aampe",
       "url": "aampe.com",
       "category": "Vertical Specialists",
-      "status": "Emerging",
+      "status": "Acquired",
       "funding": "\u2014",
       "team": null,
       "why": "Aampe provides agentic infrastructure for personalized customer experiences, deploying individual AI agents to guide users towards specific goals and automating personalized messaging in B2C marketing.",
@@ -3084,11 +3086,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-07-01",
+      "scanned": "2026-07-05 03:36",
       "hash": "\u2014",
-      "changed": false,
-      "delta": null,
-      "crawl_status": "pending"
+      "changed": true,
+      "changed_pages": [],
+      "delta": "Status: Emerging \u2192 Acquired",
+      "crawl_status": "error"
     },
     {
       "id": "harness",
@@ -3103,11 +3106,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
-      "scanned": "2026-07-01",
+      "scanned": "2026-07-05 03:36",
       "hash": "\u2014",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "error"
     },
     {
       "id": "mura",
@@ -3122,7 +3126,160 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 80,
-      "scanned": "2026-07-01",
+      "scanned": "2026-07-05 03:36",
+      "hash": "\u2014",
+      "changed": false,
+      "changed_pages": [],
+      "delta": null,
+      "crawl_status": "error"
+    },
+    {
+      "id": "venice-ai",
+      "name": "Venice AI",
+      "url": "venice.ai",
+      "category": "Agent Foundries",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Venice AI offers a privacy-first, uncensored AI platform for generating text, images, code, and characters, with an OpenAI-compatible API designed for agent stacks and building consistent personalities for interactive AI.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 95,
+      "scanned": "2026-07-05",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "kapture-cx",
+      "name": "Kapture CX",
+      "url": "kapture.cx",
+      "category": "Vertical Specialists",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Kapture CX provides an enterprise-grade AI-powered omnichannel Customer Experience management platform, deeply focused on customer support, utilizing Vertical LLMs and a no-code Agent Builder to deploy AI agents across various channels.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 90,
+      "scanned": "2026-07-05",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "vnomic",
+      "name": "Vnomic",
+      "url": "vnomic.com",
+      "category": "Platform Gravity",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Vnomic offers AgentContract\u2122 support for Microsoft MAI Models, providing a platform for governed, end-to-end agentic AI-powered transformation for global enterprises.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 85,
+      "scanned": "2026-07-05",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "genesys",
+      "name": "Genesys",
+      "url": "genesys.com",
+      "category": "Platform Gravity",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Genesys, a major customer experience platform, acquired Pinkfish to enhance autonomous customer experiences and integrate enterprise AI tools into its contact center platform, strengthening its agentic AI capabilities.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 85,
+      "scanned": "2026-07-05",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "sailpoint",
+      "name": "SailPoint",
+      "url": "sailpoint.com",
+      "category": "Other",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "SailPoint, an identity security company, acquired Entro Security to secure agentic identities, positioning itself as a crucial adjacent player in the secure deployment of AI agents.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 75,
+      "scanned": "2026-07-05",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "symbotic",
+      "name": "Symbotic",
+      "url": "symbotic.com",
+      "category": "Vertical Specialists",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Symbotic is a robotics warehouse automation company that uses AI in its software to deliver fully automated, end-to-end supply chain solutions for retailers and wholesalers, and recently acquired ARMS Innovations to further enhance its industrial AI capabilities.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 90,
+      "scanned": "2026-07-05",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "digital-workforce",
+      "name": "Digital Workforce",
+      "url": "digitalworkforce.com",
+      "category": "Digital Labor",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Digital Workforce is expanding its use of agentic AI by acquiring a conversational AI business for customer service, focusing on digital labor and AI employees for customer support outcomes.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 85,
+      "scanned": "2026-07-05",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "easyvista",
+      "name": "EasyVista",
+      "url": "easyvista.com",
+      "category": "Platform Gravity",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "EasyVista provides an AI-powered IT Service Management (ITSM) platform that integrates service management, automation, monitoring, and asset discovery, and recently acquired Konverso to bring AI Agents to the core of its IT platform.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-07-05",
+      "discovery_relevance": 85,
+      "scanned": "2026-07-05",
       "hash": "\u2014",
       "changed": false,
       "delta": null,
@@ -3130,6 +3287,111 @@
     }
   ],
   "insights": [
+    {
+      "id": "ins-2026-07-05-1",
+      "scan_date": "2026-07-05",
+      "generated_at": "2026-07-05T03:37:38.553841+00:00",
+      "title": "Microsoft Escalates Direct Enterprise AI Deployment",
+      "insight": "Microsoft's launch of Frontier Company with a $2.5 billion commitment and 6,000 engineers signifies a major escalation in cloud giants directly embedding AI expertise within customer organizations. This aggressive move aims to overcome AI pilot failures and capture the full value of AI implementation, rather than just selling models or infrastructure.",
+      "trend": "The increasing complexity of enterprise AI adoption and the need for deep, hands-on integration is driving foundational model providers and cloud giants to move further downstream, directly competing with traditional system integrators and consulting firms to ensure successful, outcome-driven deployments.",
+      "category": "Transformation Titans",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Microsoft launches Frontier Company, a $2.5B AI consulting firm",
+        "embed AI engineers inside customers",
+        "target AI pilot failures",
+        "own AI implementation instead of selling it"
+      ],
+      "supersedes": "ins-2026-07-01-6",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-07-05-2",
+      "scan_date": "2026-07-05",
+      "generated_at": "2026-07-05T03:37:38.553841+00:00",
+      "title": "Agentic AI Maturity Drives Specialized M&A",
+      "insight": "The market is maturing with a wave of acquisitions focused on integrating specialized agentic AI capabilities into existing enterprise platforms, particularly for customer service, IT, and marketing. These M&A activities, coupled with significant funding for 'reliable enterprise AI' and 'governed transformation,' underscore a critical shift towards ensuring agents are not only specialized but also robust, secure, and seamlessly integrated.",
+      "trend": "Enterprises demand proven, reliable, and governable agentic solutions that can be quickly embedded into their existing workflows, leading platform providers to acquire specialized agentic startups to accelerate feature delivery and address specific operational pain points.",
+      "category": "Vertical Specialists",
+      "magnitude": 75,
+      "sources": [
+        "exa",
+        "competition"
+      ],
+      "evidence": [
+        "Genesys acquires Pinkfish to speed up contact center AI deployments",
+        "MoEngage Acquires Aampe to Bring 1:1 Agentic Decisioning",
+        "Digital Workforce acquires Agentic AI for customer service",
+        "EasyVista Acquires Konverso, Brining AI Agents to the Core of Its IT Platform",
+        "SailPoint completes acquisition of Entro Security to secure agentic identities",
+        "Scaled Cognition Announces $100M Series A to Build Reliable Enterprise AI",
+        "Vnomic Announces AgentContract\u2122 Support for Microsoft MAI Models to Deliver Governed, End-to-End Agentic AI Powered Transformation"
+      ],
+      "supersedes": "ins-2026-07-01-9",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-07-05-3",
+      "scan_date": "2026-07-05",
+      "generated_at": "2026-07-05T03:37:38.553841+00:00",
+      "title": "Industrial AI Transformation Attracts Billions",
+      "insight": "Major industrial players are making multi-billion dollar acquisitions to embed advanced AI platforms into their operational technology, signaling an accelerated push for AI-driven transformation in physical industries. This focus on industrial data and AI platforms aims to optimize complex operations, supply chains, and manufacturing processes at scale.",
+      "trend": "The immense potential for efficiency gains and competitive advantage in capital-intensive physical industries is driving large-scale strategic investments to integrate AI directly into industrial infrastructure and data ecosystems.",
+      "category": "Vertical Specialists",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Schneider Electric Acquires Cognite for $3.1 Billion to Advance Industrial AI Platform",
+        "Symbotic Announces Acquisition of ARMS Innovations, Advancing a New Era of Warehouse Operations Optimization"
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-07-05-4",
+      "scan_date": "2026-07-05",
+      "generated_at": "2026-07-05T03:37:38.553841+00:00",
+      "title": "New Platforms Orchestrate Agentic AI Deployment",
+      "insight": "A growing number of platforms and methodologies are emerging to specifically orchestrate and manage the deployment of agentic AI within enterprises, focusing on turning AI into measurable operational value. These solutions aim to provide the necessary governance, scalability, and integration layers to accelerate enterprise AI adoption beyond pilot phases.",
+      "trend": "As enterprises move from experimenting with individual AI agents to deploying them at scale, there's a critical demand for dedicated platforms that can manage the entire agent lifecycle, ensure governance, and demonstrate clear ROI, bridging the gap between agent development and operational impact.",
+      "category": "Forward Deployers",
+      "magnitude": 70,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Capita launches Forward Deployed Orchestrator\u2122 to help clients turn agentic AI into measurable operational value",
+        "Introducing HeyAdmin.ai \u2013 an Enterprise-grade Agentic AI Platform",
+        "Kapture CX Secures $10 Mn Pre-Series B Funding to Scale Agentic Enterprise Stack",
+        "Virtusa and UnifyApps Announce Strategic Partnership to Accelerate Enterprise AI Adoption with \"Assembly-First\" Methodology"
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-07-05-5",
+      "scan_date": "2026-07-05",
+      "generated_at": "2026-07-05T03:37:38.553841+00:00",
+      "title": "Outcome-Based AI Pricing Gains Traction",
+      "insight": "The debate around AI pricing models is intensifying, with a clear shift towards outcome-based pricing for AI agent services, moving beyond traditional per-seat or per-usage models. This trend reflects the market's demand for demonstrable, measurable business value from AI investments, aligning vendor incentives with client success.",
+      "trend": "As AI deployments mature and deliver tangible business results, enterprises are increasingly demanding pricing structures that tie directly to the value generated, pushing service providers to adopt outcome-centric models to protect margins and prove ROI.",
+      "category": "Transformation Titans",
+      "magnitude": 60,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "AI Pricing Models Per-Seat Per-Outcome and the Value Capture Debate - Alex Smale",
+        "Capita launches Forward Deployed Orchestrator\u2122 to help clients turn agentic AI into measurable operational value"
+      ],
+      "supersedes": "ins-2026-06-15-5",
+      "superseded_by": null
+    },
     {
       "id": "ins-2026-07-01-6",
       "scan_date": "2026-07-01",
@@ -3151,7 +3413,7 @@
         "Amazon launches $1B FDE org to deploy AI for enterprises"
       ],
       "supersedes": "ins-2026-07-01-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-07-05-1"
     },
     {
       "id": "ins-2026-07-01-7",
@@ -3220,7 +3482,7 @@
         "Genesys buys Pinkfish to boost cloud AI automation"
       ],
       "supersedes": "ins-2026-07-01-3",
-      "superseded_by": null
+      "superseded_by": "ins-2026-07-05-2"
     },
     {
       "id": "ins-2026-07-01-10",
@@ -3667,7 +3929,7 @@
         "LTM Unveils Outcome-Based Pricing Model as AI Agents Reshape IT Services Contracts"
       ],
       "supersedes": null,
-      "superseded_by": null
+      "superseded_by": "ins-2026-07-05-5"
     },
     {
       "id": "ins-2026-06-14-1",
@@ -3948,6 +4210,16 @@
   ],
   "scan_history": [
     {
+      "date": "2026-07-05",
+      "generated_at": "2026-07-05T03:38:13.210056+00:00",
+      "events_scanned": 542,
+      "red_deltas": 3,
+      "new_insights": 5,
+      "new_competitors": 8,
+      "competitors_scanned": 144,
+      "duration_seconds": 201
+    },
+    {
       "date": "2026-07-01",
       "generated_at": "2026-07-01T06:45:35.319628+00:00",
       "events_scanned": 538,
@@ -4018,7 +4290,7 @@
     }
   ],
   "meta": {
-    "competitors_scanned": 144,
-    "red_alert_count": 6
+    "competitors_scanned": 152,
+    "red_alert_count": 3
   }
 }
