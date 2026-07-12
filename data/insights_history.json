@@ -1,5 +1,95 @@
 [
   {
+    "id": "ins-2026-07-12-1",
+    "scan_date": "2026-07-12",
+    "generated_at": "2026-07-12T02:57:18.699055+00:00",
+    "title": "Agent Foundries Secure Massive Funding, Showcase Self-Application",
+    "insight": "Agent Foundries are attracting substantial capital, with significant Series A and B rounds, demonstrating strong investor confidence in their ability to build enterprise-grade AI agents. Notably, Lyzr utilized its own AI agent to successfully raise a $100 million Series B round, providing a powerful, recursive proof point for the efficacy and maturity of agentic capabilities.",
+    "trend": "The market is rapidly validating the commercial viability and operational effectiveness of AI agents, leading to increased investment in companies that develop these core agent technologies and a visible trend of agents performing complex business functions, including fundraising.",
+    "category": "Agent Foundries",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Prime Intellect raises $130M Series A",
+      "Norm Ai raises $120M at $1.2B valuation for legal AI",
+      "Lyzr used its own AI agent to help raise a $100mn round",
+      "Lyzr funding update: ~$14.5M \u2192 $100M Series B"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-12-2",
+    "scan_date": "2026-07-12",
+    "generated_at": "2026-07-12T02:57:18.699055+00:00",
+    "title": "Agentic M&A Accelerates Across Verticals and Infrastructure",
+    "insight": "The market is experiencing an accelerated wave of mergers and acquisitions, as established players and new ventures alike acquire specialized agentic AI capabilities to embed into their platforms and target specific industry verticals. This broad M&A activity spans agent training environments, conversational AI, document automation, legal, insurance, government, sales, and IT, indicating a rapid consolidation and integration of agent technology.",
+    "trend": "Enterprises are moving beyond foundational models to acquire and integrate highly specialized AI agents that deliver tangible value within specific business processes and industries, driving a strategic imperative for rapid capability acquisition through M&A.",
+    "category": "Vertical Specialists",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Mercor buys Deeptune to build training environments for AI agents",
+      "Nurix AI acquires Verloop to expand conversational AI",
+      "Circeus acquires Encodian for AI-powered document automation",
+      "Duck Creek Acquires Send for agentic underwriting",
+      "Accela acquires Civira AI Platform for government technology",
+      "Reevo acquires Ciro for AI-powered prospecting",
+      "EasyVista Acquires Konverso to Bring AI Agents to Its IT Platform",
+      "Jeff Bezos' Project Prometheus Acquires Agentic Computing Startup",
+      "EasyVista status: Emerging \u2192 Scaling"
+    ],
+    "supersedes": "ins-2026-07-05-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-12-3",
+    "scan_date": "2026-07-12",
+    "generated_at": "2026-07-12T02:57:18.699055+00:00",
+    "title": "Dedicated Control Planes Emerge for Enterprise Agent Governance",
+    "insight": "A new generation of platforms is emerging specifically to provide robust control, governance, and repeatable workflows for enterprise AI agent deployments. These 'control planes' are critical for managing agent behavior, ensuring compliance, and transforming one-off prompts into scalable, reliable operational processes, moving beyond basic orchestration to comprehensive lifecycle management.",
+    "trend": "As agentic AI deployments scale within enterprises, the demand for sophisticated governance, security, and operational control mechanisms intensifies, leading to the development of specialized platforms that ensure agents operate safely, predictably, and effectively.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Lyzr Launches Control Plane for Enterprise AI Agent Deployment and Governance",
+      "Introducing the Giant Swarm Agent Platform: Agents that run where your data lives",
+      "Quiq launches Verified Intelligence to give enterprise brands full control over agentic AI",
+      "Corvic AI launches V5 to turn one-off prompts into repeatable workflows"
+    ],
+    "supersedes": "ins-2026-07-05-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-12-4",
+    "scan_date": "2026-07-12",
+    "generated_at": "2026-07-12T02:57:18.699055+00:00",
+    "title": "Outcome-Based Pricing Becomes Standard for AI-Driven Services",
+    "insight": "Outcome-based pricing is rapidly transitioning from a nascent trend to a standard model for AI-driven services, particularly within the BPO sector. Cognizant's report that 45% of its BPO contracts are now outcome-based projects signifies a major shift towards valuing AI by demonstrable business results rather than traditional input-based metrics.",
+    "trend": "The market's increasing maturity and focus on tangible ROI from AI investments are forcing service providers to align their incentives directly with client success, making outcome-based pricing a critical differentiator and a new norm for AI-powered transformations.",
+    "category": "Digital Labor",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "45% Cognizant's BPO Contracts Are Now Outcome-Based Projects",
+      "AI Outcome Pricing: Why Result-Based AI Billing Wins in 2026",
+      "Cognizant's Outcome-Based Pricing: Reshaping the Future of BPO with AI"
+    ],
+    "supersedes": "ins-2026-07-05-5",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-07-05-1",
     "scan_date": "2026-07-05",
     "generated_at": "2026-07-05T03:37:38.553841+00:00",
@@ -43,7 +133,7 @@
       "Vnomic Announces AgentContract\u2122 Support for Microsoft MAI Models to Deliver Governed, End-to-End Agentic AI Powered Transformation"
     ],
     "supersedes": "ins-2026-07-01-9",
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-12-2"
   },
   {
     "id": "ins-2026-07-05-3",
@@ -83,7 +173,7 @@
       "Virtusa and UnifyApps Announce Strategic Partnership to Accelerate Enterprise AI Adoption with \"Assembly-First\" Methodology"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-12-3"
   },
   {
     "id": "ins-2026-07-05-5",
@@ -102,7 +192,7 @@
       "Capita launches Forward Deployed Orchestrator\u2122 to help clients turn agentic AI into measurable operational value"
     ],
     "supersedes": "ins-2026-06-15-5",
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-12-4"
   },
   {
     "id": "ins-2026-07-01-6",

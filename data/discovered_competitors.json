@@ -934,5 +934,149 @@
     "discovered_at": "2026-07-05",
     "discovery_relevance": 85,
     "evidence": "Acquired Konverso, bringing AI Agents to the core of its IT platform"
+  },
+  {
+    "id": "prime-intellect",
+    "name": "Prime Intellect",
+    "url": "primeintellect.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Prime Intellect raised $130M Series A to help enterprises build their own AI agents by providing an open superintelligence stack for training, evaluating, and deploying agentic AI models.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 100,
+    "evidence": "$130M Series A funding"
+  },
+  {
+    "id": "norm-ai",
+    "name": "Norm Ai",
+    "url": "norm.ai",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Norm Ai raised $120M at a $1.2 Billion valuation to deliver a full-stack model for legal AI, focusing on embedding law into AI agents for critical legal and compliance workflows.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 90,
+    "evidence": "$120 Million Series C funding at $1.2 Billion valuation"
+  },
+  {
+    "id": "presidio",
+    "name": "Presidio",
+    "url": "presidio.com",
+    "category": "Transformation Titans",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Presidio, a global digital services and solutions provider, launched new investments including a dedicated AI Consulting Group, AI Blueprint, and Innovation Lab to address enterprise AI transformation.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 90,
+    "evidence": "New Investments: Dedicated AI Consulting Group, AI Blueprint and Innovation Lab"
+  },
+  {
+    "id": "one",
+    "name": "One",
+    "url": "withone.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "One raised $4M to build the trust layer for AI agents, enabling them to act safely across over 500 platforms inside real enterprises.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 95,
+    "evidence": "$4M in new seed funding ($7M total)"
+  },
+  {
+    "id": "mercor",
+    "name": "Mercor",
+    "url": "mercor.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Mercor acquired Deeptune to build training environments for AI agents, enhancing the infrastructure for agent deployment.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 90,
+    "evidence": "Acquires Deeptune"
+  },
+  {
+    "id": "nurix-ai",
+    "name": "Nurix AI",
+    "url": "nurix.ai",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Nurix AI acquired Verloop.io to expand its conversational AI platform across voice and chat for enterprise offerings, focusing on building AI agents that automate back-office workflows.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 85,
+    "evidence": "Acquires Verloop.io (from RAW_SIGNALS) and raised $27.5 million in Series A funding"
+  },
+  {
+    "id": "duck-creek",
+    "name": "Duck Creek",
+    "url": "duckcreek.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Duck Creek acquired Send, creating the industry's only agentic underwriting-to-core platform for the insurance sector.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 90,
+    "evidence": "Duck Creek Acquires Send"
+  },
+  {
+    "id": "giant-swarm",
+    "name": "Giant Swarm",
+    "url": "giantswarm.io",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Giant Swarm launched its Agent Platform, designed to enable AI agents to run efficiently where enterprise data resides.",
+    "discovered": true,
+    "discovered_at": "2026-07-12",
+    "discovery_relevance": 95,
+    "evidence": "Launches the Giant Swarm Agent Platform"
   }
 ]
