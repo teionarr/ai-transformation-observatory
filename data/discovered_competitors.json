@@ -1078,5 +1078,95 @@
     "discovered_at": "2026-07-12",
     "discovery_relevance": 95,
     "evidence": "Launches the Giant Swarm Agent Platform"
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks",
+    "url": "fireworks.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Fireworks.ai is an AI infrastructure startup that provides an AI inference platform, recently closing a $1.5B funding round at a $17.5B valuation, making it a significant player in the foundational infrastructure for AI transformation.",
+    "discovered": true,
+    "discovered_at": "2026-07-19",
+    "discovery_relevance": 90,
+    "evidence": "Closed $1.5B funding round at $17.5B valuation."
+  },
+  {
+    "id": "anaconda",
+    "name": "Anaconda",
+    "url": "anaconda.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Anaconda, a well-established data science platform, acquired Kilo Code to expand its capabilities into agentic software development, aiming to power enterprise AI with model-agnostic AI agents.",
+    "discovered": true,
+    "discovered_at": "2026-07-19",
+    "discovery_relevance": 85,
+    "evidence": "Acquired Kilo Code to expand into agentic software development."
+  },
+  {
+    "id": "prefect",
+    "name": "Prefect",
+    "url": "prefect.io",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Prefect acquired Dagster, uniting two leading modern orchestrators to provide a comprehensive platform for building, running, and monitoring data pipelines and workflows, which is crucial for enterprise AI deployments.",
+    "discovered": true,
+    "discovered_at": "2026-07-19",
+    "discovery_relevance": 80,
+    "evidence": "Acquired Dagster, uniting two leading modern orchestrators."
+  },
+  {
+    "id": "orum",
+    "name": "Orum",
+    "url": "orum.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Orum, an AI-powered calling platform, acquired Scout AI to enhance its capabilities, providing sales teams with reliable phone data and automating aspects of the sales process.",
+    "discovered": true,
+    "discovered_at": "2026-07-19",
+    "discovery_relevance": 75,
+    "evidence": "Acquired Scout AI to give sales teams phone data they can trust."
+  },
+  {
+    "id": "parallel",
+    "name": "Parallel",
+    "url": "parallel.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Parallel announced a partnership with Google Cloud for agentic web search on the Gemini Enterprise Agent Platform, indicating their focus on developing and deploying AI agents for enterprise use cases.",
+    "discovered": true,
+    "discovered_at": "2026-07-19",
+    "discovery_relevance": 85,
+    "evidence": "Announced partnership with Google Cloud for agentic web search on Gemini Enterprise Agent Platform."
   }
 ]
