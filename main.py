@@ -368,6 +368,29 @@ def main():
     red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
     print(f"  [firecrawl] {red_alerts} red alerts detected")
 
+    # Infra failures (Firecrawl credits/auth/rate-limit) say nothing about the
+    # sites themselves — carry each affected company's last observed status
+    # forward instead of letting "skipped" wipe it.
+    crawl_ok_count = sum(1 for c in competitor_statuses if c.get("crawl_status") == "success")
+    crawl_degraded = firecrawl.infra_errors > 0 and crawl_ok_count < scanned_count / 2
+    if firecrawl.infra_errors:
+        print(f"  [firecrawl] WARNING: {firecrawl.infra_errors} scrape(s) failed for "
+              f"infra reasons (credits/auth/rate-limit); only {crawl_ok_count}/{scanned_count} crawled")
+        prev_rows = {}
+        try:
+            with open("data/market_snapshot_latest.json") as f:
+                prev_rows = {c["id"]: c for c in json.load(f).get("competitor_map", [])}
+        except Exception:
+            pass
+        for c in competitor_statuses:
+            if c.get("crawl_status") != "skipped":
+                continue
+            p = prev_rows.get(c["id"])
+            if p and p.get("crawl_status") in ("success", "error"):
+                c["crawl_status"] = p["crawl_status"]
+                if c.get("hash") == "—" and p.get("hash"):
+                    c["hash"] = p["hash"]
+
     # Apply persisted band classifications (from prior TBD/reclassify passes) so
     # they survive weekly scans, which otherwise reset bands from config.py.
     band_overrides = load_band_overrides()
@@ -642,6 +665,12 @@ def main():
           f"{len(new_competitors)} new competitors — "
           f"exa:{source_counts['exa']} firecrawl:{source_counts['firecrawl']} "
           f"gemini:{source_counts['gemini']} web:{source_counts['web']}")
+
+    # Exit 3 = snapshot saved, but the crawl layer was down (credits/auth/429).
+    # The workflow commits the data and then fails the run so this is visible.
+    if crawl_degraded:
+        print("[obs] ERROR: Firecrawl scrapes failed run-wide — check Firecrawl credits/API key")
+        sys.exit(3)
 
 
 if __name__ == "__main__":

@@ -267,11 +267,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "79796c7783",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "accenture",
@@ -287,11 +287,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "2b18138837",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "deloitte",
@@ -307,11 +307,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "dd03a4b76d",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "mckinsey",
@@ -327,11 +327,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "2a3bdf3280",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "bcgx",
@@ -347,11 +347,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1662b40e96",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "bain",
@@ -367,11 +367,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "729c6bae7e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "ibmconsulting",
@@ -387,11 +387,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "6eabbe8c5c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "ey",
@@ -407,11 +407,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "9755db48cb",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "pwc",
@@ -427,11 +427,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "3696e06c26",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "kpmg",
@@ -447,11 +447,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "de0bb09473",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "capgemini",
@@ -467,11 +467,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "bdb75f93c2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "distyl",
@@ -487,11 +487,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "0287e0b72d",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "tribe",
@@ -507,11 +507,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "27994d8328",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "sand",
@@ -527,11 +527,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "0c3c41b18a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "slalom",
@@ -547,11 +547,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "535e7dcafb",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "faculty",
@@ -567,11 +567,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "4f476595e1",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "neurons",
@@ -587,11 +587,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "54953f010e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "devoteam",
@@ -607,11 +607,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "de82c907bd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "mechorchard",
@@ -627,11 +627,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d78a67b748",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "webuildai",
@@ -647,11 +647,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "534f7cb509",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "multiverse",
@@ -667,11 +667,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1affdc26f8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "sierra",
@@ -687,11 +687,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "9333834994",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "relevanceai",
@@ -707,11 +707,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "2c1ece887f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "lyzr",
@@ -727,11 +727,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "e85978062a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "lindy",
@@ -747,11 +747,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "0739e49051",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "crewai",
@@ -767,11 +767,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "19e6bc6c1a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "beam",
@@ -787,11 +787,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "6b34357e51",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "stackai",
@@ -807,11 +807,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1e5d34ae27",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "knowlee",
@@ -827,11 +827,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "4bd0066d9e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "aily",
@@ -847,11 +847,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "15e5264790",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "writer",
@@ -867,11 +867,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "32c04937af",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "agentforce",
@@ -887,11 +887,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d0c257088c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "copilotstudio",
@@ -907,11 +907,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "326505ae9b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "servicenow",
@@ -927,11 +927,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "20581c1c3b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "googlecloud",
@@ -947,11 +947,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "b43d4ad24a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "aws",
@@ -967,11 +967,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "90b9e2351c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "koreai",
@@ -987,11 +987,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "dda749d0da",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "c3ai",
@@ -1007,11 +1007,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "2560e6cafd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "glean",
@@ -1027,11 +1027,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1ad7a7da06",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "oracle",
@@ -1047,11 +1047,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "b72a181377",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "cognigy",
@@ -1067,11 +1067,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d43080bf0e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "elevenx",
@@ -1087,11 +1087,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "569bc4f99a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "artisan",
@@ -1107,11 +1107,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1fefbb23f2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "decagon",
@@ -1127,11 +1127,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "fd87bfb710",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "cognition",
@@ -1147,11 +1147,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d5b6fe88c8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "moveworks",
@@ -1167,11 +1167,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "dc011d4216",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "harvey",
@@ -1187,11 +1187,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "07b2e76105",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "hippocratic",
@@ -1207,11 +1207,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "016b13958f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "cresta",
@@ -1227,11 +1227,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1f07e51838",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "fazeshift",
@@ -1247,11 +1247,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "2bec310b7a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "eloquent",
@@ -1287,11 +1287,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "6d1368b8f9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "heyhyper-ai",
@@ -1307,11 +1307,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "5a16769b38",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "wato",
@@ -1327,11 +1327,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "5ce33b587a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "pentagon",
@@ -1347,11 +1347,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "ef826f57ac",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "hyperspell",
@@ -1367,11 +1367,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "94f8cfe8e7",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "captain",
@@ -1387,11 +1387,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "0ec8657c75",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "corvera",
@@ -1407,11 +1407,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "49824627f3",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "memory-store",
@@ -1427,11 +1427,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1f934152b4",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "nozomio",
@@ -1447,11 +1447,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "2b23554896",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "epicenter",
@@ -1467,11 +1467,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "488afa4dc4",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "glen",
@@ -1487,11 +1487,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "74d951bbbb",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "salesgraph",
@@ -1507,11 +1507,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "bcc19b1dbd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "cerenovus",
@@ -1527,11 +1527,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "f4cc2b75ba",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "flowscope",
@@ -1547,11 +1547,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "88ae970cba",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "ressl",
@@ -1567,11 +1567,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d056b82661",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "jinba",
@@ -1587,11 +1587,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "25840fb9bd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "cofia",
@@ -1607,11 +1607,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "a13857d0b3",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "foaster",
@@ -1627,11 +1627,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "e52c1678b8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "ontora",
@@ -1647,11 +1647,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "ce518e88a6",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "hessian",
@@ -1667,11 +1667,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "44f9786540",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "autostep",
@@ -1687,11 +1687,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "526ae5de1b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "tasklet",
@@ -1707,11 +1707,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "57aa126b45",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "openwork",
@@ -1727,11 +1727,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "b479bf3822",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "tensol",
@@ -1747,11 +1747,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "5904b62183",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "ramain",
@@ -1767,11 +1767,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "755c701619",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "fullseam",
@@ -1787,11 +1787,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "6a94a7627c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "haladir",
@@ -1807,11 +1807,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "2ca8a3090c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "bubble-lab",
@@ -1827,11 +1827,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "022f34045b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "o11",
@@ -1847,11 +1847,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "34ab690065",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "eos-ai",
@@ -1867,11 +1867,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "9e7238a1a9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "akkari",
@@ -1887,11 +1887,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "8d3ba07543",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "korso",
@@ -1907,11 +1907,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "10043c5b93",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "hexa",
@@ -1927,11 +1927,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "969a13f80d",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "revnu",
@@ -1947,11 +1947,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "0b46c2ce8a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "qomplement",
@@ -1967,11 +1967,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "8323caa481",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "modern",
@@ -1987,11 +1987,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "90bcd656b4",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "netter",
@@ -2007,11 +2007,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "3ca2f9c064",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "smartbase",
@@ -2027,11 +2027,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "3e3ad63806",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "walter",
@@ -2047,11 +2047,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "057e5e3f49",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "the-company-company",
@@ -2067,11 +2067,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "50e8db0a3b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "item",
@@ -2087,11 +2087,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d0e4f08e7e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "lunavo",
@@ -2107,11 +2107,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "e9107b989a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "lark",
@@ -2127,11 +2127,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "902f246f2d",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "ambral",
@@ -2147,11 +2147,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "10efff7794",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "monday-com",
@@ -2167,11 +2167,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "ffa2a58911",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "rippling-com",
@@ -2187,11 +2187,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1452a310bd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "jeen-ai",
@@ -2207,11 +2207,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "811f08f62e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "reindeer-ai",
@@ -2227,11 +2227,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "87f6521ab3",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "o9solutions-com",
@@ -2247,11 +2247,11 @@
       "discovered_at": null,
       "discovery_relevance": null,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "e7e45e6765",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "mendo",
@@ -2267,11 +2267,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 85,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "87be67f70f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "prometheus-ai",
@@ -2287,11 +2287,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 80,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "ee1aef2527",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "infinity-constellation",
@@ -2307,11 +2307,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 90,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "31e3dcf0e5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "happiest-minds",
@@ -2327,11 +2327,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 75,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1aece0a941",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "poetic",
@@ -2347,11 +2347,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 95,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "9328eae25f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "jedify",
@@ -2367,11 +2367,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 80,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "99bdca1f69",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "chatsee-ai",
@@ -2387,11 +2387,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 70,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "330cf8a931",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "recursive",
@@ -2407,11 +2407,11 @@
       "discovered_at": "2026-06-14",
       "discovery_relevance": 60,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "b271c3d133",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "generativex",
@@ -2427,11 +2427,11 @@
       "discovered_at": "2026-06-15",
       "discovery_relevance": 85,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "c84a891a22",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "relai",
@@ -2447,11 +2447,11 @@
       "discovered_at": "2026-06-15",
       "discovery_relevance": 80,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "08535399e8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "phoenixai",
@@ -2467,11 +2467,11 @@
       "discovered_at": "2026-06-15",
       "discovery_relevance": 75,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "8b4e95a921",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "2x",
@@ -2487,11 +2487,11 @@
       "discovered_at": "2026-06-15",
       "discovery_relevance": 60,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "a9c51ec769",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "sedai",
@@ -2507,11 +2507,11 @@
       "discovered_at": "2026-06-15",
       "discovery_relevance": 80,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "88cf44a893",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "centerprise-ai",
@@ -2527,11 +2527,11 @@
       "discovered_at": "2026-06-15",
       "discovery_relevance": 70,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "82fc208928",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "decisions",
@@ -2547,11 +2547,11 @@
       "discovered_at": "2026-06-15",
       "discovery_relevance": 75,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "e0fbf8dbba",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "openai-deployco",
@@ -2567,11 +2567,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 95,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "cc5499a497",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "conduct",
@@ -2587,11 +2587,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 80,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "11ecfb89cc",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "sarvam-ai",
@@ -2607,11 +2607,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 60,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "101b385998",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "zensar-technologies-zenseai-agentmesh",
@@ -2627,11 +2627,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 85,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "7305135ca9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "zaro-ai",
@@ -2647,11 +2647,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 75,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "aa990c9abf",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "konecta-kolibri",
@@ -2667,11 +2667,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 85,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "6f4722ba8e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "cognizant-neuro-ai-multi-agent-accelerator",
@@ -2687,11 +2687,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 70,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "325fa6bf56",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "thoughtworks-agent-works",
@@ -2707,11 +2707,11 @@
       "discovered_at": "2026-06-21",
       "discovery_relevance": 75,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "6add64e023",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "patronus-ai",
@@ -2727,11 +2727,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 95,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "efe01be1f5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "zeb",
@@ -2747,11 +2747,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 80,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "1a2bb9eefa",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "hang-ten-systems",
@@ -2767,11 +2767,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "ba52743264",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "runlayer",
@@ -2787,11 +2787,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "181c66461c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "runpod",
@@ -2807,11 +2807,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 75,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "c4c2e61b41",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "scaled-cognition",
@@ -2827,11 +2827,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "fbedd6593a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "orthogonal",
@@ -2847,11 +2847,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 95,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d49c269925",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "neuraltrust",
@@ -2867,11 +2867,11 @@
       "discovered_at": "2026-06-28",
       "discovery_relevance": 85,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "d4c3975bd2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "8090",
@@ -2887,11 +2887,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "9d319242d2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "1001",
@@ -2907,11 +2907,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 95,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "7eaa9319bd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "odyssey",
@@ -2927,11 +2927,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "34355399c7",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "engram",
@@ -2947,11 +2947,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "4159cccc87",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "general-intuition",
@@ -2967,11 +2967,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 88,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "dc7033ca5a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "hypefy-ai",
@@ -2987,11 +2987,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 60,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "08b01e5720",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "truefoundry",
@@ -3007,11 +3007,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 92,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "a5b551696a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "cxai",
@@ -3027,11 +3027,11 @@
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
       "scanned": "2026-07-19 02:52",
-      "hash": "\u2014",
+      "hash": "3865a363f9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "circeus",
@@ -3051,7 +3051,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "pinkfish",
@@ -3071,7 +3071,7 @@
       "changed": true,
       "changed_pages": [],
       "delta": "Funding update: \u2014 \u2192 Acquired by Genesys",
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "aampe",
@@ -3091,7 +3091,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "harness",
@@ -3111,7 +3111,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "mura",
@@ -3131,7 +3131,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "venice-ai",
@@ -3151,7 +3151,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "kapture-cx",
@@ -3171,7 +3171,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "vnomic",
@@ -3191,7 +3191,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "genesys",
@@ -3211,7 +3211,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "sailpoint",
@@ -3231,7 +3231,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "symbotic",
@@ -3251,7 +3251,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "digital-workforce",
@@ -3271,7 +3271,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "easyvista",
@@ -3291,7 +3291,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "prime-intellect",
@@ -3311,7 +3311,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "norm-ai",
@@ -3331,7 +3331,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "presidio",
@@ -3351,7 +3351,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "one",
@@ -3371,7 +3371,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "mercor",
@@ -3391,7 +3391,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "nurix-ai",
@@ -3411,7 +3411,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "duck-creek",
@@ -3431,7 +3431,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "giant-swarm",
@@ -3451,7 +3451,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "skipped"
     },
     {
       "id": "fireworks",

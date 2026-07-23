@@ -13,11 +13,20 @@ class FirecrawlWorker:
 
     DIFF_CHAR_LIMIT = 1500  # cap per-competitor diff fed to Gemini
 
+    # Failures of the crawl infrastructure (billing, auth, throttling) — these say
+    # nothing about whether the target site is alive, so they must not produce
+    # crawl_status "error" (which the UI renders as the "site?" badge).
+    INFRA_ERROR_MARKERS = (
+        "payment required", "insufficient credits", "rate limit",
+        "unauthorized", "invalid api key", "too many requests",
+    )
+
     def __init__(self, api_key: str, tag: str = "weekly"):
         from firecrawl import FirecrawlApp
         self.app = FirecrawlApp(api_key=api_key)
         self.tag = tag
         self.call_count = 0  # real scrape calls this run (telemetry)
+        self.infra_errors = 0  # scrapes that failed for infra reasons (credits/auth/429)
 
     def run(self, competitors: list[dict]) -> list[dict]:
         results = []
@@ -28,10 +37,14 @@ class FirecrawlWorker:
             diffs = []
             display_hash = "—"
             crawl_ok = False
+            infra_fail = False
 
             for path in comp.get("crawl_paths", ["/", "/product"]):
                 url = f"https://{comp['url']}{path}"
                 page = self._scrape_page(url)
+                if page == "infra":
+                    infra_fail = True
+                    continue
                 if page is None:
                     continue
                 crawl_ok = True
@@ -68,7 +81,10 @@ class FirecrawlWorker:
                 "changed_pages": changed_pages,
                 "diff": combined_diff,  # internal — consumed by Gemini, stripped before public snapshot
                 "delta": None,          # filled by GeminiWorker
-                "crawl_status": "success" if crawl_ok else "error",
+                # "skipped" = the crawl never really happened (credits/auth/429),
+                # so we can't say anything about the site — main.py carries the
+                # previous status forward for these rows.
+                "crawl_status": "success" if crawl_ok else ("skipped" if infra_fail else "error"),
             })
 
         return results
@@ -87,6 +103,9 @@ class FirecrawlWorker:
             )
         except Exception as e:
             print(f"    [firecrawl] error on {url}: {e}")
+            if any(m in str(e).lower() for m in self.INFRA_ERROR_MARKERS):
+                self.infra_errors += 1
+                return "infra"
             return None
 
         ct = self._attr(result, "changeTracking")
