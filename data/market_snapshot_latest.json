@@ -2890,7 +2890,7 @@
       "hash": "9d319242d2",
       "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $135M Series A",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -2910,7 +2910,7 @@
       "hash": "7eaa9319bd",
       "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $30M Series A",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -2930,7 +2930,7 @@
       "hash": "34355399c7",
       "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $310M",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -2950,7 +2950,7 @@
       "hash": "4159cccc87",
       "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $98M",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -2970,7 +2970,7 @@
       "hash": "dc7033ca5a",
       "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $2.3B",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -2990,7 +2990,7 @@
       "hash": "08b01e5720",
       "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $7.2M Series A",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -3068,9 +3068,9 @@
       "discovery_relevance": 95,
       "scanned": "2026-07-19 02:52",
       "hash": "\u2014",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 Acquired by Genesys",
+      "delta": null,
       "crawl_status": "skipped"
     },
     {
@@ -4775,6 +4775,6 @@
   ],
   "meta": {
     "competitors_scanned": 165,
-    "red_alert_count": 1
+    "red_alert_count": 0
   }
 }

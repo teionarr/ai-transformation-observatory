@@ -225,13 +225,17 @@ def _acq_corroborated(name: str, signals: list[dict]) -> bool:
     name = (name or "").strip()
     if not name:
         return False
-    name_pat = re.compile(rf"\b{re.escape(name)}\b", re.I)
+    # Display names like "Cognition (Devin)" never appear verbatim in headlines —
+    # also match the parenthetical-stripped base name.
+    base = re.sub(r"\s*\([^)]*\)", "", name).strip()
+    variants = {v for v in (name, base) if v}
     acq_pat = re.compile(r"acquir|acquisition|merg", re.I)
     for s in signals:
         text = f"{s.get('title', '')} {s.get('why', '')}"
-        m = name_pat.search(text)
-        if m and acq_pat.search(text[max(0, m.start() - 100):m.end() + 100]):
-            return True
+        for v in variants:
+            m = re.search(rf"\b{re.escape(v)}\b", text, re.I)
+            if m and acq_pat.search(text[max(0, m.start() - 100):m.end() + 100]):
+                return True
     return False
 
 
@@ -392,13 +396,32 @@ def main():
         if t.get("id") in url_overrides:
             t["url"] = url_overrides[t["id"]]
 
+    # Enforce the board cap on the scrape set itself, not just on discovery —
+    # config + watchlist + ledger can grow past it and Firecrawl scrapes it all.
+    if len(tracked) > MAX_TRACKED:
+        print(f"[obs] WARNING: board over cap — scanning first {MAX_TRACKED} of "
+              f"{len(tracked)}; prune data/watchlist.json or the discovered ledger")
+        tracked = tracked[:MAX_TRACKED]
+
     # Step 2 — Firecrawl change-tracking
     print("[obs] step 2/5: Firecrawl change-tracking scan…")
-    firecrawl = FirecrawlWorker(api_key=firecrawl_key)
+    firecrawl = FirecrawlWorker(api_key=firecrawl_key, tag=os.getenv("FIRECRAWL_TAG") or "adhoc")
     competitor_statuses = firecrawl.run(tracked)
     scanned_count = len(competitor_statuses)
     red_alerts = sum(1 for c in competitor_statuses if c.get("changed"))
     print(f"  [firecrawl] {red_alerts} red alerts detected")
+
+    # Backstop: a Firecrawl outage can also surface as NON-infra errors (timeouts,
+    # 5xx, DNS on their API) that match no marker. 165 tracked sites do not all
+    # die in the same week — a mass error is a provider outage, not site facts.
+    error_count = sum(1 for c in competitor_statuses if c.get("crawl_status") == "error")
+    mass_error = scanned_count >= 20 and error_count > scanned_count * 0.5
+    if mass_error:
+        print(f"  [firecrawl] WARNING: {error_count}/{scanned_count} crawls errored — "
+              f"treating as a provider outage, not as dead sites")
+        for c in competitor_statuses:
+            if c.get("crawl_status") == "error":
+                c["crawl_status"] = "skipped"
 
     # Infra failures (Firecrawl credits/auth/rate-limit) say nothing about the
     # sites themselves — carry each affected company's last observed row forward
@@ -407,8 +430,8 @@ def main():
     skipped_count = sum(1 for c in competitor_statuses if c.get("crawl_status") == "skipped")
     crawl_ok_count = sum(1 for c in competitor_statuses if c.get("crawl_status") == "success")
     # Even a partial outage (credits die mid-run) must fail the run visibly.
-    crawl_degraded = skipped_count > scanned_count * 0.10
-    if firecrawl.infra_errors:
+    crawl_degraded = mass_error or skipped_count > scanned_count * 0.10
+    if firecrawl.infra_errors or mass_error:
         print(f"  [firecrawl] WARNING: {firecrawl.infra_errors} scrape(s) failed for "
               f"infra reasons (credits/auth/rate-limit); only {crawl_ok_count}/{scanned_count} crawled")
         prev_rows = {}
@@ -431,9 +454,16 @@ def main():
                 c["crawl_status"] = "error"
             elif p.get("crawl_status") in ("success", "carried"):
                 c["crawl_status"] = "carried"
-            for k in ("scanned", "hash", "delta"):
+            for k in ("scanned", "hash"):
                 if p.get(k) is not None:
                     c[k] = p[k]
+            # Invariant enforced IN CODE, not by worker defaults: a row that was
+            # not scanned this week is never this week's change signal. Its old
+            # delta is not copied — if fresh funding/status news arrives later
+            # in the run, THAT alone becomes the delta and flags the row.
+            c["changed"] = False
+            c["changed_pages"] = []
+            c["delta"] = None
 
     # Apply persisted band classifications (from prior TBD/reclassify passes) so
     # they survive weekly scans, which otherwise reset bands from config.py.

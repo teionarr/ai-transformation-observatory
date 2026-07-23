@@ -24,7 +24,10 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Healthy runs cost ~11-15s/company (rate-limit sleeps included): a full board
+    # at the 200 cap needs ~40+ min. A timeout kill loses the week's diffs
+    # permanently (change-tracking baselines advance server-side mid-run).
+    timeout-minutes: 60
 
     steps:
       - name: Checkout
@@ -56,6 +59,10 @@ jobs:
           DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
           RECLASSIFY: ${{ inputs.reclassify && '1' || '0' }}
           FIND_SITES: ${{ inputs.find_sites && '1' || '0' }}
+          # Change-tracking baselines are keyed by URL+tag server-side. Only the
+          # Sunday schedule may consume the "weekly" tag — a manual dispatch (or
+          # local run, which defaults to "adhoc") must not eat the week's diffs.
+          FIRECRAWL_TAG: ${{ github.event_name == 'schedule' && 'weekly' || 'manual' }}
         run: |
           # Monthly duties ride the first Sunday of the month (day 1-7):
           # find-sites every month, reclassify every other month.
