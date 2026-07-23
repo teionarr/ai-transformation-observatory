@@ -397,6 +397,11 @@ class GeminiWorker:
                     contents=prompt,
                     config=config,
                 )
+                # A "successful" call can still return no text (safety block,
+                # truncation, empty candidate) — that must retry, not propagate
+                # None into json parsing.
+                if not resp.text:
+                    raise ValueError("empty response text (blocked/truncated candidate)")
                 return resp.text
             except Exception as e:
                 if attempt < max_retries - 1:

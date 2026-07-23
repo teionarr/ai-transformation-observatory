@@ -16,9 +16,12 @@ class FirecrawlWorker:
     # Failures of the crawl infrastructure (billing, auth, throttling) — these say
     # nothing about whether the target site is alive, so they must not produce
     # crawl_status "error" (which the UI renders as the "site?" badge).
+    # Account-level markers only — generic HTTP words ("unauthorized", "too many
+    # requests") can come from the TARGET site being bot-walled, which is a real
+    # site problem, not our infra.
     INFRA_ERROR_MARKERS = (
-        "payment required", "insufficient credits", "rate limit",
-        "unauthorized", "invalid api key", "too many requests",
+        "payment required", "credit", "quota", "billing", "rate limit",
+        "invalid api key", "invalid token",
     )
 
     def __init__(self, api_key: str, tag: str = "weekly"):
@@ -28,7 +31,7 @@ class FirecrawlWorker:
         self.call_count = 0  # real scrape calls this run (telemetry)
         self.infra_errors = 0  # scrapes that failed for infra reasons (credits/auth/429)
 
-    def run(self, competitors: list[dict]) -> list[dict]:
+    def run(self, competitors: list[dict], keep_markdown: bool = False) -> list[dict]:
         results = []
 
         for comp in competitors:
@@ -36,6 +39,7 @@ class FirecrawlWorker:
             changed_pages = []
             diffs = []
             display_hash = "—"
+            first_markdown = ""
             crawl_ok = False
             infra_fail = False
 
@@ -48,6 +52,8 @@ class FirecrawlWorker:
                 if page is None:
                     continue
                 crawl_ok = True
+                if not first_markdown and page["markdown"]:
+                    first_markdown = page["markdown"]
 
                 if display_hash == "—" and page["markdown"]:
                     display_hash = self._display_hash(page["markdown"])
@@ -62,7 +68,7 @@ class FirecrawlWorker:
             scanned_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
             combined_diff = "\n\n".join(diffs)[: self.DIFF_CHAR_LIMIT] if diffs else None
 
-            results.append({
+            row = {
                 "id": comp["id"],
                 "name": comp["name"],
                 "url": comp["url"],
@@ -85,7 +91,12 @@ class FirecrawlWorker:
                 # so we can't say anything about the site — main.py carries the
                 # previous status forward for these rows.
                 "crawl_status": "success" if crawl_ok else ("skipped" if infra_fail else "error"),
-            })
+            }
+            if keep_markdown:
+                # internal — used by the site-finder to verify a guessed domain
+                # actually belongs to the company; stripped before the snapshot
+                row["_markdown"] = first_markdown[:5000]
+            results.append(row)
 
         return results
 

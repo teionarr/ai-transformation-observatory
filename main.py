@@ -27,9 +27,10 @@ def build_snapshot(
 ) -> dict:
     run_seconds = round(time.time() - started_at)
 
-    # diff is internal-only (consumed by Gemini) — strip before the public snapshot
+    # diff/_markdown are internal-only — strip before the public snapshot
     for comp in competitor_statuses:
         comp.pop("diff", None)
+        comp.pop("_markdown", None)
 
     return {
         "generated_at": generated_at,
@@ -39,7 +40,8 @@ def build_snapshot(
         "data_sources": data_sources,
         "velocity_feed": synthesis.get("velocity_feed", []),
         "competitor_map": competitor_statuses,
-        "insights": insights,
+        # the public snapshot carries the recent window; insights_history.json keeps everything
+        "insights": insights[:INSIGHTS_IN_SNAPSHOT],
         "scan_history": scan_history,
         "meta": {
             "competitors_scanned": len(competitor_statuses),
@@ -48,8 +50,11 @@ def build_snapshot(
     }
 
 
-def build_data_sources(source_counts: dict, generated_at: str) -> list[dict]:
-    """Attach real per-run telemetry to each configured provider."""
+def build_data_sources(source_counts: dict, generated_at: str, down: set = frozenset()) -> list[dict]:
+    """Attach real per-run telemetry to each configured provider.
+
+    `down` = provider ids whose calls all failed this run — attempts alone are
+    not health (a provider that threw on every call is down, not healthy)."""
     out = []
     for src in config.DATA_SOURCES:
         calls = source_counts.get(src["id"], 0)
@@ -57,7 +62,7 @@ def build_data_sources(source_counts: dict, generated_at: str) -> list[dict]:
             **src,
             "calls": calls,
             "last_call": generated_at if calls else None,
-            "status": "healthy" if calls else "idle",
+            "status": "down" if src["id"] in down else ("healthy" if calls else "idle"),
         })
     return out
 
@@ -79,6 +84,8 @@ DIRECTORY_DOMAINS = {
 }
 SCAN_HISTORY_KEEP = 52  # ~1 year of weekly runs
 MAX_NEW_DISCOVERIES = 8  # cap per run — guard against a noisy week flooding the board
+MAX_TRACKED = 200  # hard board cap — unbounded growth is what exhausts Firecrawl credits
+INSIGHTS_IN_SNAPSHOT = 200  # public snapshot carries the recent window; history file keeps all
 
 
 def _load_json_list(path: str) -> list[dict]:
@@ -210,6 +217,31 @@ def merge_insights(new_insights: list[dict], history: list[dict], scan_date: str
 
 
 # ---- discovery: auto-add new entrants found by weekly research ----------------
+
+def _acq_corroborated(name: str, signals: list[dict]) -> bool:
+    """A signal corroborates an acquisition only when the company name appears as
+    a whole word with acquisition language nearby — 'writer' inside an unrelated
+    acquisition headline must not corroborate acquiring the company 'Writer'."""
+    name = (name or "").strip()
+    if not name:
+        return False
+    name_pat = re.compile(rf"\b{re.escape(name)}\b", re.I)
+    acq_pat = re.compile(r"acquir|acquisition|merg", re.I)
+    for s in signals:
+        text = f"{s.get('title', '')} {s.get('why', '')}"
+        m = name_pat.search(text)
+        if m and acq_pat.search(text[max(0, m.start() - 100):m.end() + 100]):
+            return True
+    return False
+
+
+def _valid_funding(s: str) -> bool:
+    """Funding strings look like '$200M Series C · $11B': must carry a number or
+    currency and must not be lifecycle text ('Acquired by …' belongs in Status —
+    the ledger has already been corrupted this way once)."""
+    s = (s or "").strip()
+    return bool(s) and len(s) <= 60 and bool(re.search(r"[\d$€£]", s)) and "acquir" not in s.lower()
+
 
 def _norm_domain(url: str) -> str:
     u = (url or "").strip().lower()
@@ -369,10 +401,13 @@ def main():
     print(f"  [firecrawl] {red_alerts} red alerts detected")
 
     # Infra failures (Firecrawl credits/auth/rate-limit) say nothing about the
-    # sites themselves — carry each affected company's last observed status
-    # forward instead of letting "skipped" wipe it.
+    # sites themselves — carry each affected company's last observed row forward
+    # instead of letting "skipped" wipe it. Crucially this includes the previous
+    # `scanned` date: a carried-forward row must not claim today's freshness.
+    skipped_count = sum(1 for c in competitor_statuses if c.get("crawl_status") == "skipped")
     crawl_ok_count = sum(1 for c in competitor_statuses if c.get("crawl_status") == "success")
-    crawl_degraded = firecrawl.infra_errors > 0 and crawl_ok_count < scanned_count / 2
+    # Even a partial outage (credits die mid-run) must fail the run visibly.
+    crawl_degraded = skipped_count > scanned_count * 0.10
     if firecrawl.infra_errors:
         print(f"  [firecrawl] WARNING: {firecrawl.infra_errors} scrape(s) failed for "
               f"infra reasons (credits/auth/rate-limit); only {crawl_ok_count}/{scanned_count} crawled")
@@ -386,10 +421,19 @@ def main():
             if c.get("crawl_status") != "skipped":
                 continue
             p = prev_rows.get(c["id"])
-            if p and p.get("crawl_status") in ("success", "error"):
-                c["crawl_status"] = p["crawl_status"]
-                if c.get("hash") == "—" and p.get("hash"):
-                    c["hash"] = p["hash"]
+            if not p:
+                continue
+            # "carried" = showing the last real scan, not a fresh one. Display
+            # facts (scanned date, hash, delta text) carry over; the change
+            # SIGNAL does not — a change already reported in a prior week must
+            # not re-count as this week's red alert or re-enter Gemini synthesis.
+            if p.get("crawl_status") == "error":
+                c["crawl_status"] = "error"
+            elif p.get("crawl_status") in ("success", "carried"):
+                c["crawl_status"] = "carried"
+            for k in ("scanned", "hash", "delta"):
+                if p.get(k) is not None:
+                    c[k] = p[k]
 
     # Apply persisted band classifications (from prior TBD/reclassify passes) so
     # they survive weekly scans, which otherwise reset bands from config.py.
@@ -414,7 +458,20 @@ def main():
     # Step 3 — Gemini synthesis (velocity feed + competitor deltas)
     print("[obs] step 3/5: Gemini synthesis…")
     gemini = GeminiWorker(api_key=gemini_key, model_name=config.GEMINI_MODEL)
-    synthesis = gemini.run(signals, competitor_statuses)
+    gemini_failures = []
+
+    def _gemini_safe(label, fn, fallback):
+        """One unparseable Gemini response must not discard the whole run's crawl
+        spend (the change-tracking diffs are consumed server-side and can't be
+        re-read). Degrade to an empty result and fail the run visibly at the end."""
+        try:
+            return fn()
+        except Exception as e:
+            print(f"  [gemini] {label} FAILED: {e} — continuing with empty result")
+            gemini_failures.append(label)
+            return fallback
+
+    synthesis = _gemini_safe("synthesis", lambda: gemini.run(signals, competitor_statuses), {})
 
     # Merge delta summaries into rows now — the insights pass reads them
     deltas = synthesis.get("competitor_deltas", {})
@@ -429,6 +486,9 @@ def main():
     funding_changed = 0
     for comp in competitor_statuses:
         nf = funding_updates.get(comp["id"])
+        if isinstance(nf, str) and not _valid_funding(nf):
+            print(f"  [obs] rejected malformed funding for {comp['name']}: {nf!r}")
+            continue
         if isinstance(nf, str) and nf.strip() and nf.strip() != (comp.get("funding") or "").strip():
             old = comp.get("funding") or "—"
             comp["funding"] = nf.strip()
@@ -448,6 +508,13 @@ def main():
     for comp in competitor_statuses:
         ns = status_updates.get(comp["id"])
         cur = (comp.get("status") or "").strip()
+        # "Acquired" is sticky once set, so a hallucinated acquisition is
+        # irreversible — accept it only when this week's signals actually
+        # mention this company alongside acquisition language.
+        if isinstance(ns, str) and ns.strip() == "Acquired":
+            if not _acq_corroborated(comp.get("name"), signals):
+                print(f"  [obs] rejected uncorroborated 'Acquired' for {comp['name']}")
+                continue
         if (isinstance(ns, str) and ns.strip() in config.STATUSES
                 and ns.strip() != cur and cur != "Acquired"):
             comp["status"] = ns.strip()
@@ -467,7 +534,7 @@ def main():
     # company and persist it. Quiet — a TBD→band change is NOT a market signal.
     tbd = [c for c in competitor_statuses if c.get("category") == "TBD"]
     if tbd:
-        assigned = gemini.classify(tbd, real_bands)
+        assigned = _gemini_safe("classify", lambda: gemini.classify(tbd, real_bands), {})
         n = 0
         for c in competitor_statuses:
             if c.get("category") == "TBD" and assigned.get(c["id"]) in real_bands:
@@ -482,7 +549,7 @@ def main():
         candidates = [c for c in competitor_statuses
                       if c.get("category") != "TBD" and c["id"] not in tbd_at_start]
         print(f"[obs] bimonthly re-classification of {len(candidates)} companies…")
-        result = gemini.reclassify(candidates, real_bands)
+        result = _gemini_safe("reclassify", lambda: gemini.reclassify(candidates, real_bands), {})
         shifts = 0
         for c in candidates:
             r = result.get(c["id"]) or {}
@@ -542,25 +609,49 @@ def main():
                 or _norm_domain(c.get("url", "")) in DIRECTORY_DOMAINS]
         if need:
             print(f"[obs] monthly site-finder for {len(need)} 'site?' compan(ies)…")
-            found = gemini.find_websites(need, getattr(config, "OBSERVATORY_TOPIC", ""))
-            fixed = []
+            found = _gemini_safe(
+                "find_websites",
+                lambda: gemini.find_websites(need, getattr(config, "OBSERVATORY_TOPIC", "")), {})
+            # A Gemini domain guess is persisted ONLY after verification: the
+            # candidate homepage must actually crawl AND mention the company —
+            # otherwise a guessable-domain hallucination attributes some other
+            # company's website to this entity on every future run.
+            candidates = []
             for c in need:
                 nd = _norm_domain(found.get(c["id"]) or "")
                 if nd and nd not in DIRECTORY_DOMAINS and nd != _norm_domain(c.get("url", "")):
-                    url_overrides[c["id"]] = nd
-                    c["url"] = nd
-                    fixed.append(c)
+                    candidates.append((c, nd))
+            fixed = []
+            recrawled = {}
+            if candidates:
+                recrawled = {r["id"]: r for r in firecrawl.run(
+                    [dict(c, url=nd, crawl_paths=["/"]) for c, nd in candidates],
+                    keep_markdown=True)}
+                for c, nd in candidates:
+                    r = recrawled.get(c["id"])
+                    md = (r.pop("_markdown", "") or "") if r else ""
+                    name = (c.get("name") or "").strip()
+                    # whole-word match near the top of the page — a common-word
+                    # name ("Writer") appearing anywhere on any page proves nothing
+                    verified = bool(
+                        r and r.get("crawl_status") == "success" and name
+                        and re.search(rf"\b{re.escape(name)}\b", md[:2000], re.I))
+                    if verified:
+                        url_overrides[c["id"]] = nd
+                        c["url"] = nd
+                        fixed.append(c)
+                    else:
+                        recrawled.pop(c["id"], None)
+                        print(f"  [obs] rejected site-finder guess {nd!r} for {c['name']} (unverified)")
             if fixed:
                 save_url_overrides(url_overrides)
-                # Re-crawl the resolved companies with their real URL…
-                recrawled = {r["id"]: r for r in firecrawl.run([dict(c, crawl_paths=["/"]) for c in fixed])}
                 for i, c in enumerate(competitor_statuses):
                     if c["id"] in recrawled:
                         competitor_statuses[i] = recrawled[c["id"]]
                 # …and re-classify the ones that now crawl into a real band (quiet, not a shift).
                 ok = [r for r in recrawled.values() if r.get("crawl_status") == "success"]
                 if ok:
-                    reassigned = gemini.classify(ok, real_bands)
+                    reassigned = _gemini_safe("classify-resolved", lambda: gemini.classify(ok, real_bands), {})
                     ok_ids = {r["id"] for r in ok}
                     for c in competitor_statuses:
                         if c["id"] in ok_ids and reassigned.get(c["id"]) in real_bands:
@@ -586,7 +677,9 @@ def main():
     # Step 4 — Gemini deep-research insights (accumulating, supersede-aware feed)
     print("[obs] step 4/5: Gemini deep-research insights…")
     history = load_insights_history()
-    new_insights = gemini.research_insights(signals, competitor_statuses, history)
+    new_insights = _gemini_safe(
+        "research_insights",
+        lambda: gemini.research_insights(signals, competitor_statuses, history), [])
     scan_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     insights = merge_insights(new_insights, history, scan_date)
     save_insights_history(insights)
@@ -594,12 +687,18 @@ def main():
 
     # Step 5 — Discovery scout: auto-add new entrants found via web research
     new_competitors = []
-    if config.DISCOVERY_ENABLED:
+    if config.DISCOVERY_ENABLED and len(competitor_statuses) >= MAX_TRACKED:
+        print(f"[obs] step 5/5: discovery scout SKIPPED — board at capacity "
+              f"({len(competitor_statuses)}/{MAX_TRACKED}); prune the watchlist/ledger to resume")
+    elif config.DISCOVERY_ENABLED:
         print("[obs] step 5/5: discovery scout…")
-        candidates = gemini.discover_entrants(signals, tracked)
+        candidates = _gemini_safe(
+            "discover_entrants", lambda: gemini.discover_entrants(signals, tracked), [])
         new_competitors, discovered_ledger = merge_discoveries(
             candidates, tracked, discovered_ledger, scan_date,
-            config.DISCOVERY_RELEVANCE_THRESHOLD, MAX_NEW_DISCOVERIES,
+            config.DISCOVERY_RELEVANCE_THRESHOLD,
+            # never overshoot the board cap
+            min(MAX_NEW_DISCOVERIES, MAX_TRACKED - len(competitor_statuses)),
         )
         if new_competitors:
             save_discovered(discovered_ledger)
@@ -616,7 +715,14 @@ def main():
         "gemini": gemini.gemini_calls,
         "web": gemini.web_calls,
     }
-    data_sources = build_data_sources(source_counts, generated_at)
+    down = set()
+    if exa.call_count and exa.error_count >= exa.call_count:
+        down.add("exa")
+    if crawl_degraded:
+        down.add("firecrawl")
+    if gemini_failures:
+        down.add("gemini")
+    data_sources = build_data_sources(source_counts, generated_at, down)
 
     # Record this run in the durable scan-history ledger
     scan_history = record_scan({
@@ -666,10 +772,18 @@ def main():
           f"exa:{source_counts['exa']} firecrawl:{source_counts['firecrawl']} "
           f"gemini:{source_counts['gemini']} web:{source_counts['web']}")
 
-    # Exit 3 = snapshot saved, but the crawl layer was down (credits/auth/429).
-    # The workflow commits the data and then fails the run so this is visible.
+    # Exit 3 = snapshot saved, but a provider layer was down or a synthesis stage
+    # failed. The workflow commits the data and then fails the run so this is
+    # visible instead of a green run over degraded data.
+    degraded_reasons = []
     if crawl_degraded:
-        print("[obs] ERROR: Firecrawl scrapes failed run-wide — check Firecrawl credits/API key")
+        degraded_reasons.append(f"Firecrawl skipped {skipped_count}/{scanned_count} crawls (credits/auth/429)")
+    if gemini_failures:
+        degraded_reasons.append(f"Gemini stage(s) failed: {', '.join(gemini_failures)}")
+    if "exa" in down:
+        degraded_reasons.append("all Exa searches failed")
+    if degraded_reasons:
+        print(f"[obs] ERROR: degraded run — {'; '.join(degraded_reasons)}")
         sys.exit(3)
 
 

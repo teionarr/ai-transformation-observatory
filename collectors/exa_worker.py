@@ -7,6 +7,7 @@ class ExaWorker:
         from exa_py import Exa
         self.client = Exa(api_key=api_key)
         self.call_count = 0  # real API calls this run (telemetry)
+        self.error_count = 0  # calls that threw — all-errors means the provider is down, not "quiet week"
 
     def run(
         self,
@@ -70,6 +71,7 @@ class ExaWorker:
             return [self._to_signal(r) for r in resp.results]
         except Exception as e:
             print(f"    [exa] error: {e}")
+            self.error_count += 1
             return []
 
     def _search_social(self, query: str, start_iso: str) -> list[dict]:
@@ -86,6 +88,7 @@ class ExaWorker:
             return [self._to_signal(r, source_type="social") for r in resp.results]
         except Exception as e:
             print(f"    [exa] social error: {e}")
+            self.error_count += 1
             return []
 
     def _to_signal(self, r, source_type: str = None) -> dict:
