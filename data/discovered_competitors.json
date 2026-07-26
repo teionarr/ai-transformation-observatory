@@ -1168,5 +1168,149 @@
     "discovered_at": "2026-07-19",
     "discovery_relevance": 85,
     "evidence": "Announced partnership with Google Cloud for agentic web search on Gemini Enterprise Agent Platform."
+  },
+  {
+    "id": "ode",
+    "name": "Ode",
+    "url": "ode.com",
+    "category": "Forward Deployers",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "An AI services firm launched by Anthropic, Blackstone, and Hellman & Friedman, focused on deploying frontier AI models at scale for enterprises, combining Anthropic's models with experienced AI engineers.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 95,
+    "evidence": "Launched with $1.5 billion backing from Anthropic, Blackstone, Hellman & Friedman, Goldman Sachs, General Atlantic, Leonard Green & Partners, Apollo Global Management, GIC, and Sequoia Capital."
+  },
+  {
+    "id": "arrakis",
+    "name": "Arrakis",
+    "url": "arrakis.ai",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "An AI deployment company that emerged from stealth with significant funding, focused on building an AI operating system for industrial sectors like aerospace, energy, logistics, and manufacturing, deploying AI agents into existing systems.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 90,
+    "evidence": "Emerged from stealth with $38 million in total funding, including a $30 million Series A led by Blossom Capital and a seed round led by Accel."
+  },
+  {
+    "id": "fly-io",
+    "name": "Fly.io",
+    "url": "fly.io",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Received $25 million in funding to deliver next-generation AI infrastructure, specifically focusing on 'computers for agents' to support agentic deployment.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 80,
+    "evidence": "Raised $25 million in funding to deliver the next generation of AI infrastructure."
+  },
+  {
+    "id": "prentis",
+    "name": "Prentis",
+    "url": "prentis.ai",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "An AI research lab co-founded by Reid Hoffman and Mark Pincus, focused on building AI agents that can perceive screens and operate software across mobile, browser, and desktop to automate routine computer work and back-office tasks.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 90,
+    "evidence": "In talks to raise $100 million at a $1 billion valuation."
+  },
+  {
+    "id": "natural",
+    "name": "Natural",
+    "url": "natural.com",
+    "category": "Other",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Building financial infrastructure for autonomous AI agents, including wallets, payments, transfers, and merchant acceptance, positioning itself as a payments stack for the 'agent economy'.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 70,
+    "evidence": "Closed a $30 million Series A round, bringing its total funding to over $40 million."
+  },
+  {
+    "id": "atoms",
+    "name": "Atoms",
+    "url": "atoms.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Travis Kalanick's industrial automation startup focusing on 'gainfully employed robots' and specialized machines for sectors like food, mining, and transport, aiming to bridge AI software with the physical world.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 85,
+    "evidence": "Raised $1.7 billion in equity investment."
+  },
+  {
+    "id": "skyfall-ai",
+    "name": "Skyfall AI",
+    "url": "skyfall.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "A 'neolab' building foundational infrastructure for the autonomous enterprise, developing Enterprise World Models that use recursive simulation to navigate complex business environments and to operate a SaaS business autonomously.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 95,
+    "evidence": "Emerged from stealth with undisclosed funding from Fidelity, Inovia Capital, Touring Capital, M13, NextView Ventures, and Garage Capital."
+  },
+  {
+    "id": "businessnext",
+    "name": "BusinessNext",
+    "url": "businessnext.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "An Indian banking software firm that received a significant investment to build AI-powered solutions for financial services, focusing on autonomous operations and private AI solutions, including AI agents for customer-facing workflows.",
+    "discovered": true,
+    "discovered_at": "2026-07-26",
+    "discovery_relevance": 85,
+    "evidence": "Received $40 million investment from ServiceNow Ventures."
   }
 ]

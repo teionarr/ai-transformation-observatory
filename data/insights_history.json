@@ -1,5 +1,107 @@
 [
   {
+    "id": "ins-2026-07-26-1",
+    "scan_date": "2026-07-26",
+    "generated_at": "2026-07-26T03:29:12.279924+00:00",
+    "title": "Foundational Model Providers Deepen Direct Enterprise AI Implementation",
+    "insight": "Foundational model providers like Anthropic and OpenAI are significantly escalating their direct involvement in enterprise AI implementation and deployment. Anthropic, in partnership with Blackstone, launched Ode with a $1.5 billion investment, while OpenAI introduced \"Presence,\" a governed AI agent deployment consulting platform.",
+    "trend": "This trend reflects a strategic imperative for foundational model providers to capture more value downstream by directly addressing the complexities of enterprise integration and deployment, moving beyond model provision to become full-stack transformation partners.",
+    "category": "Transformation Titans",
+    "magnitude": 95,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://www.marketscale.com/industries/software-and-technology/anthropic-and-blackstones-15b-ode-bets-enterprise-ai-value-lives-in-implementation-not-models",
+      "https://www.beri.net/article/openai-presence-enterprise-ai-agent-deployment-consulting-platform-war-2026"
+    ],
+    "supersedes": "ins-2026-07-19-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-26-2",
+    "scan_date": "2026-07-26",
+    "generated_at": "2026-07-26T03:29:12.279924+00:00",
+    "title": "Industrial AI Transformation Attracts Billions in New Capital",
+    "insight": "The industrial sector is seeing an unprecedented influx of capital for AI transformation and automation. Travis Kalanick's industrial automation startup, Atoms, secured a massive $1.7 billion in funding, while Arrakis emerged from stealth with $38 million to bring AI to industrial sectors.",
+    "trend": "This surge in investment highlights the immense untapped potential and the growing urgency to apply AI to complex physical operations, supply chains, and manufacturing processes, driving efficiency and innovation in traditionally asset-heavy industries.",
+    "category": "Vertical Specialists",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://siliconangle.com/2026/07/23/industrial-automation-startup-atoms-raises-1-7b-funding/",
+      "https://fortune.com/2026/07/22/arrakis-a-startup-betting-ais-biggest-payoff-is-in-industrial-sectors-not-office-work-emerges-from-stealth-with-38-million-in-venture-funding/",
+      "https://www.unite.ai/carrier-acquires-ai-building-automation-firm-75f/"
+    ],
+    "supersedes": "ins-2026-07-05-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-26-3",
+    "scan_date": "2026-07-26",
+    "generated_at": "2026-07-26T03:29:12.279924+00:00",
+    "title": "Agent Foundries Advance 'Long-Horizon' and 'Personality' Capabilities",
+    "insight": "Agent Foundries are evolving their offerings beyond basic task automation, focusing on developing more sophisticated \"long-horizon\" and \"human-level\" agents. Sierra's acquisition of Takeoff aims to build these advanced agents, while Cognition's purchase of Poke emphasizes the emerging competitive advantage of integrating distinct AI personalities.",
+    "trend": "This development signifies a maturation in the agentic market, where the focus shifts from simple, single-task agents to complex, multi-step autonomous entities capable of sustained interaction and nuanced behavior, demanding more advanced underlying capabilities.",
+    "category": "Agent Foundries",
+    "magnitude": 75,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://sierra.ai/blog/sierra-acquires-takeoff",
+      "https://www.cmswire.com/customer-experience/sierra-buys-takeoff-launches-horizon-agent-platform/",
+      "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becomes-a-competitive-advantage/"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-26-4",
+    "scan_date": "2026-07-26",
+    "generated_at": "2026-07-26T03:29:12.279924+00:00",
+    "title": "Platform Providers Bolster Agent Infrastructure and Governance Tools",
+    "insight": "Platform Gravity players are heavily investing in robust infrastructure and governance solutions to support the scalable deployment and management of AI agents. HubSpot launched an \"Agent Hub and Agent Builder,\" Ushur introduced its \"Agentic Platform,\" and ServiceNow invested in an AI banking startup specifically for \"enterprise agent governance.\"",
+    "trend": "As agentic deployments move from experimental to mission-critical, the market demands comprehensive tools for orchestration, control, and compliance, driving platform providers to build out the foundational layers necessary for secure and reliable agent operations at scale.",
+    "category": "Platform Gravity",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://www.hubspot.com/company-news/meet-agent-hub-and-agent-builder",
+      "https://www.globenewswire.com/news-release/2026/07/22/3331397/0/en/Ushur-launches-the-Ushur-Agentic-Platform-AI-agents-that-finish-the-job.html",
+      "https://startupfortune.com/servicenow-bets-40-million-on-an-indian-ai-banking-startup-to-lock-down-enterprise-agent-governance/",
+      "https://otf-kit.dev/blog/vercel-agentic-infrastructure",
+      "https://aiven.io/blog/aiven-acquires-flow-ai",
+      "https://www.globenewswire.com/news-release/2026/07/24/3332949/0/en/Fly-io-Doubles-Down-on-Computers-for-Agents-with-25M-to-Deliver-the-Next-Generation-of-AI-Infrastructure.html"
+    ],
+    "supersedes": "ins-2026-07-12-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-07-26-5",
+    "scan_date": "2026-07-26",
+    "generated_at": "2026-07-26T03:29:12.279924+00:00",
+    "title": "Digital Labor Market Targets Routine Task Automation with New Funding",
+    "insight": "The \"Digital Labor\" segment is expanding significantly, with new ventures attracting substantial funding to automate routine computer-based tasks. Prentis, backed by Hoffman and Pincus, is reportedly seeking $100 million to develop AI agents specifically for routine computer work, aiming for a $1 billion valuation.",
+    "trend": "This trend reflects the growing enterprise demand to offload repetitive, high-volume digital tasks to autonomous AI agents, freeing human capital for more strategic work and driving efficiency gains across various business functions.",
+    "category": "Digital Labor",
+    "magnitude": 70,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://creati.ai/ai-news/2026-07-24/prentis-reportedly-seeks-100-million-as-hoffman-and-pincus-backed-lab-targets-ai-agents-for-rout/",
+      "https://getstartupbrief.com/story/prentis-100m-unicorn-funding",
+      "https://www.prnewswire.com/news-releases/gr0-to-acquire-ultimate-ais-deployment-division-and-launch-gr0-ai-turning-brands-existing-customer-data-into-revenue-302833764.html"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-07-19-1",
     "scan_date": "2026-07-19",
     "generated_at": "2026-07-19T02:54:05.878455+00:00",
@@ -19,7 +121,7 @@
       "Why Anthropic Bet $1.5B on Deployment, Not Models | THE D*AI*LY BRIEF"
     ],
     "supersedes": "ins-2026-07-05-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-26-1"
   },
   {
     "id": "ins-2026-07-19-2",
@@ -178,7 +280,7 @@
       "Corvic AI launches V5 to turn one-off prompts into repeatable workflows"
     ],
     "supersedes": "ins-2026-07-05-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-26-4"
   },
   {
     "id": "ins-2026-07-12-4",
@@ -263,7 +365,7 @@
       "Symbotic Announces Acquisition of ARMS Innovations, Advancing a New Era of Warehouse Operations Optimization"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-07-26-2"
   },
   {
     "id": "ins-2026-07-05-4",
