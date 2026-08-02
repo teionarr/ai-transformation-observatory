@@ -1,5 +1,83 @@
 [
   {
+    "id": "ins-2026-08-02-1",
+    "scan_date": "2026-08-02",
+    "generated_at": "2026-08-02T03:32:44.783598+00:00",
+    "title": "Foundational Model Providers Intensify Direct Enterprise Deployment",
+    "insight": "Foundational model providers and major tech players are dramatically increasing their direct involvement in enterprise AI implementation, moving beyond model sales to embed engineers and form dedicated deployment firms. This strategic shift, exemplified by the $1.5B launch of Ode by Anthropic and Blackstone, and a combined $4B+ investment by OpenAI, Anthropic, and Microsoft in embedding engineers, reflects a critical understanding that direct, hands-on deployment is essential to bridge the gap between AI promise and tangible business outcomes.",
+    "trend": "The market is recognizing that successful AI transformation requires deep, embedded expertise and co-development, leading foundational model providers to become 'Forward Deployers' and 'Transformation Titans' to ensure their models translate into real-world value and capture a larger share of the implementation market. The market is now rewarding companies that can demonstrate tangible revenue from AI spending, not just the size of the investment.",
+    "category": "Transformation Titans",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "competition",
+      "web"
+    ],
+    "evidence": [
+      "Anthropic and Blackstone launch $1.5B AI firm Ode.",
+      "OpenAI, Anthropic, and Microsoft are spending $4B+ to embed engineers inside enterprises.",
+      "Cognizant and Anthropic expand partnership.",
+      "Ode Funding update: $1.5B Launch.",
+      "Microsoft and Amazon earnings show market rewards AI spend tied to metered cloud revenue."
+    ],
+    "supersedes": "ins-2026-07-26-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-02-2",
+    "scan_date": "2026-08-02",
+    "generated_at": "2026-08-02T03:32:44.783598+00:00",
+    "title": "Vertical Specialists Attract Massive Capital for Agentic Deployment",
+    "insight": "The AI-transformation market is experiencing a significant surge in funding and M&A for highly specialized agentic AI platforms targeting specific industry verticals and business functions. Companies like Arrakis ($38M for industrial), Freehand ($75M for supply chain), COR ($30M for agencies), and Encore AI ($30M for customer interactions) are securing substantial investments, while Emergent AI achieved unicorn status with $130M for its agentic platform, underscoring the demand for outcome-focused, deeply integrated AI solutions.",
+    "trend": "Enterprises are seeking tailored AI solutions that directly address their unique operational challenges and deliver measurable business results, driving a wave of specialization and consolidation among 'Vertical Specialists' and 'Agent Foundries' that can provide domain-specific, deployed AI. July 2026 saw $1.8 billion in AI agent funding across 12+ deals, with enterprise automation agents capturing 58% of the capital.",
+    "category": "Vertical Specialists",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "competition",
+      "web"
+    ],
+    "evidence": [
+      "Arrakis Comes out of Stealth With $38M to Help Industrial Enterprises.",
+      "Freehand Raises $75M to Scale AI Teams Managing Supply Chain Spend.",
+      "COR raises US$30 million for its AI-powered profitability platform.",
+      "Encore AI Raises $30M to Deploy Enterprise AI Platform for Customer Interactions.",
+      "Emergent AI Raises $130M Series C at $1.5 Billion Valuation.",
+      "Deepki's Real Estate Platform Adds Agentic AI With Camion Deal.",
+      "Vena to Acquire Morpheo AI for Finance.",
+      "Dapta Acquires Beezion to Accelerate AI Sales Growth.",
+      "AI agent startup funding in July 2026 reached $1.8 billion across 12+ deals."
+    ],
+    "supersedes": "ins-2026-07-26-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-02-3",
+    "scan_date": "2026-08-02",
+    "generated_at": "2026-08-02T03:32:44.783598+00:00",
+    "title": "Advanced Governance and Reliability Become Core to Agentic Platforms",
+    "insight": "As enterprise AI agent adoption accelerates, platform providers are heavily investing in sophisticated governance, reliability engineering, and quality assurance capabilities to ensure scalable and compliant deployment. New offerings like Tines' 3B platform for governing AI workflows, Rootly's acquisition of ThinkHive for reliability engineering, and Tricentis' acquisition of Tabnine for agentic quality engineering demonstrate a critical market shift towards robust operational frameworks for AI agents, especially in regulated sectors.",
+    "trend": "The increasing maturity and deployment of AI agents in critical enterprise functions necessitate a comprehensive 'Platform Gravity' layer that ensures trust, compliance, and predictable performance, moving beyond basic orchestration to full lifecycle management and operational integrity. Governance is quickly becoming the defining challenge of the agentic AI era.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Tines Launches 3B to Help Enterprises Govern AI Workflows, Apps and Agents.",
+      "Rootly Acquires ThinkHive to Bring Reliability Engineering to its AI Agents.",
+      "Boomi: Lunar.dev Acquisition Strengthens AI Governance for Boomi Customers.",
+      "Armor Launches Sovereign AI: A whole-company AI work platform for regulated industries.",
+      "Tricentis Acquires Tabnine to Further Scale Agentic Quality Engineering.",
+      "Cohere introduces North Automations: Intelligent workflow orchestration.",
+      "Deloitte reports only 20% of companies have a mature governance model for autonomous agents.",
+      "Forrester predicts 60% of Fortune 100 companies will appoint a head of AI governance in 2026."
+    ],
+    "supersedes": "ins-2026-07-26-4",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-07-26-1",
     "scan_date": "2026-07-26",
     "generated_at": "2026-07-26T03:29:12.279924+00:00",
@@ -16,7 +94,7 @@
       "https://www.beri.net/article/openai-presence-enterprise-ai-agent-deployment-consulting-platform-war-2026"
     ],
     "supersedes": "ins-2026-07-19-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-02-1"
   },
   {
     "id": "ins-2026-07-26-2",
@@ -36,7 +114,7 @@
       "https://www.unite.ai/carrier-acquires-ai-building-automation-firm-75f/"
     ],
     "supersedes": "ins-2026-07-05-3",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-02-2"
   },
   {
     "id": "ins-2026-07-26-3",
@@ -79,7 +157,7 @@
       "https://www.globenewswire.com/news-release/2026/07/24/3332949/0/en/Fly-io-Doubles-Down-on-Computers-for-Agents-with-25M-to-Deliver-the-Next-Generation-of-AI-Infrastructure.html"
     ],
     "supersedes": "ins-2026-07-12-3",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-02-3"
   },
   {
     "id": "ins-2026-07-26-5",

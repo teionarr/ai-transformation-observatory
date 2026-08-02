@@ -1312,5 +1312,149 @@
     "discovered_at": "2026-07-26",
     "discovery_relevance": 85,
     "evidence": "Received $40 million investment from ServiceNow Ventures."
+  },
+  {
+    "id": "freehand",
+    "name": "Freehand",
+    "url": "freehand.ai",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Freehand raises $75M to scale AI teams that manage supply chain spend for Fortune 500 companies, acting as digital labor for financial operations.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 90,
+    "evidence": "Raised $75M in funding."
+  },
+  {
+    "id": "cor",
+    "name": "COR",
+    "url": "projectcor.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "COR raised $30M for its AI-powered profitability platform, helping agencies and consultancies manage projects and boost profitability.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 85,
+    "evidence": "Raised $30M from FTV Capital."
+  },
+  {
+    "id": "emergent-ai",
+    "name": "Emergent AI",
+    "url": "emergent.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Emergent AI, an agentic platform for building autonomous applications, raised $130M Series C, reaching unicorn status.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 95,
+    "evidence": "Raised $130M Series C at a $1.5 billion valuation."
+  },
+  {
+    "id": "pilot",
+    "name": "Pilot",
+    "url": "pilot.xyz",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Pilot received investment for building 'The Internet for Agents', positioning itself as a foundational platform for agentic deployment.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 95,
+    "evidence": "Received investment from Version One Ventures."
+  },
+  {
+    "id": "encore-ai",
+    "name": "Encore AI",
+    "url": "encore.ai",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Encore AI (formerly Insait IO) raised $30M to deploy an enterprise AI platform that generates revenue from customer interactions and builds AI agents that learn from customer calls in regulated industries.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 90,
+    "evidence": "Raised $30M in funding."
+  },
+  {
+    "id": "chipagents",
+    "name": "ChipAgents",
+    "url": "chipagents.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "ChipAgents extended its Series A to $134M for its agentic AI platform that applies domain-specific AI agents to semiconductor design and verification workflows.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 80,
+    "evidence": "Extended Series A funding to $134M."
+  },
+  {
+    "id": "kai",
+    "name": "Kai",
+    "url": "kai.security",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Kai emerged from stealth with $125M, offering an AI-native autonomous defense platform for machine-speed cybersecurity.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 85,
+    "evidence": "Emerges from stealth with $125M in funding."
+  },
+  {
+    "id": "armor",
+    "name": "Armor",
+    "url": "armor.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Armor launched Sovereign AI, a whole-company AI work platform designed for regulated industries, ensuring compliance and security.",
+    "discovered": true,
+    "discovered_at": "2026-08-02",
+    "discovery_relevance": 85,
+    "evidence": "Launched 'Sovereign AI'."
   }
 ]

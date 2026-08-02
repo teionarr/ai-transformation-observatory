@@ -154,8 +154,8 @@
   {
     "id": "nozomio",
     "name": "Nozomio",
-    "url": "ycombinator.com/companies/nozomio",
-    "category": "Platform Gravity",
+    "url": "trynia.ai",
+    "category": "Agent Foundries",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -230,8 +230,8 @@
   {
     "id": "cerenovus",
     "name": "Cerenovus",
-    "url": "ycombinator.com/companies/cerenovus",
-    "category": "Other",
+    "url": "cerenovus.ai",
+    "category": "Forward Deployers",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -629,7 +629,7 @@
   {
     "id": "revnu",
     "name": "Revnu",
-    "url": "ycombinator.com/companies/revnu",
+    "url": "revnu.com",
     "category": "Digital Labor",
     "status": "Emerging",
     "funding": "\u2014",
@@ -648,8 +648,8 @@
   {
     "id": "qomplement",
     "name": "qomplement",
-    "url": "ycombinator.com/companies/qomplement",
-    "category": "Other",
+    "url": "qomplement.com",
+    "category": "Vertical Specialists",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
@@ -781,8 +781,8 @@
   {
     "id": "lunavo",
     "name": "Lunavo",
-    "url": "ycombinator.com/companies/lunavo",
-    "category": "Other",
+    "url": "lunavo.ai",
+    "category": "Vertical Specialists",
     "status": "Emerging",
     "funding": "\u2014",
     "team": null,
