@@ -1,5 +1,77 @@
 [
   {
+    "id": "ins-2026-08-09-1",
+    "scan_date": "2026-08-09",
+    "generated_at": "2026-08-09T02:26:28.166609+00:00",
+    "title": "AI Agent Identity & Security Becomes Billion-Dollar Segment",
+    "insight": "The market is witnessing a massive surge in investment and M&A activity focused on securing AI agents and managing their identities, reflecting the critical risks associated with autonomous non-human actors in enterprise systems. Major acquisitions like Cyera's $1 billion purchase of Oasis Security and Anaconda's acquisition of Enkrypt AI, alongside significant funding for Obsidian Security and new offerings from Cloudflare and SailPoint, underscore the urgent need for robust security frameworks for deployed agents.",
+    "trend": "As AI agents gain autonomy and access to sensitive enterprise data and systems, traditional security and identity management paradigms are proving insufficient, driving a new wave of specialized solutions to govern, monitor, and protect these non-human identities at scale.",
+    "category": "Platform Gravity",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Cyera Acquires Oasis Security for $1 Billion to Manage AI Agent Identities",
+      "Anaconda Acquires Enkrypt AI to Secure the Trillion-Token Enterprise",
+      "Cloudflare Gives AI Agents an Identity and a Wallet",
+      "SailPoint announces Agentic Fabric for discovering, governing, and protecting machine and AI identities",
+      "Obsidian Security lands $85m to police rogue AI agents",
+      "Rubrik launches Agent Identity to govern AI agents",
+      "US AI Agent Identity Management Market to hit USD 2.8 billion by 2035"
+    ],
+    "supersedes": "ins-2026-08-02-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-09-2",
+    "scan_date": "2026-08-09",
+    "generated_at": "2026-08-09T02:26:28.166609+00:00",
+    "title": "Enterprises Scale Agentic AI with Cost-Optimized Full Deployments",
+    "insight": "Enterprise adoption of AI agents is rapidly moving beyond pilot projects to full-scale, company-wide deployments, with a strong emphasis on operational efficiency and cost optimization. Cisco's initiative to deploy personalized AI agents to all 90,000 employees, coupled with Salesforce's reported tripling of active agents and 53% reduction in deployment times, demonstrates a mature approach to integrating agents across core business functions.",
+    "trend": "The increasing maturity of agentic AI platforms and a clearer understanding of ROI are enabling large enterprises to commit to widespread agent deployment, prioritizing efficient model routing and measurable business outcomes over experimental use cases.",
+    "category": "Transformation Titans",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Cisco Is Deploying AI Agents to All 90000 Employees, focusing on cost discipline",
+      "Salesforce's 2026 Agentic Enterprise Index indicates organizations nearly tripled active AI agents, 53% decrease in deployment time",
+      "Salesforce's Agentforce 360 approved for DOD Impact Level 5",
+      "Kyndryl introduces Agentic Modernization services-as-software",
+      "Globant Introduces Glob.AI, Reinventing Technology Services for the AI Era"
+    ],
+    "supersedes": "ins-2026-08-02-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-09-3",
+    "scan_date": "2026-08-09",
+    "generated_at": "2026-08-09T02:26:28.166609+00:00",
+    "title": "Dedicated Production Infrastructure Fuels Agent Foundries",
+    "insight": "A specialized market segment is rapidly forming around providing robust, scalable, and governed infrastructure specifically designed for deploying and managing AI agents in production environments. New funding for Sapiom to 'power the next trillion AI agents' and offerings like Pinecone Nexus for 'real outcomes' and TrueFoundry's 'production-grade platform' signify a critical shift towards industrializing agent deployment.",
+    "trend": "As Agent Foundries mature and enterprises demand reliable, scalable, and cost-effective deployment of AI agents, the need for purpose-built infrastructure that handles governance, performance, and security at scale is creating a distinct market category.",
+    "category": "Agent Foundries",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Sapiom Raises $35 Million Series A to Power the Next Trillion AI Agents",
+      "General Availability of Pinecone Nexus Proves Knowledge Drives Real Outcomes for Agentic AI",
+      "TrueFoundry: a production-grade platform for deploying, governing, and scaling agentic AI systems",
+      "Airtable's Agent Management Platform (AMP) offers vendor-agnostic governance",
+      "June AI Emerges From Stealth to Reinvent Enterprise Software Implementation for The AI Era",
+      "LangChain's Managed Deep Agents is now in public beta"
+    ],
+    "supersedes": "ins-2026-07-26-4",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-08-02-1",
     "scan_date": "2026-08-02",
     "generated_at": "2026-08-02T03:32:44.783598+00:00",
@@ -21,7 +93,7 @@
       "Microsoft and Amazon earnings show market rewards AI spend tied to metered cloud revenue."
     ],
     "supersedes": "ins-2026-07-26-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-09-2"
   },
   {
     "id": "ins-2026-08-02-2",
@@ -75,7 +147,7 @@
       "Forrester predicts 60% of Fortune 100 companies will appoint a head of AI governance in 2026."
     ],
     "supersedes": "ins-2026-07-26-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-09-1"
   },
   {
     "id": "ins-2026-07-26-1",
@@ -157,7 +229,7 @@
       "https://www.globenewswire.com/news-release/2026/07/24/3332949/0/en/Fly-io-Doubles-Down-on-Computers-for-Agents-with-25M-to-Deliver-the-Next-Generation-of-AI-Infrastructure.html"
     ],
     "supersedes": "ins-2026-07-12-3",
-    "superseded_by": "ins-2026-08-02-3"
+    "superseded_by": "ins-2026-08-09-3"
   },
   {
     "id": "ins-2026-07-26-5",

@@ -1456,5 +1456,149 @@
     "discovered_at": "2026-08-02",
     "discovery_relevance": 85,
     "evidence": "Launched 'Sovereign AI'."
+  },
+  {
+    "id": "happyrobot",
+    "name": "HappyRobot",
+    "url": "happyrobot.com",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "HappyRobot received $150M Series C funding to scale agentic AI for enterprise operations, focusing on autonomous AI workers for complex workflows in various industries.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 95,
+    "evidence": "$150M Series C funding"
+  },
+  {
+    "id": "na-ve",
+    "name": "Na\u00efve",
+    "url": "usenaive.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Na\u00efve raised $28.5M in Series A funding to build foundational infrastructure for autonomous companies, enabling AI agents to run entire businesses with their own identity and resources.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 95,
+    "evidence": "$28.5M Series A funding"
+  },
+  {
+    "id": "june-ai",
+    "name": "June AI",
+    "url": "june.ai",
+    "category": "Forward Deployers",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "June AI emerged from stealth with $20M in funding to reinvent enterprise software implementation for the AI era, transforming complex system and AI agent deployments into a plug-and-play experience.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 90,
+    "evidence": "Emerges from stealth with $20M funding"
+  },
+  {
+    "id": "sapiom",
+    "name": "Sapiom",
+    "url": "sapiom.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Sapiom raised $35 Million Series A funding to provide infrastructure for scaling and deploying AI agents, aiming to power the next trillion AI agents.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 90,
+    "evidence": "$35 Million Series A funding"
+  },
+  {
+    "id": "globant",
+    "name": "Globant",
+    "url": "globant.com",
+    "category": "Transformation Titans",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Globant launched Glob.AI, an AI-native tech services model with expert-supervised AI Pods, to help organizations drive AI business transformation and deploy specialized, governed AI workflows.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 85,
+    "evidence": "Introduces Glob.AI, reinventing technology services for the AI Era"
+  },
+  {
+    "id": "enkrypt-ai",
+    "name": "Enkrypt AI",
+    "url": "enkryptai.com",
+    "category": "Other",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Enkrypt AI, acquired by Anaconda, focuses on agentic safety and security, providing an AI Security Platform with features like Agent Guardrails and Agent Red Teaming, crucial for securing AI agents at scale.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 70,
+    "evidence": "Acquired by Anaconda"
+  },
+  {
+    "id": "imerit",
+    "name": "iMerit",
+    "url": "imerit.ai",
+    "category": "Other",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Acquired by EXL, iMerit is a leading AI data solutions company providing high-quality data annotation, model evaluation, and fine-tuning services essential for developing and improving machine learning and generative AI models.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 75,
+    "evidence": "Acquired by EXL"
+  },
+  {
+    "id": "yellow-ai",
+    "name": "Yellow.ai",
+    "url": "yellow.ai",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Yellow.ai, a global leader in Conversational AI, delivers autonomous, human-like experiences for customers and employees by automating conversations and business processes through intelligent virtual agents.",
+    "discovered": true,
+    "discovered_at": "2026-08-09",
+    "discovery_relevance": 95,
+    "evidence": "To go public via $550 Million Merger"
   }
 ]

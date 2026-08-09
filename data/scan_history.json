@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-08-09",
+    "generated_at": "2026-08-09T02:26:57.654936+00:00",
+    "events_scanned": 570,
+    "red_deltas": 0,
+    "new_insights": 3,
+    "new_competitors": 8,
+    "competitors_scanned": 181,
+    "duration_seconds": 2245
+  },
+  {
     "date": "2026-08-02",
     "generated_at": "2026-08-02T03:33:27.081404+00:00",
     "events_scanned": 589,
