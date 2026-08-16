@@ -1,5 +1,89 @@
 [
   {
+    "id": "ins-2026-08-16-1",
+    "scan_date": "2026-08-16",
+    "generated_at": "2026-08-16T01:41:25.406599+00:00",
+    "title": "Agent Foundries See Unprecedented Funding Velocity",
+    "insight": "The market for AI agent foundries and underlying infrastructure is experiencing an unprecedented surge in capital, exemplified by River AI's $1.1 billion round for a two-month-old startup. This hyper-acceleration indicates investor confidence in the rapid deployment and scaling of agentic capabilities across enterprises.",
+    "trend": "Investors are aggressively betting on foundational platforms that can quickly bring sophisticated AI agents to market, recognizing the immense potential for outcome-driven automation and the need for robust, scalable deployment environments.",
+    "category": "Agent Foundries",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "General Catalyst leads $1.1B round into 2-month-old River AI | TechCrunch",
+      "HappyRobot lands $150m as agentic AI hits enterprise scale",
+      "Na\u00efve Raises $28.5M Series A for AI Agent Infrastructure | DevCuration",
+      "AI Enterprise Startup June Emerges From Stealth With $20M to Simplify Agent Implementation"
+    ],
+    "supersedes": "ins-2026-07-12-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-16-2",
+    "scan_date": "2026-08-16",
+    "generated_at": "2026-08-16T01:41:25.406599+00:00",
+    "title": "Physical AI and Robotics Drive New Enterprise Automation Wave",
+    "insight": "The AI transformation market is expanding into physical domains, with significant investments and acquisitions focused on integrating AI agents with robotics and real-world operations. This signals a strategic shift towards automating complex physical tasks and processes within industries like aerospace, defense, and manufacturing.",
+    "trend": "As AI agent capabilities mature, enterprises are looking beyond digital labor to leverage AI for tangible, physical outcomes, driving demand for solutions that bridge the gap between AI models and real-world robotic execution.",
+    "category": "Digital Labor",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "China's Infiforce Raises Nearly $150M in Funding to Develop 'Ego Native World Model' for Robots",
+      "Archer to Shape Physical AI Future of Aerospace and Defense with Acquisition of Boeing's Wisk Aero, Insitu and SkyGrid Subsidiaries; Boeing to Invest in Archer and Collaborate - Aug 10, 2026",
+      "NEURA Acquires Bosch Rexroth ACTIVE Shuttle to Build Unified Physical-AI Stack"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-16-3",
+    "scan_date": "2026-08-16",
+    "generated_at": "2026-08-16T01:41:25.406599+00:00",
+    "title": "Operational Era of Enterprise AI Demands Context & Observability",
+    "insight": "The enterprise AI market is definitively moving into an \"operational era,\" with a strong emphasis on providing AI agents with real-world context and robust observability tools to ensure effective deployment and performance. This includes understanding how work is actually done and monitoring the AI development lifecycle comprehensively.",
+    "trend": "As AI agents move from experimental pilots to core business operations, the critical need for agents to understand complex workflows and for enterprises to monitor and manage their behavior in production environments is driving innovation in context-aware AI and observability platforms.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Skan AI Raises $63 Million to Give Enterprise AI the Context It's Missing: How Work Actually Gets Done",
+      "Enterprise AI Has Entered Its Operational Era: Stack Automation by Quali Is Now Generally Available",
+      "Dynatrace to Acquire AI Observability Leader Arize",
+      "Symphony by Wix is our new AI agent platform for businesses",
+      "Wix launches Symphony, a new standalone multi-agent system built for business operations - SiliconANGLE"
+    ],
+    "supersedes": "ins-2026-08-02-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-16-4",
+    "scan_date": "2026-08-16",
+    "generated_at": "2026-08-16T01:41:25.406599+00:00",
+    "title": "Outcome-Based Pricing Solidifies as AI's Dominant Value Metric",
+    "insight": "Outcome-based pricing is rapidly becoming the standard for valuing AI-driven services and agentic deployments, replacing traditional input-based models. This shift reflects a market demand for demonstrable business results and a recognition that AI's true value lies in the measurable outcomes it delivers.",
+    "trend": "The increasing maturity and reliability of AI agents allow vendors to confidently tie their pricing to the tangible business impact and efficiencies generated, aligning incentives with client success and driving a more results-oriented AI economy.",
+    "category": "Transformation Titans",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "AI Outcomes as the New Unit of Value: Principles and Practice for an AI Driven Go-to-Market Strategy - York IE",
+      "Pricing AI Workflows by Runs, Documents, Tickets, or Outcomes",
+      "This is the golden opportunity for AI startups. The ability for incumbents to change project-based/hourly billing to outcome-linked at mammoth scale is non-trivial. The PROFIT pools on offer here are orders of \u2026 | Kunal Bahl"
+    ],
+    "supersedes": "ins-2026-07-12-4",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-08-09-1",
     "scan_date": "2026-08-09",
     "generated_at": "2026-08-09T02:26:28.166609+00:00",
@@ -147,7 +231,7 @@
       "Forrester predicts 60% of Fortune 100 companies will appoint a head of AI governance in 2026."
     ],
     "supersedes": "ins-2026-07-26-4",
-    "superseded_by": "ins-2026-08-09-1"
+    "superseded_by": "ins-2026-08-16-3"
   },
   {
     "id": "ins-2026-07-26-1",
@@ -382,7 +466,7 @@
       "Lyzr funding update: ~$14.5M \u2192 $100M Series B"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-16-1"
   },
   {
     "id": "ins-2026-07-12-2",
@@ -450,7 +534,7 @@
       "Cognizant's Outcome-Based Pricing: Reshaping the Future of BPO with AI"
     ],
     "supersedes": "ins-2026-07-05-5",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-16-4"
   },
   {
     "id": "ins-2026-07-05-1",

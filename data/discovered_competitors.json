@@ -1600,5 +1600,149 @@
     "discovered_at": "2026-08-09",
     "discovery_relevance": 95,
     "evidence": "To go public via $550 Million Merger"
+  },
+  {
+    "id": "skan-ai",
+    "name": "Skan AI",
+    "url": "skan.ai",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Skan AI provides a process intelligence platform that observes how work is done across the enterprise, creating the necessary context and operational ground truth for effective AI agent deployment and automation of workflows.",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 90,
+    "evidence": "Raised $63 million in Series C funding and launched Skan AI Blueprint and Skan AI Agents."
+  },
+  {
+    "id": "thrive-holdings",
+    "name": "Thrive Holdings",
+    "url": "thriveholdings.com",
+    "category": "Transformation Titans",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Thrive Holdings operates as a private equity firm that acquires traditional businesses in sectors like accounting and IT services, then rebuilds their operations by integrating AI tools and deploying AI agents for enterprise transformation.",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 95,
+    "evidence": "Secured $2 billion in funding at a $12 billion valuation and has an ownership stake from OpenAI."
+  },
+  {
+    "id": "pathway",
+    "name": "Pathway",
+    "url": "pathway.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Pathway is an AI lab developing a novel 'Post-Transformer AI' architecture (BDH) that enables continuous learning, infinite context, and real-time adaptation, which is foundational for advanced agentic deployment in enterprises.",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 85,
+    "evidence": "Raised new funding at a $500M valuation and published benchmark results for its BDH-CQ model."
+  },
+  {
+    "id": "river-ai",
+    "name": "River AI",
+    "url": "river.ai",
+    "category": "Forward Deployers",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "River AI is an AI automation agency focused on AI-powered growth, lead generation, and intelligent process automation for businesses, indicating a direct role in deploying AI solutions.",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 90,
+    "evidence": "General Catalyst led a $1.1 billion funding round into the company. [cite: 16 in RAW_SIGNALS]"
+  },
+  {
+    "id": "profasee",
+    "name": "Profasee",
+    "url": "profasee.com",
+    "category": "Vertical Specialists",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Profasee provides an AI workforce specifically tailored for Amazon brands, offering digital labor solutions for a particular industry vertical. [cite: 23 in RAW_SIGNALS]",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 80,
+    "evidence": "Acquired by Titan Network to expand its AI workforce for Amazon brands. [cite: 23 in RAW_SIGNALS]"
+  },
+  {
+    "id": "brainfish-ai",
+    "name": "Brainfish AI",
+    "url": "brainfishai.com",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Brainfish AI launched 'Ballet,' an AI solution designed to address the 'human middleware' problem in customer experience, implying the deployment of AI agents for CX tasks. [cite: 25 in RAW_SIGNALS]",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 85,
+    "evidence": "Product launch 'Ballet' to solve the 'Human Middleware' problem in CX. [cite: 25 in RAW_SIGNALS]"
+  },
+  {
+    "id": "quali",
+    "name": "Quali",
+    "url": "quali.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Quali's 'Stack Automation' is a new offering designed to operationalize enterprise AI, providing a platform for automating AI stacks and enabling efficient AI deployment. [cite: 26 in RAW_SIGNALS, 30 in RAW_SIGNALS]",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 80,
+    "evidence": "Announced 'Stack Automation by Quali Is Now Generally Available'. [cite: 26 in RAW_SIGNALS, 30 in RAW_SIGNALS]"
+  },
+  {
+    "id": "symphony-by-wix",
+    "name": "Symphony by Wix",
+    "url": "wix.com",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Wix launched Symphony, a new standalone multi-agent system built for business operations, offering specialist AI agents for various business functions, thereby enabling agentic deployment for SMBs.",
+    "discovered": true,
+    "discovered_at": "2026-08-16",
+    "discovery_relevance": 90,
+    "evidence": "Launch of 'Symphony by Wix,' a new AI agent platform for businesses."
   }
 ]
