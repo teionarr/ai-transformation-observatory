@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T01:43:00.416961+00:00",
-  "run_duration_seconds": 1272,
+  "generated_at": "2026-08-23T02:04:49.356886+00:00",
+  "run_duration_seconds": 2467,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-08-16T01:43:00.416961+00:00",
+      "last_call": "2026-08-23T02:04:49.356886+00:00",
       "status": "healthy"
     },
     {
@@ -31,9 +31,9 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 190,
-      "last_call": "2026-08-16T01:43:00.416961+00:00",
-      "status": "down"
+      "calls": 198,
+      "last_call": "2026-08-23T02:04:49.356886+00:00",
+      "status": "healthy"
     },
     {
       "id": "gemini",
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-08-16T01:43:00.416961+00:00",
+      "last_call": "2026-08-23T02:04:49.356886+00:00",
       "status": "healthy"
     },
     {
@@ -50,11 +50,109 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 2,
-      "last_call": "2026-08-16T01:43:00.416961+00:00",
+      "last_call": "2026-08-23T02:04:49.356886+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Higgsfield Raises $400M at $5.4B Valuation, Hits $700M ARR in AI Video Push",
+      "domain": "www.vktr.com",
+      "hours_ago": 97,
+      "velocity": 98,
+      "why": "Higgsfield's $400M Series B at $5.4B valuation fuels AI video growth.",
+      "source_url": "https://www.vktr.com/ai-platforms/higgsfield-raises-400-million-at-54-billion-valuation-as-ai-video-finds-an-enterprise-foothold/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-08-23"
+    },
+    {
+      "id": "v2",
+      "title": "Anthropic's $1.5B Ode builds an AI consultancy around private equity portfolios",
+      "domain": "runtimewire.com",
+      "hours_ago": 49,
+      "velocity": 95,
+      "why": "Anthropic's Ode launches with $1.5B, acquires Casper Studios for AI consulting.",
+      "source_url": "https://runtimewire.com/article/anthropic-ode-ai-consulting-private-equity",
+      "sources": [
+        "exa"
+      ],
+      "category": "Transformation Titans",
+      "scan_date": "2026-08-23"
+    },
+    {
+      "id": "v3",
+      "title": "OpenRouter called itself the \u201cStripe for LLMs\u201d - now Stripe\u2019s swooped in to buy it - The New Stack",
+      "domain": "thenewstack.io",
+      "hours_ago": 73,
+      "velocity": 95,
+      "why": "Stripe acquires OpenRouter, strengthening its position in LLM infrastructure.",
+      "source_url": "https://thenewstack.io/stripe-acquires-openrouter-tokens/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-08-23"
+    },
+    {
+      "id": "v4",
+      "title": "Rillet Raises $100M Series C at $1B Valuation to Build Accounting Superintelligence | VentureBeat",
+      "domain": "venturebeat.com",
+      "hours_ago": 97,
+      "velocity": 95,
+      "why": "Rillet achieves $1B valuation with $100M Series C for accounting AI.",
+      "source_url": "https://venturebeat.com/business/rillet-raises-100m-series-c-at-1b-valuation-to-build-accounting-superintelligence",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-08-23"
+    },
+    {
+      "id": "v5",
+      "title": "Skan AI Secures $63M to Give Enterprise AI the Context It\u2019s Missing: How Work Actually Gets\u00a0Done",
+      "domain": "theaiinsider.tech",
+      "hours_ago": 49,
+      "velocity": 90,
+      "why": "Skan AI secures $63M to provide crucial context for enterprise AI agents.",
+      "source_url": "https://theaiinsider.tech/2026/08/21/skan-ai-secures-63m-to-give-enterprise-ai-the-context-its-missing-how-work-actually-gets-done/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-08-23"
+    },
+    {
+      "id": "v6",
+      "title": "June AI Raises $20M to Automate Enterprise AI Rollout - Pomegra Startups",
+      "domain": "pomegra.io",
+      "hours_ago": 121,
+      "velocity": 90,
+      "why": "June AI raises $20M to automate enterprise AI rollout, accelerating transformation.",
+      "source_url": "https://pomegra.io/startups/june-ai-raises-20m-to-automate-enterprise-ai-rollout-2026-08-18",
+      "sources": [
+        "exa"
+      ],
+      "category": "Forward Deployers",
+      "scan_date": "2026-08-23"
+    },
+    {
+      "id": "v7",
+      "title": "UiPath Launches UiPath Maestro\u2122 Flow | UiPath",
+      "domain": "www.uipath.com",
+      "hours_ago": 97,
+      "velocity": 90,
+      "why": "UiPath launches Maestro Flow for developer-first orchestration of coding agents.",
+      "source_url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-08-23"
+    },
     {
       "id": "v1",
       "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise | TechCrunch",
@@ -152,104 +250,6 @@
       ],
       "category": "Vertical Specialists",
       "scan_date": "2026-08-16"
-    },
-    {
-      "id": "v1",
-      "title": "Yellow.ai, a Global Leader in Enterprise Agentic AI, to Go Public via $550 Million Merger with Bluerock Acquisition Corp. (Nasdaq: BLRK)",
-      "domain": "www.prnewswire.com",
-      "hours_ago": 145,
-      "velocity": 100,
-      "why": "Yellow.ai's SPAC merger to go public signifies major market validation for enterprise agentic AI.",
-      "source_url": "https://www.prnewswire.com/news-releases/yellowai-a-global-leader-in-enterprise-agentic-ai-to-go-public-via-550-million-merger-with-bluerock-acquisition-corp-nasdaq-blrk-302840634.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-09"
-    },
-    {
-      "id": "v2",
-      "title": "Cyera Acquires Oasis Security for $1 Billion to Manage AI Agent Identities\u2014$700M Cash Deal Announced July 28 - AI Unfiltered",
-      "domain": "www.arturmarkus.com",
-      "hours_ago": 73,
-      "velocity": 100,
-      "why": "Cyera's $1B acquisition of Oasis Security highlights critical need for AI agent identity management.",
-      "source_url": "https://www.arturmarkus.com/cyera-acquires-oasis-security-for-1-billion-to-manage-ai-agent-identities-700m-cash-deal-announced-july-28/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-09"
-    },
-    {
-      "id": "v3",
-      "title": "How Mechanize went from a $9M seed to $1.5B Google acquisition talks in just 100 days \u2014 TFN",
-      "domain": "techfundingnews.com",
-      "hours_ago": 73,
-      "velocity": 100,
-      "why": "Google's potential $1.5B acquisition of Mechanize shows rapid valuation growth and M&A intensity.",
-      "source_url": "https://techfundingnews.com/google-mechanize-1-5b-ai-deal/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-09"
-    },
-    {
-      "id": "v4",
-      "title": "HappyRobot Raises $150M Series C for AI Agents at $1.2B",
-      "domain": "theoutpost.ai",
-      "hours_ago": 121,
-      "velocity": 98,
-      "why": "HappyRobot's unicorn valuation and funding underscore strong investor confidence in agentic AI for enterprise operations.",
-      "source_url": "https://theoutpost.ai/news-story/happy-robot-raises-150-m-series-c-to-deploy-ai-agents-across-enterprise-operations-at-1-2-b-valuation-29404/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-09"
-    },
-    {
-      "id": "v5",
-      "title": "Sapiom Raises $35 Million Series A to Power the Next Trillion AI Agents | Sapiom",
-      "domain": "www.sapiom.ai",
-      "hours_ago": 97,
-      "velocity": 95,
-      "why": "Sapiom's Series A funding highlights critical investment in foundational infrastructure for scaling AI agents.",
-      "source_url": "https://www.sapiom.ai/resources/blog/series-a/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-09"
-    },
-    {
-      "id": "v6",
-      "title": "Asana Buys StackAI for $75 Million and Launches Shared AI Memory Across Teams - The SaaS Sentinel",
-      "domain": "saassentinel.com",
-      "hours_ago": 121,
-      "velocity": 95,
-      "why": "Asana's acquisition of StackAI and new AI memory feature signals deeper AI integration into collaboration platforms.",
-      "source_url": "https://saassentinel.com/2026/08/04/asana-buys-stackai-for-75-million-and-launches-shared-ai-memory-across-teams/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-09"
-    },
-    {
-      "id": "v7",
-      "title": "Klaviyo strengthens AI capabilities with strategic acquisition of Agency team and technology; Agency co-founder and CEO Elias Torres to be named Chief Product Officer as team joins Klaviyo | MarketScreener UK",
-      "domain": "uk.marketscreener.com",
-      "hours_ago": 49,
-      "velocity": 95,
-      "why": "Klaviyo's acquisition of Agency and CPO appointment signals deep AI integration and talent consolidation.",
-      "source_url": "https://uk.marketscreener.com/news/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology-agency-ce7f50d2d088f22d",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-09"
     }
   ],
   "competitor_map": [
@@ -266,7 +266,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:23",
+      "scanned": "2026-08-23 01:25",
       "hash": "a276946bc4",
       "changed": false,
       "changed_pages": [],
@@ -286,7 +286,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:23",
+      "scanned": "2026-08-23 01:25",
       "hash": "01bbfa6d67",
       "changed": false,
       "changed_pages": [],
@@ -306,8 +306,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:23",
-      "hash": "0121059311",
+      "scanned": "2026-08-23 01:25",
+      "hash": "4f3ee428ff",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -326,12 +326,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:24",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 01:26",
+      "hash": "15fd3a2715",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "error"
+      "crawl_status": "success"
     },
     {
       "id": "bcgx",
@@ -346,8 +346,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:24",
-      "hash": "520346d673",
+      "scanned": "2026-08-23 01:26",
+      "hash": "e28177b98c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -366,8 +366,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:24",
-      "hash": "d90cf4197c",
+      "scanned": "2026-08-23 01:26",
+      "hash": "4d04753550",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -386,8 +386,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:24",
-      "hash": "64fa167cf9",
+      "scanned": "2026-08-23 01:26",
+      "hash": "7b10ead3fd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -406,8 +406,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:24",
-      "hash": "1952e4b2ed",
+      "scanned": "2026-08-23 01:26",
+      "hash": "ca19825a43",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -426,8 +426,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:24",
-      "hash": "98c57a1518",
+      "scanned": "2026-08-23 01:26",
+      "hash": "dbe96901f6",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -446,8 +446,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:25",
-      "hash": "ddb5f5ded1",
+      "scanned": "2026-08-23 01:27",
+      "hash": "6337538168",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -466,8 +466,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:25",
-      "hash": "88e19d53ef",
+      "scanned": "2026-08-23 01:27",
+      "hash": "485a73ed3c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -486,8 +486,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:25",
-      "hash": "539dda7575",
+      "scanned": "2026-08-23 01:27",
+      "hash": "0225b63ede",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -506,7 +506,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:25",
+      "scanned": "2026-08-23 01:27",
       "hash": "2edb1b679b",
       "changed": false,
       "changed_pages": [],
@@ -526,7 +526,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:25",
+      "scanned": "2026-08-23 01:27",
       "hash": "a3a9644884",
       "changed": false,
       "changed_pages": [],
@@ -546,8 +546,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:25",
-      "hash": "6df356c35f",
+      "scanned": "2026-08-23 01:27",
+      "hash": "1407575e57",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -566,8 +566,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:26",
-      "hash": "aa6abb78f0",
+      "scanned": "2026-08-23 01:27",
+      "hash": "8d6b5e2180",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -586,7 +586,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:26",
+      "scanned": "2026-08-23 01:28",
       "hash": "edd29e2d48",
       "changed": false,
       "changed_pages": [],
@@ -606,7 +606,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:26",
+      "scanned": "2026-08-23 01:28",
       "hash": "a5b674ca3c",
       "changed": false,
       "changed_pages": [],
@@ -626,8 +626,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:26",
-      "hash": "c5c73eab52",
+      "scanned": "2026-08-23 01:28",
+      "hash": "98430aef19",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -646,8 +646,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:26",
-      "hash": "35cdf89903",
+      "scanned": "2026-08-23 01:28",
+      "hash": "3467d97bda",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -666,8 +666,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:27",
-      "hash": "de35bde357",
+      "scanned": "2026-08-23 01:28",
+      "hash": "4b089c3014",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -686,7 +686,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:27",
+      "scanned": "2026-08-23 01:28",
       "hash": "9ed9cfc6c0",
       "changed": false,
       "changed_pages": [],
@@ -706,8 +706,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:27",
-      "hash": "4cf3ddddf9",
+      "scanned": "2026-08-23 01:29",
+      "hash": "b59f7270bd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -726,7 +726,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:27",
+      "scanned": "2026-08-23 01:29",
       "hash": "7f66da29f4",
       "changed": false,
       "changed_pages": [],
@@ -746,8 +746,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:27",
-      "hash": "81be44fa4c",
+      "scanned": "2026-08-23 01:29",
+      "hash": "84563665e7",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -766,8 +766,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:28",
-      "hash": "abb8d71417",
+      "scanned": "2026-08-23 01:29",
+      "hash": "78a3fe484a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -786,8 +786,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:28",
-      "hash": "b5452d14b6",
+      "scanned": "2026-08-23 01:29",
+      "hash": "1e4a022cef",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -806,8 +806,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:28",
-      "hash": "249eeb50cd",
+      "scanned": "2026-08-23 01:29",
+      "hash": "1cb7a06c58",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -826,7 +826,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:28",
+      "scanned": "2026-08-23 01:30",
       "hash": "25ddaa9a6d",
       "changed": false,
       "changed_pages": [],
@@ -846,7 +846,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:28",
+      "scanned": "2026-08-23 01:30",
       "hash": "4656eee330",
       "changed": false,
       "changed_pages": [],
@@ -866,8 +866,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:28",
-      "hash": "f2bd2a3d15",
+      "scanned": "2026-08-23 01:30",
+      "hash": "43243f8c30",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -886,8 +886,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:29",
-      "hash": "688ec1a71b",
+      "scanned": "2026-08-23 01:30",
+      "hash": "1ec08e772e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -906,8 +906,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:29",
-      "hash": "f74f325af9",
+      "scanned": "2026-08-23 01:30",
+      "hash": "e64c31ed3f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -926,8 +926,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:29",
-      "hash": "b271e8585b",
+      "scanned": "2026-08-23 01:31",
+      "hash": "97d650de91",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -946,8 +946,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:29",
-      "hash": "32cab66c8d",
+      "scanned": "2026-08-23 01:31",
+      "hash": "092694bdff",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -966,8 +966,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:29",
-      "hash": "a6c36328ae",
+      "scanned": "2026-08-23 01:31",
+      "hash": "ea37607937",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -986,7 +986,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:30",
+      "scanned": "2026-08-23 01:31",
       "hash": "9eb5d47037",
       "changed": false,
       "changed_pages": [],
@@ -1006,7 +1006,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:30",
+      "scanned": "2026-08-23 01:31",
       "hash": "ad3d0a0671",
       "changed": false,
       "changed_pages": [],
@@ -1026,8 +1026,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:30",
-      "hash": "1c0b1f988c",
+      "scanned": "2026-08-23 01:32",
+      "hash": "b98d5530a5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1046,7 +1046,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:31",
+      "scanned": "2026-08-23 01:32",
       "hash": "e6f92117a3",
       "changed": false,
       "changed_pages": [],
@@ -1066,8 +1066,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:31",
-      "hash": "0303c6a58f",
+      "scanned": "2026-08-23 01:33",
+      "hash": "643c46d375",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1086,7 +1086,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:31",
+      "scanned": "2026-08-23 01:33",
       "hash": "569bc4f99a",
       "changed": false,
       "changed_pages": [],
@@ -1106,8 +1106,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:31",
-      "hash": "72b3e43448",
+      "scanned": "2026-08-23 01:33",
+      "hash": "c046c562d5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1126,8 +1126,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:31",
-      "hash": "9c60b9b973",
+      "scanned": "2026-08-23 01:33",
+      "hash": "2417a05f2f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1146,8 +1146,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
-      "hash": "7ed7b0c35c",
+      "scanned": "2026-08-23 01:33",
+      "hash": "cac117b71f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1166,8 +1166,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
-      "hash": "de41e6a000",
+      "scanned": "2026-08-23 01:33",
+      "hash": "2dc44f85fd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1186,8 +1186,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
-      "hash": "9cbcb636f1",
+      "scanned": "2026-08-23 01:34",
+      "hash": "0c178131c2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1206,8 +1206,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
-      "hash": "772653aa55",
+      "scanned": "2026-08-23 01:34",
+      "hash": "0fa595fae0",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1226,8 +1226,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
-      "hash": "c23ed4328b",
+      "scanned": "2026-08-23 01:34",
+      "hash": "4ef7971b8a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1246,8 +1246,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
-      "hash": "b8e9bf4aa9",
+      "scanned": "2026-08-23 01:34",
+      "hash": "e8d272e36e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1266,7 +1266,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
+      "scanned": "2026-08-23 01:34",
       "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
@@ -1286,7 +1286,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:32",
+      "scanned": "2026-08-23 01:34",
       "hash": "8a5bca6d0f",
       "changed": false,
       "changed_pages": [],
@@ -1306,8 +1306,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:33",
-      "hash": "c8045e7e30",
+      "scanned": "2026-08-23 01:34",
+      "hash": "9dd9805142",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1326,7 +1326,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:33",
+      "scanned": "2026-08-23 01:35",
       "hash": "5ce33b587a",
       "changed": false,
       "changed_pages": [],
@@ -1346,7 +1346,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:33",
+      "scanned": "2026-08-23 01:35",
       "hash": "ef826f57ac",
       "changed": false,
       "changed_pages": [],
@@ -1366,8 +1366,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:33",
-      "hash": "951076d3b7",
+      "scanned": "2026-08-23 01:35",
+      "hash": "7b5dc26dcf",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1386,8 +1386,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:33",
-      "hash": "95b843fec0",
+      "scanned": "2026-08-23 01:35",
+      "hash": "e0718d99fc",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1406,8 +1406,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:34",
-      "hash": "6ecb955d7f",
+      "scanned": "2026-08-23 01:35",
+      "hash": "98e6a1abbc",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1426,7 +1426,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:34",
+      "scanned": "2026-08-23 01:35",
       "hash": "1f934152b4",
       "changed": false,
       "changed_pages": [],
@@ -1446,8 +1446,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:34",
-      "hash": "7ecfbfc81d",
+      "scanned": "2026-08-23 01:35",
+      "hash": "6448c3847b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1466,7 +1466,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:34",
+      "scanned": "2026-08-23 01:36",
       "hash": "488afa4dc4",
       "changed": false,
       "changed_pages": [],
@@ -1486,8 +1486,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:34",
-      "hash": "80cee332c4",
+      "scanned": "2026-08-23 01:36",
+      "hash": "90fd230ce7",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1506,8 +1506,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:34",
-      "hash": "a7c097d731",
+      "scanned": "2026-08-23 01:36",
+      "hash": "5f51acafd2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1526,7 +1526,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:34",
+      "scanned": "2026-08-23 01:36",
       "hash": "9c365235ac",
       "changed": false,
       "changed_pages": [],
@@ -1546,7 +1546,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:35",
+      "scanned": "2026-08-23 01:36",
       "hash": "88ae970cba",
       "changed": false,
       "changed_pages": [],
@@ -1566,7 +1566,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:35",
+      "scanned": "2026-08-23 01:36",
       "hash": "fa36824643",
       "changed": false,
       "changed_pages": [],
@@ -1586,8 +1586,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:35",
-      "hash": "a4ad755c68",
+      "scanned": "2026-08-23 01:36",
+      "hash": "4fd2f8e790",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1606,7 +1606,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:35",
+      "scanned": "2026-08-23 01:37",
       "hash": "224613eb9f",
       "changed": false,
       "changed_pages": [],
@@ -1626,8 +1626,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:35",
-      "hash": "dc19d55a4d",
+      "scanned": "2026-08-23 01:37",
+      "hash": "e1201c20a2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1646,8 +1646,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:35",
-      "hash": "f9f43a1591",
+      "scanned": "2026-08-23 01:37",
+      "hash": "54963de935",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1666,7 +1666,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:35",
+      "scanned": "2026-08-23 01:37",
       "hash": "9eecc57bfb",
       "changed": false,
       "changed_pages": [],
@@ -1686,7 +1686,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:36",
+      "scanned": "2026-08-23 01:38",
       "hash": "526ae5de1b",
       "changed": false,
       "changed_pages": [],
@@ -1706,8 +1706,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:36",
-      "hash": "fca24a9dd5",
+      "scanned": "2026-08-23 01:38",
+      "hash": "5b6b57b687",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1726,8 +1726,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:36",
-      "hash": "141ce3823a",
+      "scanned": "2026-08-23 01:38",
+      "hash": "1c4b8023cb",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1746,8 +1746,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:36",
-      "hash": "5904b62183",
+      "scanned": "2026-08-23 01:38",
+      "hash": "335343c88f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1766,7 +1766,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:36",
+      "scanned": "2026-08-23 01:38",
       "hash": "3e9b5e3a88",
       "changed": false,
       "changed_pages": [],
@@ -1786,7 +1786,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:36",
+      "scanned": "2026-08-23 01:38",
       "hash": "6a94a7627c",
       "changed": false,
       "changed_pages": [],
@@ -1806,7 +1806,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:37",
+      "scanned": "2026-08-23 01:38",
       "hash": "f2c587e4b5",
       "changed": false,
       "changed_pages": [],
@@ -1826,7 +1826,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:37",
+      "scanned": "2026-08-23 01:39",
       "hash": "64a369ede8",
       "changed": false,
       "changed_pages": [],
@@ -1846,8 +1846,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:37",
-      "hash": "5820dbffb2",
+      "scanned": "2026-08-23 01:39",
+      "hash": "59ddf97b64",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1866,8 +1866,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:37",
-      "hash": "831e7d9e09",
+      "scanned": "2026-08-23 01:39",
+      "hash": "2022c1120e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1886,8 +1886,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:37",
-      "hash": "ca0cb64e49",
+      "scanned": "2026-08-23 01:39",
+      "hash": "d083967c40",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1906,8 +1906,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:37",
-      "hash": "63448e17fc",
+      "scanned": "2026-08-23 01:39",
+      "hash": "066feeade5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1926,8 +1926,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:37",
-      "hash": "6991e8ed57",
+      "scanned": "2026-08-23 01:39",
+      "hash": "44234192b5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -1946,7 +1946,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:38",
+      "scanned": "2026-08-23 01:39",
       "hash": "ab484463ff",
       "changed": false,
       "changed_pages": [],
@@ -1966,7 +1966,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:38",
+      "scanned": "2026-08-23 01:40",
       "hash": "5b4552408c",
       "changed": false,
       "changed_pages": [],
@@ -1986,8 +1986,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:38",
-      "hash": "758b581094",
+      "scanned": "2026-08-23 01:40",
+      "hash": "1510d13d22",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -2006,7 +2006,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:38",
+      "scanned": "2026-08-23 01:40",
       "hash": "3ca2f9c064",
       "changed": false,
       "changed_pages": [],
@@ -2026,8 +2026,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:38",
-      "hash": "78f0a7ca06",
+      "scanned": "2026-08-23 01:40",
+      "hash": "c500623d75",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -2046,8 +2046,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:39",
-      "hash": "ece540c910",
+      "scanned": "2026-08-23 01:40",
+      "hash": "edf4a83d21",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -2066,8 +2066,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:39",
-      "hash": "cc150de171",
+      "scanned": "2026-08-23 01:40",
+      "hash": "d0b70525d4",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -2086,8 +2086,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:39",
-      "hash": "a6280122b7",
+      "scanned": "2026-08-23 01:41",
+      "hash": "77c6a10fe1",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -2106,7 +2106,7 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:39",
+      "scanned": "2026-08-23 01:41",
       "hash": "ffbe33e295",
       "changed": false,
       "changed_pages": [],
@@ -2126,8 +2126,8 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-16 01:39",
-      "hash": "6ddd01adf9",
+      "scanned": "2026-08-23 01:41",
+      "hash": "b23d8420e2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
@@ -2146,12 +2146,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-09 02:08",
-      "hash": "ba9b306f5c",
+      "scanned": "2026-08-23 01:41",
+      "hash": "70c8715fe8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "monday-com",
@@ -2166,12 +2166,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-09 02:08",
-      "hash": "aedf096008",
+      "scanned": "2026-08-23 01:41",
+      "hash": "011a2d88c8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "rippling-com",
@@ -2186,12 +2186,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-09 02:08",
-      "hash": "34b8339165",
+      "scanned": "2026-08-23 01:41",
+      "hash": "bf7b57d0c7",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "jeen-ai",
@@ -2206,12 +2206,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-09 02:08",
-      "hash": "f551813295",
+      "scanned": "2026-08-23 01:42",
+      "hash": "4ca2cc113b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "reindeer-ai",
@@ -2226,12 +2226,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-09 02:08",
-      "hash": "87f6521ab3",
+      "scanned": "2026-08-23 01:42",
+      "hash": "0f455958d9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "o9solutions-com",
@@ -2246,12 +2246,12 @@
       "discovered": false,
       "discovered_at": null,
       "discovery_relevance": null,
-      "scanned": "2026-08-09 02:08",
+      "scanned": "2026-08-23 01:42",
       "hash": "1592f23f43",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "mendo",
@@ -2266,12 +2266,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:09",
+      "scanned": "2026-08-23 01:42",
       "hash": "87be67f70f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "prometheus-ai",
@@ -2286,12 +2286,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:09",
+      "scanned": "2026-08-23 01:42",
       "hash": "ee1aef2527",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "infinity-constellation",
@@ -2306,12 +2306,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:09",
+      "scanned": "2026-08-23 01:42",
       "hash": "09507e5b4c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "happiest-minds",
@@ -2326,12 +2326,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:09",
-      "hash": "f46d23a46b",
+      "scanned": "2026-08-23 01:43",
+      "hash": "05b70b65ab",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "poetic",
@@ -2346,12 +2346,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:09",
-      "hash": "022bcbb45b",
+      "scanned": "2026-08-23 01:43",
+      "hash": "40b519fcf4",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "jedify",
@@ -2366,12 +2366,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:09",
+      "scanned": "2026-08-23 01:43",
       "hash": "2319fe0a79",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "chatsee-ai",
@@ -2386,12 +2386,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 70,
-      "scanned": "2026-08-09 02:10",
-      "hash": "04f2849278",
+      "scanned": "2026-08-23 01:43",
+      "hash": "7932b543ed",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "recursive",
@@ -2406,12 +2406,12 @@
       "discovered": true,
       "discovered_at": "2026-06-14",
       "discovery_relevance": 60,
-      "scanned": "2026-08-09 02:10",
+      "scanned": "2026-08-23 01:43",
       "hash": "b271c3d133",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "generativex",
@@ -2426,12 +2426,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:10",
-      "hash": "377a3c7631",
+      "scanned": "2026-08-23 01:43",
+      "hash": "454b72c8e0",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "relai",
@@ -2446,12 +2446,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:10",
+      "scanned": "2026-08-23 01:43",
       "hash": "08535399e8",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "phoenixai",
@@ -2466,12 +2466,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:10",
+      "scanned": "2026-08-23 01:44",
       "hash": "8b4e95a921",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "2x",
@@ -2486,12 +2486,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 60,
-      "scanned": "2026-08-09 02:10",
+      "scanned": "2026-08-23 01:44",
       "hash": "a9c51ec769",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "sedai",
@@ -2506,12 +2506,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:11",
-      "hash": "fca58285e7",
+      "scanned": "2026-08-23 01:44",
+      "hash": "dd6c394da5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "centerprise-ai",
@@ -2526,12 +2526,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 70,
-      "scanned": "2026-08-09 02:11",
+      "scanned": "2026-08-23 01:44",
       "hash": "82fc208928",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "decisions",
@@ -2546,12 +2546,12 @@
       "discovered": true,
       "discovered_at": "2026-06-15",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:11",
+      "scanned": "2026-08-23 01:44",
       "hash": "263001df66",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "openai-deployco",
@@ -2566,12 +2566,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:11",
-      "hash": "309deb6a04",
+      "scanned": "2026-08-23 01:44",
+      "hash": "cee3312940",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "conduct",
@@ -2586,12 +2586,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:11",
-      "hash": "d9d4b28ac7",
+      "scanned": "2026-08-23 01:45",
+      "hash": "98c9761d5e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "sarvam-ai",
@@ -2606,12 +2606,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 60,
-      "scanned": "2026-08-09 02:11",
-      "hash": "97aa28e373",
+      "scanned": "2026-08-23 01:45",
+      "hash": "777c43d4a9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "zensar-technologies-zenseai-agentmesh",
@@ -2626,12 +2626,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:12",
-      "hash": "92202f0a30",
+      "scanned": "2026-08-23 01:45",
+      "hash": "9ebd2b221b",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "zaro-ai",
@@ -2646,12 +2646,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:12",
-      "hash": "767780a909",
+      "scanned": "2026-08-23 01:45",
+      "hash": "63e0c89a12",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "konecta-kolibri",
@@ -2666,12 +2666,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:12",
-      "hash": "e79431cfa7",
+      "scanned": "2026-08-23 01:45",
+      "hash": "c9068b9a2e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "cognizant-neuro-ai-multi-agent-accelerator",
@@ -2686,12 +2686,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 70,
-      "scanned": "2026-08-09 02:12",
-      "hash": "9ac9e5740a",
+      "scanned": "2026-08-23 01:45",
+      "hash": "15aaa48a29",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "thoughtworks-agent-works",
@@ -2706,12 +2706,12 @@
       "discovered": true,
       "discovered_at": "2026-06-21",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:12",
-      "hash": "e2a1bc822e",
+      "scanned": "2026-08-23 01:46",
+      "hash": "65abb81a1e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "patronus-ai",
@@ -2726,12 +2726,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:12",
+      "scanned": "2026-08-23 01:46",
       "hash": "61a99eba0c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "zeb",
@@ -2746,12 +2746,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:13",
-      "hash": "4ddc0686a5",
+      "scanned": "2026-08-23 01:46",
+      "hash": "26d0f5e7a0",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "hang-ten-systems",
@@ -2766,12 +2766,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:13",
+      "scanned": "2026-08-23 01:46",
       "hash": "b130591236",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "runlayer",
@@ -2786,12 +2786,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:13",
-      "hash": "23cf6990e3",
+      "scanned": "2026-08-23 01:46",
+      "hash": "19a5f96b33",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "runpod",
@@ -2806,12 +2806,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:13",
-      "hash": "50e1c1aa37",
+      "scanned": "2026-08-23 01:46",
+      "hash": "1b1df8b2d4",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "scaled-cognition",
@@ -2826,12 +2826,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:13",
+      "scanned": "2026-08-23 01:46",
       "hash": "0fb6c7e766",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "orthogonal",
@@ -2846,12 +2846,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:13",
+      "scanned": "2026-08-23 01:47",
       "hash": "e9fbca452e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "neuraltrust",
@@ -2866,12 +2866,12 @@
       "discovered": true,
       "discovered_at": "2026-06-28",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:14",
-      "hash": "ae8ea290b3",
+      "scanned": "2026-08-23 01:47",
+      "hash": "f25cd239de",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "8090",
@@ -2886,12 +2886,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:14",
-      "hash": "63514a8506",
+      "scanned": "2026-08-23 01:47",
+      "hash": "aaf245587e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "1001",
@@ -2906,12 +2906,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:14",
+      "scanned": "2026-08-23 01:47",
       "hash": "7eaa9319bd",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "odyssey",
@@ -2926,12 +2926,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:14",
-      "hash": "a6c34399fc",
+      "scanned": "2026-08-23 01:47",
+      "hash": "4ee378b228",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "engram",
@@ -2946,12 +2946,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:14",
-      "hash": "4159cccc87",
+      "scanned": "2026-08-23 01:47",
+      "hash": "8cc856d660",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "general-intuition",
@@ -2966,12 +2966,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 88,
-      "scanned": "2026-08-09 02:14",
+      "scanned": "2026-08-23 01:47",
       "hash": "23807f4523",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "hypefy-ai",
@@ -2986,12 +2986,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 60,
-      "scanned": "2026-08-09 02:14",
+      "scanned": "2026-08-23 01:48",
       "hash": "bb4b705f21",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "truefoundry",
@@ -3006,12 +3006,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 92,
-      "scanned": "2026-08-09 02:15",
-      "hash": "ebd549bddc",
+      "scanned": "2026-08-23 01:48",
+      "hash": "3eb2c474ec",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "cxai",
@@ -3026,12 +3026,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:15",
+      "scanned": "2026-08-23 01:48",
       "hash": "3865a363f9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "circeus",
@@ -3046,12 +3046,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:15",
-      "hash": "f7e19e2d60",
+      "scanned": "2026-08-23 01:48",
+      "hash": "17952958e6",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "pinkfish",
@@ -3066,12 +3066,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:15",
+      "scanned": "2026-08-23 01:48",
       "hash": "00b5fc4f40",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "aampe",
@@ -3086,12 +3086,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:15",
-      "hash": "910086a3a9",
+      "scanned": "2026-08-23 01:48",
+      "hash": "02f47a44be",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "harness",
@@ -3106,12 +3106,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:16",
-      "hash": "3499c2305e",
+      "scanned": "2026-08-23 01:49",
+      "hash": "ecffea96f5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "mura",
@@ -3126,12 +3126,12 @@
       "discovered": true,
       "discovered_at": "2026-07-01",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:16",
+      "scanned": "2026-08-23 01:49",
       "hash": "530ae3a6ac",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "venice-ai",
@@ -3146,7 +3146,7 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:18",
+      "scanned": "2026-08-23 01:53",
       "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
@@ -3166,12 +3166,12 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:18",
-      "hash": "78d6365ed9",
+      "scanned": "2026-08-23 01:53",
+      "hash": "c91da6cb2c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "vnomic",
@@ -3186,12 +3186,12 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:18",
-      "hash": "9e2639f513",
+      "scanned": "2026-08-23 01:53",
+      "hash": "289fb0e1da",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "genesys",
@@ -3206,12 +3206,12 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:18",
-      "hash": "99f3c85ff6",
+      "scanned": "2026-08-23 01:53",
+      "hash": "877eee3080",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "sailpoint",
@@ -3226,12 +3226,12 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:18",
-      "hash": "f6ea5840ee",
+      "scanned": "2026-08-23 01:53",
+      "hash": "9484edaa1f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "symbotic",
@@ -3246,12 +3246,12 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:18",
-      "hash": "c835770838",
+      "scanned": "2026-08-23 01:53",
+      "hash": "1a1c2c3a42",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "digital-workforce",
@@ -3266,12 +3266,12 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:18",
-      "hash": "f12a82dc6a",
+      "scanned": "2026-08-23 01:53",
+      "hash": "038919de71",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "easyvista",
@@ -3286,12 +3286,12 @@
       "discovered": true,
       "discovered_at": "2026-07-05",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:19",
-      "hash": "8ebe138100",
+      "scanned": "2026-08-23 01:54",
+      "hash": "14e7be613d",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "prime-intellect",
@@ -3306,12 +3306,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 100,
-      "scanned": "2026-08-09 02:19",
-      "hash": "24efe62b12",
+      "scanned": "2026-08-23 01:54",
+      "hash": "e750cfb3a5",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "norm-ai",
@@ -3326,12 +3326,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:19",
-      "hash": "99079d203a",
+      "scanned": "2026-08-23 01:54",
+      "hash": "4ef0581578",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "presidio",
@@ -3346,12 +3346,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:19",
-      "hash": "11702d80d8",
+      "scanned": "2026-08-23 01:54",
+      "hash": "500211dff1",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "one",
@@ -3366,12 +3366,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:19",
-      "hash": "4239ca06fe",
+      "scanned": "2026-08-23 01:54",
+      "hash": "d98af6c24e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "mercor",
@@ -3386,12 +3386,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:19",
-      "hash": "f3c860bdec",
+      "scanned": "2026-08-23 01:54",
+      "hash": "393e573ee0",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "nurix-ai",
@@ -3406,12 +3406,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:20",
-      "hash": "ab66935be2",
+      "scanned": "2026-08-23 01:55",
+      "hash": "4ef4504df9",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "duck-creek",
@@ -3426,12 +3426,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:20",
-      "hash": "8029f905aa",
+      "scanned": "2026-08-23 01:55",
+      "hash": "e50afdff90",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "giant-swarm",
@@ -3446,12 +3446,12 @@
       "discovered": true,
       "discovered_at": "2026-07-12",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:20",
+      "scanned": "2026-08-23 01:55",
       "hash": "f82fd7a1ad",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "fireworks",
@@ -3466,12 +3466,12 @@
       "discovered": true,
       "discovered_at": "2026-07-19",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:20",
-      "hash": "5f04d14081",
+      "scanned": "2026-08-23 01:55",
+      "hash": "6694bb590a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "anaconda",
@@ -3486,12 +3486,12 @@
       "discovered": true,
       "discovered_at": "2026-07-19",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:20",
-      "hash": "156febe0ec",
+      "scanned": "2026-08-23 01:55",
+      "hash": "ed87c4ae4f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "prefect",
@@ -3506,7 +3506,7 @@
       "discovered": true,
       "discovered_at": "2026-07-19",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:22",
+      "scanned": "2026-08-23 01:57",
       "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
@@ -3526,12 +3526,12 @@
       "discovered": true,
       "discovered_at": "2026-07-19",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09 02:22",
+      "scanned": "2026-08-23 01:57",
       "hash": "93d753dc20",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "parallel",
@@ -3546,12 +3546,12 @@
       "discovered": true,
       "discovered_at": "2026-07-19",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:22",
-      "hash": "5c39dafb91",
+      "scanned": "2026-08-23 01:57",
+      "hash": "502c674cfa",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "ode",
@@ -3566,12 +3566,12 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:22",
+      "scanned": "2026-08-23 01:57",
       "hash": "d1fbb75d88",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "arrakis",
@@ -3586,7 +3586,7 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:23",
+      "scanned": "2026-08-23 01:57",
       "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
@@ -3606,12 +3606,12 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:23",
-      "hash": "4a56d4344a",
+      "scanned": "2026-08-23 01:58",
+      "hash": "ac09782a36",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "prentis",
@@ -3626,12 +3626,12 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:23",
-      "hash": "fd143df47e",
+      "scanned": "2026-08-23 01:58",
+      "hash": "359b257a33",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "natural",
@@ -3646,12 +3646,12 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 70,
-      "scanned": "2026-08-09 02:23",
-      "hash": "884815ee52",
+      "scanned": "2026-08-23 01:58",
+      "hash": "b146f64f1a",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "atoms",
@@ -3666,12 +3666,12 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:23",
-      "hash": "54538269c9",
+      "scanned": "2026-08-23 01:58",
+      "hash": "b09bea27bc",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "skyfall-ai",
@@ -3686,12 +3686,12 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:23",
-      "hash": "06645cb9c1",
+      "scanned": "2026-08-23 01:58",
+      "hash": "8b821633c2",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "businessnext",
@@ -3706,12 +3706,12 @@
       "discovered": true,
       "discovered_at": "2026-07-26",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:24",
+      "scanned": "2026-08-23 01:58",
       "hash": "c6ed196360",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "freehand",
@@ -3726,12 +3726,12 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:24",
+      "scanned": "2026-08-23 01:58",
       "hash": "d7ffb6b243",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "cor",
@@ -3746,12 +3746,12 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:24",
+      "scanned": "2026-08-23 01:59",
       "hash": "52fc97355e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "emergent-ai",
@@ -3766,12 +3766,12 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:24",
-      "hash": "50fc08e99c",
+      "scanned": "2026-08-23 01:59",
+      "hash": "55cf02159d",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "pilot",
@@ -3786,12 +3786,12 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09 02:24",
+      "scanned": "2026-08-23 01:59",
       "hash": "d5ad01ed67",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "encore-ai",
@@ -3806,7 +3806,7 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09 02:24",
+      "scanned": "2026-08-23 01:59",
       "hash": "\u2014",
       "changed": false,
       "changed_pages": [],
@@ -3826,12 +3826,12 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 80,
-      "scanned": "2026-08-09 02:24",
-      "hash": "260efa63dd",
+      "scanned": "2026-08-23 01:59",
+      "hash": "be303dbd0f",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "kai",
@@ -3846,12 +3846,12 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:24",
-      "hash": "fa6cef6ff5",
+      "scanned": "2026-08-23 01:59",
+      "hash": "c2b5ae24cc",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "armor",
@@ -3866,12 +3866,12 @@
       "discovered": true,
       "discovered_at": "2026-08-02",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09 02:25",
-      "hash": "720321034d",
+      "scanned": "2026-08-23 01:59",
+      "hash": "8f0bce2254",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "carried"
+      "crawl_status": "success"
     },
     {
       "id": "happyrobot",
@@ -3886,12 +3886,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
-      "changed": true,
+      "scanned": "2026-08-23 02:00",
+      "hash": "820efad5c4",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $150M Series C \u00b7 Unicorn Status",
-      "crawl_status": "skipped"
+      "delta": null,
+      "crawl_status": "success"
     },
     {
       "id": "na-ve",
@@ -3906,12 +3906,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
-      "changed": true,
+      "scanned": "2026-08-23 02:00",
+      "hash": "1ec5efe182",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $28.5M Series A",
-      "crawl_status": "skipped"
+      "delta": null,
+      "crawl_status": "success"
     },
     {
       "id": "june-ai",
@@ -3926,12 +3926,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
-      "changed": true,
+      "scanned": "2026-08-23 02:00",
+      "hash": "565897bd3a",
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $20M",
-      "crawl_status": "skipped"
+      "delta": null,
+      "crawl_status": "success"
     },
     {
       "id": "sapiom",
@@ -3946,12 +3946,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 90,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:00",
+      "hash": "883f5f0e7c",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "skipped"
+      "crawl_status": "success"
     },
     {
       "id": "globant",
@@ -3966,12 +3966,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 85,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:00",
+      "hash": "937471a28e",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "skipped"
+      "crawl_status": "success"
     },
     {
       "id": "enkrypt-ai",
@@ -3986,12 +3986,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 70,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:01",
+      "hash": "920de9c981",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "skipped"
+      "crawl_status": "success"
     },
     {
       "id": "imerit",
@@ -4006,12 +4006,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 75,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:01",
+      "hash": "ed0085126d",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "skipped"
+      "crawl_status": "success"
     },
     {
       "id": "yellow-ai",
@@ -4026,12 +4026,12 @@
       "discovered": true,
       "discovered_at": "2026-08-09",
       "discovery_relevance": 95,
-      "scanned": "2026-08-09",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:01",
+      "hash": "0b8049b184",
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "skipped"
+      "crawl_status": "success"
     },
     {
       "id": "skan-ai",
@@ -4039,18 +4039,19 @@
       "url": "skan.ai",
       "category": "Platform Gravity",
       "status": "Emerging",
-      "funding": "\u2014",
+      "funding": "$63M",
       "team": null,
       "why": "Skan AI provides a process intelligence platform that observes how work is done across the enterprise, creating the necessary context and operational ground truth for effective AI agent deployment and automation of workflows.",
       "anchor": false,
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 90,
-      "scanned": "2026-08-16",
-      "hash": "\u2014",
-      "changed": false,
-      "delta": null,
-      "crawl_status": "pending"
+      "scanned": "2026-08-23 02:02",
+      "hash": "b7944cf2e0",
+      "changed": true,
+      "changed_pages": [],
+      "delta": "Funding update: \u2014 \u2192 $63M",
+      "crawl_status": "success"
     },
     {
       "id": "thrive-holdings",
@@ -4065,11 +4066,12 @@
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 95,
-      "scanned": "2026-08-16",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:02",
+      "hash": "faf90a34df",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "pathway",
@@ -4084,11 +4086,12 @@
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 85,
-      "scanned": "2026-08-16",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:02",
+      "hash": "d8b86d3d29",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "river-ai",
@@ -4103,11 +4106,12 @@
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 90,
-      "scanned": "2026-08-16",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:02",
+      "hash": "f155056912",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "profasee",
@@ -4122,11 +4126,12 @@
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 80,
-      "scanned": "2026-08-16",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:02",
+      "hash": "d60246a51c",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "brainfish-ai",
@@ -4141,11 +4146,12 @@
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 85,
-      "scanned": "2026-08-16",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:02",
+      "hash": "ddb58537d5",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "quali",
@@ -4160,11 +4166,12 @@
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 80,
-      "scanned": "2026-08-16",
-      "hash": "\u2014",
+      "scanned": "2026-08-23 02:02",
+      "hash": "8017f27e4f",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "success"
     },
     {
       "id": "symphony-by-wix",
@@ -4179,7 +4186,65 @@
       "discovered": true,
       "discovered_at": "2026-08-16",
       "discovery_relevance": 90,
-      "scanned": "2026-08-16",
+      "scanned": "2026-08-23 02:03",
+      "hash": "65f4782061",
+      "changed": false,
+      "changed_pages": [],
+      "delta": null,
+      "crawl_status": "success"
+    },
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "url": "mastra.io",
+      "category": "Agent Foundries",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Mastra is a TypeScript framework for building AI agents and AI-powered applications, focusing on human-in-the-loop workflows, agent memory, and tool selection.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-08-23",
+      "discovery_relevance": 90,
+      "scanned": "2026-08-23",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "twin1-ai",
+      "name": "Twin1 AI",
+      "url": "twin1.ai",
+      "category": "Digital Labor",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "Twin1 AI emerged from stealth with $20M in seed funding to create AI-powered digital twins for professional knowledge workers, aiming to automate a significant portion of their communications.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-08-23",
+      "discovery_relevance": 95,
+      "scanned": "2026-08-23",
+      "hash": "\u2014",
+      "changed": false,
+      "delta": null,
+      "crawl_status": "pending"
+    },
+    {
+      "id": "uipath",
+      "name": "UiPath",
+      "url": "uipath.com",
+      "category": "Platform Gravity",
+      "status": "Emerging",
+      "funding": "\u2014",
+      "team": null,
+      "why": "UiPath launched Maestro Flow, a developer-first orchestration canvas that enables building, running, observing, and governing end-to-end processes using coding agents, addressing the orchestration challenges in enterprise AI.",
+      "anchor": false,
+      "discovered": true,
+      "discovered_at": "2026-08-23",
+      "discovery_relevance": 85,
+      "scanned": "2026-08-23",
       "hash": "\u2014",
       "changed": false,
       "delta": null,
@@ -4187,6 +4252,108 @@
     }
   ],
   "insights": [
+    {
+      "id": "ins-2026-08-23-1",
+      "scan_date": "2026-08-23",
+      "generated_at": "2026-08-23T02:04:15.397340+00:00",
+      "title": "Foundational Model Providers Accelerate Direct Deployment via M&A",
+      "insight": "Anthropic's newly launched enterprise AI consulting firm, Ode, backed by $1.5 billion, has already completed its first acquisition of Casper Studios. This signals a rapid expansion strategy by foundational model providers' direct deployment arms, moving beyond consulting to actively build and integrate capabilities through M&A for deeper enterprise penetration.",
+      "trend": "Foundational model providers are aggressively seeking to capture more value in the AI transformation market by directly embedding and scaling their AI capabilities within enterprises, utilizing M&A to quickly acquire specialized expertise and accelerate deployment. This ensures their models are effectively translated into tangible business outcomes.",
+      "category": "Transformation Titans",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Anthropic's $1.5B Ode builds an AI consultancy around private equity portfolios",
+        "Anthropic's Ode Acquires Casper Studios in First Deal Since Launch"
+      ],
+      "supersedes": "ins-2026-08-02-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-08-23-2",
+      "scan_date": "2026-08-23",
+      "generated_at": "2026-08-23T02:04:15.397340+00:00",
+      "title": "Production-Grade Infrastructure Bridges AI Pilot-to-Deployment Gap",
+      "insight": "Significant funding rounds for Xpander ($7.5M), June AI ($20M), Prevalent AI ($22M), and Skan AI ($63M) highlight a critical market focus on overcoming the 'pilot-to-production' gap for enterprise AI agents. These investments target solutions for governance, data readiness, context, and reliable operationalization of AI agents at scale.",
+      "trend": "Enterprises are demanding robust, dedicated infrastructure and tooling to move AI agents from experimental phases to reliable, governed, and scalable production environments. This shift is driven by the need for agents to operate effectively within complex enterprise data landscapes and workflows, ensuring trust and measurable impact.",
+      "category": "Forward Deployers",
+      "magnitude": 85,
+      "sources": [
+        "exa",
+        "competition"
+      ],
+      "evidence": [
+        "Xpander raises $7.5M to move enterprise AI agents into production",
+        "Xpander Raises $7.5M Seed to Unleash AI for Enterprises",
+        "June AI Raises $20M to Automate Enterprise AI Rollout",
+        "Prevalent AI raises $22M to fix the enterprise data problem holding back AI agents",
+        "Graphwise aims to become the semantic layer for AI agents",
+        "Skan AI Secures $63M to Give Enterprise AI the Context It\u2019s Missing",
+        "Skan AI funding update: \u2014 \u2192 $63M"
+      ],
+      "supersedes": "ins-2026-08-09-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-08-23-3",
+      "scan_date": "2026-08-23",
+      "generated_at": "2026-08-23T02:04:15.397340+00:00",
+      "title": "RPA Leaders Pivot to Developer-First Agent Orchestration",
+      "insight": "UiPath, a prominent Robotic Process Automation (RPA) vendor, has launched Maestro Flow, a developer-first orchestration platform designed for coding agents and governing AI agent workflows. This strategic move by an established automation player signifies the increasing convergence of traditional RPA with agentic AI, providing developers with tools to build and manage complex, autonomous agent systems.",
+      "trend": "The market for enterprise automation is evolving, with established RPA leaders adapting their offerings to support the emerging agentic paradigm. This pivot addresses the growing demand for robust, developer-centric platforms that can orchestrate and govern the lifecycle of AI agents, ensuring their reliable and scalable deployment within enterprise operations.",
+      "category": "Platform Gravity",
+      "magnitude": 70,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "UiPath Launches UiPath Maestro\u2122 Flow",
+        "UiPath Introduces UiPath Maestro Flow, Delivering Developer-First Orchestration for Coding Agents"
+      ],
+      "supersedes": "ins-2026-07-12-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-08-23-4",
+      "scan_date": "2026-08-23",
+      "generated_at": "2026-08-23T02:04:15.397340+00:00",
+      "title": "Platform Giants Monetize LLM Usage at Infrastructure Layer",
+      "insight": "Stripe's acquisition of OpenRouter, a platform that positioned itself as the 'Stripe for LLMs,' indicates a significant move by major financial infrastructure providers to embed and monetize the fundamental usage of large language models and AI agents. This suggests the emergence of a new 'Platform Gravity' layer focused on the transactional and infrastructural plumbing of the agent economy.",
+      "trend": "As AI agent and LLM adoption scales, there's a growing need for robust, scalable infrastructure to manage and monetize their usage. Major platform players are strategically acquiring companies to provide this foundational layer, aiming to become the essential 'payment rails' and infrastructure for the burgeoning AI economy.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "OpenRouter called itself the \u201cStripe for LLMs\u201d - now Stripe\u2019s swooped in to buy it"
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-08-23-5",
+      "scan_date": "2026-08-23",
+      "generated_at": "2026-08-23T02:04:15.397340+00:00",
+      "title": "Vertical AI Specialists Achieve High Valuations and Revenue",
+      "insight": "Vertical AI specialists like Higgsfield (AI video) and Rillet (accounting superintelligence) are demonstrating significant market maturity, securing substantial funding rounds ($400M and $100M respectively) at high valuations ($5.4B and $1B). Higgsfield's reported $700M Annualized Recurring Revenue (ARR) further underscores the strong revenue-generating capabilities and market validation for deeply embedded, outcome-focused AI solutions within specific industries.",
+      "trend": "The AI transformation market is increasingly valuing and rewarding specialized AI solutions that deliver demonstrable business outcomes within specific industry verticals. This reflects a shift from general-purpose AI to highly tailored, revenue-generating applications that address unique industry challenges and workflows.",
+      "category": "Vertical Specialists",
+      "magnitude": 80,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Higgsfield Raises $400M at $5.4B Valuation, Hits $700M ARR in AI Video Push",
+        "Higgsfield Raises $400 Million Series B Financing at $5.4 Billion Valuation with Annualized Revenue Reaching $700 Million",
+        "Rillet Raises $100M Series C at $1B Valuation to Build Accounting Superintelligence",
+        "Higgsfield raises $400M from Goldman Sachs, DST Global at $5.4B valuation"
+      ],
+      "supersedes": "ins-2026-08-02-2",
+      "superseded_by": null
+    },
     {
       "id": "ins-2026-08-16-1",
       "scan_date": "2026-08-16",
@@ -4341,7 +4508,7 @@
         "LangChain's Managed Deep Agents is now in public beta"
       ],
       "supersedes": "ins-2026-07-26-4",
-      "superseded_by": null
+      "superseded_by": "ins-2026-08-23-2"
     },
     {
       "id": "ins-2026-08-02-1",
@@ -4365,7 +4532,7 @@
         "Microsoft and Amazon earnings show market rewards AI spend tied to metered cloud revenue."
       ],
       "supersedes": "ins-2026-07-26-1",
-      "superseded_by": "ins-2026-08-09-2"
+      "superseded_by": "ins-2026-08-23-1"
     },
     {
       "id": "ins-2026-08-02-2",
@@ -4393,7 +4560,7 @@
         "AI agent startup funding in July 2026 reached $1.8 billion across 12+ deals."
       ],
       "supersedes": "ins-2026-07-26-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-08-23-5"
     },
     {
       "id": "ins-2026-08-02-3",
@@ -4702,7 +4869,7 @@
         "Corvic AI launches V5 to turn one-off prompts into repeatable workflows"
       ],
       "supersedes": "ins-2026-07-05-4",
-      "superseded_by": "ins-2026-07-26-4"
+      "superseded_by": "ins-2026-08-23-3"
     },
     {
       "id": "ins-2026-07-12-4",
@@ -5647,6 +5814,16 @@
   ],
   "scan_history": [
     {
+      "date": "2026-08-23",
+      "generated_at": "2026-08-23T02:04:49.356886+00:00",
+      "events_scanned": 575,
+      "red_deltas": 1,
+      "new_insights": 5,
+      "new_competitors": 3,
+      "competitors_scanned": 197,
+      "duration_seconds": 2467
+    },
+    {
       "date": "2026-08-16",
       "generated_at": "2026-08-16T01:43:00.416961+00:00",
       "events_scanned": 578,
@@ -5787,7 +5964,7 @@
     }
   ],
   "meta": {
-    "competitors_scanned": 197,
-    "red_alert_count": 3
+    "competitors_scanned": 200,
+    "red_alert_count": 1
   }
 }

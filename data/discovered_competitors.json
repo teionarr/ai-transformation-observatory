@@ -1744,5 +1744,59 @@
     "discovered_at": "2026-08-16",
     "discovery_relevance": 90,
     "evidence": "Launch of 'Symphony by Wix,' a new AI agent platform for businesses."
+  },
+  {
+    "id": "mastra",
+    "name": "Mastra",
+    "url": "mastra.io",
+    "category": "Agent Foundries",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Mastra is a TypeScript framework for building AI agents and AI-powered applications, focusing on human-in-the-loop workflows, agent memory, and tool selection.",
+    "discovered": true,
+    "discovered_at": "2026-08-23",
+    "discovery_relevance": 90,
+    "evidence": "Raised $22M (from RAW_SIGNALS) and is a TypeScript framework for building AI agents."
+  },
+  {
+    "id": "twin1-ai",
+    "name": "Twin1 AI",
+    "url": "twin1.ai",
+    "category": "Digital Labor",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "Twin1 AI emerged from stealth with $20M in seed funding to create AI-powered digital twins for professional knowledge workers, aiming to automate a significant portion of their communications.",
+    "discovered": true,
+    "discovered_at": "2026-08-23",
+    "discovery_relevance": 95,
+    "evidence": "Emerged from stealth with $20M in seed funding to build AI-powered digital twins for knowledge workers."
+  },
+  {
+    "id": "uipath",
+    "name": "UiPath",
+    "url": "uipath.com",
+    "category": "Platform Gravity",
+    "crawl_paths": [
+      "/"
+    ],
+    "funding": "\u2014",
+    "team": null,
+    "status": "Emerging",
+    "anchor": false,
+    "why": "UiPath launched Maestro Flow, a developer-first orchestration canvas that enables building, running, observing, and governing end-to-end processes using coding agents, addressing the orchestration challenges in enterprise AI.",
+    "discovered": true,
+    "discovered_at": "2026-08-23",
+    "discovery_relevance": 85,
+    "evidence": "Launched UiPath Maestro Flow on August 19, 2026, for developer-first orchestration of coding agents."
   }
 ]
