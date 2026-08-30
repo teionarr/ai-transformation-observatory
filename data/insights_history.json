@@ -1,5 +1,89 @@
 [
   {
+    "id": "ins-2026-08-30-1",
+    "scan_date": "2026-08-30",
+    "generated_at": "2026-08-30T04:13:57.235528+00:00",
+    "title": "Foundational Models Deeply Embedded in Enterprise Platforms",
+    "insight": "Major platform providers are moving beyond simple API integrations to deeply embed foundational models and agentic capabilities directly into their core offerings, aiming to transform their entire user experience. Salesforce's 'Claudeforce' initiative with Anthropic, which integrates Claude directly into its CRM, and its acquisition of Fin, a customer-agent platform, exemplify this shift.",
+    "trend": "This trend signifies a strategic shift from offering AI as a feature to building AI-native platforms, where the AI becomes the primary interface for user interaction and workflow execution, capturing more value by transforming the core product experience.",
+    "category": "Platform Gravity",
+    "magnitude": 95,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Salesforce and Anthropic Announce Claudeforce",
+      "Salesforce just put its entire CRM inside Claude",
+      "Salesforce Acquires Fin for approximately $3.6bn, a customer-agent platform"
+    ],
+    "supersedes": "ins-2026-08-23-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-30-2",
+    "scan_date": "2026-08-30",
+    "generated_at": "2026-08-30T04:13:57.235528+00:00",
+    "title": "Agentic AI Drives Physical Automation and Robotics Expansion",
+    "insight": "The market is witnessing a significant acceleration in investment and M&A activity focused on integrating AI agents with physical robotics for enterprise applications. Generalist achieved a $3 billion valuation with a $200 million robotics extension, while General Intuition reached a $6 billion valuation pushing into robotics, and Check-Cap completed a merger to scale robot deployments for Fortune 500 customers.",
+    "trend": "This surge indicates a strong push towards automating complex physical tasks and expanding AI's impact beyond digital workflows into tangible real-world operations, driven by the promise of increased efficiency and new operational capabilities across industries.",
+    "category": "Digital Labor",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Generalist hits $3B valuation as 8VC leads $200M robotics extension",
+      "General Intuition at $6B valuation as AI startup pushes into robotics",
+      "Check-Cap Completes MBody AI Merger, closes $10 Million to scale robot deployments with Fortune 500 enterprise customers",
+      "General Intuition: Funding update: $2.3B \u2192 $6B valuation"
+    ],
+    "supersedes": "ins-2026-08-16-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-30-3",
+    "scan_date": "2026-08-30",
+    "generated_at": "2026-08-30T04:13:57.235528+00:00",
+    "title": "Maturing Ecosystem for Production-Grade Agent Governance and Orchestration",
+    "insight": "As enterprise AI agents move from pilots to widespread deployment, there is a critical and growing demand for robust platforms that provide comprehensive governance, orchestration, and quality engineering capabilities. AccuKnox launched AgentZ for building, running, and governing AI agents at scale, Nintex advanced its agentic business orchestration platform, and Tricentis acquired Tabnine for agentic quality engineering.",
+    "trend": "This shift reflects the increasing need for enterprises to manage, secure, and scale complex agentic workflows reliably and compliantly in production environments, moving beyond basic task automation to industrial-grade AI operations.",
+    "category": "Forward Deployers",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "AccuKnox Launches AgentZ to Help Enterprises Build, Run, and Govern AI Agents at Scale",
+      "Nintex advances agentic business orchestration with unified platform",
+      "Orkes: Agents on Conductor \u2014 Architecture for Production AI",
+      "Tricentis Acquires Tabnine for Agentic Quality Engineering"
+    ],
+    "supersedes": "ins-2026-08-02-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-08-30-4",
+    "scan_date": "2026-08-30",
+    "generated_at": "2026-08-30T04:13:57.235528+00:00",
+    "title": "Vertical AI Specialists Validate Outcome-Based Models with Strong Funding",
+    "insight": "Investors continue to pour substantial capital into AI companies deeply embedded within specific industry verticals, validating their ability to deliver tangible, outcome-driven value. Owner raised $240M led by Goldman Sachs for local businesses, Fasset secured $68M at a $1B valuation for AI-powered neobanking, and Runable raised $21M to grow businesses with AI agents.",
+    "trend": "The increasing prevalence of outcome-based pricing models, alongside significant funding, solidifies the market's focus on measurable business results from these specialized AI deployments, indicating a mature understanding of AI's value in targeted applications.",
+    "category": "Vertical Specialists",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Owner Raises $240M Led by Goldman Sachs Alternatives to Build the AI-Native Platform for Every Local Business",
+      "Fasset raises $68M Series C at $1B valuation for AI-powered stablecoin neobanking",
+      "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+      "Outcome-Based AI Agent Pricing 2026: What Vendors Hide"
+    ],
+    "supersedes": "ins-2026-08-23-5",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-08-23-1",
     "scan_date": "2026-08-23",
     "generated_at": "2026-08-23T02:04:15.397340+00:00",
@@ -16,7 +100,7 @@
       "Anthropic's Ode Acquires Casper Studios in First Deal Since Launch"
     ],
     "supersedes": "ins-2026-08-02-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-30-1"
   },
   {
     "id": "ins-2026-08-23-2",
@@ -99,7 +183,7 @@
       "Higgsfield raises $400M from Goldman Sachs, DST Global at $5.4B valuation"
     ],
     "supersedes": "ins-2026-08-02-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-30-4"
   },
   {
     "id": "ins-2026-08-16-1",
@@ -141,7 +225,7 @@
       "NEURA Acquires Bosch Rexroth ACTIVE Shuttle to Build Unified Physical-AI Stack"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-08-30-2"
   },
   {
     "id": "ins-2026-08-16-3",
@@ -333,7 +417,7 @@
       "Forrester predicts 60% of Fortune 100 companies will appoint a head of AI governance in 2026."
     ],
     "supersedes": "ins-2026-07-26-4",
-    "superseded_by": "ins-2026-08-16-3"
+    "superseded_by": "ins-2026-08-30-3"
   },
   {
     "id": "ins-2026-07-26-1",

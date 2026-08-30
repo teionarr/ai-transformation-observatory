@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T02:04:49.356886+00:00",
-  "run_duration_seconds": 2467,
+  "generated_at": "2026-08-30T04:13:57.237154+00:00",
+  "run_duration_seconds": 175,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-08-23T02:04:49.356886+00:00",
+      "last_call": "2026-08-30T04:13:57.237154+00:00",
       "status": "healthy"
     },
     {
@@ -31,9 +31,9 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 198,
-      "last_call": "2026-08-23T02:04:49.356886+00:00",
-      "status": "healthy"
+      "calls": 201,
+      "last_call": "2026-08-30T04:13:57.237154+00:00",
+      "status": "down"
     },
     {
       "id": "gemini",
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-08-23T02:04:49.356886+00:00",
+      "last_call": "2026-08-30T04:13:57.237154+00:00",
       "status": "healthy"
     },
     {
@@ -49,12 +49,110 @@
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 2,
-      "last_call": "2026-08-23T02:04:49.356886+00:00",
+      "calls": 1,
+      "last_call": "2026-08-30T04:13:57.237154+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Lovable Raises $400M at $13.3B Valuation for Agent SaaS | AI Breaking Wire",
+      "domain": "aibreakingwire.com",
+      "hours_ago": 100,
+      "velocity": 99,
+      "why": "Massive funding and valuation for agent-native SaaS confirms strong market for agent platforms.",
+      "source_url": "https://aibreakingwire.com/news/lovable-raises-400m-at-133b-valuation-for-agent-native-saas",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-08-30"
+    },
+    {
+      "id": "v2",
+      "title": "DeepSeek seeks fresh capital at $71B valuation before IPO | Value Add Pulse",
+      "domain": "valueaddvc.com",
+      "hours_ago": 52,
+      "velocity": 99,
+      "why": "Mega-valuation for foundational AI models underscores infrastructure's critical role in agentic future.",
+      "source_url": "https://valueaddvc.com/pulse/deepseek-fresh-capital-star-market-ipo-2026",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-08-30"
+    },
+    {
+      "id": "v3",
+      "title": "Generalist hits $3B valuation as 8VC leads $200M robotics extension \u2014 AI Chat Daily",
+      "domain": "www.aichatdaily.com",
+      "hours_ago": 100,
+      "velocity": 98,
+      "why": "Massive funding and valuation for robotics AI signals a paradigm shift in agentic capabilities.",
+      "source_url": "https://www.aichatdaily.com/ai-business/generalist-hits-3b-valuation-8vc-leads-200m-robotics",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-08-30"
+    },
+    {
+      "id": "v4",
+      "title": "Salesforce Acquires Fin | Acquiry Deal Intelligence",
+      "domain": "www.acquiry.com",
+      "hours_ago": 100,
+      "velocity": 98,
+      "why": "Salesforce's acquisition of Fin significantly boosts its CRM-native agentic capabilities.",
+      "source_url": "https://www.acquiry.com/deal-intelligence/salesforce-acquires-fin/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-08-30"
+    },
+    {
+      "id": "v5",
+      "title": "Cognizant to acquire AI infrastructure specialist Astreya for $600 million",
+      "domain": "thenextweb.com",
+      "hours_ago": 124,
+      "velocity": 98,
+      "why": "Cognizant's acquisition of AI infrastructure specialist strengthens its transformation capabilities.",
+      "source_url": "https://thenextweb.com/news/cognizant-astreya-600-million-acquisition-ai-infrastructure",
+      "sources": [
+        "exa"
+      ],
+      "category": "Transformation Titans",
+      "scan_date": "2026-08-30"
+    },
+    {
+      "id": "v6",
+      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics | TechCrunch",
+      "domain": "techcrunch.com",
+      "hours_ago": 148,
+      "velocity": 98,
+      "why": "Major investment in AI robotics validates agentic systems for real-world interaction.",
+      "source_url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-08-30"
+    },
+    {
+      "id": "v7",
+      "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM\u00a0 - Salesforce",
+      "domain": "www.salesforce.com",
+      "hours_ago": 76,
+      "velocity": 95,
+      "why": "Salesforce integrating Claude deeply into CRM enhances agentic capabilities for enterprise users.",
+      "source_url": "https://www.salesforce.com/ap/news/press-releases/2026/08/27/salesforce-and-anthropic-announce-claudeforce-the-1-ai-meets-the-1-ai-crm/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-08-30"
+    },
     {
       "id": "v1",
       "title": "Higgsfield Raises $400M at $5.4B Valuation, Hits $700M ARR in AI Video Push",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-08-23"
-    },
-    {
-      "id": "v1",
-      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise | TechCrunch",
-      "domain": "techcrunch.com",
-      "hours_ago": 97,
-      "velocity": 100,
-      "why": "Huge funding for an OpenAI-backed entity signals major enterprise AI transformation investment.",
-      "source_url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Transformation Titans",
-      "scan_date": "2026-08-16"
-    },
-    {
-      "id": "v2",
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI | TechCrunch",
-      "domain": "techcrunch.com",
-      "hours_ago": 121,
-      "velocity": 100,
-      "why": "Unprecedented funding for a nascent AI company signals a potential market disruptor.",
-      "source_url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-16"
-    },
-    {
-      "id": "v3",
-      "title": "China's Infiforce Raises Nearly $150M in Funding to Develop 'Ego Native World Model' for Robots",
-      "domain": "theaiinsider.tech",
-      "hours_ago": 25,
-      "velocity": 95,
-      "why": "Major funding for robot \"world models\" indicates significant advancement in physical AI agents.",
-      "source_url": "https://theaiinsider.tech/2026/08/15/chinas-infiforce-raises-nearly-150m-in-funding-to-develop-ego-native-world-model-for-robots/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-08-16"
-    },
-    {
-      "id": "v4",
-      "title": "Dynatrace to Acquire AI Observability Leader Arize",
-      "domain": "www.dynatrace.com",
-      "hours_ago": 73,
-      "velocity": 95,
-      "why": "Acquisition of AI observability leader strengthens platform gravity for reliable agent deployment.",
-      "source_url": "https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-arize/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-16"
-    },
-    {
-      "id": "v5",
-      "title": "HappyRobot lands $150m as agentic AI hits enterprise scale",
-      "domain": "fintech.global",
-      "hours_ago": 97,
-      "velocity": 95,
-      "why": "Major funding validates horizontal agentic platforms scaling enterprise operations.",
-      "source_url": "https://fintech.global/2026/08/12/happyrobot-lands-150m-as-agentic-ai-hits-enterprise-scale/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-16"
-    },
-    {
-      "id": "v6",
-      "title": "Lovable Raises $400M Series C at $13.3B Valuation to Scale Its Vibe Coding Platform \u2013 Unite.AI",
-      "domain": "www.unite.ai",
-      "hours_ago": 97,
-      "velocity": 95,
-      "why": "Significant funding for a \"vibe coding\" platform points to advanced agent personality and interaction.",
-      "source_url": "https://www.unite.ai/lovable-series-c-doubles-the-vibe-coding-startups-valuation-to-13-3-billion/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-16"
-    },
-    {
-      "id": "v7",
-      "title": "Archer to Shape Physical AI Future of Aerospace and Defense with Acquisition of Boeing's Wisk Aero, Insitu and SkyGrid Subsidiaries; Boeing to Invest in Archer and Collaborate - Aug 10, 2026",
-      "domain": "boeing.mediaroom.com",
-      "hours_ago": 145,
-      "velocity": 95,
-      "why": "Major acquisition and investment signal accelerated physical AI deployment in aerospace/defense.",
-      "source_url": "https://boeing.mediaroom.com/2026-08-10-Archer-to-Shape-Physical-AI-Future-of-Aerospace-and-Defense-with-Acquisition-of-Boeings-Wisk-Aero,-Insitu-and-SkyGrid-Subsidiaries-Boeing-to-Invest-in-Archer-and-Collaborate",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-08-16"
     }
   ],
   "competitor_map": [
@@ -271,7 +271,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "accenture",
@@ -291,7 +291,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "deloitte",
@@ -311,7 +311,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "mckinsey",
@@ -331,7 +331,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "bcgx",
@@ -351,7 +351,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "bain",
@@ -371,7 +371,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "ibmconsulting",
@@ -391,7 +391,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "ey",
@@ -411,7 +411,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "pwc",
@@ -431,7 +431,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "kpmg",
@@ -451,7 +451,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "capgemini",
@@ -471,7 +471,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "distyl",
@@ -491,7 +491,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "tribe",
@@ -511,7 +511,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "sand",
@@ -531,7 +531,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "slalom",
@@ -551,7 +551,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "faculty",
@@ -571,7 +571,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "neurons",
@@ -591,7 +591,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "devoteam",
@@ -611,7 +611,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "mechorchard",
@@ -631,7 +631,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "webuildai",
@@ -651,7 +651,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "multiverse",
@@ -671,7 +671,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "sierra",
@@ -691,7 +691,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "relevanceai",
@@ -711,7 +711,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "lyzr",
@@ -731,7 +731,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "lindy",
@@ -751,7 +751,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "crewai",
@@ -771,7 +771,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "beam",
@@ -791,7 +791,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "stackai",
@@ -811,7 +811,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "knowlee",
@@ -831,7 +831,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "aily",
@@ -851,7 +851,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "writer",
@@ -871,7 +871,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "agentforce",
@@ -891,7 +891,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "copilotstudio",
@@ -911,7 +911,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "servicenow",
@@ -931,7 +931,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "googlecloud",
@@ -951,7 +951,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "aws",
@@ -971,7 +971,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "koreai",
@@ -991,7 +991,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "c3ai",
@@ -1011,7 +1011,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "glean",
@@ -1031,7 +1031,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "oracle",
@@ -1051,7 +1051,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cognigy",
@@ -1071,7 +1071,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "elevenx",
@@ -1091,7 +1091,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "artisan",
@@ -1111,7 +1111,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "decagon",
@@ -1131,7 +1131,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cognition",
@@ -1151,7 +1151,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "moveworks",
@@ -1171,7 +1171,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "harvey",
@@ -1191,7 +1191,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "hippocratic",
@@ -1211,7 +1211,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cresta",
@@ -1231,7 +1231,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "fazeshift",
@@ -1251,7 +1251,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "eloquent",
@@ -1291,7 +1291,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "heyhyper-ai",
@@ -1311,7 +1311,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "wato",
@@ -1331,7 +1331,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "pentagon",
@@ -1351,7 +1351,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "hyperspell",
@@ -1371,7 +1371,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "captain",
@@ -1391,7 +1391,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "corvera",
@@ -1411,7 +1411,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "memory-store",
@@ -1431,7 +1431,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "nozomio",
@@ -1451,7 +1451,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "epicenter",
@@ -1471,7 +1471,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "glen",
@@ -1491,7 +1491,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "salesgraph",
@@ -1511,7 +1511,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cerenovus",
@@ -1531,7 +1531,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "flowscope",
@@ -1551,7 +1551,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "ressl",
@@ -1571,7 +1571,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "jinba",
@@ -1591,7 +1591,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cofia",
@@ -1611,7 +1611,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "foaster",
@@ -1631,7 +1631,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "ontora",
@@ -1651,7 +1651,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "hessian",
@@ -1671,7 +1671,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "autostep",
@@ -1691,7 +1691,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "tasklet",
@@ -1711,7 +1711,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "openwork",
@@ -1731,7 +1731,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "tensol",
@@ -1751,7 +1751,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "ramain",
@@ -1771,7 +1771,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "fullseam",
@@ -1791,7 +1791,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "haladir",
@@ -1811,7 +1811,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "bubble-lab",
@@ -1831,7 +1831,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "o11",
@@ -1851,7 +1851,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "eos-ai",
@@ -1871,7 +1871,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "akkari",
@@ -1891,7 +1891,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "korso",
@@ -1911,7 +1911,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "hexa",
@@ -1931,7 +1931,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "revnu",
@@ -1951,7 +1951,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "qomplement",
@@ -1971,7 +1971,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "modern",
@@ -1991,7 +1991,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "netter",
@@ -2011,7 +2011,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "smartbase",
@@ -2031,7 +2031,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "walter",
@@ -2051,7 +2051,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "the-company-company",
@@ -2071,7 +2071,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "item",
@@ -2091,7 +2091,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "lunavo",
@@ -2111,7 +2111,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "lark",
@@ -2131,7 +2131,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "ambral",
@@ -2151,7 +2151,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "monday-com",
@@ -2171,7 +2171,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "rippling-com",
@@ -2191,7 +2191,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "jeen-ai",
@@ -2211,7 +2211,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "reindeer-ai",
@@ -2231,7 +2231,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "o9solutions-com",
@@ -2251,7 +2251,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "mendo",
@@ -2271,7 +2271,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "prometheus-ai",
@@ -2291,7 +2291,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "infinity-constellation",
@@ -2311,7 +2311,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "happiest-minds",
@@ -2331,7 +2331,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "poetic",
@@ -2351,7 +2351,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "jedify",
@@ -2371,7 +2371,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "chatsee-ai",
@@ -2391,7 +2391,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "recursive",
@@ -2411,7 +2411,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "generativex",
@@ -2431,7 +2431,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "relai",
@@ -2451,7 +2451,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "phoenixai",
@@ -2471,7 +2471,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "2x",
@@ -2491,7 +2491,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "sedai",
@@ -2511,7 +2511,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "centerprise-ai",
@@ -2531,7 +2531,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "decisions",
@@ -2551,7 +2551,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "openai-deployco",
@@ -2571,7 +2571,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "conduct",
@@ -2591,7 +2591,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "sarvam-ai",
@@ -2611,7 +2611,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "zensar-technologies-zenseai-agentmesh",
@@ -2631,7 +2631,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "zaro-ai",
@@ -2651,7 +2651,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "konecta-kolibri",
@@ -2671,7 +2671,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cognizant-neuro-ai-multi-agent-accelerator",
@@ -2691,7 +2691,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "thoughtworks-agent-works",
@@ -2711,7 +2711,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "patronus-ai",
@@ -2731,7 +2731,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "zeb",
@@ -2751,7 +2751,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "hang-ten-systems",
@@ -2771,7 +2771,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "runlayer",
@@ -2791,7 +2791,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "runpod",
@@ -2811,7 +2811,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "scaled-cognition",
@@ -2831,7 +2831,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "orthogonal",
@@ -2851,7 +2851,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "neuraltrust",
@@ -2871,7 +2871,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "8090",
@@ -2891,7 +2891,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "1001",
@@ -2911,7 +2911,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "odyssey",
@@ -2931,7 +2931,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "engram",
@@ -2951,7 +2951,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "general-intuition",
@@ -2959,7 +2959,7 @@
       "url": "generalintuition.com",
       "category": "Agent Foundries",
       "status": "Emerging",
-      "funding": "$2.3B",
+      "funding": "$6B valuation",
       "team": null,
       "why": "General Intuition is a frontier AI research lab that develops foundation models and general agents for spatial and temporal reasoning, leveraging video game data to train AI agents for real-world interaction and robotics.",
       "anchor": false,
@@ -2968,10 +2968,10 @@
       "discovery_relevance": 88,
       "scanned": "2026-08-23 01:47",
       "hash": "23807f4523",
-      "changed": false,
+      "changed": true,
       "changed_pages": [],
-      "delta": null,
-      "crawl_status": "success"
+      "delta": "Funding update: $2.3B \u2192 $6B valuation",
+      "crawl_status": "carried"
     },
     {
       "id": "hypefy-ai",
@@ -2991,7 +2991,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "truefoundry",
@@ -3011,7 +3011,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cxai",
@@ -3031,7 +3031,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "circeus",
@@ -3051,7 +3051,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "pinkfish",
@@ -3071,7 +3071,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "aampe",
@@ -3091,7 +3091,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "harness",
@@ -3111,7 +3111,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "mura",
@@ -3131,7 +3131,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "venice-ai",
@@ -3171,7 +3171,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "vnomic",
@@ -3191,7 +3191,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "genesys",
@@ -3211,7 +3211,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "sailpoint",
@@ -3231,7 +3231,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "symbotic",
@@ -3251,7 +3251,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "digital-workforce",
@@ -3271,7 +3271,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "easyvista",
@@ -3291,7 +3291,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "prime-intellect",
@@ -3311,7 +3311,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "norm-ai",
@@ -3331,7 +3331,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "presidio",
@@ -3351,7 +3351,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "one",
@@ -3371,7 +3371,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "mercor",
@@ -3391,7 +3391,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "nurix-ai",
@@ -3411,7 +3411,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "duck-creek",
@@ -3431,7 +3431,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "giant-swarm",
@@ -3451,7 +3451,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "fireworks",
@@ -3471,7 +3471,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "anaconda",
@@ -3491,7 +3491,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "prefect",
@@ -3531,7 +3531,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "parallel",
@@ -3551,7 +3551,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "ode",
@@ -3571,7 +3571,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "arrakis",
@@ -3611,7 +3611,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "prentis",
@@ -3631,7 +3631,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "natural",
@@ -3651,7 +3651,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "atoms",
@@ -3671,7 +3671,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "skyfall-ai",
@@ -3691,7 +3691,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "businessnext",
@@ -3711,7 +3711,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "freehand",
@@ -3731,7 +3731,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "cor",
@@ -3751,7 +3751,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "emergent-ai",
@@ -3771,7 +3771,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "pilot",
@@ -3791,7 +3791,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "encore-ai",
@@ -3831,7 +3831,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "kai",
@@ -3851,7 +3851,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "armor",
@@ -3871,7 +3871,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "happyrobot",
@@ -3891,7 +3891,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "na-ve",
@@ -3911,7 +3911,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "june-ai",
@@ -3931,7 +3931,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "sapiom",
@@ -3951,7 +3951,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "globant",
@@ -3971,7 +3971,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "enkrypt-ai",
@@ -3991,7 +3991,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "imerit",
@@ -4011,7 +4011,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "yellow-ai",
@@ -4031,7 +4031,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "skan-ai",
@@ -4048,10 +4048,10 @@
       "discovery_relevance": 90,
       "scanned": "2026-08-23 02:02",
       "hash": "b7944cf2e0",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: \u2014 \u2192 $63M",
-      "crawl_status": "success"
+      "delta": null,
+      "crawl_status": "carried"
     },
     {
       "id": "thrive-holdings",
@@ -4071,7 +4071,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "pathway",
@@ -4091,7 +4091,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "river-ai",
@@ -4111,7 +4111,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "profasee",
@@ -4131,7 +4131,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "brainfish-ai",
@@ -4151,7 +4151,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "quali",
@@ -4171,7 +4171,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "symphony-by-wix",
@@ -4191,7 +4191,7 @@
       "changed": false,
       "changed_pages": [],
       "delta": null,
-      "crawl_status": "success"
+      "crawl_status": "carried"
     },
     {
       "id": "mastra",
@@ -4209,8 +4209,9 @@
       "scanned": "2026-08-23",
       "hash": "\u2014",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "skipped"
     },
     {
       "id": "twin1-ai",
@@ -4228,8 +4229,9 @@
       "scanned": "2026-08-23",
       "hash": "\u2014",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "skipped"
     },
     {
       "id": "uipath",
@@ -4247,11 +4249,96 @@
       "scanned": "2026-08-23",
       "hash": "\u2014",
       "changed": false,
+      "changed_pages": [],
       "delta": null,
-      "crawl_status": "pending"
+      "crawl_status": "skipped"
     }
   ],
   "insights": [
+    {
+      "id": "ins-2026-08-30-1",
+      "scan_date": "2026-08-30",
+      "generated_at": "2026-08-30T04:13:57.235528+00:00",
+      "title": "Foundational Models Deeply Embedded in Enterprise Platforms",
+      "insight": "Major platform providers are moving beyond simple API integrations to deeply embed foundational models and agentic capabilities directly into their core offerings, aiming to transform their entire user experience. Salesforce's 'Claudeforce' initiative with Anthropic, which integrates Claude directly into its CRM, and its acquisition of Fin, a customer-agent platform, exemplify this shift.",
+      "trend": "This trend signifies a strategic shift from offering AI as a feature to building AI-native platforms, where the AI becomes the primary interface for user interaction and workflow execution, capturing more value by transforming the core product experience.",
+      "category": "Platform Gravity",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Salesforce and Anthropic Announce Claudeforce",
+        "Salesforce just put its entire CRM inside Claude",
+        "Salesforce Acquires Fin for approximately $3.6bn, a customer-agent platform"
+      ],
+      "supersedes": "ins-2026-08-23-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-08-30-2",
+      "scan_date": "2026-08-30",
+      "generated_at": "2026-08-30T04:13:57.235528+00:00",
+      "title": "Agentic AI Drives Physical Automation and Robotics Expansion",
+      "insight": "The market is witnessing a significant acceleration in investment and M&A activity focused on integrating AI agents with physical robotics for enterprise applications. Generalist achieved a $3 billion valuation with a $200 million robotics extension, while General Intuition reached a $6 billion valuation pushing into robotics, and Check-Cap completed a merger to scale robot deployments for Fortune 500 customers.",
+      "trend": "This surge indicates a strong push towards automating complex physical tasks and expanding AI's impact beyond digital workflows into tangible real-world operations, driven by the promise of increased efficiency and new operational capabilities across industries.",
+      "category": "Digital Labor",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "competition"
+      ],
+      "evidence": [
+        "Generalist hits $3B valuation as 8VC leads $200M robotics extension",
+        "General Intuition at $6B valuation as AI startup pushes into robotics",
+        "Check-Cap Completes MBody AI Merger, closes $10 Million to scale robot deployments with Fortune 500 enterprise customers",
+        "General Intuition: Funding update: $2.3B \u2192 $6B valuation"
+      ],
+      "supersedes": "ins-2026-08-16-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-08-30-3",
+      "scan_date": "2026-08-30",
+      "generated_at": "2026-08-30T04:13:57.235528+00:00",
+      "title": "Maturing Ecosystem for Production-Grade Agent Governance and Orchestration",
+      "insight": "As enterprise AI agents move from pilots to widespread deployment, there is a critical and growing demand for robust platforms that provide comprehensive governance, orchestration, and quality engineering capabilities. AccuKnox launched AgentZ for building, running, and governing AI agents at scale, Nintex advanced its agentic business orchestration platform, and Tricentis acquired Tabnine for agentic quality engineering.",
+      "trend": "This shift reflects the increasing need for enterprises to manage, secure, and scale complex agentic workflows reliably and compliantly in production environments, moving beyond basic task automation to industrial-grade AI operations.",
+      "category": "Forward Deployers",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "AccuKnox Launches AgentZ to Help Enterprises Build, Run, and Govern AI Agents at Scale",
+        "Nintex advances agentic business orchestration with unified platform",
+        "Orkes: Agents on Conductor \u2014 Architecture for Production AI",
+        "Tricentis Acquires Tabnine for Agentic Quality Engineering"
+      ],
+      "supersedes": "ins-2026-08-02-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-08-30-4",
+      "scan_date": "2026-08-30",
+      "generated_at": "2026-08-30T04:13:57.235528+00:00",
+      "title": "Vertical AI Specialists Validate Outcome-Based Models with Strong Funding",
+      "insight": "Investors continue to pour substantial capital into AI companies deeply embedded within specific industry verticals, validating their ability to deliver tangible, outcome-driven value. Owner raised $240M led by Goldman Sachs for local businesses, Fasset secured $68M at a $1B valuation for AI-powered neobanking, and Runable raised $21M to grow businesses with AI agents.",
+      "trend": "The increasing prevalence of outcome-based pricing models, alongside significant funding, solidifies the market's focus on measurable business results from these specialized AI deployments, indicating a mature understanding of AI's value in targeted applications.",
+      "category": "Vertical Specialists",
+      "magnitude": 80,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Owner Raises $240M Led by Goldman Sachs Alternatives to Build the AI-Native Platform for Every Local Business",
+        "Fasset raises $68M Series C at $1B valuation for AI-powered stablecoin neobanking",
+        "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+        "Outcome-Based AI Agent Pricing 2026: What Vendors Hide"
+      ],
+      "supersedes": "ins-2026-08-23-5",
+      "superseded_by": null
+    },
     {
       "id": "ins-2026-08-23-1",
       "scan_date": "2026-08-23",
@@ -4269,7 +4356,7 @@
         "Anthropic's Ode Acquires Casper Studios in First Deal Since Launch"
       ],
       "supersedes": "ins-2026-08-02-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-08-30-1"
     },
     {
       "id": "ins-2026-08-23-2",
@@ -4352,7 +4439,7 @@
         "Higgsfield raises $400M from Goldman Sachs, DST Global at $5.4B valuation"
       ],
       "supersedes": "ins-2026-08-02-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-08-30-4"
     },
     {
       "id": "ins-2026-08-16-1",
@@ -4394,7 +4481,7 @@
         "NEURA Acquires Bosch Rexroth ACTIVE Shuttle to Build Unified Physical-AI Stack"
       ],
       "supersedes": null,
-      "superseded_by": null
+      "superseded_by": "ins-2026-08-30-2"
     },
     {
       "id": "ins-2026-08-16-3",
@@ -4586,7 +4673,7 @@
         "Forrester predicts 60% of Fortune 100 companies will appoint a head of AI governance in 2026."
       ],
       "supersedes": "ins-2026-07-26-4",
-      "superseded_by": "ins-2026-08-16-3"
+      "superseded_by": "ins-2026-08-30-3"
     },
     {
       "id": "ins-2026-07-26-1",
@@ -5813,6 +5900,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-08-30",
+      "generated_at": "2026-08-30T04:13:57.237154+00:00",
+      "events_scanned": 587,
+      "red_deltas": 1,
+      "new_insights": 4,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 175
+    },
     {
       "date": "2026-08-23",
       "generated_at": "2026-08-23T02:04:49.356886+00:00",
