@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T04:13:57.237154+00:00",
-  "run_duration_seconds": 175,
+  "generated_at": "2026-09-06T03:31:20.447720+00:00",
+  "run_duration_seconds": 333,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-08-30T04:13:57.237154+00:00",
+      "last_call": "2026-09-06T03:31:20.447720+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 201,
-      "last_call": "2026-08-30T04:13:57.237154+00:00",
+      "calls": 209,
+      "last_call": "2026-09-06T03:31:20.447720+00:00",
       "status": "down"
     },
     {
@@ -41,20 +41,118 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-08-30T04:13:57.237154+00:00",
-      "status": "healthy"
+      "last_call": "2026-09-06T03:31:20.447720+00:00",
+      "status": "down"
     },
     {
       "id": "web",
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 1,
-      "last_call": "2026-08-30T04:13:57.237154+00:00",
+      "calls": 5,
+      "last_call": "2026-09-06T03:31:20.447720+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "NVIDIA to Acquire Hugging Face | NVIDIA Blog",
+      "domain": "blogs.nvidia.com",
+      "hours_ago": 75,
+      "velocity": 100,
+      "why": "NVIDIA acquires Hugging Face, consolidating AI infrastructure and model development ecosystems.",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-06"
+    },
+    {
+      "id": "v2",
+      "title": "SoundHound AI Completes Acquisition of LivePerson, Creating a World-Leading Omnichannel Conversational AI Powerhouse",
+      "domain": "www.techtimes.com",
+      "hours_ago": 27,
+      "velocity": 95,
+      "why": "SoundHound acquires LivePerson, creating a dominant omnichannel conversational AI and agentic CX player.",
+      "source_url": "https://www.techtimes.com/articles/326750/20260905/soundhound-closes-liveperson-acquisition-304m-bet-omnichannel-agentic-ai.htm",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-09-06"
+    },
+    {
+      "id": "v3",
+      "title": "ServiceNow Buys Sweep to Expand Agentic CRM Workflows | TMC Insight",
+      "domain": "insight.tmcnet.com",
+      "hours_ago": 51,
+      "velocity": 95,
+      "why": "ServiceNow acquires Sweep, expanding agentic CRM workflows and strengthening its platform gravity.",
+      "source_url": "https://insight.tmcnet.com/insight/servicenow-buys-sweep-to-expand-agentic-crm-workflows-mtmx35tz",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-06"
+    },
+    {
+      "id": "v4",
+      "title": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise",
+      "domain": "www.prnewswire.com",
+      "hours_ago": 51,
+      "velocity": 95,
+      "why": "Massive Series C funding validates agentic OS for enterprise, shifting AI towards embedded engineering.",
+      "source_url": "https://www.prnewswire.com/apac/news-releases/wonderful-raises-550-million-series-c-to-scale-the-ai-operating-system-for-the-enterprise-302869920.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-09-06"
+    },
+    {
+      "id": "v5",
+      "title": "HappyRobot Hits $1.2B Valuation With $150M\u2026 | Pomegra Startups",
+      "domain": "pomegra.io",
+      "hours_ago": 147,
+      "velocity": 95,
+      "why": "HappyRobot achieves unicorn status, validating vertical AI voice agents for logistics transformation.",
+      "source_url": "https://pomegra.io/startups/happyrobot-hits-1-2b-valuation-with-150m-series-c-2026-08-31",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-09-06"
+    },
+    {
+      "id": "v6",
+      "title": "Figure secures $3.5 billion computing power from Nscale \u00b7 Beckmann",
+      "domain": "beckmann.ai",
+      "hours_ago": 27,
+      "velocity": 90,
+      "why": "Figure secures $3.5B in compute, accelerating robotics and physical AI development.",
+      "source_url": "https://beckmann.ai/en/ai-economy/2026-09/figure-nscale-compute-billions",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-09-06"
+    },
+    {
+      "id": "v7",
+      "title": "Atira Raises $17.5M to Build the 'Commercial Brain' Behind Industrial Bid Proposals",
+      "domain": "www.todaysstartupnews.com",
+      "hours_ago": 51,
+      "velocity": 90,
+      "why": "Atira raises $17.5M for AI agents streamlining industrial sales and bid proposals.",
+      "source_url": "https://www.todaysstartupnews.com/startups/atira-17-5-million-seed-industrial-sales-ai",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-09-06"
+    },
     {
       "id": "v1",
       "title": "Lovable Raises $400M at $13.3B Valuation for Agent SaaS | AI Breaking Wire",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-08-30"
-    },
-    {
-      "id": "v1",
-      "title": "Higgsfield Raises $400M at $5.4B Valuation, Hits $700M ARR in AI Video Push",
-      "domain": "www.vktr.com",
-      "hours_ago": 97,
-      "velocity": 98,
-      "why": "Higgsfield's $400M Series B at $5.4B valuation fuels AI video growth.",
-      "source_url": "https://www.vktr.com/ai-platforms/higgsfield-raises-400-million-at-54-billion-valuation-as-ai-video-finds-an-enterprise-foothold/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-08-23"
-    },
-    {
-      "id": "v2",
-      "title": "Anthropic's $1.5B Ode builds an AI consultancy around private equity portfolios",
-      "domain": "runtimewire.com",
-      "hours_ago": 49,
-      "velocity": 95,
-      "why": "Anthropic's Ode launches with $1.5B, acquires Casper Studios for AI consulting.",
-      "source_url": "https://runtimewire.com/article/anthropic-ode-ai-consulting-private-equity",
-      "sources": [
-        "exa"
-      ],
-      "category": "Transformation Titans",
-      "scan_date": "2026-08-23"
-    },
-    {
-      "id": "v3",
-      "title": "OpenRouter called itself the \u201cStripe for LLMs\u201d - now Stripe\u2019s swooped in to buy it - The New Stack",
-      "domain": "thenewstack.io",
-      "hours_ago": 73,
-      "velocity": 95,
-      "why": "Stripe acquires OpenRouter, strengthening its position in LLM infrastructure.",
-      "source_url": "https://thenewstack.io/stripe-acquires-openrouter-tokens/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-23"
-    },
-    {
-      "id": "v4",
-      "title": "Rillet Raises $100M Series C at $1B Valuation to Build Accounting Superintelligence | VentureBeat",
-      "domain": "venturebeat.com",
-      "hours_ago": 97,
-      "velocity": 95,
-      "why": "Rillet achieves $1B valuation with $100M Series C for accounting AI.",
-      "source_url": "https://venturebeat.com/business/rillet-raises-100m-series-c-at-1b-valuation-to-build-accounting-superintelligence",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-08-23"
-    },
-    {
-      "id": "v5",
-      "title": "Skan AI Secures $63M to Give Enterprise AI the Context It\u2019s Missing: How Work Actually Gets\u00a0Done",
-      "domain": "theaiinsider.tech",
-      "hours_ago": 49,
-      "velocity": 90,
-      "why": "Skan AI secures $63M to provide crucial context for enterprise AI agents.",
-      "source_url": "https://theaiinsider.tech/2026/08/21/skan-ai-secures-63m-to-give-enterprise-ai-the-context-its-missing-how-work-actually-gets-done/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-23"
-    },
-    {
-      "id": "v6",
-      "title": "June AI Raises $20M to Automate Enterprise AI Rollout - Pomegra Startups",
-      "domain": "pomegra.io",
-      "hours_ago": 121,
-      "velocity": 90,
-      "why": "June AI raises $20M to automate enterprise AI rollout, accelerating transformation.",
-      "source_url": "https://pomegra.io/startups/june-ai-raises-20m-to-automate-enterprise-ai-rollout-2026-08-18",
-      "sources": [
-        "exa"
-      ],
-      "category": "Forward Deployers",
-      "scan_date": "2026-08-23"
-    },
-    {
-      "id": "v7",
-      "title": "UiPath Launches UiPath Maestro\u2122 Flow | UiPath",
-      "domain": "www.uipath.com",
-      "hours_ago": 97,
-      "velocity": 90,
-      "why": "UiPath launches Maestro Flow for developer-first orchestration of coding agents.",
-      "source_url": "https://www.uipath.com/newsroom/uipath-launches-maestro-flow",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-23"
     }
   ],
   "competitor_map": [
@@ -930,7 +930,7 @@
       "hash": "97d650de91",
       "changed": false,
       "changed_pages": [],
-      "delta": null,
+      "delta": "ServiceNow acquired Sweep to expand its agentic CRM workflows, deepening its platform's capabilities for autonomous customer relationship management.",
       "crawl_status": "carried"
     },
     {
@@ -2968,9 +2968,9 @@
       "discovery_relevance": 88,
       "scanned": "2026-08-23 01:47",
       "hash": "23807f4523",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: $2.3B \u2192 $6B valuation",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -3878,7 +3878,7 @@
       "name": "HappyRobot",
       "url": "happyrobot.com",
       "category": "Agent Foundries",
-      "status": "Emerging",
+      "status": "Scaling",
       "funding": "$150M Series C \u00b7 Unicorn Status",
       "team": null,
       "why": "HappyRobot received $150M Series C funding to scale agentic AI for enterprise operations, focusing on autonomous AI workers for complex workflows in various industries.",
@@ -3888,9 +3888,9 @@
       "discovery_relevance": 95,
       "scanned": "2026-08-23 02:00",
       "hash": "820efad5c4",
-      "changed": false,
+      "changed": true,
       "changed_pages": [],
-      "delta": null,
+      "delta": "Status: Emerging \u2192 Scaling",
       "crawl_status": "carried"
     },
     {
@@ -4256,6 +4256,145 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-09-06-1",
+      "scan_date": "2026-09-06",
+      "generated_at": "2026-09-06T03:31:20.445976+00:00",
+      "title": "Physical AI and Robotics Accelerate to Production Scale",
+      "insight": "The market for physical AI and robotics is rapidly transitioning from pilot projects to full-scale enterprise deployment, driven by significant infrastructure investments and dedicated service offerings. This shift is enabling automation of complex physical tasks across industries.",
+      "trend": "The increasing maturity of AI agents combined with advancements in robotics and edge computing is creating a new wave of automation, pushing physical AI into real-world operations and demanding specialized deployment expertise and infrastructure.",
+      "category": "Transformation Titans",
+      "magnitude": 95,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Figure secures $3.5 billion computing power from Nscale.",
+        "Aitan Emerges from Stealth, Defines New Defense Category of Robotic Sovereignty-as-a-Service -- Closes $41 Million Funding Round.",
+        "Enfuse Acquires Kubia to Move Physical AI From Pilot to Production, adding edge deployment.",
+        "PwC Canada launched a Physical AI service offering to help organizations move robots and autonomous systems beyond the lab into everyday operations.",
+        "SNS Insider reports the Physical AI Infrastructure Market is projected to reach $327.21 Billion by 2035.",
+        "NVIDIA expanded its physical AI infrastructure portfolio with Cosmos, Isaac, GR00T, and OSMO technologies.",
+        "OpenAI is making a humanoid robot."
+      ],
+      "supersedes": "ins-2026-08-30-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-06-2",
+      "scan_date": "2026-09-06",
+      "generated_at": "2026-09-06T03:31:20.445976+00:00",
+      "title": "Enterprise AI Governance and Orchestration Solidifies as Critical Control Plane",
+      "insight": "As multi-agent systems proliferate, robust governance and orchestration platforms are emerging as essential control planes, enabling enterprises to discover, manage, secure, and evaluate AI agents across diverse environments and enforce runtime policies.",
+      "trend": "The shift from single-agent experiments to complex multi-agent systems in production necessitates a centralized layer for visibility, control, and compliance, moving AI governance from a conceptual framework to an active, runtime enforcement mechanism.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Orchestra Launches Agentic Control Plane for Enterprise Data and AI.",
+        "IBM watsonx Orchestrate: Cross-platform agent discovery, custom evaluation and AgentOps Agent goes GA.",
+        "Genesys Wraps an AI Control Plane Around Its Agentic CX Platform.",
+        "Orchestry Launches AI & Agents for Microsoft 365 Governance.",
+        "UST Codon Brings Governed AI Development to Five Leading Enterprise Platforms.",
+        "Guickly launches with $4.2M in seed funding to give enterprises control of AI investments.",
+        "Boomi Delivers the Critical Infrastructure That Brings Control To Enterprise AI.",
+        "Google Cloud launched Gemini Enterprise Agent Platform to build, scale, govern, and optimize agents.",
+        "Arthur, Credo AI, Noma Security, OneTrust AI Governance, and Holistic AI offer platforms for agent discovery, runtime guardrails, and policy enforcement."
+      ],
+      "supersedes": "ins-2026-08-30-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-06-3",
+      "scan_date": "2026-09-06",
+      "generated_at": "2026-09-06T03:31:20.445976+00:00",
+      "title": "Vertical AI Specialists Achieve Unicorn Status and Scale",
+      "insight": "Highly specialized AI companies focused on specific industry verticals are securing substantial funding rounds and achieving unicorn valuations by demonstrating tangible, outcome-driven value through agentic deployments, often leveraging voice and automation.",
+      "trend": "The market is rewarding deep vertical expertise and proven ROI, as agentic AI moves beyond generalist applications to solve complex, industry-specific problems with measurable business impact, driving rapid scaling for focused players.",
+      "category": "Vertical Specialists",
+      "magnitude": 85,
+      "sources": [
+        "exa",
+        "competition"
+      ],
+      "evidence": [
+        "HappyRobot Hits $1.2B Valuation With $150M Series C for AI voice-agent platform for freight and logistics.",
+        "HappyRobot's status changed from 'Emerging' to 'Scaling'. [cite: competition]",
+        "empirik.ai emerges from stealth with $21 Million to build the AI Agent for Infrastructure Change.",
+        "Atira Raises $17.5M to Build the 'Commercial Brain' Behind Industrial Bid Proposals.",
+        "Capacity Raises Over $50M in Series E to Expand its Unified AI-Native Customer Experience Platform.",
+        "DataAgent Emerges from Stealth with $10 Million Pre-Seed Funding for remediation-first platform to fix production faults."
+      ],
+      "supersedes": "ins-2026-08-30-4",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-06-4",
+      "scan_date": "2026-09-06",
+      "generated_at": "2026-09-06T03:31:20.445976+00:00",
+      "title": "AI Infrastructure Bottlenecks Drive Strategic Deployment Shifts",
+      "insight": "The immense demand for AI compute and storage is creating significant infrastructure backlogs, forcing enterprises to re-evaluate deployment strategies, including a renewed interest in on-premise solutions for cost predictability, control, and performance.",
+      "trend": "The physical limitations of AI infrastructure supply are becoming a critical gating factor for AI transformation, shifting procurement and capacity planning to the forefront and influencing architectural decisions beyond purely cloud-native approaches.",
+      "category": "Transformation Titans",
+      "magnitude": 80,
+      "sources": [
+        "web"
+      ],
+      "evidence": [
+        "Dell has a reported $95B AI backlog, indicating that AI timelines are gated by physical delivery of servers, storage, and infrastructure components.",
+        "The infrastructure crunch tied to the agentic AI wave is not easing yet.",
+        "Some AI workloads are moving back on-prem for cost predictability, control, and performance."
+      ],
+      "supersedes": "ins-2026-08-09-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-06-5",
+      "scan_date": "2026-09-06",
+      "generated_at": "2026-09-06T03:31:20.445976+00:00",
+      "title": "Major Platform Players Acquire Agentic AI for Embedded Autonomous Capabilities",
+      "insight": "Established enterprise software, cybersecurity, and conversational AI platform providers are actively acquiring specialized agentic AI companies to deeply embed autonomous capabilities and workflows directly into their core offerings, expanding their market reach and client base.",
+      "trend": "Platform players are recognizing the strategic imperative to own and integrate agentic AI functionality rather than relying solely on partnerships, aiming to deliver more comprehensive, AI-native solutions and capture greater value within their ecosystems.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "SoundHound AI Completes Acquisition of LivePerson, creating a world-leading omnichannel conversational AI powerhouse and unlocking 25 Fortune 100 clients.",
+        "ServiceNow Buys Sweep to Expand Agentic CRM Workflows.",
+        "Palo Alto Networks Buys Agentic AI Platform Console for Cortex to integrate AI-driven analysis and automated action into security operations.",
+        "Descartes Acquires Extensiv, adds AI-Enabled 3PL Warehouse Management and Omnichannel Fulfillment.",
+        "Adobe's $1.9 billion purchase of Semrush reinforces a broader push into agentic marketing automation for enterprise customers."
+      ],
+      "supersedes": "ins-2026-08-30-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-06-6",
+      "scan_date": "2026-09-06",
+      "generated_at": "2026-09-06T03:31:20.445976+00:00",
+      "title": "NVIDIA Acquires Hugging Face, Consolidating Open Model Ecosystem",
+      "insight": "NVIDIA's acquisition of Hugging Face for $12.9 billion signifies a strategic move by a foundational infrastructure provider to consolidate and deeply integrate the open-source AI model ecosystem, aiming to accelerate enterprise AI adoption and bolster its robotics business.",
+      "trend": "The increasing importance of open models and the need for scalable, accessible infrastructure are driving major players to acquire key platforms that serve the developer community, extending their influence beyond hardware to the entire AI development and deployment lifecycle.",
+      "category": "Agent Foundries",
+      "magnitude": 98,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "NVIDIA to Acquire Hugging Face.",
+        "Nvidia's $12.9 billion blockbuster deal to acquire open model repository Hugging Face has the potential to help the AI infrastructure giant boost enterprise AI adoption and grease the wheels for its robotics business."
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-08-30-1",
       "scan_date": "2026-08-30",
       "generated_at": "2026-08-30T04:13:57.235528+00:00",
@@ -4273,7 +4412,7 @@
         "Salesforce Acquires Fin for approximately $3.6bn, a customer-agent platform"
       ],
       "supersedes": "ins-2026-08-23-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-06-5"
     },
     {
       "id": "ins-2026-08-30-2",
@@ -4295,7 +4434,7 @@
         "General Intuition: Funding update: $2.3B \u2192 $6B valuation"
       ],
       "supersedes": "ins-2026-08-16-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-06-1"
     },
     {
       "id": "ins-2026-08-30-3",
@@ -4316,7 +4455,7 @@
         "Tricentis Acquires Tabnine for Agentic Quality Engineering"
       ],
       "supersedes": "ins-2026-08-02-3",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-06-2"
     },
     {
       "id": "ins-2026-08-30-4",
@@ -4337,7 +4476,7 @@
         "Outcome-Based AI Agent Pricing 2026: What Vendors Hide"
       ],
       "supersedes": "ins-2026-08-23-5",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-06-3"
     },
     {
       "id": "ins-2026-08-23-1",
@@ -4595,7 +4734,7 @@
         "LangChain's Managed Deep Agents is now in public beta"
       ],
       "supersedes": "ins-2026-07-26-4",
-      "superseded_by": "ins-2026-08-23-2"
+      "superseded_by": "ins-2026-09-06-4"
     },
     {
       "id": "ins-2026-08-02-1",
@@ -5900,6 +6039,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-09-06",
+      "generated_at": "2026-09-06T03:31:20.447720+00:00",
+      "events_scanned": 576,
+      "red_deltas": 1,
+      "new_insights": 6,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 333
+    },
     {
       "date": "2026-08-30",
       "generated_at": "2026-08-30T04:13:57.237154+00:00",

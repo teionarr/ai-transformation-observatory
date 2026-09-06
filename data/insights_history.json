@@ -1,5 +1,144 @@
 [
   {
+    "id": "ins-2026-09-06-1",
+    "scan_date": "2026-09-06",
+    "generated_at": "2026-09-06T03:31:20.445976+00:00",
+    "title": "Physical AI and Robotics Accelerate to Production Scale",
+    "insight": "The market for physical AI and robotics is rapidly transitioning from pilot projects to full-scale enterprise deployment, driven by significant infrastructure investments and dedicated service offerings. This shift is enabling automation of complex physical tasks across industries.",
+    "trend": "The increasing maturity of AI agents combined with advancements in robotics and edge computing is creating a new wave of automation, pushing physical AI into real-world operations and demanding specialized deployment expertise and infrastructure.",
+    "category": "Transformation Titans",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Figure secures $3.5 billion computing power from Nscale.",
+      "Aitan Emerges from Stealth, Defines New Defense Category of Robotic Sovereignty-as-a-Service -- Closes $41 Million Funding Round.",
+      "Enfuse Acquires Kubia to Move Physical AI From Pilot to Production, adding edge deployment.",
+      "PwC Canada launched a Physical AI service offering to help organizations move robots and autonomous systems beyond the lab into everyday operations.",
+      "SNS Insider reports the Physical AI Infrastructure Market is projected to reach $327.21 Billion by 2035.",
+      "NVIDIA expanded its physical AI infrastructure portfolio with Cosmos, Isaac, GR00T, and OSMO technologies.",
+      "OpenAI is making a humanoid robot."
+    ],
+    "supersedes": "ins-2026-08-30-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-06-2",
+    "scan_date": "2026-09-06",
+    "generated_at": "2026-09-06T03:31:20.445976+00:00",
+    "title": "Enterprise AI Governance and Orchestration Solidifies as Critical Control Plane",
+    "insight": "As multi-agent systems proliferate, robust governance and orchestration platforms are emerging as essential control planes, enabling enterprises to discover, manage, secure, and evaluate AI agents across diverse environments and enforce runtime policies.",
+    "trend": "The shift from single-agent experiments to complex multi-agent systems in production necessitates a centralized layer for visibility, control, and compliance, moving AI governance from a conceptual framework to an active, runtime enforcement mechanism.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Orchestra Launches Agentic Control Plane for Enterprise Data and AI.",
+      "IBM watsonx Orchestrate: Cross-platform agent discovery, custom evaluation and AgentOps Agent goes GA.",
+      "Genesys Wraps an AI Control Plane Around Its Agentic CX Platform.",
+      "Orchestry Launches AI & Agents for Microsoft 365 Governance.",
+      "UST Codon Brings Governed AI Development to Five Leading Enterprise Platforms.",
+      "Guickly launches with $4.2M in seed funding to give enterprises control of AI investments.",
+      "Boomi Delivers the Critical Infrastructure That Brings Control To Enterprise AI.",
+      "Google Cloud launched Gemini Enterprise Agent Platform to build, scale, govern, and optimize agents.",
+      "Arthur, Credo AI, Noma Security, OneTrust AI Governance, and Holistic AI offer platforms for agent discovery, runtime guardrails, and policy enforcement."
+    ],
+    "supersedes": "ins-2026-08-30-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-06-3",
+    "scan_date": "2026-09-06",
+    "generated_at": "2026-09-06T03:31:20.445976+00:00",
+    "title": "Vertical AI Specialists Achieve Unicorn Status and Scale",
+    "insight": "Highly specialized AI companies focused on specific industry verticals are securing substantial funding rounds and achieving unicorn valuations by demonstrating tangible, outcome-driven value through agentic deployments, often leveraging voice and automation.",
+    "trend": "The market is rewarding deep vertical expertise and proven ROI, as agentic AI moves beyond generalist applications to solve complex, industry-specific problems with measurable business impact, driving rapid scaling for focused players.",
+    "category": "Vertical Specialists",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "HappyRobot Hits $1.2B Valuation With $150M Series C for AI voice-agent platform for freight and logistics.",
+      "HappyRobot's status changed from 'Emerging' to 'Scaling'. [cite: competition]",
+      "empirik.ai emerges from stealth with $21 Million to build the AI Agent for Infrastructure Change.",
+      "Atira Raises $17.5M to Build the 'Commercial Brain' Behind Industrial Bid Proposals.",
+      "Capacity Raises Over $50M in Series E to Expand its Unified AI-Native Customer Experience Platform.",
+      "DataAgent Emerges from Stealth with $10 Million Pre-Seed Funding for remediation-first platform to fix production faults."
+    ],
+    "supersedes": "ins-2026-08-30-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-06-4",
+    "scan_date": "2026-09-06",
+    "generated_at": "2026-09-06T03:31:20.445976+00:00",
+    "title": "AI Infrastructure Bottlenecks Drive Strategic Deployment Shifts",
+    "insight": "The immense demand for AI compute and storage is creating significant infrastructure backlogs, forcing enterprises to re-evaluate deployment strategies, including a renewed interest in on-premise solutions for cost predictability, control, and performance.",
+    "trend": "The physical limitations of AI infrastructure supply are becoming a critical gating factor for AI transformation, shifting procurement and capacity planning to the forefront and influencing architectural decisions beyond purely cloud-native approaches.",
+    "category": "Transformation Titans",
+    "magnitude": 80,
+    "sources": [
+      "web"
+    ],
+    "evidence": [
+      "Dell has a reported $95B AI backlog, indicating that AI timelines are gated by physical delivery of servers, storage, and infrastructure components.",
+      "The infrastructure crunch tied to the agentic AI wave is not easing yet.",
+      "Some AI workloads are moving back on-prem for cost predictability, control, and performance."
+    ],
+    "supersedes": "ins-2026-08-09-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-06-5",
+    "scan_date": "2026-09-06",
+    "generated_at": "2026-09-06T03:31:20.445976+00:00",
+    "title": "Major Platform Players Acquire Agentic AI for Embedded Autonomous Capabilities",
+    "insight": "Established enterprise software, cybersecurity, and conversational AI platform providers are actively acquiring specialized agentic AI companies to deeply embed autonomous capabilities and workflows directly into their core offerings, expanding their market reach and client base.",
+    "trend": "Platform players are recognizing the strategic imperative to own and integrate agentic AI functionality rather than relying solely on partnerships, aiming to deliver more comprehensive, AI-native solutions and capture greater value within their ecosystems.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "SoundHound AI Completes Acquisition of LivePerson, creating a world-leading omnichannel conversational AI powerhouse and unlocking 25 Fortune 100 clients.",
+      "ServiceNow Buys Sweep to Expand Agentic CRM Workflows.",
+      "Palo Alto Networks Buys Agentic AI Platform Console for Cortex to integrate AI-driven analysis and automated action into security operations.",
+      "Descartes Acquires Extensiv, adds AI-Enabled 3PL Warehouse Management and Omnichannel Fulfillment.",
+      "Adobe's $1.9 billion purchase of Semrush reinforces a broader push into agentic marketing automation for enterprise customers."
+    ],
+    "supersedes": "ins-2026-08-30-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-06-6",
+    "scan_date": "2026-09-06",
+    "generated_at": "2026-09-06T03:31:20.445976+00:00",
+    "title": "NVIDIA Acquires Hugging Face, Consolidating Open Model Ecosystem",
+    "insight": "NVIDIA's acquisition of Hugging Face for $12.9 billion signifies a strategic move by a foundational infrastructure provider to consolidate and deeply integrate the open-source AI model ecosystem, aiming to accelerate enterprise AI adoption and bolster its robotics business.",
+    "trend": "The increasing importance of open models and the need for scalable, accessible infrastructure are driving major players to acquire key platforms that serve the developer community, extending their influence beyond hardware to the entire AI development and deployment lifecycle.",
+    "category": "Agent Foundries",
+    "magnitude": 98,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "NVIDIA to Acquire Hugging Face.",
+      "Nvidia's $12.9 billion blockbuster deal to acquire open model repository Hugging Face has the potential to help the AI infrastructure giant boost enterprise AI adoption and grease the wheels for its robotics business."
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-08-30-1",
     "scan_date": "2026-08-30",
     "generated_at": "2026-08-30T04:13:57.235528+00:00",
@@ -17,7 +156,7 @@
       "Salesforce Acquires Fin for approximately $3.6bn, a customer-agent platform"
     ],
     "supersedes": "ins-2026-08-23-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-06-5"
   },
   {
     "id": "ins-2026-08-30-2",
@@ -39,7 +178,7 @@
       "General Intuition: Funding update: $2.3B \u2192 $6B valuation"
     ],
     "supersedes": "ins-2026-08-16-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-06-1"
   },
   {
     "id": "ins-2026-08-30-3",
@@ -60,7 +199,7 @@
       "Tricentis Acquires Tabnine for Agentic Quality Engineering"
     ],
     "supersedes": "ins-2026-08-02-3",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-06-2"
   },
   {
     "id": "ins-2026-08-30-4",
@@ -81,7 +220,7 @@
       "Outcome-Based AI Agent Pricing 2026: What Vendors Hide"
     ],
     "supersedes": "ins-2026-08-23-5",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-06-3"
   },
   {
     "id": "ins-2026-08-23-1",
@@ -339,7 +478,7 @@
       "LangChain's Managed Deep Agents is now in public beta"
     ],
     "supersedes": "ins-2026-07-26-4",
-    "superseded_by": "ins-2026-08-23-2"
+    "superseded_by": "ins-2026-09-06-4"
   },
   {
     "id": "ins-2026-08-02-1",
