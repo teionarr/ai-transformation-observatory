@@ -1,5 +1,109 @@
 [
   {
+    "id": "ins-2026-09-13-1",
+    "scan_date": "2026-09-13",
+    "generated_at": "2026-09-13T03:45:54.291605+00:00",
+    "title": "Agent Foundries Achieve Hyper-Scale Valuations with Proven Deployment",
+    "insight": "Cognition's $48 billion valuation and nearing $900 million ARR, coupled with Goldman Sachs' large-scale deployment of Devin, signals a new era where agent foundries are valued as critical infrastructure based on demonstrated, revenue-generating deployments. This validates the market's shift towards outcome-driven AI.",
+    "trend": "The market is rapidly recognizing and rewarding agent foundries that move beyond theoretical capabilities to achieve significant, measurable revenue and large-scale enterprise adoption, treating their agentic solutions as essential infrastructure.",
+    "category": "Agent Foundries",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Cognition Series E Funding Hits $2B at $48B Valuation",
+      "Cognition AI\u2019s $48B Valuation Treats Coding Agents Like Infrastructure",
+      "Cognition Hits $48B: $2B Series E as Devin Nears $1B ARR",
+      "Goldman Sachs is scaling Devin across thousands of engineers",
+      "Cognition (Devin) Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B"
+    ],
+    "supersedes": "ins-2026-08-16-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-13-2",
+    "scan_date": "2026-09-13",
+    "generated_at": "2026-09-13T03:45:54.291605+00:00",
+    "title": "Platform Giants Consolidate Agentic AI and Governance for Trust",
+    "insight": "Major platform players like Salesforce and Meta are aggressively acquiring agentic AI startups and launching comprehensive governance frameworks to embed autonomous capabilities directly into their core offerings. This, alongside vertical specialists like Harvey acquiring AI security platforms, aims to provide trusted, integrated AI solutions that address enterprise concerns around control and reliability.",
+    "trend": "Established enterprise platforms and specialized players are recognizing the imperative to own the full agentic stack, from core capabilities to robust governance and security, to maintain relevance and build trust as AI agents become central to business operations.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "Salesforce Completes Acquisition of Fin",
+      "Salesforce Introduces the Trusted Enterprise AI Harness",
+      "Meta Buys Eight-Month-Old Startup Stilla to Power Its AI Messaging Agent",
+      "Stilla is joining Meta to reshape business AI",
+      "Harvey closes a $550M round at a $15.6bn valuation and acquires Guardrails AI",
+      "Guardrails AI Joins Harvey"
+    ],
+    "supersedes": "ins-2026-09-06-5",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-13-3",
+    "scan_date": "2026-09-13",
+    "generated_at": "2026-09-13T03:45:54.291605+00:00",
+    "title": "Foundational Model Providers Directly Offer Agent Deployment Infrastructure",
+    "insight": "OpenAI's launch of the Agents API, allowing direct building and running of cloud agents with its Codex harness, signifies a strategic move by foundational model providers to own the agent deployment layer. This provides a managed infrastructure for enterprises to operationalize agents directly from the source.",
+    "trend": "Foundational model providers are extending their offerings beyond just models to provide end-to-end, managed infrastructure for agent deployment, aiming to capture more value in the agentic ecosystem and simplify adoption for enterprises.",
+    "category": "Agent Foundries",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Introducing the Agents API | OpenAI",
+      "Build and run cloud agents with the Codex harness, fully managed by OpenAI."
+    ],
+    "supersedes": "ins-2026-08-09-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-13-4",
+    "scan_date": "2026-09-13",
+    "generated_at": "2026-09-13T03:45:54.291605+00:00",
+    "title": "Agent Security and Cost Optimization Drive Deployment",
+    "insight": "The emergence of specialized startups like Cymphony, raising $30 million for AI agent security, and TrueFoundry's TrueForge, aiming to cut agent costs by 50% and break vendor lock-in, highlights the market's focus on practical deployment challenges. These solutions are crucial for enabling widespread, secure, and economically viable enterprise AI agent adoption.",
+    "trend": "As enterprises move to scale AI agent deployments, the market is responding with dedicated solutions addressing the critical operational concerns of security, cost-efficiency, and vendor independence, transforming these from blockers to enablers.",
+    "category": "Forward Deployers",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Cymphony Launches with $30 Million to Secure AI Agents Access to Enterprise Data",
+      "TrueFoundry launches TrueForge to break vendor lock-in and slash enterprise AI agent costs by 50%"
+    ],
+    "supersedes": "ins-2026-08-09-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-13-5",
+    "scan_date": "2026-09-13",
+    "generated_at": "2026-09-13T03:45:54.291605+00:00",
+    "title": "Sovereign AI Becomes Strategic Imperative for Foundational Models",
+    "insight": "Mistral AI's \u20ac3 billion funding round, explicitly aimed at 'sovereign AI' and led by Samsung, underscores a growing geopolitical and strategic imperative for nations and major corporations to control their AI infrastructure and data. This signifies a shift towards localized and secure foundational model development.",
+    "trend": "Geopolitical considerations and data sovereignty concerns are increasingly influencing investment and development strategies in foundational AI, driving a demand for localized and controlled AI capabilities rather than relying solely on global providers.",
+    "category": "Agent Foundries",
+    "magnitude": 70,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Mistral raises \u20ac3B to bet big on sovereign AI - PitchBook",
+      "Mistral AI raises \u20ac3B Series D led by Samsung Electronics"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-09-06-1",
     "scan_date": "2026-09-06",
     "generated_at": "2026-09-06T03:31:20.445976+00:00",
@@ -116,7 +220,7 @@
       "Adobe's $1.9 billion purchase of Semrush reinforces a broader push into agentic marketing automation for enterprise customers."
     ],
     "supersedes": "ins-2026-08-30-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-13-2"
   },
   {
     "id": "ins-2026-09-06-6",
@@ -344,7 +448,7 @@
       "AI Enterprise Startup June Emerges From Stealth With $20M to Simplify Agent Implementation"
     ],
     "supersedes": "ins-2026-07-12-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-13-1"
   },
   {
     "id": "ins-2026-08-16-2",
@@ -431,7 +535,7 @@
       "US AI Agent Identity Management Market to hit USD 2.8 billion by 2035"
     ],
     "supersedes": "ins-2026-08-02-3",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-13-4"
   },
   {
     "id": "ins-2026-08-09-2",
@@ -478,7 +582,7 @@
       "LangChain's Managed Deep Agents is now in public beta"
     ],
     "supersedes": "ins-2026-07-26-4",
-    "superseded_by": "ins-2026-09-06-4"
+    "superseded_by": "ins-2026-09-13-3"
   },
   {
     "id": "ins-2026-08-02-1",

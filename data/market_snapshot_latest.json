@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T03:31:20.447720+00:00",
-  "run_duration_seconds": 333,
+  "generated_at": "2026-09-13T03:45:54.292778+00:00",
+  "run_duration_seconds": 181,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-09-06T03:31:20.447720+00:00",
+      "last_call": "2026-09-13T03:45:54.292778+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 209,
-      "last_call": "2026-09-06T03:31:20.447720+00:00",
+      "calls": 201,
+      "last_call": "2026-09-13T03:45:54.292778+00:00",
       "status": "down"
     },
     {
@@ -41,20 +41,118 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-09-06T03:31:20.447720+00:00",
-      "status": "down"
+      "last_call": "2026-09-13T03:45:54.292778+00:00",
+      "status": "healthy"
     },
     {
       "id": "web",
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 5,
-      "last_call": "2026-09-06T03:31:20.447720+00:00",
+      "calls": 1,
+      "last_call": "2026-09-13T03:45:54.292778+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Harvey closes a $550M round at a $15.6bn valuation and acquires Guardrails AI",
+      "domain": "thenextweb.com",
+      "hours_ago": 99,
+      "velocity": 98,
+      "why": "Harvey's large funding and acquisition signal consolidation and rapid scaling in vertical legal AI.",
+      "source_url": "https://thenextweb.com/news/harvey-550m-round-15-6bn-guardrails-acquisition",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-09-13"
+    },
+    {
+      "id": "v2",
+      "title": "Cognition Hits $48B: $2B Series E as Devin Nears $1B ARR",
+      "domain": "ecmsource.com",
+      "hours_ago": 99,
+      "velocity": 96,
+      "why": "Cognition's $48B valuation and near $1B ARR demonstrate rapid market adoption of AI engineers.",
+      "source_url": "https://ecmsource.com/cognition-48b-series-e-2b-devin-900m-arr-september-2026/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-09-13"
+    },
+    {
+      "id": "v3",
+      "title": "Salesforce Completes Acquisition of Fin",
+      "domain": "investor.salesforce.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "Salesforce's acquisition of Fin strengthens its CRM-native agent capabilities, expanding platform gravity.",
+      "source_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Completes-Acquisition-of-Fin/default.aspx",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-13"
+    },
+    {
+      "id": "v4",
+      "title": "Introducing the Agents API | OpenAI",
+      "domain": "openai.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "OpenAI's Agents API launch standardizes agent development, accelerating enterprise AI deployment and adoption.",
+      "source_url": "https://openai.com/index/introducing-the-agents-api/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-13"
+    },
+    {
+      "id": "v5",
+      "title": "Meta Buys Eight-Month-Old Startup Stilla to Power Its AI Messaging Agent - Startup Fortune",
+      "domain": "startupfortune.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "Meta's acquisition of Stilla signals big tech's push into AI messaging agents for enterprise.",
+      "source_url": "https://startupfortune.com/meta-buys-eight-month-old-startup-stilla-to-power-its-ai-messaging-agent/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-09-13"
+    },
+    {
+      "id": "v6",
+      "title": "Clay valued at $7.1 billion in latest funding round as AI agent startups run hot | Reuters",
+      "domain": "www.reuters.com",
+      "hours_ago": 99,
+      "velocity": 95,
+      "why": "Clay's $7.1B valuation underscores intense investor interest and rapid growth in AI agent platforms.",
+      "source_url": "https://www.reuters.com/legal/transactional/clay-valued-71-billion-latest-funding-round-ai-agent-startups-run-hot-2026-09-09/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-09-13"
+    },
+    {
+      "id": "v7",
+      "title": "TrueFoundry launches TrueForge to break vendor lock-in and slash enterprise AI agent costs by 50%",
+      "domain": "www.truefoundry.com",
+      "hours_ago": 51,
+      "velocity": 90,
+      "why": "TrueFoundry's TrueForge launch addresses critical enterprise needs for cost-effective, flexible AI agent deployment.",
+      "source_url": "https://www.truefoundry.com/press-room/truefoundry-launches-trueforge-to-break-vendor-lock-in-and-slash-enterprise-ai-agent-costs-by-50",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-13"
+    },
     {
       "id": "v1",
       "title": "NVIDIA to Acquire Hugging Face | NVIDIA Blog",
@@ -152,104 +250,6 @@
       ],
       "category": "Vertical Specialists",
       "scan_date": "2026-09-06"
-    },
-    {
-      "id": "v1",
-      "title": "Lovable Raises $400M at $13.3B Valuation for Agent SaaS | AI Breaking Wire",
-      "domain": "aibreakingwire.com",
-      "hours_ago": 100,
-      "velocity": 99,
-      "why": "Massive funding and valuation for agent-native SaaS confirms strong market for agent platforms.",
-      "source_url": "https://aibreakingwire.com/news/lovable-raises-400m-at-133b-valuation-for-agent-native-saas",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-30"
-    },
-    {
-      "id": "v2",
-      "title": "DeepSeek seeks fresh capital at $71B valuation before IPO | Value Add Pulse",
-      "domain": "valueaddvc.com",
-      "hours_ago": 52,
-      "velocity": 99,
-      "why": "Mega-valuation for foundational AI models underscores infrastructure's critical role in agentic future.",
-      "source_url": "https://valueaddvc.com/pulse/deepseek-fresh-capital-star-market-ipo-2026",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-30"
-    },
-    {
-      "id": "v3",
-      "title": "Generalist hits $3B valuation as 8VC leads $200M robotics extension \u2014 AI Chat Daily",
-      "domain": "www.aichatdaily.com",
-      "hours_ago": 100,
-      "velocity": 98,
-      "why": "Massive funding and valuation for robotics AI signals a paradigm shift in agentic capabilities.",
-      "source_url": "https://www.aichatdaily.com/ai-business/generalist-hits-3b-valuation-8vc-leads-200m-robotics",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-30"
-    },
-    {
-      "id": "v4",
-      "title": "Salesforce Acquires Fin | Acquiry Deal Intelligence",
-      "domain": "www.acquiry.com",
-      "hours_ago": 100,
-      "velocity": 98,
-      "why": "Salesforce's acquisition of Fin significantly boosts its CRM-native agentic capabilities.",
-      "source_url": "https://www.acquiry.com/deal-intelligence/salesforce-acquires-fin/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-30"
-    },
-    {
-      "id": "v5",
-      "title": "Cognizant to acquire AI infrastructure specialist Astreya for $600 million",
-      "domain": "thenextweb.com",
-      "hours_ago": 124,
-      "velocity": 98,
-      "why": "Cognizant's acquisition of AI infrastructure specialist strengthens its transformation capabilities.",
-      "source_url": "https://thenextweb.com/news/cognizant-astreya-600-million-acquisition-ai-infrastructure",
-      "sources": [
-        "exa"
-      ],
-      "category": "Transformation Titans",
-      "scan_date": "2026-08-30"
-    },
-    {
-      "id": "v6",
-      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics | TechCrunch",
-      "domain": "techcrunch.com",
-      "hours_ago": 148,
-      "velocity": 98,
-      "why": "Major investment in AI robotics validates agentic systems for real-world interaction.",
-      "source_url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-08-30"
-    },
-    {
-      "id": "v7",
-      "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM\u00a0 - Salesforce",
-      "domain": "www.salesforce.com",
-      "hours_ago": 76,
-      "velocity": 95,
-      "why": "Salesforce integrating Claude deeply into CRM enhances agentic capabilities for enterprise users.",
-      "source_url": "https://www.salesforce.com/ap/news/press-releases/2026/08/27/salesforce-and-anthropic-announce-claudeforce-the-1-ai-meets-the-1-ai-crm/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-08-30"
     }
   ],
   "competitor_map": [
@@ -930,7 +930,7 @@
       "hash": "97d650de91",
       "changed": false,
       "changed_pages": [],
-      "delta": "ServiceNow acquired Sweep to expand its agentic CRM workflows, deepening its platform's capabilities for autonomous customer relationship management.",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -1139,7 +1139,7 @@
       "url": "cognition.ai",
       "category": "Digital Labor",
       "status": "Scaling",
-      "funding": "~$10.2B val",
+      "funding": "$2B Series E \u00b7 $48B",
       "team": null,
       "why": "Adjacent. Devin, the autonomous AI software engineer; ~$10.2B (targeting ~$25B), ~$492M run-rate; acquired Windsurf; ACU usage pricing.",
       "anchor": false,
@@ -1148,9 +1148,9 @@
       "discovery_relevance": null,
       "scanned": "2026-08-23 01:33",
       "hash": "cac117b71f",
-      "changed": false,
+      "changed": true,
       "changed_pages": [],
-      "delta": null,
+      "delta": "Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B",
       "crawl_status": "carried"
     },
     {
@@ -1179,7 +1179,7 @@
       "url": "harvey.ai",
       "category": "Vertical Specialists",
       "status": "Scaling",
-      "funding": "$11B val \u00b7 ~$1.22B",
+      "funding": "$550M Round \u00b7 $15.6B val",
       "team": null,
       "why": "Adjacent. Legal AI agents for elite firms/enterprises; $11B valuation, ~$1.22B raised. Deep vertical moat competing for the legal-function budget.",
       "anchor": false,
@@ -1188,9 +1188,9 @@
       "discovery_relevance": null,
       "scanned": "2026-08-23 01:34",
       "hash": "0c178131c2",
-      "changed": false,
+      "changed": true,
       "changed_pages": [],
-      "delta": null,
+      "delta": "Funding update: $11B val \u00b7 ~$1.22B \u2192 $550M Round \u00b7 $15.6B val",
       "crawl_status": "carried"
     },
     {
@@ -3888,9 +3888,9 @@
       "discovery_relevance": 95,
       "scanned": "2026-08-23 02:00",
       "hash": "820efad5c4",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Status: Emerging \u2192 Scaling",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -4256,6 +4256,110 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-09-13-1",
+      "scan_date": "2026-09-13",
+      "generated_at": "2026-09-13T03:45:54.291605+00:00",
+      "title": "Agent Foundries Achieve Hyper-Scale Valuations with Proven Deployment",
+      "insight": "Cognition's $48 billion valuation and nearing $900 million ARR, coupled with Goldman Sachs' large-scale deployment of Devin, signals a new era where agent foundries are valued as critical infrastructure based on demonstrated, revenue-generating deployments. This validates the market's shift towards outcome-driven AI.",
+      "trend": "The market is rapidly recognizing and rewarding agent foundries that move beyond theoretical capabilities to achieve significant, measurable revenue and large-scale enterprise adoption, treating their agentic solutions as essential infrastructure.",
+      "category": "Agent Foundries",
+      "magnitude": 95,
+      "sources": [
+        "exa",
+        "competition"
+      ],
+      "evidence": [
+        "Cognition Series E Funding Hits $2B at $48B Valuation",
+        "Cognition AI\u2019s $48B Valuation Treats Coding Agents Like Infrastructure",
+        "Cognition Hits $48B: $2B Series E as Devin Nears $1B ARR",
+        "Goldman Sachs is scaling Devin across thousands of engineers",
+        "Cognition (Devin) Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B"
+      ],
+      "supersedes": "ins-2026-08-16-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-13-2",
+      "scan_date": "2026-09-13",
+      "generated_at": "2026-09-13T03:45:54.291605+00:00",
+      "title": "Platform Giants Consolidate Agentic AI and Governance for Trust",
+      "insight": "Major platform players like Salesforce and Meta are aggressively acquiring agentic AI startups and launching comprehensive governance frameworks to embed autonomous capabilities directly into their core offerings. This, alongside vertical specialists like Harvey acquiring AI security platforms, aims to provide trusted, integrated AI solutions that address enterprise concerns around control and reliability.",
+      "trend": "Established enterprise platforms and specialized players are recognizing the imperative to own the full agentic stack, from core capabilities to robust governance and security, to maintain relevance and build trust as AI agents become central to business operations.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "competition"
+      ],
+      "evidence": [
+        "Salesforce Completes Acquisition of Fin",
+        "Salesforce Introduces the Trusted Enterprise AI Harness",
+        "Meta Buys Eight-Month-Old Startup Stilla to Power Its AI Messaging Agent",
+        "Stilla is joining Meta to reshape business AI",
+        "Harvey closes a $550M round at a $15.6bn valuation and acquires Guardrails AI",
+        "Guardrails AI Joins Harvey"
+      ],
+      "supersedes": "ins-2026-09-06-5",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-13-3",
+      "scan_date": "2026-09-13",
+      "generated_at": "2026-09-13T03:45:54.291605+00:00",
+      "title": "Foundational Model Providers Directly Offer Agent Deployment Infrastructure",
+      "insight": "OpenAI's launch of the Agents API, allowing direct building and running of cloud agents with its Codex harness, signifies a strategic move by foundational model providers to own the agent deployment layer. This provides a managed infrastructure for enterprises to operationalize agents directly from the source.",
+      "trend": "Foundational model providers are extending their offerings beyond just models to provide end-to-end, managed infrastructure for agent deployment, aiming to capture more value in the agentic ecosystem and simplify adoption for enterprises.",
+      "category": "Agent Foundries",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Introducing the Agents API | OpenAI",
+        "Build and run cloud agents with the Codex harness, fully managed by OpenAI."
+      ],
+      "supersedes": "ins-2026-08-09-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-13-4",
+      "scan_date": "2026-09-13",
+      "generated_at": "2026-09-13T03:45:54.291605+00:00",
+      "title": "Agent Security and Cost Optimization Drive Deployment",
+      "insight": "The emergence of specialized startups like Cymphony, raising $30 million for AI agent security, and TrueFoundry's TrueForge, aiming to cut agent costs by 50% and break vendor lock-in, highlights the market's focus on practical deployment challenges. These solutions are crucial for enabling widespread, secure, and economically viable enterprise AI agent adoption.",
+      "trend": "As enterprises move to scale AI agent deployments, the market is responding with dedicated solutions addressing the critical operational concerns of security, cost-efficiency, and vendor independence, transforming these from blockers to enablers.",
+      "category": "Forward Deployers",
+      "magnitude": 80,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Cymphony Launches with $30 Million to Secure AI Agents Access to Enterprise Data",
+        "TrueFoundry launches TrueForge to break vendor lock-in and slash enterprise AI agent costs by 50%"
+      ],
+      "supersedes": "ins-2026-08-09-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-13-5",
+      "scan_date": "2026-09-13",
+      "generated_at": "2026-09-13T03:45:54.291605+00:00",
+      "title": "Sovereign AI Becomes Strategic Imperative for Foundational Models",
+      "insight": "Mistral AI's \u20ac3 billion funding round, explicitly aimed at 'sovereign AI' and led by Samsung, underscores a growing geopolitical and strategic imperative for nations and major corporations to control their AI infrastructure and data. This signifies a shift towards localized and secure foundational model development.",
+      "trend": "Geopolitical considerations and data sovereignty concerns are increasingly influencing investment and development strategies in foundational AI, driving a demand for localized and controlled AI capabilities rather than relying solely on global providers.",
+      "category": "Agent Foundries",
+      "magnitude": 70,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Mistral raises \u20ac3B to bet big on sovereign AI - PitchBook",
+        "Mistral AI raises \u20ac3B Series D led by Samsung Electronics"
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-09-06-1",
       "scan_date": "2026-09-06",
       "generated_at": "2026-09-06T03:31:20.445976+00:00",
@@ -4372,7 +4476,7 @@
         "Adobe's $1.9 billion purchase of Semrush reinforces a broader push into agentic marketing automation for enterprise customers."
       ],
       "supersedes": "ins-2026-08-30-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-13-2"
     },
     {
       "id": "ins-2026-09-06-6",
@@ -4600,7 +4704,7 @@
         "AI Enterprise Startup June Emerges From Stealth With $20M to Simplify Agent Implementation"
       ],
       "supersedes": "ins-2026-07-12-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-13-1"
     },
     {
       "id": "ins-2026-08-16-2",
@@ -4687,7 +4791,7 @@
         "US AI Agent Identity Management Market to hit USD 2.8 billion by 2035"
       ],
       "supersedes": "ins-2026-08-02-3",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-13-4"
     },
     {
       "id": "ins-2026-08-09-2",
@@ -4734,7 +4838,7 @@
         "LangChain's Managed Deep Agents is now in public beta"
       ],
       "supersedes": "ins-2026-07-26-4",
-      "superseded_by": "ins-2026-09-06-4"
+      "superseded_by": "ins-2026-09-13-3"
     },
     {
       "id": "ins-2026-08-02-1",
@@ -6040,6 +6144,16 @@
   ],
   "scan_history": [
     {
+      "date": "2026-09-13",
+      "generated_at": "2026-09-13T03:45:54.292778+00:00",
+      "events_scanned": 559,
+      "red_deltas": 2,
+      "new_insights": 5,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 181
+    },
+    {
       "date": "2026-09-06",
       "generated_at": "2026-09-06T03:31:20.447720+00:00",
       "events_scanned": 576,
@@ -6211,6 +6325,6 @@
   ],
   "meta": {
     "competitors_scanned": 200,
-    "red_alert_count": 1
+    "red_alert_count": 2
   }
 }
