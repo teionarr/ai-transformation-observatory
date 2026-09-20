@@ -1,5 +1,109 @@
 [
   {
+    "id": "ins-2026-09-20-1",
+    "scan_date": "2026-09-20",
+    "generated_at": "2026-09-20T03:56:20.339080+00:00",
+    "title": "Sovereign AI Extends to Enterprise-Building and Transatlantic Solutions",
+    "insight": "The concept of 'Sovereign AI' is rapidly expanding beyond foundational model development to encompass the creation of entire AI-native operating companies within industrial enterprises and the formation of transatlantic partnerships for sovereign AI solutions. This indicates a strategic imperative for national and corporate control over the entire AI value chain, from infrastructure to application.",
+    "trend": "Geopolitical and strategic autonomy concerns are driving significant investment and collaboration to establish localized and controlled AI ecosystems, moving beyond just models to full-stack, industry-specific AI ventures.",
+    "category": "Transformation Titans",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Vantora Raises $100M+ to Build Sovereign AI Companies | DevCuration",
+      "Vantora Secures More Than $100 Million From Silversmith Capital Partners to Build AI-Native Operating Companies Inside Industrial Enterprises",
+      "Vantora raises $100M for physical AI venture studio | Value Add Pulse",
+      "Cohere and Aleph Alpha Sign Agreement to Become the First Transatlantic Sovereign AI Solution"
+    ],
+    "supersedes": "ins-2026-09-13-5",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-20-2",
+    "scan_date": "2026-09-20",
+    "generated_at": "2026-09-20T03:56:20.339080+00:00",
+    "title": "Agent Governance and Reliability Platforms Mature with Acquisitions",
+    "insight": "The market for governing and ensuring the reliability of AI agents is maturing rapidly, evidenced by strategic acquisitions and new platform launches focused on observability, control, and security for enterprise agent deployments. This reflects a critical need for robust operational frameworks as agents move into production.",
+    "trend": "As enterprise AI adoption scales, the demand for trusted, secure, and auditable agentic systems is driving consolidation and innovation in governance, reliability, and security solutions.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Beacon buys Haize Labs to stop its AI agents going wrong",
+      "eSentire Acquires Stealth-Mode AI Security Startup, Bringing New AI Observability and Control to the Atlas Platform",
+      "Quorum Cyber Announces Intent to Acquire Ontinue, Building an Unrivaled Microsoft-First Agentic SOC for the Autonomous Threat Era",
+      "Komodor Launches Agentic Operations Platform Combining Ready-to-Run Automation With a Comprehensive Backbone for Custom Agents",
+      "WSO2 Agent Manager Brings Sovereign AI Governance to Enterprise Agent Sprawl",
+      "Leviathan Matrix Launches TURABON to Govern What Agents Can Actually Do"
+    ],
+    "supersedes": "ins-2026-09-13-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-20-3",
+    "scan_date": "2026-09-20",
+    "generated_at": "2026-09-20T03:56:20.339080+00:00",
+    "title": "Dedicated Capital Fuels Physical AI Workforce and Industrial AI-Native Companies",
+    "insight": "Significant funding is now specifically targeting the development of AI workforces for the physical world and the creation of AI-native operating companies within industrial enterprises. This signals a clear market acceleration towards deploying agentic AI in tangible, real-world operations, moving beyond purely digital tasks.",
+    "trend": "The proven value of AI agents is expanding beyond software to automate and transform physical processes and industrial sectors, attracting specialized capital to build out these new capabilities.",
+    "category": "Digital Labor",
+    "magnitude": 80,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Magentic raises $18M to build the AI workforce for the physical world",
+      "Vantora Raises $100M+ to Build Sovereign AI Companies | DevCuration",
+      "Vantora Secures More Than $100 Million From Silversmith Capital Partners to Build AI-Native Operating Companies Inside Industrial Enterprises",
+      "Vantora raises $100M for physical AI venture studio | Value Add Pulse"
+    ],
+    "supersedes": "ins-2026-09-06-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-20-4",
+    "scan_date": "2026-09-20",
+    "generated_at": "2026-09-20T03:56:20.339080+00:00",
+    "title": "Vertically Integrated AI Infrastructure Platforms Attract Mega-Funding",
+    "insight": "The market is witnessing unprecedented funding rounds for companies building vertically integrated AI infrastructure platforms that span the entire stack, from energy generation to AI cloud services. This strategic investment aims to control and optimize the foundational resources required for large-scale AI deployment.",
+    "trend": "The escalating demand for AI compute and the need for greater efficiency and control are driving a strategic shift towards end-to-end ownership of the AI infrastructure stack, from raw power to cloud services.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Crusoe Raises $3.9 Billion Series F for its vertically integrated AI infrastructure platform"
+    ],
+    "supersedes": "ins-2026-09-06-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-20-5",
+    "scan_date": "2026-09-20",
+    "generated_at": "2026-09-20T03:56:20.339080+00:00",
+    "title": "AI Coding Agents Achieve Hyper-Growth and Multi-Billion Valuations",
+    "insight": "Agent foundries specializing in AI coding agents are demonstrating rapid market traction and attracting substantial funding, reaching multi-billion dollar valuations. This highlights the critical role of autonomous agents in accelerating software development and enterprise transformation.",
+    "trend": "The increasing demand for developer productivity and the automation of complex software engineering tasks are fueling massive investment in specialized AI agents capable of generating and managing code.",
+    "category": "Agent Foundries",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Factory reaches $5B valuation following $200M funding for AI coding agents"
+    ],
+    "supersedes": "ins-2026-09-13-1",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-09-13-1",
     "scan_date": "2026-09-13",
     "generated_at": "2026-09-13T03:45:54.291605+00:00",
@@ -20,7 +124,7 @@
       "Cognition (Devin) Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B"
     ],
     "supersedes": "ins-2026-08-16-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-20-5"
   },
   {
     "id": "ins-2026-09-13-2",
@@ -82,7 +186,7 @@
       "TrueFoundry launches TrueForge to break vendor lock-in and slash enterprise AI agent costs by 50%"
     ],
     "supersedes": "ins-2026-08-09-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-20-2"
   },
   {
     "id": "ins-2026-09-13-5",
@@ -101,7 +205,7 @@
       "Mistral AI raises \u20ac3B Series D led by Samsung Electronics"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-20-1"
   },
   {
     "id": "ins-2026-09-06-1",
@@ -126,7 +230,7 @@
       "OpenAI is making a humanoid robot."
     ],
     "supersedes": "ins-2026-08-30-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-20-3"
   },
   {
     "id": "ins-2026-09-06-2",
@@ -197,7 +301,7 @@
       "Some AI workloads are moving back on-prem for cost predictability, control, and performance."
     ],
     "supersedes": "ins-2026-08-09-3",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-20-4"
   },
   {
     "id": "ins-2026-09-06-5",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T03:45:54.292778+00:00",
-  "run_duration_seconds": 181,
+  "generated_at": "2026-09-20T03:56:20.340330+00:00",
+  "run_duration_seconds": 173,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-09-13T03:45:54.292778+00:00",
+      "last_call": "2026-09-20T03:56:20.340330+00:00",
       "status": "healthy"
     },
     {
@@ -32,7 +32,7 @@
       "kind": "change-tracking scrape",
       "glyph": "flame",
       "calls": 201,
-      "last_call": "2026-09-13T03:45:54.292778+00:00",
+      "last_call": "2026-09-20T03:56:20.340330+00:00",
       "status": "down"
     },
     {
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-09-13T03:45:54.292778+00:00",
+      "last_call": "2026-09-20T03:56:20.340330+00:00",
       "status": "healthy"
     },
     {
@@ -50,11 +50,109 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 1,
-      "last_call": "2026-09-13T03:45:54.292778+00:00",
+      "last_call": "2026-09-20T03:56:20.340330+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Crusoe Raises $3.9 Billion Series F for its Vertically Integrated AI Infrastructure Platform",
+      "domain": "www.globenewswire.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "Crusoe raises $3.9B Series F for AI infrastructure, fueling vertically integrated AI expansion.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/17/3364326/0/en/crusoe-raises-3-9-billion-series-f-for-its-vertically-integrated-ai-infrastructure-platform.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-20"
+    },
+    {
+      "id": "v2",
+      "title": "Factory reaches $5B valuation following $200M funding for AI coding agents \u2013 GenAI Daily",
+      "domain": "genaidaily.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "Factory secures $200M at $5B for AI coding agents, boosting digital labor.",
+      "source_url": "https://genaidaily.com/factory-reaches-5b-valuation-following-200m-funding-for-ai-coding-agents/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-09-20"
+    },
+    {
+      "id": "v3",
+      "title": "Vantora Raises $100M+ to Build Sovereign AI Companies | DevCuration",
+      "domain": "devcuration.com",
+      "hours_ago": 75,
+      "velocity": 95,
+      "why": "Vantora raises $100M+ to build sovereign AI companies, accelerating AI-native enterprise creation.",
+      "source_url": "https://devcuration.com/articles/vantora-raises-100m-sovereign-ai-enterprises",
+      "sources": [
+        "exa"
+      ],
+      "category": "Forward Deployers",
+      "scan_date": "2026-09-20"
+    },
+    {
+      "id": "v4",
+      "title": "Arcee AI Reaches $1B+ Valuation with Series B Funding to Advance Frontier Open-Weight AI",
+      "domain": "www.globenewswire.com",
+      "hours_ago": 99,
+      "velocity": 95,
+      "why": "Arcee AI reaches $1B+ valuation with Series B, advancing foundational open-weight AI infrastructure.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/16/3363293/0/en/arcee-ai-reaches-1b-valuation-with-series-b-funding-to-advance-frontier-open-weight-ai.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-20"
+    },
+    {
+      "id": "v5",
+      "title": "Hang Ten Systems Raises Additional $53 Million Led by Xora, a Temasek-Backed Fund, Bringing Total Funding to $85 Million",
+      "domain": "business.am-news.com",
+      "hours_ago": 99,
+      "velocity": 95,
+      "why": "Hang Ten Systems raises additional $53M, totaling $85M, accelerating AI-native enterprise services.",
+      "source_url": "https://business.am-news.com/am-news/article/bizwire-2026-9-16-hang-ten-systems-raises-additional-53-million-led-by-xora-a-temasek-backed-fund-bringing-total-funding-to-85-million",
+      "sources": [
+        "exa"
+      ],
+      "category": "Forward Deployers",
+      "scan_date": "2026-09-20"
+    },
+    {
+      "id": "v6",
+      "title": "Magentic raises $18M to build the AI workforce for the physical world",
+      "domain": "www.prnewswire.com",
+      "hours_ago": 75,
+      "velocity": 90,
+      "why": "Magentic raises $18M to build AI workforce for physical world, expanding digital labor.",
+      "source_url": "https://www.prnewswire.com/news-releases/magentic-raises-18m-to-build-the-ai-workforce-for-the-physical-world-302882356.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-09-20"
+    },
+    {
+      "id": "v7",
+      "title": "Enhans Raises $38 Million in Series C Funding to Advance Its AI-Native Enterprise Operating System | lifestyle.marketresearchjournals.com",
+      "domain": "lifestyle.marketresearchjournals.com",
+      "hours_ago": 75,
+      "velocity": 90,
+      "why": "Enhans raises $38M Series C for AI-native OS, strengthening enterprise orchestration platforms.",
+      "source_url": "https://lifestyle.marketresearchjournals.com/story/883126/enhans-raises-38-million-in-series-c-funding-to-advance-its-ai-native-enterprise-operating-system/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-20"
+    },
     {
       "id": "v1",
       "title": "Harvey closes a $550M round at a $15.6bn valuation and acquires Guardrails AI",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-09-13"
-    },
-    {
-      "id": "v1",
-      "title": "NVIDIA to Acquire Hugging Face | NVIDIA Blog",
-      "domain": "blogs.nvidia.com",
-      "hours_ago": 75,
-      "velocity": 100,
-      "why": "NVIDIA acquires Hugging Face, consolidating AI infrastructure and model development ecosystems.",
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-06"
-    },
-    {
-      "id": "v2",
-      "title": "SoundHound AI Completes Acquisition of LivePerson, Creating a World-Leading Omnichannel Conversational AI Powerhouse",
-      "domain": "www.techtimes.com",
-      "hours_ago": 27,
-      "velocity": 95,
-      "why": "SoundHound acquires LivePerson, creating a dominant omnichannel conversational AI and agentic CX player.",
-      "source_url": "https://www.techtimes.com/articles/326750/20260905/soundhound-closes-liveperson-acquisition-304m-bet-omnichannel-agentic-ai.htm",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-09-06"
-    },
-    {
-      "id": "v3",
-      "title": "ServiceNow Buys Sweep to Expand Agentic CRM Workflows | TMC Insight",
-      "domain": "insight.tmcnet.com",
-      "hours_ago": 51,
-      "velocity": 95,
-      "why": "ServiceNow acquires Sweep, expanding agentic CRM workflows and strengthening its platform gravity.",
-      "source_url": "https://insight.tmcnet.com/insight/servicenow-buys-sweep-to-expand-agentic-crm-workflows-mtmx35tz",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-06"
-    },
-    {
-      "id": "v4",
-      "title": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise",
-      "domain": "www.prnewswire.com",
-      "hours_ago": 51,
-      "velocity": 95,
-      "why": "Massive Series C funding validates agentic OS for enterprise, shifting AI towards embedded engineering.",
-      "source_url": "https://www.prnewswire.com/apac/news-releases/wonderful-raises-550-million-series-c-to-scale-the-ai-operating-system-for-the-enterprise-302869920.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-09-06"
-    },
-    {
-      "id": "v5",
-      "title": "HappyRobot Hits $1.2B Valuation With $150M\u2026 | Pomegra Startups",
-      "domain": "pomegra.io",
-      "hours_ago": 147,
-      "velocity": 95,
-      "why": "HappyRobot achieves unicorn status, validating vertical AI voice agents for logistics transformation.",
-      "source_url": "https://pomegra.io/startups/happyrobot-hits-1-2b-valuation-with-150m-series-c-2026-08-31",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-09-06"
-    },
-    {
-      "id": "v6",
-      "title": "Figure secures $3.5 billion computing power from Nscale \u00b7 Beckmann",
-      "domain": "beckmann.ai",
-      "hours_ago": 27,
-      "velocity": 90,
-      "why": "Figure secures $3.5B in compute, accelerating robotics and physical AI development.",
-      "source_url": "https://beckmann.ai/en/ai-economy/2026-09/figure-nscale-compute-billions",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-09-06"
-    },
-    {
-      "id": "v7",
-      "title": "Atira Raises $17.5M to Build the 'Commercial Brain' Behind Industrial Bid Proposals",
-      "domain": "www.todaysstartupnews.com",
-      "hours_ago": 51,
-      "velocity": 90,
-      "why": "Atira raises $17.5M for AI agents streamlining industrial sales and bid proposals.",
-      "source_url": "https://www.todaysstartupnews.com/startups/atira-17-5-million-seed-industrial-sales-ai",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-09-06"
     }
   ],
   "competitor_map": [
@@ -1148,9 +1148,9 @@
       "discovery_relevance": null,
       "scanned": "2026-08-23 01:33",
       "hash": "cac117b71f",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -1188,9 +1188,9 @@
       "discovery_relevance": null,
       "scanned": "2026-08-23 01:34",
       "hash": "0c178131c2",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: $11B val \u00b7 ~$1.22B \u2192 $550M Round \u00b7 $15.6B val",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -2759,7 +2759,7 @@
       "url": "hangten.ai",
       "category": "Forward Deployers",
       "status": "Emerging",
-      "funding": "$32M Seed",
+      "funding": "$85M Seed",
       "team": null,
       "why": "Founded by ex-Infosys CEO Vishal Sikka, Hang Ten Systems is a new AI venture focused on building AI-native enterprise services to disrupt traditional IT services.",
       "anchor": false,
@@ -2768,9 +2768,9 @@
       "discovery_relevance": 90,
       "scanned": "2026-08-23 01:46",
       "hash": "b130591236",
-      "changed": false,
+      "changed": true,
       "changed_pages": [],
-      "delta": null,
+      "delta": "Funding update: $32M Seed \u2192 $85M Seed",
       "crawl_status": "carried"
     },
     {
@@ -4256,6 +4256,110 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-09-20-1",
+      "scan_date": "2026-09-20",
+      "generated_at": "2026-09-20T03:56:20.339080+00:00",
+      "title": "Sovereign AI Extends to Enterprise-Building and Transatlantic Solutions",
+      "insight": "The concept of 'Sovereign AI' is rapidly expanding beyond foundational model development to encompass the creation of entire AI-native operating companies within industrial enterprises and the formation of transatlantic partnerships for sovereign AI solutions. This indicates a strategic imperative for national and corporate control over the entire AI value chain, from infrastructure to application.",
+      "trend": "Geopolitical and strategic autonomy concerns are driving significant investment and collaboration to establish localized and controlled AI ecosystems, moving beyond just models to full-stack, industry-specific AI ventures.",
+      "category": "Transformation Titans",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Vantora Raises $100M+ to Build Sovereign AI Companies | DevCuration",
+        "Vantora Secures More Than $100 Million From Silversmith Capital Partners to Build AI-Native Operating Companies Inside Industrial Enterprises",
+        "Vantora raises $100M for physical AI venture studio | Value Add Pulse",
+        "Cohere and Aleph Alpha Sign Agreement to Become the First Transatlantic Sovereign AI Solution"
+      ],
+      "supersedes": "ins-2026-09-13-5",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-20-2",
+      "scan_date": "2026-09-20",
+      "generated_at": "2026-09-20T03:56:20.339080+00:00",
+      "title": "Agent Governance and Reliability Platforms Mature with Acquisitions",
+      "insight": "The market for governing and ensuring the reliability of AI agents is maturing rapidly, evidenced by strategic acquisitions and new platform launches focused on observability, control, and security for enterprise agent deployments. This reflects a critical need for robust operational frameworks as agents move into production.",
+      "trend": "As enterprise AI adoption scales, the demand for trusted, secure, and auditable agentic systems is driving consolidation and innovation in governance, reliability, and security solutions.",
+      "category": "Platform Gravity",
+      "magnitude": 85,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Beacon buys Haize Labs to stop its AI agents going wrong",
+        "eSentire Acquires Stealth-Mode AI Security Startup, Bringing New AI Observability and Control to the Atlas Platform",
+        "Quorum Cyber Announces Intent to Acquire Ontinue, Building an Unrivaled Microsoft-First Agentic SOC for the Autonomous Threat Era",
+        "Komodor Launches Agentic Operations Platform Combining Ready-to-Run Automation With a Comprehensive Backbone for Custom Agents",
+        "WSO2 Agent Manager Brings Sovereign AI Governance to Enterprise Agent Sprawl",
+        "Leviathan Matrix Launches TURABON to Govern What Agents Can Actually Do"
+      ],
+      "supersedes": "ins-2026-09-13-4",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-20-3",
+      "scan_date": "2026-09-20",
+      "generated_at": "2026-09-20T03:56:20.339080+00:00",
+      "title": "Dedicated Capital Fuels Physical AI Workforce and Industrial AI-Native Companies",
+      "insight": "Significant funding is now specifically targeting the development of AI workforces for the physical world and the creation of AI-native operating companies within industrial enterprises. This signals a clear market acceleration towards deploying agentic AI in tangible, real-world operations, moving beyond purely digital tasks.",
+      "trend": "The proven value of AI agents is expanding beyond software to automate and transform physical processes and industrial sectors, attracting specialized capital to build out these new capabilities.",
+      "category": "Digital Labor",
+      "magnitude": 80,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Magentic raises $18M to build the AI workforce for the physical world",
+        "Vantora Raises $100M+ to Build Sovereign AI Companies | DevCuration",
+        "Vantora Secures More Than $100 Million From Silversmith Capital Partners to Build AI-Native Operating Companies Inside Industrial Enterprises",
+        "Vantora raises $100M for physical AI venture studio | Value Add Pulse"
+      ],
+      "supersedes": "ins-2026-09-06-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-20-4",
+      "scan_date": "2026-09-20",
+      "generated_at": "2026-09-20T03:56:20.339080+00:00",
+      "title": "Vertically Integrated AI Infrastructure Platforms Attract Mega-Funding",
+      "insight": "The market is witnessing unprecedented funding rounds for companies building vertically integrated AI infrastructure platforms that span the entire stack, from energy generation to AI cloud services. This strategic investment aims to control and optimize the foundational resources required for large-scale AI deployment.",
+      "trend": "The escalating demand for AI compute and the need for greater efficiency and control are driving a strategic shift towards end-to-end ownership of the AI infrastructure stack, from raw power to cloud services.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Crusoe Raises $3.9 Billion Series F for its vertically integrated AI infrastructure platform"
+      ],
+      "supersedes": "ins-2026-09-06-4",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-20-5",
+      "scan_date": "2026-09-20",
+      "generated_at": "2026-09-20T03:56:20.339080+00:00",
+      "title": "AI Coding Agents Achieve Hyper-Growth and Multi-Billion Valuations",
+      "insight": "Agent foundries specializing in AI coding agents are demonstrating rapid market traction and attracting substantial funding, reaching multi-billion dollar valuations. This highlights the critical role of autonomous agents in accelerating software development and enterprise transformation.",
+      "trend": "The increasing demand for developer productivity and the automation of complex software engineering tasks are fueling massive investment in specialized AI agents capable of generating and managing code.",
+      "category": "Agent Foundries",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Factory reaches $5B valuation following $200M funding for AI coding agents"
+      ],
+      "supersedes": "ins-2026-09-13-1",
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-09-13-1",
       "scan_date": "2026-09-13",
       "generated_at": "2026-09-13T03:45:54.291605+00:00",
@@ -4276,7 +4380,7 @@
         "Cognition (Devin) Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B"
       ],
       "supersedes": "ins-2026-08-16-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-20-5"
     },
     {
       "id": "ins-2026-09-13-2",
@@ -4338,7 +4442,7 @@
         "TrueFoundry launches TrueForge to break vendor lock-in and slash enterprise AI agent costs by 50%"
       ],
       "supersedes": "ins-2026-08-09-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-20-2"
     },
     {
       "id": "ins-2026-09-13-5",
@@ -4357,7 +4461,7 @@
         "Mistral AI raises \u20ac3B Series D led by Samsung Electronics"
       ],
       "supersedes": null,
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-20-1"
     },
     {
       "id": "ins-2026-09-06-1",
@@ -4382,7 +4486,7 @@
         "OpenAI is making a humanoid robot."
       ],
       "supersedes": "ins-2026-08-30-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-20-3"
     },
     {
       "id": "ins-2026-09-06-2",
@@ -4453,7 +4557,7 @@
         "Some AI workloads are moving back on-prem for cost predictability, control, and performance."
       ],
       "supersedes": "ins-2026-08-09-3",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-20-4"
     },
     {
       "id": "ins-2026-09-06-5",
@@ -6144,6 +6248,16 @@
   ],
   "scan_history": [
     {
+      "date": "2026-09-20",
+      "generated_at": "2026-09-20T03:56:20.340330+00:00",
+      "events_scanned": 585,
+      "red_deltas": 1,
+      "new_insights": 5,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 173
+    },
+    {
       "date": "2026-09-13",
       "generated_at": "2026-09-13T03:45:54.292778+00:00",
       "events_scanned": 559,
@@ -6325,6 +6439,6 @@
   ],
   "meta": {
     "competitors_scanned": 200,
-    "red_alert_count": 2
+    "red_alert_count": 1
   }
 }
