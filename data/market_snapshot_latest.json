@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T03:56:20.340330+00:00",
-  "run_duration_seconds": 173,
+  "generated_at": "2026-09-27T04:14:27.136034+00:00",
+  "run_duration_seconds": 189,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-09-20T03:56:20.340330+00:00",
+      "last_call": "2026-09-27T04:14:27.136034+00:00",
       "status": "healthy"
     },
     {
@@ -32,7 +32,7 @@
       "kind": "change-tracking scrape",
       "glyph": "flame",
       "calls": 201,
-      "last_call": "2026-09-20T03:56:20.340330+00:00",
+      "last_call": "2026-09-27T04:14:27.136034+00:00",
       "status": "down"
     },
     {
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-09-20T03:56:20.340330+00:00",
+      "last_call": "2026-09-27T04:14:27.136034+00:00",
       "status": "healthy"
     },
     {
@@ -49,12 +49,110 @@
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 1,
-      "last_call": "2026-09-20T03:56:20.340330+00:00",
+      "calls": 2,
+      "last_call": "2026-09-27T04:14:27.136034+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Cognition's Devin AI coding agent doubles revenue to $1 billion a year - Startup Fortune",
+      "domain": "startupfortune.com",
+      "hours_ago": 28,
+      "velocity": 95,
+      "why": "Demonstrates strong market traction and revenue growth for AI software engineers.",
+      "source_url": "https://startupfortune.com/cognitions-devin-ai-coding-agent-doubles-revenue-to-1-billion-a-year/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-09-27"
+    },
+    {
+      "id": "v2",
+      "title": "Ema Raises $77 Million In Series B Funding Round - Tech Company News",
+      "domain": "www.techcompanynews.com",
+      "hours_ago": 28,
+      "velocity": 95,
+      "why": "Highlights increasing investment in AI employees automating core enterprise functions.",
+      "source_url": "https://www.techcompanynews.com/ema-raises-77-million-in-series-b-funding-round/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-09-27"
+    },
+    {
+      "id": "v3",
+      "title": "TypeSafe AI seeks $1B in funding as Jev model gains traction",
+      "domain": "cryptobriefing.com",
+      "hours_ago": 28,
+      "velocity": 95,
+      "why": "Reveals massive capital interest in foundational AI models and agentic platforms.",
+      "source_url": "https://cryptobriefing.com/typesafe-ai-billion-dollar-funding-jev-model/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-09-27"
+    },
+    {
+      "id": "v4",
+      "title": "Vantora Secures Over $100 Million to Accelerate AI\u2011Native Startup \u2014 TechBriefe",
+      "domain": "techbriefe.com",
+      "hours_ago": 28,
+      "velocity": 95,
+      "why": "Signals strong investment in companies that accelerate the creation of AI-native solutions.",
+      "source_url": "https://techbriefe.com/tech/ai/vantora-secures-over-100-million-to-accelerate-ainative-startup-development",
+      "sources": [
+        "exa"
+      ],
+      "category": "Forward Deployers",
+      "scan_date": "2026-09-27"
+    },
+    {
+      "id": "v5",
+      "title": "TECHSHOTS | <!-- -->RVAI Acquihires Tynybay to Build Next-Gen Agentic AI Services Platform",
+      "domain": "www.techshotsapp.com",
+      "hours_ago": 52,
+      "velocity": 95,
+      "why": "Indicates talent acquisition and consolidation to build advanced agentic AI platforms.",
+      "source_url": "https://www.techshotsapp.com/artificial-intelligence/rvai-acquihires-tynybay-to-build-next-gen-agentic-ai-services-platform",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-09-27"
+    },
+    {
+      "id": "v6",
+      "title": "Island Announces $400 Million Series F, Bringing Valuation to $6.4 Billion",
+      "domain": "www.island.io",
+      "hours_ago": 76,
+      "velocity": 95,
+      "why": "Indicates significant capital flowing into foundational platforms supporting AI agent deployment.",
+      "source_url": "https://www.island.io/press/island-announces-400-million-series-f-bringing-valuation-to-6-4-billion",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-27"
+    },
+    {
+      "id": "v7",
+      "title": "Silk secures $45 mn growth facility for agentic AI data platform",
+      "domain": "beinsure.com",
+      "hours_ago": 76,
+      "velocity": 95,
+      "why": "Reinforces the need for robust data infrastructure to support agentic AI at scale.",
+      "source_url": "https://beinsure.com/news/silk-secures-45mn-growth-facility-for-agentic-ai-data-platform/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-09-27"
+    },
     {
       "id": "v1",
       "title": "Crusoe Raises $3.9 Billion Series F for its Vertically Integrated AI Infrastructure Platform",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-09-20"
-    },
-    {
-      "id": "v1",
-      "title": "Harvey closes a $550M round at a $15.6bn valuation and acquires Guardrails AI",
-      "domain": "thenextweb.com",
-      "hours_ago": 99,
-      "velocity": 98,
-      "why": "Harvey's large funding and acquisition signal consolidation and rapid scaling in vertical legal AI.",
-      "source_url": "https://thenextweb.com/news/harvey-550m-round-15-6bn-guardrails-acquisition",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-09-13"
-    },
-    {
-      "id": "v2",
-      "title": "Cognition Hits $48B: $2B Series E as Devin Nears $1B ARR",
-      "domain": "ecmsource.com",
-      "hours_ago": 99,
-      "velocity": 96,
-      "why": "Cognition's $48B valuation and near $1B ARR demonstrate rapid market adoption of AI engineers.",
-      "source_url": "https://ecmsource.com/cognition-48b-series-e-2b-devin-900m-arr-september-2026/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-09-13"
-    },
-    {
-      "id": "v3",
-      "title": "Salesforce Completes Acquisition of Fin",
-      "domain": "investor.salesforce.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "Salesforce's acquisition of Fin strengthens its CRM-native agent capabilities, expanding platform gravity.",
-      "source_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Completes-Acquisition-of-Fin/default.aspx",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-13"
-    },
-    {
-      "id": "v4",
-      "title": "Introducing the Agents API | OpenAI",
-      "domain": "openai.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "OpenAI's Agents API launch standardizes agent development, accelerating enterprise AI deployment and adoption.",
-      "source_url": "https://openai.com/index/introducing-the-agents-api/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-13"
-    },
-    {
-      "id": "v5",
-      "title": "Meta Buys Eight-Month-Old Startup Stilla to Power Its AI Messaging Agent - Startup Fortune",
-      "domain": "startupfortune.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "Meta's acquisition of Stilla signals big tech's push into AI messaging agents for enterprise.",
-      "source_url": "https://startupfortune.com/meta-buys-eight-month-old-startup-stilla-to-power-its-ai-messaging-agent/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-09-13"
-    },
-    {
-      "id": "v6",
-      "title": "Clay valued at $7.1 billion in latest funding round as AI agent startups run hot | Reuters",
-      "domain": "www.reuters.com",
-      "hours_ago": 99,
-      "velocity": 95,
-      "why": "Clay's $7.1B valuation underscores intense investor interest and rapid growth in AI agent platforms.",
-      "source_url": "https://www.reuters.com/legal/transactional/clay-valued-71-billion-latest-funding-round-ai-agent-startups-run-hot-2026-09-09/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-09-13"
-    },
-    {
-      "id": "v7",
-      "title": "TrueFoundry launches TrueForge to break vendor lock-in and slash enterprise AI agent costs by 50%",
-      "domain": "www.truefoundry.com",
-      "hours_ago": 51,
-      "velocity": 90,
-      "why": "TrueFoundry's TrueForge launch addresses critical enterprise needs for cost-effective, flexible AI agent deployment.",
-      "source_url": "https://www.truefoundry.com/press-room/truefoundry-launches-trueforge-to-break-vendor-lock-in-and-slash-enterprise-ai-agent-costs-by-50",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-13"
     }
   ],
   "competitor_map": [
@@ -2768,9 +2768,9 @@
       "discovery_relevance": 90,
       "scanned": "2026-08-23 01:46",
       "hash": "b130591236",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: $32M Seed \u2192 $85M Seed",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -4256,6 +4256,105 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-09-27-1",
+      "scan_date": "2026-09-27",
+      "generated_at": "2026-09-27T04:14:27.133847+00:00",
+      "title": "AI Coding Agents Hit Billion-Dollar Revenue Mark",
+      "insight": "Cognition's Devin AI coding agent has doubled its annual revenue to $1 billion, demonstrating hyper-growth and validating the immense commercial value of autonomous AI agents in software development. This signifies a critical inflection point where agent foundries are not just valued highly, but are also generating substantial, proven revenue.",
+      "trend": "The market is rapidly moving towards outcome-based AI solutions, with enterprises increasingly adopting and paying for agentic capabilities that deliver measurable productivity gains and cost savings in core functions like software engineering.",
+      "category": "Agent Foundries",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Cognition's Devin AI coding agent doubles revenue to $1 billion a year - Startup Fortune"
+      ],
+      "supersedes": "ins-2026-09-13-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-27-2",
+      "scan_date": "2026-09-27",
+      "generated_at": "2026-09-27T04:14:27.133847+00:00",
+      "title": "Agent Governance Becomes Core Orchestration Layer",
+      "insight": "The market is witnessing a significant consolidation and enhancement of AI agent governance and orchestration capabilities, with new platforms and acquisitions focusing on securely managing, deploying, and monitoring autonomous agents across enterprise workflows. This indicates a maturing ecosystem where control and reliability are paramount for widespread agent adoption.",
+      "trend": "As AI agents move from experimental deployments to critical enterprise functions, the demand for robust control planes that ensure security, compliance, and performance is driving innovation and M&A in the orchestration layer.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Driven Tech Introduces Lasius to Govern and Orchestrate Enterprise AI Workflows",
+        "Kestra 2.0 Brings Agent Governance Into the Orchestration Layer \u2013 Forkast",
+        "Valtech Agent Factory: Governed Enterprise AI Agents | Valtech",
+        "Omada Acquires EmpowerID to Close the AI Agent Security Gap",
+        "UiPath Enhances and Strengthens UiPath Platform\u2122 | UiPath"
+      ],
+      "supersedes": "ins-2026-09-20-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-27-3",
+      "scan_date": "2026-09-27",
+      "generated_at": "2026-09-27T04:14:27.133847+00:00",
+      "title": "Vertical AI Agents Infiltrate Core Enterprise Functions",
+      "insight": "Specialized AI agents are rapidly expanding their footprint beyond niche applications to directly automate and transform core enterprise functions such as HR, IT, finance, and tax compliance, attracting significant investment. This signifies a strategic shift where AI agents are becoming embedded as 'digital employees' across critical business operations.",
+      "trend": "Enterprises are seeking demonstrable ROI from AI, driving demand for purpose-built agents that can execute complex, domain-specific tasks, leading to the proliferation of vertical specialists offering outcome-driven solutions in high-value areas.",
+      "category": "Vertical Specialists",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
+        "Numeral Raises $100M Series C as Vertical AI Agent Play Hits Tax Compliance \u2013 Forkast",
+        "73 Strings Acquires Callisto, Accelerating Investment Into Agentic AI For Private Markets"
+      ],
+      "supersedes": "ins-2026-09-06-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-27-4",
+      "scan_date": "2026-09-27",
+      "generated_at": "2026-09-27T04:14:27.133847+00:00",
+      "title": "Vertically Integrated AI Infrastructure Attracts Billions",
+      "insight": "Companies building vertically integrated AI infrastructure, spanning from energy to cloud services, continue to attract multi-billion dollar funding rounds and valuations. This underscores the strategic importance of owning and optimizing the entire stack to meet the escalating demands of large-scale AI deployment and ensure sovereign control.",
+      "trend": "The foundational resource requirements for advanced AI are driving massive capital allocation towards companies that can provide end-to-end control over the AI supply chain, mitigating dependencies and optimizing performance at scale.",
+      "category": "Transformation Titans",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Crusoe Raises $3.9 Billion at $30.9 Billion Valuation. America's Most Vertically Integrated AI Company Just Got Bigger. - Best Startup US"
+      ],
+      "supersedes": "ins-2026-09-20-4",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-09-27-5",
+      "scan_date": "2026-09-27",
+      "generated_at": "2026-09-27T04:14:27.133847+00:00",
+      "title": "M&A Consolidates Agentic AI Data and Security Layers",
+      "insight": "Strategic acquisitions and significant funding are flowing into companies building the foundational data and security layers for agentic AI, including platforms for agentic data, autonomous infrastructure, and agent identity/governance. This M&A activity reflects a market imperative to establish robust, secure, and scalable underpinnings for enterprise AI agent deployments.",
+      "trend": "As AI agents become more pervasive and autonomous, the market is prioritizing the underlying infrastructure that ensures data integrity, operational security, and reliable governance, leading to consolidation in these critical support layers.",
+      "category": "Platform Gravity",
+      "magnitude": 80,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Silk secures $45 mn growth facility for agentic AI data platform",
+        "groundcover Acquires Wand to Build Toward Autonomous Infrastructure",
+        "Omada Acquires EmpowerID to Close the AI Agent Security Gap",
+        "Upwind acquires Aegis as cybersecurity firm builds new AI Security Labs"
+      ],
+      "supersedes": "ins-2026-08-09-1",
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-09-20-1",
       "scan_date": "2026-09-20",
       "generated_at": "2026-09-20T03:56:20.339080+00:00",
@@ -4299,7 +4398,7 @@
         "Leviathan Matrix Launches TURABON to Govern What Agents Can Actually Do"
       ],
       "supersedes": "ins-2026-09-13-4",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-27-2"
     },
     {
       "id": "ins-2026-09-20-3",
@@ -4339,7 +4438,7 @@
         "Crusoe Raises $3.9 Billion Series F for its vertically integrated AI infrastructure platform"
       ],
       "supersedes": "ins-2026-09-06-4",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-27-4"
     },
     {
       "id": "ins-2026-09-20-5",
@@ -4380,7 +4479,7 @@
         "Cognition (Devin) Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B"
       ],
       "supersedes": "ins-2026-08-16-1",
-      "superseded_by": "ins-2026-09-20-5"
+      "superseded_by": "ins-2026-09-27-1"
     },
     {
       "id": "ins-2026-09-13-2",
@@ -4537,7 +4636,7 @@
         "DataAgent Emerges from Stealth with $10 Million Pre-Seed Funding for remediation-first platform to fix production faults."
       ],
       "supersedes": "ins-2026-08-30-4",
-      "superseded_by": null
+      "superseded_by": "ins-2026-09-27-3"
     },
     {
       "id": "ins-2026-09-06-4",
@@ -4895,7 +4994,7 @@
         "US AI Agent Identity Management Market to hit USD 2.8 billion by 2035"
       ],
       "supersedes": "ins-2026-08-02-3",
-      "superseded_by": "ins-2026-09-13-4"
+      "superseded_by": "ins-2026-09-27-5"
     },
     {
       "id": "ins-2026-08-09-2",
@@ -6248,6 +6347,16 @@
   ],
   "scan_history": [
     {
+      "date": "2026-09-27",
+      "generated_at": "2026-09-27T04:14:27.136034+00:00",
+      "events_scanned": 573,
+      "red_deltas": 0,
+      "new_insights": 5,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 189
+    },
+    {
       "date": "2026-09-20",
       "generated_at": "2026-09-20T03:56:20.340330+00:00",
       "events_scanned": 585,
@@ -6439,6 +6548,6 @@
   ],
   "meta": {
     "competitors_scanned": 200,
-    "red_alert_count": 1
+    "red_alert_count": 0
   }
 }

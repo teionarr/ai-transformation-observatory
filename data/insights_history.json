@@ -1,5 +1,104 @@
 [
   {
+    "id": "ins-2026-09-27-1",
+    "scan_date": "2026-09-27",
+    "generated_at": "2026-09-27T04:14:27.133847+00:00",
+    "title": "AI Coding Agents Hit Billion-Dollar Revenue Mark",
+    "insight": "Cognition's Devin AI coding agent has doubled its annual revenue to $1 billion, demonstrating hyper-growth and validating the immense commercial value of autonomous AI agents in software development. This signifies a critical inflection point where agent foundries are not just valued highly, but are also generating substantial, proven revenue.",
+    "trend": "The market is rapidly moving towards outcome-based AI solutions, with enterprises increasingly adopting and paying for agentic capabilities that deliver measurable productivity gains and cost savings in core functions like software engineering.",
+    "category": "Agent Foundries",
+    "magnitude": 95,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Cognition's Devin AI coding agent doubles revenue to $1 billion a year - Startup Fortune"
+    ],
+    "supersedes": "ins-2026-09-13-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-27-2",
+    "scan_date": "2026-09-27",
+    "generated_at": "2026-09-27T04:14:27.133847+00:00",
+    "title": "Agent Governance Becomes Core Orchestration Layer",
+    "insight": "The market is witnessing a significant consolidation and enhancement of AI agent governance and orchestration capabilities, with new platforms and acquisitions focusing on securely managing, deploying, and monitoring autonomous agents across enterprise workflows. This indicates a maturing ecosystem where control and reliability are paramount for widespread agent adoption.",
+    "trend": "As AI agents move from experimental deployments to critical enterprise functions, the demand for robust control planes that ensure security, compliance, and performance is driving innovation and M&A in the orchestration layer.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Driven Tech Introduces Lasius to Govern and Orchestrate Enterprise AI Workflows",
+      "Kestra 2.0 Brings Agent Governance Into the Orchestration Layer \u2013 Forkast",
+      "Valtech Agent Factory: Governed Enterprise AI Agents | Valtech",
+      "Omada Acquires EmpowerID to Close the AI Agent Security Gap",
+      "UiPath Enhances and Strengthens UiPath Platform\u2122 | UiPath"
+    ],
+    "supersedes": "ins-2026-09-20-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-27-3",
+    "scan_date": "2026-09-27",
+    "generated_at": "2026-09-27T04:14:27.133847+00:00",
+    "title": "Vertical AI Agents Infiltrate Core Enterprise Functions",
+    "insight": "Specialized AI agents are rapidly expanding their footprint beyond niche applications to directly automate and transform core enterprise functions such as HR, IT, finance, and tax compliance, attracting significant investment. This signifies a strategic shift where AI agents are becoming embedded as 'digital employees' across critical business operations.",
+    "trend": "Enterprises are seeking demonstrable ROI from AI, driving demand for purpose-built agents that can execute complex, domain-specific tasks, leading to the proliferation of vertical specialists offering outcome-driven solutions in high-value areas.",
+    "category": "Vertical Specialists",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
+      "Numeral Raises $100M Series C as Vertical AI Agent Play Hits Tax Compliance \u2013 Forkast",
+      "73 Strings Acquires Callisto, Accelerating Investment Into Agentic AI For Private Markets"
+    ],
+    "supersedes": "ins-2026-09-06-3",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-27-4",
+    "scan_date": "2026-09-27",
+    "generated_at": "2026-09-27T04:14:27.133847+00:00",
+    "title": "Vertically Integrated AI Infrastructure Attracts Billions",
+    "insight": "Companies building vertically integrated AI infrastructure, spanning from energy to cloud services, continue to attract multi-billion dollar funding rounds and valuations. This underscores the strategic importance of owning and optimizing the entire stack to meet the escalating demands of large-scale AI deployment and ensure sovereign control.",
+    "trend": "The foundational resource requirements for advanced AI are driving massive capital allocation towards companies that can provide end-to-end control over the AI supply chain, mitigating dependencies and optimizing performance at scale.",
+    "category": "Transformation Titans",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Crusoe Raises $3.9 Billion at $30.9 Billion Valuation. America's Most Vertically Integrated AI Company Just Got Bigger. - Best Startup US"
+    ],
+    "supersedes": "ins-2026-09-20-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-09-27-5",
+    "scan_date": "2026-09-27",
+    "generated_at": "2026-09-27T04:14:27.133847+00:00",
+    "title": "M&A Consolidates Agentic AI Data and Security Layers",
+    "insight": "Strategic acquisitions and significant funding are flowing into companies building the foundational data and security layers for agentic AI, including platforms for agentic data, autonomous infrastructure, and agent identity/governance. This M&A activity reflects a market imperative to establish robust, secure, and scalable underpinnings for enterprise AI agent deployments.",
+    "trend": "As AI agents become more pervasive and autonomous, the market is prioritizing the underlying infrastructure that ensures data integrity, operational security, and reliable governance, leading to consolidation in these critical support layers.",
+    "category": "Platform Gravity",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Silk secures $45 mn growth facility for agentic AI data platform",
+      "groundcover Acquires Wand to Build Toward Autonomous Infrastructure",
+      "Omada Acquires EmpowerID to Close the AI Agent Security Gap",
+      "Upwind acquires Aegis as cybersecurity firm builds new AI Security Labs"
+    ],
+    "supersedes": "ins-2026-08-09-1",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-09-20-1",
     "scan_date": "2026-09-20",
     "generated_at": "2026-09-20T03:56:20.339080+00:00",
@@ -43,7 +142,7 @@
       "Leviathan Matrix Launches TURABON to Govern What Agents Can Actually Do"
     ],
     "supersedes": "ins-2026-09-13-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-27-2"
   },
   {
     "id": "ins-2026-09-20-3",
@@ -83,7 +182,7 @@
       "Crusoe Raises $3.9 Billion Series F for its vertically integrated AI infrastructure platform"
     ],
     "supersedes": "ins-2026-09-06-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-27-4"
   },
   {
     "id": "ins-2026-09-20-5",
@@ -124,7 +223,7 @@
       "Cognition (Devin) Funding update: ~$10.2B val \u2192 $2B Series E \u00b7 $48B"
     ],
     "supersedes": "ins-2026-08-16-1",
-    "superseded_by": "ins-2026-09-20-5"
+    "superseded_by": "ins-2026-09-27-1"
   },
   {
     "id": "ins-2026-09-13-2",
@@ -281,7 +380,7 @@
       "DataAgent Emerges from Stealth with $10 Million Pre-Seed Funding for remediation-first platform to fix production faults."
     ],
     "supersedes": "ins-2026-08-30-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-09-27-3"
   },
   {
     "id": "ins-2026-09-06-4",
@@ -639,7 +738,7 @@
       "US AI Agent Identity Management Market to hit USD 2.8 billion by 2035"
     ],
     "supersedes": "ins-2026-08-02-3",
-    "superseded_by": "ins-2026-09-13-4"
+    "superseded_by": "ins-2026-09-27-5"
   },
   {
     "id": "ins-2026-08-09-2",
