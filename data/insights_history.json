@@ -1,5 +1,105 @@
 [
   {
+    "id": "ins-2026-10-04-1",
+    "scan_date": "2026-10-04",
+    "generated_at": "2026-10-04T04:50:21.815496+00:00",
+    "title": "General AI Agent Foundries Achieve $10B Valuations",
+    "insight": "Companies developing broad enterprise AI agents, not just specialized coding agents, are now commanding multi-billion dollar valuations and significant funding rounds, signaling market confidence in their ability to deliver widespread enterprise transformation. This indicates a broadening of investor appetite for agentic solutions beyond specific niche applications.",
+    "trend": "The market is recognizing the potential for general-purpose AI agents to automate diverse enterprise workflows, driving investor interest beyond niche applications and towards more comprehensive AI-driven business transformation.",
+    "category": "Agent Foundries",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Instinct Series C: Surprising $1B Raise and a $10B Risk",
+      "FieldAI Reportedly Raising $700M at $10B Valuation"
+    ],
+    "supersedes": "ins-2026-09-27-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-04-2",
+    "scan_date": "2026-10-04",
+    "generated_at": "2026-10-04T04:50:21.815496+00:00",
+    "title": "Enterprise Incumbents Acquire Agentic Specialists for Core Integration",
+    "insight": "Established enterprise software and service providers are actively acquiring specialized AI agent companies to embed autonomous capabilities directly into their core platforms and offerings, moving beyond partnerships to deep integration. This strategic M&A activity aims to enhance existing product suites with advanced agentic automation.",
+    "trend": "Incumbents are recognizing the imperative to own and integrate agentic AI to maintain competitive advantage and deliver comprehensive, AI-native solutions to their customer base, accelerating their own AI transformation.",
+    "category": "Transformation Titans",
+    "magnitude": 95,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "HCLSoftware to Acquire Robotiq.ai, Strengthening Enterprise Agentic Automation",
+      "Sovos Acquires Flowie, Launching the Industry's First Agentic Compliant Finance Orchestration Platform",
+      "ZoomInfo Acquires DoubleO.ai to Make AI Agents Reliable Enough to Run Go-to-Market Motions",
+      "AppDirect Acquires Soul Machines to Expand Enterprise AI Experiences for Advisors and Businesses",
+      "Mitratech Acquires AI-Native Startup BotDojo",
+      "TCN Acquires Abstrakt to Expand AI Agent Assist and Automated QA Capabilities"
+    ],
+    "supersedes": "ins-2026-09-27-5",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-04-3",
+    "scan_date": "2026-10-04",
+    "generated_at": "2026-10-04T04:50:21.815496+00:00",
+    "title": "Durable Infrastructure and Observability Critical for Agent Deployment",
+    "insight": "Significant investment is flowing into platforms that ensure the reliability, durability, and comprehensive observability of AI agents in production environments, addressing the critical need for resilient and monitorable agent operations. This highlights the growing maturity requirements for enterprise-grade AI agent deployments.",
+    "trend": "As AI agents move from pilots to mission-critical enterprise deployments, the market demands robust infrastructure that guarantees continuous operation and provides deep insights into agent performance and behavior, driving specialized infrastructure development.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "Dynatrace Completes Acquisition of Arize, Extending AI Observability Across the Full Development Lifecycle"
+    ],
+    "supersedes": "ins-2026-09-27-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-04-4",
+    "scan_date": "2026-10-04",
+    "generated_at": "2026-10-04T04:50:21.815496+00:00",
+    "title": "Major Platforms Launch Governed Agentic Orchestration",
+    "insight": "Leading enterprise platform providers like Oracle and IBM are introducing sophisticated, governed orchestration layers and expanded management capabilities for AI agents, enabling secure and controlled deployment of autonomous workflows within their ecosystems. This signifies a move towards integrated and managed agent environments by established players.",
+    "trend": "Platform providers are moving to centralize the management and governance of AI agents to ensure enterprise-grade security, compliance, and performance as agents become integral to business processes.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Oracle Extends Fusion Agentic Applications with Introduction of Fusion Claw",
+      "New in IBM watsonx Orchestrate: Expanded third-party agent management and Agent Identities",
+      "66degrees Releases ParadigmOS to Accelerate Enterprise AI Workflow Transformation",
+      "Coforge Launches CXNova, an Agentic CX Orchestration Platform that Delivers Intelligent, Real-Time Customer Experiences"
+    ],
+    "supersedes": "ins-2026-09-27-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-04-5",
+    "scan_date": "2026-10-04",
+    "generated_at": "2026-10-04T04:50:21.815496+00:00",
+    "title": "Outcome-Based Pricing Emerges for AI Agent Solutions",
+    "insight": "The AI-transformation market is seeing a growing emphasis on outcome-based pricing models for AI agent solutions, shifting from traditional seat-based or usage-based pricing to align with the value delivered. This indicates a maturing market where vendors are increasingly confident in the measurable impact of their agentic offerings.",
+    "trend": "As AI agents demonstrate tangible business outcomes and ROI, vendors are adapting their monetization strategies to reflect the direct impact generated by these autonomous systems, fostering greater enterprise adoption and trust.",
+    "category": "Forward Deployers",
+    "magnitude": 50,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Outcome-Based Pricing for AI Startups: SaaS Playbook | ToolsToFind Blog"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-09-27-1",
     "scan_date": "2026-09-27",
     "generated_at": "2026-09-27T04:14:27.133847+00:00",
@@ -15,7 +115,7 @@
       "Cognition's Devin AI coding agent doubles revenue to $1 billion a year - Startup Fortune"
     ],
     "supersedes": "ins-2026-09-13-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-04-1"
   },
   {
     "id": "ins-2026-09-27-2",
@@ -37,7 +137,7 @@
       "UiPath Enhances and Strengthens UiPath Platform\u2122 | UiPath"
     ],
     "supersedes": "ins-2026-09-20-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-04-4"
   },
   {
     "id": "ins-2026-09-27-3",
@@ -96,7 +196,7 @@
       "Upwind acquires Aegis as cybersecurity firm builds new AI Security Labs"
     ],
     "supersedes": "ins-2026-08-09-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-04-2"
   },
   {
     "id": "ins-2026-09-20-1",

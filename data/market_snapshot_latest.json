@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T04:14:27.136034+00:00",
-  "run_duration_seconds": 189,
+  "generated_at": "2026-10-04T04:50:21.817263+00:00",
+  "run_duration_seconds": 209,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-09-27T04:14:27.136034+00:00",
+      "last_call": "2026-10-04T04:50:21.817263+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 201,
-      "last_call": "2026-09-27T04:14:27.136034+00:00",
+      "calls": 210,
+      "last_call": "2026-10-04T04:50:21.817263+00:00",
       "status": "down"
     },
     {
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-09-27T04:14:27.136034+00:00",
+      "last_call": "2026-10-04T04:50:21.817263+00:00",
       "status": "healthy"
     },
     {
@@ -50,11 +50,109 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 2,
-      "last_call": "2026-09-27T04:14:27.136034+00:00",
+      "last_call": "2026-10-04T04:50:21.817263+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Fluidstack's $50 Billion Deal With Anthropic Anchors a New AI Infrastructure Giant",
+      "domain": "startuply.vc",
+      "hours_ago": 28,
+      "velocity": 100,
+      "why": "Fluidstack's $50B deal with Anthropic creates a new AI infrastructure giant.",
+      "source_url": "https://startuply.vc/article/fluidstack-s-50-billion-deal-with-anthropic-anchors-a-new-ai-infrastructure-gian-bq3qpx",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-04"
+    },
+    {
+      "id": "v2",
+      "title": "Instinct Series C: Surprising $1B Raise and a $10B Risk",
+      "domain": "www.progressiverobot.com",
+      "hours_ago": 148,
+      "velocity": 100,
+      "why": "Viral AI Agent Instinct raises $1B Series C at $10B valuation.",
+      "source_url": "https://www.progressiverobot.com/2026/09/28/instinct-series-c-1b-10b-valuation-viral-ai-agent/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-10-04"
+    },
+    {
+      "id": "v3",
+      "title": "FieldAI Reportedly Raising $700M at $10B Valuation",
+      "domain": "devcuration.com",
+      "hours_ago": 28,
+      "velocity": 100,
+      "why": "FieldAI reportedly raising $700M at $10B valuation, indicating major market confidence.",
+      "source_url": "https://devcuration.com/articles/fieldai-reportedly-raising-700m-at-10b-valuation",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-10-04"
+    },
+    {
+      "id": "v4",
+      "title": "PaleBlueDot AI Raises $200M Series C at $3.2B Valuation to Expand Super Intelligence Compute \u2013 Unite.AI",
+      "domain": "www.unite.ai",
+      "hours_ago": 76,
+      "velocity": 95,
+      "why": "PaleBlueDot AI raises $200M Series C for super intelligence compute expansion.",
+      "source_url": "https://www.unite.ai/palebluedot-ai-raises-200m-series-c-at-3-2b-valuation-to-expand-super-intelligence-compute/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-04"
+    },
+    {
+      "id": "v5",
+      "title": "Flow Engineering Lands $50M Series B at $750M Valuation for Agentic Hardware Platform \u2013 Unite.AI",
+      "domain": "www.unite.ai",
+      "hours_ago": 100,
+      "velocity": 95,
+      "why": "Flow Engineering secures $50M Series B for agentic hardware platform.",
+      "source_url": "https://www.unite.ai/flow-engineering-lands-50m-series-b-at-750m-valuation-for-agentic-hardware-platform/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-04"
+    },
+    {
+      "id": "v6",
+      "title": "We raised an additional $60M to lead the shift to Agentic Recruiting. \u00b7 Metaview Blog",
+      "domain": "www.metaview.ai",
+      "hours_ago": 100,
+      "velocity": 95,
+      "why": "Metaview raises $60M to lead the shift to agentic recruiting.",
+      "source_url": "https://www.metaview.ai/resources/blog/metaview-raised-an-additional-60m-to-lead-the-shift-to-agentic-recruiting",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-10-04"
+    },
+    {
+      "id": "v7",
+      "title": "ZoomInfo Ships Agent Teams Inside Its Existing Platform With No New Fee \u2013 the First GTM Data Vendor to Bundle Agent Orchestration \u2013 Forkast",
+      "domain": "forkast.news",
+      "hours_ago": 28,
+      "velocity": 95,
+      "why": "ZoomInfo ships agent teams within its platform, bundling agent orchestration.",
+      "source_url": "https://forkast.news/zoominfo-ships-agent-teams-inside-its-existing-platform-with-no-new-fee-the-first-gtm-data-vendor-to-bundle-agent-orchestration/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-04"
+    },
     {
       "id": "v1",
       "title": "Cognition's Devin AI coding agent doubles revenue to $1 billion a year - Startup Fortune",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-09-27"
-    },
-    {
-      "id": "v1",
-      "title": "Crusoe Raises $3.9 Billion Series F for its Vertically Integrated AI Infrastructure Platform",
-      "domain": "www.globenewswire.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "Crusoe raises $3.9B Series F for AI infrastructure, fueling vertically integrated AI expansion.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/09/17/3364326/0/en/crusoe-raises-3-9-billion-series-f-for-its-vertically-integrated-ai-infrastructure-platform.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-20"
-    },
-    {
-      "id": "v2",
-      "title": "Factory reaches $5B valuation following $200M funding for AI coding agents \u2013 GenAI Daily",
-      "domain": "genaidaily.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "Factory secures $200M at $5B for AI coding agents, boosting digital labor.",
-      "source_url": "https://genaidaily.com/factory-reaches-5b-valuation-following-200m-funding-for-ai-coding-agents/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-09-20"
-    },
-    {
-      "id": "v3",
-      "title": "Vantora Raises $100M+ to Build Sovereign AI Companies | DevCuration",
-      "domain": "devcuration.com",
-      "hours_ago": 75,
-      "velocity": 95,
-      "why": "Vantora raises $100M+ to build sovereign AI companies, accelerating AI-native enterprise creation.",
-      "source_url": "https://devcuration.com/articles/vantora-raises-100m-sovereign-ai-enterprises",
-      "sources": [
-        "exa"
-      ],
-      "category": "Forward Deployers",
-      "scan_date": "2026-09-20"
-    },
-    {
-      "id": "v4",
-      "title": "Arcee AI Reaches $1B+ Valuation with Series B Funding to Advance Frontier Open-Weight AI",
-      "domain": "www.globenewswire.com",
-      "hours_ago": 99,
-      "velocity": 95,
-      "why": "Arcee AI reaches $1B+ valuation with Series B, advancing foundational open-weight AI infrastructure.",
-      "source_url": "https://www.globenewswire.com/news-release/2026/09/16/3363293/0/en/arcee-ai-reaches-1b-valuation-with-series-b-funding-to-advance-frontier-open-weight-ai.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-20"
-    },
-    {
-      "id": "v5",
-      "title": "Hang Ten Systems Raises Additional $53 Million Led by Xora, a Temasek-Backed Fund, Bringing Total Funding to $85 Million",
-      "domain": "business.am-news.com",
-      "hours_ago": 99,
-      "velocity": 95,
-      "why": "Hang Ten Systems raises additional $53M, totaling $85M, accelerating AI-native enterprise services.",
-      "source_url": "https://business.am-news.com/am-news/article/bizwire-2026-9-16-hang-ten-systems-raises-additional-53-million-led-by-xora-a-temasek-backed-fund-bringing-total-funding-to-85-million",
-      "sources": [
-        "exa"
-      ],
-      "category": "Forward Deployers",
-      "scan_date": "2026-09-20"
-    },
-    {
-      "id": "v6",
-      "title": "Magentic raises $18M to build the AI workforce for the physical world",
-      "domain": "www.prnewswire.com",
-      "hours_ago": 75,
-      "velocity": 90,
-      "why": "Magentic raises $18M to build AI workforce for physical world, expanding digital labor.",
-      "source_url": "https://www.prnewswire.com/news-releases/magentic-raises-18m-to-build-the-ai-workforce-for-the-physical-world-302882356.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-09-20"
-    },
-    {
-      "id": "v7",
-      "title": "Enhans Raises $38 Million in Series C Funding to Advance Its AI-Native Enterprise Operating System | lifestyle.marketresearchjournals.com",
-      "domain": "lifestyle.marketresearchjournals.com",
-      "hours_ago": 75,
-      "velocity": 90,
-      "why": "Enhans raises $38M Series C for AI-native OS, strengthening enterprise orchestration platforms.",
-      "source_url": "https://lifestyle.marketresearchjournals.com/story/883126/enhans-raises-38-million-in-series-c-funding-to-advance-its-ai-native-enterprise-operating-system/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-20"
     }
   ],
   "competitor_map": [
@@ -4256,6 +4256,106 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-10-04-1",
+      "scan_date": "2026-10-04",
+      "generated_at": "2026-10-04T04:50:21.815496+00:00",
+      "title": "General AI Agent Foundries Achieve $10B Valuations",
+      "insight": "Companies developing broad enterprise AI agents, not just specialized coding agents, are now commanding multi-billion dollar valuations and significant funding rounds, signaling market confidence in their ability to deliver widespread enterprise transformation. This indicates a broadening of investor appetite for agentic solutions beyond specific niche applications.",
+      "trend": "The market is recognizing the potential for general-purpose AI agents to automate diverse enterprise workflows, driving investor interest beyond niche applications and towards more comprehensive AI-driven business transformation.",
+      "category": "Agent Foundries",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Instinct Series C: Surprising $1B Raise and a $10B Risk",
+        "FieldAI Reportedly Raising $700M at $10B Valuation"
+      ],
+      "supersedes": "ins-2026-09-27-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-04-2",
+      "scan_date": "2026-10-04",
+      "generated_at": "2026-10-04T04:50:21.815496+00:00",
+      "title": "Enterprise Incumbents Acquire Agentic Specialists for Core Integration",
+      "insight": "Established enterprise software and service providers are actively acquiring specialized AI agent companies to embed autonomous capabilities directly into their core platforms and offerings, moving beyond partnerships to deep integration. This strategic M&A activity aims to enhance existing product suites with advanced agentic automation.",
+      "trend": "Incumbents are recognizing the imperative to own and integrate agentic AI to maintain competitive advantage and deliver comprehensive, AI-native solutions to their customer base, accelerating their own AI transformation.",
+      "category": "Transformation Titans",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "HCLSoftware to Acquire Robotiq.ai, Strengthening Enterprise Agentic Automation",
+        "Sovos Acquires Flowie, Launching the Industry's First Agentic Compliant Finance Orchestration Platform",
+        "ZoomInfo Acquires DoubleO.ai to Make AI Agents Reliable Enough to Run Go-to-Market Motions",
+        "AppDirect Acquires Soul Machines to Expand Enterprise AI Experiences for Advisors and Businesses",
+        "Mitratech Acquires AI-Native Startup BotDojo",
+        "TCN Acquires Abstrakt to Expand AI Agent Assist and Automated QA Capabilities"
+      ],
+      "supersedes": "ins-2026-09-27-5",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-04-3",
+      "scan_date": "2026-10-04",
+      "generated_at": "2026-10-04T04:50:21.815496+00:00",
+      "title": "Durable Infrastructure and Observability Critical for Agent Deployment",
+      "insight": "Significant investment is flowing into platforms that ensure the reliability, durability, and comprehensive observability of AI agents in production environments, addressing the critical need for resilient and monitorable agent operations. This highlights the growing maturity requirements for enterprise-grade AI agent deployments.",
+      "trend": "As AI agents move from pilots to mission-critical enterprise deployments, the market demands robust infrastructure that guarantees continuous operation and provides deep insights into agent performance and behavior, driving specialized infrastructure development.",
+      "category": "Platform Gravity",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+        "Dynatrace Completes Acquisition of Arize, Extending AI Observability Across the Full Development Lifecycle"
+      ],
+      "supersedes": "ins-2026-09-27-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-04-4",
+      "scan_date": "2026-10-04",
+      "generated_at": "2026-10-04T04:50:21.815496+00:00",
+      "title": "Major Platforms Launch Governed Agentic Orchestration",
+      "insight": "Leading enterprise platform providers like Oracle and IBM are introducing sophisticated, governed orchestration layers and expanded management capabilities for AI agents, enabling secure and controlled deployment of autonomous workflows within their ecosystems. This signifies a move towards integrated and managed agent environments by established players.",
+      "trend": "Platform providers are moving to centralize the management and governance of AI agents to ensure enterprise-grade security, compliance, and performance as agents become integral to business processes.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Oracle Extends Fusion Agentic Applications with Introduction of Fusion Claw",
+        "New in IBM watsonx Orchestrate: Expanded third-party agent management and Agent Identities",
+        "66degrees Releases ParadigmOS to Accelerate Enterprise AI Workflow Transformation",
+        "Coforge Launches CXNova, an Agentic CX Orchestration Platform that Delivers Intelligent, Real-Time Customer Experiences"
+      ],
+      "supersedes": "ins-2026-09-27-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-04-5",
+      "scan_date": "2026-10-04",
+      "generated_at": "2026-10-04T04:50:21.815496+00:00",
+      "title": "Outcome-Based Pricing Emerges for AI Agent Solutions",
+      "insight": "The AI-transformation market is seeing a growing emphasis on outcome-based pricing models for AI agent solutions, shifting from traditional seat-based or usage-based pricing to align with the value delivered. This indicates a maturing market where vendors are increasingly confident in the measurable impact of their agentic offerings.",
+      "trend": "As AI agents demonstrate tangible business outcomes and ROI, vendors are adapting their monetization strategies to reflect the direct impact generated by these autonomous systems, fostering greater enterprise adoption and trust.",
+      "category": "Forward Deployers",
+      "magnitude": 50,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Outcome-Based Pricing for AI Startups: SaaS Playbook | ToolsToFind Blog"
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-09-27-1",
       "scan_date": "2026-09-27",
       "generated_at": "2026-09-27T04:14:27.133847+00:00",
@@ -4271,7 +4371,7 @@
         "Cognition's Devin AI coding agent doubles revenue to $1 billion a year - Startup Fortune"
       ],
       "supersedes": "ins-2026-09-13-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-04-1"
     },
     {
       "id": "ins-2026-09-27-2",
@@ -4293,7 +4393,7 @@
         "UiPath Enhances and Strengthens UiPath Platform\u2122 | UiPath"
       ],
       "supersedes": "ins-2026-09-20-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-04-4"
     },
     {
       "id": "ins-2026-09-27-3",
@@ -4352,7 +4452,7 @@
         "Upwind acquires Aegis as cybersecurity firm builds new AI Security Labs"
       ],
       "supersedes": "ins-2026-08-09-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-04-2"
     },
     {
       "id": "ins-2026-09-20-1",
@@ -6346,6 +6446,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-10-04",
+      "generated_at": "2026-10-04T04:50:21.817263+00:00",
+      "events_scanned": 588,
+      "red_deltas": 0,
+      "new_insights": 5,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 209
+    },
     {
       "date": "2026-09-27",
       "generated_at": "2026-09-27T04:14:27.136034+00:00",
