@@ -1,5 +1,113 @@
 [
   {
+    "id": "ins-2026-10-11-1",
+    "scan_date": "2026-10-11",
+    "generated_at": "2026-10-11T04:38:06.564950+00:00",
+    "title": "Foundational Agent Platforms Attract Record-Breaking Capital",
+    "insight": "General-purpose AI agent foundries and underlying machine-native AI platforms are securing exceptionally large funding rounds at early stages, indicating intense investor confidence in the foundational layers required for widespread agentic deployment. This capital influx suggests a race to build the core infrastructure for future AI-driven business outcomes.",
+    "trend": "The market is recognizing the critical importance of robust, scalable, and general-purpose AI agent platforms, leading to a significant acceleration of investment in companies building these foundational capabilities.",
+    "category": "Agent Foundries",
+    "magnitude": 95,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Manus raises $500M+ at $4B valuation",
+      "TypeSafe AI raises $870M Series A at $7.5B valuation for machine-native AI",
+      "Nous Research raises $90M Series B at $1.5B valuation"
+    ],
+    "supersedes": "ins-2026-10-04-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-11-2",
+    "scan_date": "2026-10-11",
+    "generated_at": "2026-10-11T04:38:06.564950+00:00",
+    "title": "Incumbents Accelerate Agentic M&A for Deep Integration",
+    "insight": "Established enterprise software and automation providers are rapidly acquiring specialized AI agent companies to embed autonomous capabilities directly into their core platforms and workflows across diverse functions. This M&A spree signifies a strategic imperative to integrate agentic AI deeply, moving beyond superficial additions to fundamental operational transformation.",
+    "trend": "Enterprise incumbents are aggressively consolidating the agentic AI market to enhance their existing product suites, driven by the need to offer comprehensive, integrated, and autonomous solutions that deliver tangible business value.",
+    "category": "Transformation Titans",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Automation Anywhere acquires Boost.ai for conversational AI",
+      "SAP acquires TechWolf for workforce intelligence",
+      "ZoomInfo acquires DoubleO.ai for sales automation",
+      "HCLSoftware acquires Robotiq.ai for agentic automation",
+      "Collibra buys Trail ML for AI governance automation",
+      "Harness acquires Augment Code Assets for coding agents"
+    ],
+    "supersedes": "ins-2026-10-04-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-11-3",
+    "scan_date": "2026-10-11",
+    "generated_at": "2026-10-11T04:38:06.564950+00:00",
+    "title": "Dedicated Agentic Control Planes and Workflow Factories Emerge",
+    "insight": "Major enterprise platforms are launching explicit 'Agentic Control Planes' and 'AI Workflow Factories' to provide robust, governed environments for the continuous deployment, management, and improvement of AI agents. This signifies a maturation of the market towards operationalizing and scaling agentic AI with built-in governance, reliability, and agility.",
+    "trend": "As AI agents move from experimental to production-critical, enterprises demand sophisticated tools for secure, controlled, and scalable deployment, leading platform providers to offer dedicated infrastructure for agent lifecycle management and workflow automation.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "IBM rolls out Agentic Control Plane",
+      "ServiceNow launches AI Workflow Factory",
+      "Stonebranch launches Hybrid Orchestration Control Plane",
+      "Zylo launches Zylo Clarity AI for Agentic SaaS Management",
+      "Intellias launches Agentic ServiceOps",
+      "OnX launches Forge Agents to deliver custom AI agents in days",
+      "Orca Agent Engine open-sourcing for managed agents"
+    ],
+    "supersedes": "ins-2026-10-04-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-11-4",
+    "scan_date": "2026-10-11",
+    "generated_at": "2026-10-11T04:38:06.564950+00:00",
+    "title": "Proven ROI Validates Outcome-Based Agentic Transformation",
+    "insight": "The market is seeing concrete evidence of significant return on investment from agentic platforms, with companies reporting billions in enterprise transformation value and investors backing solutions explicitly focused on 'owning business outcomes.' This validates the shift towards outcome-based models and highlights the tangible impact of deployed AI agents.",
+    "trend": "The demand for measurable business impact is driving the adoption of AI agent solutions that can demonstrate clear ROI, pushing vendors towards outcome-based value propositions and fostering investor confidence in these models.",
+    "category": "Transformation Titans",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "Trmeric's agentic platform powers $1B in enterprise transformation",
+      "Index Ventures invests in Hone, focused on AI that owns business outcomes",
+      "Infor research finds off-the-shelf AI falls short, emphasizing industry-specific AI"
+    ],
+    "supersedes": "ins-2026-10-04-5",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-11-5",
+    "scan_date": "2026-10-11",
+    "generated_at": "2026-10-11T04:38:06.564950+00:00",
+    "title": "Regional Sovereign AI Infrastructure Build-Out Accelerates",
+    "insight": "The concept of Sovereign AI is materializing into large-scale, regionally focused infrastructure and deployment initiatives, with significant capital directed towards building AI data centers and developing sovereign AI capabilities in specific geographic markets. This reflects a strategic imperative for national and regional control over AI resources and deployment.",
+    "trend": "Geopolitical considerations and the need for localized control over AI infrastructure, data, and models are driving substantial investments in regional AI build-outs, moving beyond foundational models to comprehensive deployment ecosystems.",
+    "category": "Platform Gravity",
+    "magnitude": 88,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "KONST raises $30M to scale AI data center buildout in Asia",
+      "Moonshot AI's $50 Billion Blueprint for Sovereign AI Capital",
+      "OrbitronAI and Aramco Digital partner for Industrial AI in Saudi Arabia",
+      "OneByZero raises $20M to scale governed AI agents in Asia"
+    ],
+    "supersedes": "ins-2026-09-20-1",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-10-04-1",
     "scan_date": "2026-10-04",
     "generated_at": "2026-10-04T04:50:21.815496+00:00",
@@ -16,7 +124,7 @@
       "FieldAI Reportedly Raising $700M at $10B Valuation"
     ],
     "supersedes": "ins-2026-09-27-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-11-1"
   },
   {
     "id": "ins-2026-10-04-2",
@@ -39,7 +147,7 @@
       "TCN Acquires Abstrakt to Expand AI Agent Assist and Automated QA Capabilities"
     ],
     "supersedes": "ins-2026-09-27-5",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-11-2"
   },
   {
     "id": "ins-2026-10-04-3",
@@ -79,7 +187,7 @@
       "Coforge Launches CXNova, an Agentic CX Orchestration Platform that Delivers Intelligent, Real-Time Customer Experiences"
     ],
     "supersedes": "ins-2026-09-27-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-11-3"
   },
   {
     "id": "ins-2026-10-04-5",
@@ -97,7 +205,7 @@
       "Outcome-Based Pricing for AI Startups: SaaS Playbook | ToolsToFind Blog"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-11-4"
   },
   {
     "id": "ins-2026-09-27-1",
@@ -218,7 +326,7 @@
       "Cohere and Aleph Alpha Sign Agreement to Become the First Transatlantic Sovereign AI Solution"
     ],
     "supersedes": "ins-2026-09-13-5",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-11-5"
   },
   {
     "id": "ins-2026-09-20-2",

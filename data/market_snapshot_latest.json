@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T04:50:21.817263+00:00",
-  "run_duration_seconds": 209,
+  "generated_at": "2026-10-11T04:38:06.566901+00:00",
+  "run_duration_seconds": 205,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-10-04T04:50:21.817263+00:00",
+      "last_call": "2026-10-11T04:38:06.566901+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 210,
-      "last_call": "2026-10-04T04:50:21.817263+00:00",
+      "calls": 201,
+      "last_call": "2026-10-11T04:38:06.566901+00:00",
       "status": "down"
     },
     {
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-10-04T04:50:21.817263+00:00",
+      "last_call": "2026-10-11T04:38:06.566901+00:00",
       "status": "healthy"
     },
     {
@@ -49,12 +49,110 @@
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 2,
-      "last_call": "2026-10-04T04:50:21.817263+00:00",
+      "calls": 1,
+      "last_call": "2026-10-11T04:38:06.566901+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Manus Raises Over $500 Mn After Meta Split, Tests $4 Bn Valuation Ambitions",
+      "domain": "apac.entrepreneur.com",
+      "hours_ago": 28,
+      "velocity": 100,
+      "why": "Manus's substantial funding and valuation signals strong investor confidence in general-purpose AI agents.",
+      "source_url": "https://apac.entrepreneur.com/business-news/manus-raises-over-500-mn-after-meta-split-tests-4-bn-valuation-ambitions",
+      "sources": [
+        "exa"
+      ],
+      "category": "Digital Labor",
+      "scan_date": "2026-10-11"
+    },
+    {
+      "id": "v2",
+      "title": "TypeSafe AI Raises $870M Series A for Machine-Native AI | DevCuration",
+      "domain": "devcuration.com",
+      "hours_ago": 28,
+      "velocity": 100,
+      "why": "TypeSafe AI's colossal Series A and valuation underscore demand for machine-native AI models.",
+      "source_url": "https://devcuration.com/articles/typesafe-ai-raises-870m-series-a-machine-native-ai",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-11"
+    },
+    {
+      "id": "v3",
+      "title": "Nous Research Hits $1.5B Valuation, Launches Hermes for\u2026",
+      "domain": "lumienai.com",
+      "hours_ago": 76,
+      "velocity": 100,
+      "why": "Nous Research's unicorn valuation and enterprise agent launch signify a market shift.",
+      "source_url": "https://lumienai.com/news/nous-research-1-5b-valuation-hermes-for-businesses-ai-agents",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-10-11"
+    },
+    {
+      "id": "v4",
+      "title": "ZoomInfo acquires DoubleO.ai to bring multi-agent automation into sales workflows",
+      "domain": "www.thefrontier.dev",
+      "hours_ago": 52,
+      "velocity": 95,
+      "why": "ZoomInfo's acquisition of DoubleO.ai integrates multi-agent automation into sales workflows.",
+      "source_url": "https://www.thefrontier.dev/articles/zoominfo-acquires-doubleo-ai-orchestration",
+      "sources": [
+        "exa"
+      ],
+      "category": "Vertical Specialists",
+      "scan_date": "2026-10-11"
+    },
+    {
+      "id": "v5",
+      "title": "Monid\u2019s $7.7M Seed Signals the First Dedicated Infrastructure Raise for Agent Commerce \u2013 Forkast",
+      "domain": "forkast.news",
+      "hours_ago": 76,
+      "velocity": 95,
+      "why": "Monid's seed funding highlights emerging infrastructure needs for agent-driven commerce.",
+      "source_url": "https://forkast.news/monids-7-7m-seed-signals-the-first-dedicated-infrastructure-raise-for-agent-commerce/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-11"
+    },
+    {
+      "id": "v6",
+      "title": "Automation Anywhere acquires Boost.ai to expand customer-facing voice AI - SiliconANGLE",
+      "domain": "siliconangle.com",
+      "hours_ago": 76,
+      "velocity": 95,
+      "why": "Automation Anywhere's acquisition of Boost.ai expands its platform for customer-facing voice AI.",
+      "source_url": "https://siliconangle.com/2026/10/08/automation-anywhere-acquires-boost-ai-to-expand-customer-facing-voice-ai/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-11"
+    },
+    {
+      "id": "v7",
+      "title": "Trmeric Raises $6.5 Million Led by Hitachi Ventures as Agentic Platform Powers $1 Billion in Enterprise Transformation",
+      "domain": "www.prnewswire.com",
+      "hours_ago": 100,
+      "velocity": 95,
+      "why": "Trmeric's funding validates agentic platforms driving significant enterprise transformation.",
+      "source_url": "https://www.prnewswire.com/news-releases/trmeric-raises-6-5-million-led-by-hitachi-ventures-as-agentic-platform-powers-1-billion-in-enterprise-transformation-302900795.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-10-11"
+    },
     {
       "id": "v1",
       "title": "Fluidstack's $50 Billion Deal With Anthropic Anchors a New AI Infrastructure Giant",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-10-04"
-    },
-    {
-      "id": "v1",
-      "title": "Cognition's Devin AI coding agent doubles revenue to $1 billion a year - Startup Fortune",
-      "domain": "startupfortune.com",
-      "hours_ago": 28,
-      "velocity": 95,
-      "why": "Demonstrates strong market traction and revenue growth for AI software engineers.",
-      "source_url": "https://startupfortune.com/cognitions-devin-ai-coding-agent-doubles-revenue-to-1-billion-a-year/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-09-27"
-    },
-    {
-      "id": "v2",
-      "title": "Ema Raises $77 Million In Series B Funding Round - Tech Company News",
-      "domain": "www.techcompanynews.com",
-      "hours_ago": 28,
-      "velocity": 95,
-      "why": "Highlights increasing investment in AI employees automating core enterprise functions.",
-      "source_url": "https://www.techcompanynews.com/ema-raises-77-million-in-series-b-funding-round/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-09-27"
-    },
-    {
-      "id": "v3",
-      "title": "TypeSafe AI seeks $1B in funding as Jev model gains traction",
-      "domain": "cryptobriefing.com",
-      "hours_ago": 28,
-      "velocity": 95,
-      "why": "Reveals massive capital interest in foundational AI models and agentic platforms.",
-      "source_url": "https://cryptobriefing.com/typesafe-ai-billion-dollar-funding-jev-model/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-09-27"
-    },
-    {
-      "id": "v4",
-      "title": "Vantora Secures Over $100 Million to Accelerate AI\u2011Native Startup \u2014 TechBriefe",
-      "domain": "techbriefe.com",
-      "hours_ago": 28,
-      "velocity": 95,
-      "why": "Signals strong investment in companies that accelerate the creation of AI-native solutions.",
-      "source_url": "https://techbriefe.com/tech/ai/vantora-secures-over-100-million-to-accelerate-ainative-startup-development",
-      "sources": [
-        "exa"
-      ],
-      "category": "Forward Deployers",
-      "scan_date": "2026-09-27"
-    },
-    {
-      "id": "v5",
-      "title": "TECHSHOTS | <!-- -->RVAI Acquihires Tynybay to Build Next-Gen Agentic AI Services Platform",
-      "domain": "www.techshotsapp.com",
-      "hours_ago": 52,
-      "velocity": 95,
-      "why": "Indicates talent acquisition and consolidation to build advanced agentic AI platforms.",
-      "source_url": "https://www.techshotsapp.com/artificial-intelligence/rvai-acquihires-tynybay-to-build-next-gen-agentic-ai-services-platform",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-09-27"
-    },
-    {
-      "id": "v6",
-      "title": "Island Announces $400 Million Series F, Bringing Valuation to $6.4 Billion",
-      "domain": "www.island.io",
-      "hours_ago": 76,
-      "velocity": 95,
-      "why": "Indicates significant capital flowing into foundational platforms supporting AI agent deployment.",
-      "source_url": "https://www.island.io/press/island-announces-400-million-series-f-bringing-valuation-to-6-4-billion",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-27"
-    },
-    {
-      "id": "v7",
-      "title": "Silk secures $45 mn growth facility for agentic AI data platform",
-      "domain": "beinsure.com",
-      "hours_ago": 76,
-      "velocity": 95,
-      "why": "Reinforces the need for robust data infrastructure to support agentic AI at scale.",
-      "source_url": "https://beinsure.com/news/silk-secures-45mn-growth-facility-for-agentic-ai-data-platform/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-09-27"
     }
   ],
   "competitor_map": [
@@ -4256,6 +4256,114 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-10-11-1",
+      "scan_date": "2026-10-11",
+      "generated_at": "2026-10-11T04:38:06.564950+00:00",
+      "title": "Foundational Agent Platforms Attract Record-Breaking Capital",
+      "insight": "General-purpose AI agent foundries and underlying machine-native AI platforms are securing exceptionally large funding rounds at early stages, indicating intense investor confidence in the foundational layers required for widespread agentic deployment. This capital influx suggests a race to build the core infrastructure for future AI-driven business outcomes.",
+      "trend": "The market is recognizing the critical importance of robust, scalable, and general-purpose AI agent platforms, leading to a significant acceleration of investment in companies building these foundational capabilities.",
+      "category": "Agent Foundries",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Manus raises $500M+ at $4B valuation",
+        "TypeSafe AI raises $870M Series A at $7.5B valuation for machine-native AI",
+        "Nous Research raises $90M Series B at $1.5B valuation"
+      ],
+      "supersedes": "ins-2026-10-04-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-11-2",
+      "scan_date": "2026-10-11",
+      "generated_at": "2026-10-11T04:38:06.564950+00:00",
+      "title": "Incumbents Accelerate Agentic M&A for Deep Integration",
+      "insight": "Established enterprise software and automation providers are rapidly acquiring specialized AI agent companies to embed autonomous capabilities directly into their core platforms and workflows across diverse functions. This M&A spree signifies a strategic imperative to integrate agentic AI deeply, moving beyond superficial additions to fundamental operational transformation.",
+      "trend": "Enterprise incumbents are aggressively consolidating the agentic AI market to enhance their existing product suites, driven by the need to offer comprehensive, integrated, and autonomous solutions that deliver tangible business value.",
+      "category": "Transformation Titans",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Automation Anywhere acquires Boost.ai for conversational AI",
+        "SAP acquires TechWolf for workforce intelligence",
+        "ZoomInfo acquires DoubleO.ai for sales automation",
+        "HCLSoftware acquires Robotiq.ai for agentic automation",
+        "Collibra buys Trail ML for AI governance automation",
+        "Harness acquires Augment Code Assets for coding agents"
+      ],
+      "supersedes": "ins-2026-10-04-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-11-3",
+      "scan_date": "2026-10-11",
+      "generated_at": "2026-10-11T04:38:06.564950+00:00",
+      "title": "Dedicated Agentic Control Planes and Workflow Factories Emerge",
+      "insight": "Major enterprise platforms are launching explicit 'Agentic Control Planes' and 'AI Workflow Factories' to provide robust, governed environments for the continuous deployment, management, and improvement of AI agents. This signifies a maturation of the market towards operationalizing and scaling agentic AI with built-in governance, reliability, and agility.",
+      "trend": "As AI agents move from experimental to production-critical, enterprises demand sophisticated tools for secure, controlled, and scalable deployment, leading platform providers to offer dedicated infrastructure for agent lifecycle management and workflow automation.",
+      "category": "Platform Gravity",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "IBM rolls out Agentic Control Plane",
+        "ServiceNow launches AI Workflow Factory",
+        "Stonebranch launches Hybrid Orchestration Control Plane",
+        "Zylo launches Zylo Clarity AI for Agentic SaaS Management",
+        "Intellias launches Agentic ServiceOps",
+        "OnX launches Forge Agents to deliver custom AI agents in days",
+        "Orca Agent Engine open-sourcing for managed agents"
+      ],
+      "supersedes": "ins-2026-10-04-4",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-11-4",
+      "scan_date": "2026-10-11",
+      "generated_at": "2026-10-11T04:38:06.564950+00:00",
+      "title": "Proven ROI Validates Outcome-Based Agentic Transformation",
+      "insight": "The market is seeing concrete evidence of significant return on investment from agentic platforms, with companies reporting billions in enterprise transformation value and investors backing solutions explicitly focused on 'owning business outcomes.' This validates the shift towards outcome-based models and highlights the tangible impact of deployed AI agents.",
+      "trend": "The demand for measurable business impact is driving the adoption of AI agent solutions that can demonstrate clear ROI, pushing vendors towards outcome-based value propositions and fostering investor confidence in these models.",
+      "category": "Transformation Titans",
+      "magnitude": 80,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Trmeric's agentic platform powers $1B in enterprise transformation",
+        "Index Ventures invests in Hone, focused on AI that owns business outcomes",
+        "Infor research finds off-the-shelf AI falls short, emphasizing industry-specific AI"
+      ],
+      "supersedes": "ins-2026-10-04-5",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-11-5",
+      "scan_date": "2026-10-11",
+      "generated_at": "2026-10-11T04:38:06.564950+00:00",
+      "title": "Regional Sovereign AI Infrastructure Build-Out Accelerates",
+      "insight": "The concept of Sovereign AI is materializing into large-scale, regionally focused infrastructure and deployment initiatives, with significant capital directed towards building AI data centers and developing sovereign AI capabilities in specific geographic markets. This reflects a strategic imperative for national and regional control over AI resources and deployment.",
+      "trend": "Geopolitical considerations and the need for localized control over AI infrastructure, data, and models are driving substantial investments in regional AI build-outs, moving beyond foundational models to comprehensive deployment ecosystems.",
+      "category": "Platform Gravity",
+      "magnitude": 88,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "KONST raises $30M to scale AI data center buildout in Asia",
+        "Moonshot AI's $50 Billion Blueprint for Sovereign AI Capital",
+        "OrbitronAI and Aramco Digital partner for Industrial AI in Saudi Arabia",
+        "OneByZero raises $20M to scale governed AI agents in Asia"
+      ],
+      "supersedes": "ins-2026-09-20-1",
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-10-04-1",
       "scan_date": "2026-10-04",
       "generated_at": "2026-10-04T04:50:21.815496+00:00",
@@ -4272,7 +4380,7 @@
         "FieldAI Reportedly Raising $700M at $10B Valuation"
       ],
       "supersedes": "ins-2026-09-27-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-11-1"
     },
     {
       "id": "ins-2026-10-04-2",
@@ -4295,7 +4403,7 @@
         "TCN Acquires Abstrakt to Expand AI Agent Assist and Automated QA Capabilities"
       ],
       "supersedes": "ins-2026-09-27-5",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-11-2"
     },
     {
       "id": "ins-2026-10-04-3",
@@ -4335,7 +4443,7 @@
         "Coforge Launches CXNova, an Agentic CX Orchestration Platform that Delivers Intelligent, Real-Time Customer Experiences"
       ],
       "supersedes": "ins-2026-09-27-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-11-3"
     },
     {
       "id": "ins-2026-10-04-5",
@@ -4353,7 +4461,7 @@
         "Outcome-Based Pricing for AI Startups: SaaS Playbook | ToolsToFind Blog"
       ],
       "supersedes": null,
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-11-4"
     },
     {
       "id": "ins-2026-09-27-1",
@@ -4474,7 +4582,7 @@
         "Cohere and Aleph Alpha Sign Agreement to Become the First Transatlantic Sovereign AI Solution"
       ],
       "supersedes": "ins-2026-09-13-5",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-11-5"
     },
     {
       "id": "ins-2026-09-20-2",
@@ -6446,6 +6554,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-10-11",
+      "generated_at": "2026-10-11T04:38:06.566901+00:00",
+      "events_scanned": 600,
+      "red_deltas": 0,
+      "new_insights": 5,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 205
+    },
     {
       "date": "2026-10-04",
       "generated_at": "2026-10-04T04:50:21.817263+00:00",
