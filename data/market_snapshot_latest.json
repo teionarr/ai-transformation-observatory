@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T04:38:06.566901+00:00",
-  "run_duration_seconds": 205,
+  "generated_at": "2026-10-18T03:32:55.641143+00:00",
+  "run_duration_seconds": 167,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-10-11T04:38:06.566901+00:00",
+      "last_call": "2026-10-18T03:32:55.641143+00:00",
       "status": "healthy"
     },
     {
@@ -32,7 +32,7 @@
       "kind": "change-tracking scrape",
       "glyph": "flame",
       "calls": 201,
-      "last_call": "2026-10-11T04:38:06.566901+00:00",
+      "last_call": "2026-10-18T03:32:55.641143+00:00",
       "status": "down"
     },
     {
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-10-11T04:38:06.566901+00:00",
+      "last_call": "2026-10-18T03:32:55.641143+00:00",
       "status": "healthy"
     },
     {
@@ -50,11 +50,109 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 1,
-      "last_call": "2026-10-11T04:38:06.566901+00:00",
+      "last_call": "2026-10-18T03:32:55.641143+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Anthropic signs HCLTech, Salesforce buys Loops, and more - Enterprise AI Brief #89",
+      "domain": "dailyaibrief.com",
+      "hours_ago": 27,
+      "velocity": 95,
+      "why": "Salesforce acquires Loops, Anthropic partners HCLTech, signaling platform consolidation and ecosystem growth.",
+      "source_url": "https://dailyaibrief.com/newsletters/enterprise-ai-brief/2026-10-17-anthropic-signs-hcltech-salesforce-buys-loops-and-more-enterprise-ai-brief-89",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-18"
+    },
+    {
+      "id": "v2",
+      "title": "Duvo Raises $32 Million Series A to Become the One Platform Enterprises Run Their Operations On",
+      "domain": "www.duvo.ai",
+      "hours_ago": 99,
+      "velocity": 95,
+      "why": "Duvo raises Series A to become core platform for enterprise AI operations.",
+      "source_url": "https://www.duvo.ai/blog/duvo-raises-32-million-series-a-balderton-capital",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-18"
+    },
+    {
+      "id": "v3",
+      "title": "Rocket Software Announces Acquisition of Geniez AI to Accelerate Agentic AI for Mainframe Modernization | Rocket Software",
+      "domain": "www.rocketsoftware.com",
+      "hours_ago": 123,
+      "velocity": 95,
+      "why": "Rocket Software acquires Geniez AI to accelerate agentic AI for mainframe modernization.",
+      "source_url": "https://www.rocketsoftware.com/en-us/news/rocket-software-announces-acquisition-of-geniez-ai-to-accelerate-agentic-ai-for-mainframe-modernization",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-18"
+    },
+    {
+      "id": "v4",
+      "title": "Workday to Acquire C1.ai, a Leading Agentic Identity Platform for People and Agents | Workday",
+      "domain": "investor.workday.com",
+      "hours_ago": 123,
+      "velocity": 95,
+      "why": "Workday acquires C1.ai, strengthening its agentic identity platform for people and agents.",
+      "source_url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-18"
+    },
+    {
+      "id": "v5",
+      "title": "Parallel Loop launches with $6.6M seed funding led by 3one4 Capital to bring enterprise AI transformation to Asia, Europe and the Middle East \u2014 Parallel Loop",
+      "domain": "parallelloop.ai",
+      "hours_ago": 99,
+      "velocity": 90,
+      "why": "New entrant secures seed funding to bring enterprise AI transformation to Asia, Europe, Middle East.",
+      "source_url": "https://parallelloop.ai/newsroom-parallel-loop-launch",
+      "sources": [
+        "exa"
+      ],
+      "category": "Forward Deployers",
+      "scan_date": "2026-10-18"
+    },
+    {
+      "id": "v6",
+      "title": "Uvi raises $7.5M to help AI agents learn business context and run at eight times lower cost - SiliconANGLE",
+      "domain": "siliconangle.com",
+      "hours_ago": 99,
+      "velocity": 90,
+      "why": "Funding enables AI agents to learn business context, reducing operational costs significantly.",
+      "source_url": "https://siliconangle.com/2026/10/14/uvi-raises-7-5m-help-ai-agents-learn-business-context/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-10-18"
+    },
+    {
+      "id": "v7",
+      "title": "Transparent, Traceable, Deterministic: Agentic Memory via Knowledge Graphs for ISWC 2026 - IBM Research",
+      "domain": "research.ibm.com",
+      "hours_ago": 1,
+      "velocity": 50,
+      "why": "IBM Research explores agentic memory via knowledge graphs for transparent, traceable AI.",
+      "source_url": "https://research.ibm.com/publications/transparent-traceable-deterministic-agentic-memory-via-knowledge-graphs",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-18"
+    },
     {
       "id": "v1",
       "title": "Manus Raises Over $500 Mn After Meta Split, Tests $4 Bn Valuation Ambitions",
@@ -152,104 +250,6 @@
       ],
       "category": "Agent Foundries",
       "scan_date": "2026-10-11"
-    },
-    {
-      "id": "v1",
-      "title": "Fluidstack's $50 Billion Deal With Anthropic Anchors a New AI Infrastructure Giant",
-      "domain": "startuply.vc",
-      "hours_ago": 28,
-      "velocity": 100,
-      "why": "Fluidstack's $50B deal with Anthropic creates a new AI infrastructure giant.",
-      "source_url": "https://startuply.vc/article/fluidstack-s-50-billion-deal-with-anthropic-anchors-a-new-ai-infrastructure-gian-bq3qpx",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-04"
-    },
-    {
-      "id": "v2",
-      "title": "Instinct Series C: Surprising $1B Raise and a $10B Risk",
-      "domain": "www.progressiverobot.com",
-      "hours_ago": 148,
-      "velocity": 100,
-      "why": "Viral AI Agent Instinct raises $1B Series C at $10B valuation.",
-      "source_url": "https://www.progressiverobot.com/2026/09/28/instinct-series-c-1b-10b-valuation-viral-ai-agent/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-10-04"
-    },
-    {
-      "id": "v3",
-      "title": "FieldAI Reportedly Raising $700M at $10B Valuation",
-      "domain": "devcuration.com",
-      "hours_ago": 28,
-      "velocity": 100,
-      "why": "FieldAI reportedly raising $700M at $10B valuation, indicating major market confidence.",
-      "source_url": "https://devcuration.com/articles/fieldai-reportedly-raising-700m-at-10b-valuation",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-10-04"
-    },
-    {
-      "id": "v4",
-      "title": "PaleBlueDot AI Raises $200M Series C at $3.2B Valuation to Expand Super Intelligence Compute \u2013 Unite.AI",
-      "domain": "www.unite.ai",
-      "hours_ago": 76,
-      "velocity": 95,
-      "why": "PaleBlueDot AI raises $200M Series C for super intelligence compute expansion.",
-      "source_url": "https://www.unite.ai/palebluedot-ai-raises-200m-series-c-at-3-2b-valuation-to-expand-super-intelligence-compute/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-04"
-    },
-    {
-      "id": "v5",
-      "title": "Flow Engineering Lands $50M Series B at $750M Valuation for Agentic Hardware Platform \u2013 Unite.AI",
-      "domain": "www.unite.ai",
-      "hours_ago": 100,
-      "velocity": 95,
-      "why": "Flow Engineering secures $50M Series B for agentic hardware platform.",
-      "source_url": "https://www.unite.ai/flow-engineering-lands-50m-series-b-at-750m-valuation-for-agentic-hardware-platform/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-04"
-    },
-    {
-      "id": "v6",
-      "title": "We raised an additional $60M to lead the shift to Agentic Recruiting. \u00b7 Metaview Blog",
-      "domain": "www.metaview.ai",
-      "hours_ago": 100,
-      "velocity": 95,
-      "why": "Metaview raises $60M to lead the shift to agentic recruiting.",
-      "source_url": "https://www.metaview.ai/resources/blog/metaview-raised-an-additional-60m-to-lead-the-shift-to-agentic-recruiting",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-10-04"
-    },
-    {
-      "id": "v7",
-      "title": "ZoomInfo Ships Agent Teams Inside Its Existing Platform With No New Fee \u2013 the First GTM Data Vendor to Bundle Agent Orchestration \u2013 Forkast",
-      "domain": "forkast.news",
-      "hours_ago": 28,
-      "velocity": 95,
-      "why": "ZoomInfo ships agent teams within its platform, bundling agent orchestration.",
-      "source_url": "https://forkast.news/zoominfo-ships-agent-teams-inside-its-existing-platform-with-no-new-fee-the-first-gtm-data-vendor-to-bundle-agent-orchestration/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-04"
     }
   ],
   "competitor_map": [
@@ -879,7 +879,7 @@
       "url": "salesforce.com",
       "category": "Platform Gravity",
       "status": "Incumbent",
-      "funding": "Public (Salesforce) \u00b7 Acq. Fin $3.6B",
+      "funding": "Public (Salesforce) \u00b7 Acq. Fin $3.6B \u00b7 Acq. Loops",
       "team": null,
       "why": "Adjacent. CRM-native agents (Atlas engine), ~$2/conversation; deploy across service/sales/marketing. The platform enterprises may build on instead of buying a layer.",
       "anchor": false,
@@ -888,9 +888,9 @@
       "discovery_relevance": null,
       "scanned": "2026-08-23 01:30",
       "hash": "1ec08e772e",
-      "changed": false,
+      "changed": true,
       "changed_pages": [],
-      "delta": null,
+      "delta": "Funding update: Public (Salesforce) \u00b7 Acq. Fin $3.6B \u2192 Public (Salesforce) \u00b7 Acq. Fin $3.6B \u00b7 Acq. Loops",
       "crawl_status": "carried"
     },
     {
@@ -4256,6 +4256,90 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-10-18-1",
+      "scan_date": "2026-10-18",
+      "generated_at": "2026-10-18T03:32:55.638486+00:00",
+      "title": "Outcome-Based Pricing Models Standardize for AI Agents",
+      "insight": "The market is rapidly standardizing outcome-based pricing for AI agents, moving beyond initial adoption to detailed frameworks that consider success rates, delivery costs, and RaaS (Results-as-a-Service) models. This signifies increasing vendor confidence in measurable AI impact and a shift towards value-aligned commercial structures.",
+      "trend": "The demand for demonstrable ROI from AI deployments is driving vendors to align their pricing directly with the business value and outcomes delivered by agentic solutions, fostering greater trust and adoption.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "https://www.fiscallion.io/blog/outcome-based-pricing-ai-agents",
+        "https://nicchin.com/blog/outcome-based-pricing-ai",
+        "https://tlab.fun/knowledge/can_outcome-based_pricing_models_finally_make_ai_workflows_pay_off_for_b2b_saas.php",
+        "https://www.strategyoffinance.com/essays/outcome-pricing-arrived-in-support/",
+        "https://www.file.ai/blog/why-fileai-is-moving-to-outcome-based-pricing"
+      ],
+      "supersedes": "ins-2026-10-11-4",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-18-2",
+      "scan_date": "2026-10-18",
+      "generated_at": "2026-10-18T03:32:55.638486+00:00",
+      "title": "FDE-as-a-Service Model Gains Traction for AI Deployment",
+      "insight": "The market is witnessing a significant acceleration in 'Forward Deployed Engineering as a Service' offerings, providing specialized human expertise to bridge the gap between AI models and complex enterprise environments. This model is becoming crucial for successful, tailored agentic deployments and optimizing AI performance in production.",
+      "trend": "Enterprises recognize that successful AI transformation requires not just powerful models but also deep integration and customization expertise, leading to a surge in demand for specialized, on-site or dedicated engineering teams.",
+      "category": "Forward Deployers",
+      "magnitude": 80,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "https://ghanemzadeh.com/fde-as-a-service/",
+        "https://trida.ai/blog/forward-deployed-engineering-faq",
+        "https://apply.workable.com/j/1EFDAACA47",
+        "https://www.futureability.com/forward-deployed-engineering",
+        "https://star-knowledge.com/blog/forward-deployed-engineers-ai-powered-dedicated-teams/"
+      ],
+      "supersedes": null,
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-18-3",
+      "scan_date": "2026-10-18",
+      "generated_at": "2026-10-18T03:32:55.638486+00:00",
+      "title": "Incumbents Acquire Agentic Identity and Legacy AI Solutions",
+      "insight": "Major enterprise incumbents are strategically acquiring specialized AI agent companies focused on agentic identity platforms and mainframe modernization. This M&A activity highlights a targeted effort to embed autonomous capabilities into critical, often legacy, enterprise systems and to manage the identity and access of proliferating AI agents.",
+      "trend": "As AI agents become pervasive, established enterprises are prioritizing secure, governed integration with existing infrastructure and the management of agent identities, driving strategic acquisitions in these foundational areas.",
+      "category": "Platform Gravity",
+      "magnitude": 85,
+      "sources": [
+        "exa",
+        "competition"
+      ],
+      "evidence": [
+        "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx",
+        "https://www.rocketsoftware.com/en-us/news/rocket-software-announces-acquisition-of-geniez-ai-to-accelerate-agentic-ai-for-mainframe-modernization",
+        "Salesforce Agentforce changed: Acq. Loops"
+      ],
+      "supersedes": "ins-2026-10-11-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-10-18-4",
+      "scan_date": "2026-10-18",
+      "generated_at": "2026-10-18T03:32:55.638486+00:00",
+      "title": "Agent Foundries Optimize for Business Context and Cost Efficiency",
+      "insight": "New funding rounds for agent foundries are increasingly directed towards solutions that enable AI agents to deeply understand business context and operate with significantly reduced costs. This signals a market shift from raw AI capability to practical, economically viable, and context-aware agentic deployments that drive operational efficiency.",
+      "trend": "The demand for scalable, production-ready AI agents is pushing foundries to develop more sophisticated, cost-effective, and business-intelligent solutions that can seamlessly integrate into enterprise workflows and deliver tangible ROI.",
+      "category": "Agent Foundries",
+      "magnitude": 75,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "https://siliconangle.com/2026/10/14/uvi-raises-7-5m-help-ai-agents-learn-business-context/",
+        "https://www.duvo.ai/blog/duvo-raises-32-million-series-a-balderton-capital"
+      ],
+      "supersedes": "ins-2026-10-11-1",
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-10-11-1",
       "scan_date": "2026-10-11",
       "generated_at": "2026-10-11T04:38:06.564950+00:00",
@@ -4273,7 +4357,7 @@
         "Nous Research raises $90M Series B at $1.5B valuation"
       ],
       "supersedes": "ins-2026-10-04-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-18-4"
     },
     {
       "id": "ins-2026-10-11-2",
@@ -4296,7 +4380,7 @@
         "Harness acquires Augment Code Assets for coding agents"
       ],
       "supersedes": "ins-2026-10-04-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-18-3"
     },
     {
       "id": "ins-2026-10-11-3",
@@ -4340,7 +4424,7 @@
         "Infor research finds off-the-shelf AI falls short, emphasizing industry-specific AI"
       ],
       "supersedes": "ins-2026-10-04-5",
-      "superseded_by": null
+      "superseded_by": "ins-2026-10-18-1"
     },
     {
       "id": "ins-2026-10-11-5",
@@ -6555,6 +6639,16 @@
   ],
   "scan_history": [
     {
+      "date": "2026-10-18",
+      "generated_at": "2026-10-18T03:32:55.641143+00:00",
+      "events_scanned": 47,
+      "red_deltas": 1,
+      "new_insights": 4,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 167
+    },
+    {
       "date": "2026-10-11",
       "generated_at": "2026-10-11T04:38:06.566901+00:00",
       "events_scanned": 600,
@@ -6776,6 +6870,6 @@
   ],
   "meta": {
     "competitors_scanned": 200,
-    "red_alert_count": 0
+    "red_alert_count": 1
   }
 }

@@ -1,5 +1,89 @@
 [
   {
+    "id": "ins-2026-10-18-1",
+    "scan_date": "2026-10-18",
+    "generated_at": "2026-10-18T03:32:55.638486+00:00",
+    "title": "Outcome-Based Pricing Models Standardize for AI Agents",
+    "insight": "The market is rapidly standardizing outcome-based pricing for AI agents, moving beyond initial adoption to detailed frameworks that consider success rates, delivery costs, and RaaS (Results-as-a-Service) models. This signifies increasing vendor confidence in measurable AI impact and a shift towards value-aligned commercial structures.",
+    "trend": "The demand for demonstrable ROI from AI deployments is driving vendors to align their pricing directly with the business value and outcomes delivered by agentic solutions, fostering greater trust and adoption.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://www.fiscallion.io/blog/outcome-based-pricing-ai-agents",
+      "https://nicchin.com/blog/outcome-based-pricing-ai",
+      "https://tlab.fun/knowledge/can_outcome-based_pricing_models_finally_make_ai_workflows_pay_off_for_b2b_saas.php",
+      "https://www.strategyoffinance.com/essays/outcome-pricing-arrived-in-support/",
+      "https://www.file.ai/blog/why-fileai-is-moving-to-outcome-based-pricing"
+    ],
+    "supersedes": "ins-2026-10-11-4",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-18-2",
+    "scan_date": "2026-10-18",
+    "generated_at": "2026-10-18T03:32:55.638486+00:00",
+    "title": "FDE-as-a-Service Model Gains Traction for AI Deployment",
+    "insight": "The market is witnessing a significant acceleration in 'Forward Deployed Engineering as a Service' offerings, providing specialized human expertise to bridge the gap between AI models and complex enterprise environments. This model is becoming crucial for successful, tailored agentic deployments and optimizing AI performance in production.",
+    "trend": "Enterprises recognize that successful AI transformation requires not just powerful models but also deep integration and customization expertise, leading to a surge in demand for specialized, on-site or dedicated engineering teams.",
+    "category": "Forward Deployers",
+    "magnitude": 80,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://ghanemzadeh.com/fde-as-a-service/",
+      "https://trida.ai/blog/forward-deployed-engineering-faq",
+      "https://apply.workable.com/j/1EFDAACA47",
+      "https://www.futureability.com/forward-deployed-engineering",
+      "https://star-knowledge.com/blog/forward-deployed-engineers-ai-powered-dedicated-teams/"
+    ],
+    "supersedes": null,
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-18-3",
+    "scan_date": "2026-10-18",
+    "generated_at": "2026-10-18T03:32:55.638486+00:00",
+    "title": "Incumbents Acquire Agentic Identity and Legacy AI Solutions",
+    "insight": "Major enterprise incumbents are strategically acquiring specialized AI agent companies focused on agentic identity platforms and mainframe modernization. This M&A activity highlights a targeted effort to embed autonomous capabilities into critical, often legacy, enterprise systems and to manage the identity and access of proliferating AI agents.",
+    "trend": "As AI agents become pervasive, established enterprises are prioritizing secure, governed integration with existing infrastructure and the management of agent identities, driving strategic acquisitions in these foundational areas.",
+    "category": "Platform Gravity",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "competition"
+    ],
+    "evidence": [
+      "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx",
+      "https://www.rocketsoftware.com/en-us/news/rocket-software-announces-acquisition-of-geniez-ai-to-accelerate-agentic-ai-for-mainframe-modernization",
+      "Salesforce Agentforce changed: Acq. Loops"
+    ],
+    "supersedes": "ins-2026-10-11-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-10-18-4",
+    "scan_date": "2026-10-18",
+    "generated_at": "2026-10-18T03:32:55.638486+00:00",
+    "title": "Agent Foundries Optimize for Business Context and Cost Efficiency",
+    "insight": "New funding rounds for agent foundries are increasingly directed towards solutions that enable AI agents to deeply understand business context and operate with significantly reduced costs. This signals a market shift from raw AI capability to practical, economically viable, and context-aware agentic deployments that drive operational efficiency.",
+    "trend": "The demand for scalable, production-ready AI agents is pushing foundries to develop more sophisticated, cost-effective, and business-intelligent solutions that can seamlessly integrate into enterprise workflows and deliver tangible ROI.",
+    "category": "Agent Foundries",
+    "magnitude": 75,
+    "sources": [
+      "exa"
+    ],
+    "evidence": [
+      "https://siliconangle.com/2026/10/14/uvi-raises-7-5m-help-ai-agents-learn-business-context/",
+      "https://www.duvo.ai/blog/duvo-raises-32-million-series-a-balderton-capital"
+    ],
+    "supersedes": "ins-2026-10-11-1",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-10-11-1",
     "scan_date": "2026-10-11",
     "generated_at": "2026-10-11T04:38:06.564950+00:00",
@@ -17,7 +101,7 @@
       "Nous Research raises $90M Series B at $1.5B valuation"
     ],
     "supersedes": "ins-2026-10-04-1",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-18-4"
   },
   {
     "id": "ins-2026-10-11-2",
@@ -40,7 +124,7 @@
       "Harness acquires Augment Code Assets for coding agents"
     ],
     "supersedes": "ins-2026-10-04-2",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-18-3"
   },
   {
     "id": "ins-2026-10-11-3",
@@ -84,7 +168,7 @@
       "Infor research finds off-the-shelf AI falls short, emphasizing industry-specific AI"
     ],
     "supersedes": "ins-2026-10-04-5",
-    "superseded_by": null
+    "superseded_by": "ins-2026-10-18-1"
   },
   {
     "id": "ins-2026-10-11-5",
