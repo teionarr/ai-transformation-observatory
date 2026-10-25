@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T03:32:55.641143+00:00",
-  "run_duration_seconds": 167,
+  "generated_at": "2026-10-25T03:42:45.830529+00:00",
+  "run_duration_seconds": 233,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-10-18T03:32:55.641143+00:00",
+      "last_call": "2026-10-25T03:42:45.830529+00:00",
       "status": "healthy"
     },
     {
@@ -32,7 +32,7 @@
       "kind": "change-tracking scrape",
       "glyph": "flame",
       "calls": 201,
-      "last_call": "2026-10-18T03:32:55.641143+00:00",
+      "last_call": "2026-10-25T03:42:45.830529+00:00",
       "status": "down"
     },
     {
@@ -41,8 +41,8 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-10-18T03:32:55.641143+00:00",
-      "status": "healthy"
+      "last_call": "2026-10-25T03:42:45.830529+00:00",
+      "status": "down"
     },
     {
       "id": "web",
@@ -50,11 +50,109 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 1,
-      "last_call": "2026-10-18T03:32:55.641143+00:00",
+      "last_call": "2026-10-25T03:42:45.830529+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "Agent governance becomes the enterprise software battleground, as Salesforce pays $5.66 billion for Braze and ServiceNow ships a credential for AI agents | Via News",
+      "domain": "ai.via.news",
+      "hours_ago": 51,
+      "velocity": 98,
+      "why": "Platform players deepen agentic capabilities and market share through acquisitions and new offerings.",
+      "source_url": "https://ai.via.news/analysis/agent-governance-becomes-the-enterprise-software-battleground-as-salesforce",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-25"
+    },
+    {
+      "id": "v2",
+      "title": "AuxoAI raises $20.7M Series A to scale the Forward-Deployed AI company | AuxoAI | AuxoAI",
+      "domain": "www.auxoai.com",
+      "hours_ago": 123,
+      "velocity": 95,
+      "why": "Significant Series A funding validates the forward-deployed AI model for enterprise transformation.",
+      "source_url": "https://www.auxoai.com/newsroom/series-a-announcement",
+      "sources": [
+        "exa"
+      ],
+      "category": "Forward Deployers",
+      "scan_date": "2026-10-25"
+    },
+    {
+      "id": "v3",
+      "title": "Zoom acquires Onyx, adding open-source enterprise knowledge search to Zoom AI Services | Zoom",
+      "domain": "news.zoom.com",
+      "hours_ago": 51,
+      "velocity": 90,
+      "why": "Acquisition strengthens enterprise AI services, enhancing foundational knowledge for agentic capabilities.",
+      "source_url": "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-25"
+    },
+    {
+      "id": "v4",
+      "title": "Accenture Expands Enterprise Agentic AI Capabilities with AI Foundation and AI Factory",
+      "domain": "newsroom.accenture.com",
+      "hours_ago": 99,
+      "velocity": 75,
+      "why": "Global consultancies are expanding their offerings to drive enterprise agentic AI adoption.",
+      "source_url": "https://newsroom.accenture.com/blogs/2026/accenture-expands-enterprise-agentic-ai-capabilities-with-ai-foundation-and-ai-factory",
+      "sources": [
+        "exa"
+      ],
+      "category": "Transformation Titans",
+      "scan_date": "2026-10-25"
+    },
+    {
+      "id": "v5",
+      "title": "Cognizant and Google Cloud Expand Alliance to Accelerate Agentic Enterprise Transformation | Cognizant",
+      "domain": "investors.cognizant.com",
+      "hours_ago": 147,
+      "velocity": 70,
+      "why": "Strategic alliances between titans and platforms accelerate agentic AI adoption and deployment.",
+      "source_url": "https://investors.cognizant.com/news-and-events/news/news-details/2026/Cognizant-and-Google-Cloud-Expand-Alliance-to-Accelerate-Agentic-Enterprise-Transformation/default.aspx",
+      "sources": [
+        "exa"
+      ],
+      "category": "Transformation Titans",
+      "scan_date": "2026-10-25"
+    },
+    {
+      "id": "v6",
+      "title": "Oracle AI Agent Studio for Industry Applications Helps Accelerate Business Outcomes",
+      "domain": "www.oracle.com",
+      "hours_ago": 99,
+      "velocity": 65,
+      "why": "Platform providers are launching specialized tools to enable agentic AI development for industries.",
+      "source_url": "https://www.oracle.com/news/announcement/oracle-ai-agent-studio-for-industry-applications-helps-accelerate-business-outcomes-2026-10-21/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-10-25"
+    },
+    {
+      "id": "v7",
+      "title": "Introducing AgentSpot: From Chatbots to Multiplayer AI",
+      "domain": "www.thoughtspot.com",
+      "hours_ago": 75,
+      "velocity": 60,
+      "why": "New platforms are emerging to evolve AI from chatbots to collaborative, multi-agent systems.",
+      "source_url": "https://www.thoughtspot.com/press-releases/introducing-agentspot-from-chatbots-to-multiplayer-ai",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-10-25"
+    },
     {
       "id": "v1",
       "title": "Anthropic signs HCLTech, Salesforce buys Loops, and more - Enterprise AI Brief #89",
@@ -152,104 +250,6 @@
       ],
       "category": "Platform Gravity",
       "scan_date": "2026-10-18"
-    },
-    {
-      "id": "v1",
-      "title": "Manus Raises Over $500 Mn After Meta Split, Tests $4 Bn Valuation Ambitions",
-      "domain": "apac.entrepreneur.com",
-      "hours_ago": 28,
-      "velocity": 100,
-      "why": "Manus's substantial funding and valuation signals strong investor confidence in general-purpose AI agents.",
-      "source_url": "https://apac.entrepreneur.com/business-news/manus-raises-over-500-mn-after-meta-split-tests-4-bn-valuation-ambitions",
-      "sources": [
-        "exa"
-      ],
-      "category": "Digital Labor",
-      "scan_date": "2026-10-11"
-    },
-    {
-      "id": "v2",
-      "title": "TypeSafe AI Raises $870M Series A for Machine-Native AI | DevCuration",
-      "domain": "devcuration.com",
-      "hours_ago": 28,
-      "velocity": 100,
-      "why": "TypeSafe AI's colossal Series A and valuation underscore demand for machine-native AI models.",
-      "source_url": "https://devcuration.com/articles/typesafe-ai-raises-870m-series-a-machine-native-ai",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-11"
-    },
-    {
-      "id": "v3",
-      "title": "Nous Research Hits $1.5B Valuation, Launches Hermes for\u2026",
-      "domain": "lumienai.com",
-      "hours_ago": 76,
-      "velocity": 100,
-      "why": "Nous Research's unicorn valuation and enterprise agent launch signify a market shift.",
-      "source_url": "https://lumienai.com/news/nous-research-1-5b-valuation-hermes-for-businesses-ai-agents",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-10-11"
-    },
-    {
-      "id": "v4",
-      "title": "ZoomInfo acquires DoubleO.ai to bring multi-agent automation into sales workflows",
-      "domain": "www.thefrontier.dev",
-      "hours_ago": 52,
-      "velocity": 95,
-      "why": "ZoomInfo's acquisition of DoubleO.ai integrates multi-agent automation into sales workflows.",
-      "source_url": "https://www.thefrontier.dev/articles/zoominfo-acquires-doubleo-ai-orchestration",
-      "sources": [
-        "exa"
-      ],
-      "category": "Vertical Specialists",
-      "scan_date": "2026-10-11"
-    },
-    {
-      "id": "v5",
-      "title": "Monid\u2019s $7.7M Seed Signals the First Dedicated Infrastructure Raise for Agent Commerce \u2013 Forkast",
-      "domain": "forkast.news",
-      "hours_ago": 76,
-      "velocity": 95,
-      "why": "Monid's seed funding highlights emerging infrastructure needs for agent-driven commerce.",
-      "source_url": "https://forkast.news/monids-7-7m-seed-signals-the-first-dedicated-infrastructure-raise-for-agent-commerce/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-11"
-    },
-    {
-      "id": "v6",
-      "title": "Automation Anywhere acquires Boost.ai to expand customer-facing voice AI - SiliconANGLE",
-      "domain": "siliconangle.com",
-      "hours_ago": 76,
-      "velocity": 95,
-      "why": "Automation Anywhere's acquisition of Boost.ai expands its platform for customer-facing voice AI.",
-      "source_url": "https://siliconangle.com/2026/10/08/automation-anywhere-acquires-boost-ai-to-expand-customer-facing-voice-ai/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-11"
-    },
-    {
-      "id": "v7",
-      "title": "Trmeric Raises $6.5 Million Led by Hitachi Ventures as Agentic Platform Powers $1 Billion in Enterprise Transformation",
-      "domain": "www.prnewswire.com",
-      "hours_ago": 100,
-      "velocity": 95,
-      "why": "Trmeric's funding validates agentic platforms driving significant enterprise transformation.",
-      "source_url": "https://www.prnewswire.com/news-releases/trmeric-raises-6-5-million-led-by-hitachi-ventures-as-agentic-platform-powers-1-billion-in-enterprise-transformation-302900795.html",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-10-11"
     }
   ],
   "competitor_map": [
@@ -888,9 +888,9 @@
       "discovery_relevance": null,
       "scanned": "2026-08-23 01:30",
       "hash": "1ec08e772e",
-      "changed": true,
+      "changed": false,
       "changed_pages": [],
-      "delta": "Funding update: Public (Salesforce) \u00b7 Acq. Fin $3.6B \u2192 Public (Salesforce) \u00b7 Acq. Fin $3.6B \u00b7 Acq. Loops",
+      "delta": null,
       "crawl_status": "carried"
     },
     {
@@ -6639,6 +6639,16 @@
   ],
   "scan_history": [
     {
+      "date": "2026-10-25",
+      "generated_at": "2026-10-25T03:42:45.830529+00:00",
+      "events_scanned": 47,
+      "red_deltas": 0,
+      "new_insights": 0,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 233
+    },
+    {
       "date": "2026-10-18",
       "generated_at": "2026-10-18T03:32:55.641143+00:00",
       "events_scanned": 47,
@@ -6870,6 +6880,6 @@
   ],
   "meta": {
     "competitors_scanned": 200,
-    "red_alert_count": 1
+    "red_alert_count": 0
   }
 }
