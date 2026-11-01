@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T03:42:45.830529+00:00",
-  "run_duration_seconds": 233,
+  "generated_at": "2026-11-01T04:57:45.498351+00:00",
+  "run_duration_seconds": 316,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-10-25T03:42:45.830529+00:00",
+      "last_call": "2026-11-01T04:57:45.498351+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 201,
-      "last_call": "2026-10-25T03:42:45.830529+00:00",
+      "calls": 204,
+      "last_call": "2026-11-01T04:57:45.498351+00:00",
       "status": "down"
     },
     {
@@ -41,7 +41,7 @@
       "kind": "synthesis",
       "glyph": "diamond",
       "calls": 1,
-      "last_call": "2026-10-25T03:42:45.830529+00:00",
+      "last_call": "2026-11-01T04:57:45.498351+00:00",
       "status": "down"
     },
     {
@@ -49,12 +49,110 @@
       "name": "Live Web (Google)",
       "kind": "grounded search",
       "glyph": "wave",
-      "calls": 1,
-      "last_call": "2026-10-25T03:42:45.830529+00:00",
+      "calls": 3,
+      "last_call": "2026-11-01T04:57:45.498351+00:00",
       "status": "healthy"
     }
   ],
   "velocity_feed": [
+    {
+      "id": "v1",
+      "title": "AuxoAI Raises $20.7M to Scale Forward-Deployed Enterprise AI | Very Frontier",
+      "domain": "www.veryfrontier.com",
+      "hours_ago": 100,
+      "velocity": 95,
+      "why": "AuxoAI's $20.7M Series A validates forward-deployed AI, signaling market segment growth.",
+      "source_url": "https://www.veryfrontier.com/news/auxoai-20-7m-series-a-forward-deployed-ai",
+      "sources": [
+        "exa"
+      ],
+      "category": "Forward Deployers",
+      "scan_date": "2026-11-01"
+    },
+    {
+      "id": "v2",
+      "title": "Oracle Unveils Agentic AI Platform to Accelerate Implementation of Oracle Fusion Cloud Applications",
+      "domain": "www.oracle.com",
+      "hours_ago": 148,
+      "velocity": 90,
+      "why": "Oracle's new agentic platform accelerates AI implementation within its enterprise cloud applications.",
+      "source_url": "https://www.oracle.com/news/announcement/ai-world-oracle-unveils-agentic-ai-platform-to-accelerate-implementation-of-oracle-fusion-cloud-applications-2026-10-26/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-11-01"
+    },
+    {
+      "id": "v3",
+      "title": "McKinsey and Parloa announce alliance for customer-facing AI technology",
+      "domain": "www.prnewswire.com",
+      "hours_ago": 100,
+      "velocity": 80,
+      "why": "McKinsey's alliance with Parloa signals consultancies are partnering to deliver customer-facing AI.",
+      "source_url": "https://www.prnewswire.com/news-releases/mckinsey-and-parloa-announce-alliance-for-customer-facing-ai-technology-302921401.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Transformation Titans",
+      "scan_date": "2026-11-01"
+    },
+    {
+      "id": "v4",
+      "title": "Salesforce Agent Fabric Expands to AI Control",
+      "domain": "futurumgroup.com",
+      "hours_ago": 52,
+      "velocity": 75,
+      "why": "Salesforce Agent Fabric expands, integrating deeper AI control within its ecosystem.",
+      "source_url": "https://futurumgroup.com/insights/salesforce-agent-fabric-expands-to-ai-control/",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-11-01"
+    },
+    {
+      "id": "v5",
+      "title": "IBM watsonx Orchestrate advances enterprise AI agent management with new capabilities at TechXchange 2026",
+      "domain": "www.ibm.com",
+      "hours_ago": 124,
+      "velocity": 70,
+      "why": "IBM watsonx Orchestrate enhances agent management, reinforcing platform gravity in enterprise AI.",
+      "source_url": "https://www.ibm.com/new/announcements/ibm-watsonx-orchestrate-advances-enterprise-ai-agent-management-with-new-capabilities-at-techxchange-2026",
+      "sources": [
+        "exa"
+      ],
+      "category": "Platform Gravity",
+      "scan_date": "2026-11-01"
+    },
+    {
+      "id": "v6",
+      "title": "Akeneo Puts AI Agents to Work Across Product Data, With Enterprise Control Built In",
+      "domain": "www.prnewswire.com",
+      "hours_ago": 100,
+      "velocity": 65,
+      "why": "Akeneo deploys AI agents for product data, integrating enterprise control for specialized automation.",
+      "source_url": "https://www.prnewswire.com/news-releases/akeneo-puts-ai-agents-to-work-across-product-data-with-enterprise-control-built-in-302921338.html",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-11-01"
+    },
+    {
+      "id": "v7",
+      "title": "AI Outcome Pricing: Turn Agents Into Measurable ROI | Elma",
+      "domain": "elma.sh",
+      "hours_ago": 172,
+      "velocity": 60,
+      "why": "Outcome-based pricing for AI agents emerges as a critical model for measurable ROI.",
+      "source_url": "https://elma.sh/blog/ai-outcome-pricing",
+      "sources": [
+        "exa"
+      ],
+      "category": "Agent Foundries",
+      "scan_date": "2026-11-01"
+    },
     {
       "id": "v1",
       "title": "Agent governance becomes the enterprise software battleground, as Salesforce pays $5.66 billion for Braze and ServiceNow ships a credential for AI agents | Via News",
@@ -152,104 +250,6 @@
       ],
       "category": "Agent Foundries",
       "scan_date": "2026-10-25"
-    },
-    {
-      "id": "v1",
-      "title": "Anthropic signs HCLTech, Salesforce buys Loops, and more - Enterprise AI Brief #89",
-      "domain": "dailyaibrief.com",
-      "hours_ago": 27,
-      "velocity": 95,
-      "why": "Salesforce acquires Loops, Anthropic partners HCLTech, signaling platform consolidation and ecosystem growth.",
-      "source_url": "https://dailyaibrief.com/newsletters/enterprise-ai-brief/2026-10-17-anthropic-signs-hcltech-salesforce-buys-loops-and-more-enterprise-ai-brief-89",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-18"
-    },
-    {
-      "id": "v2",
-      "title": "Duvo Raises $32 Million Series A to Become the One Platform Enterprises Run Their Operations On",
-      "domain": "www.duvo.ai",
-      "hours_ago": 99,
-      "velocity": 95,
-      "why": "Duvo raises Series A to become core platform for enterprise AI operations.",
-      "source_url": "https://www.duvo.ai/blog/duvo-raises-32-million-series-a-balderton-capital",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-18"
-    },
-    {
-      "id": "v3",
-      "title": "Rocket Software Announces Acquisition of Geniez AI to Accelerate Agentic AI for Mainframe Modernization | Rocket Software",
-      "domain": "www.rocketsoftware.com",
-      "hours_ago": 123,
-      "velocity": 95,
-      "why": "Rocket Software acquires Geniez AI to accelerate agentic AI for mainframe modernization.",
-      "source_url": "https://www.rocketsoftware.com/en-us/news/rocket-software-announces-acquisition-of-geniez-ai-to-accelerate-agentic-ai-for-mainframe-modernization",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-18"
-    },
-    {
-      "id": "v4",
-      "title": "Workday to Acquire C1.ai, a Leading Agentic Identity Platform for People and Agents | Workday",
-      "domain": "investor.workday.com",
-      "hours_ago": 123,
-      "velocity": 95,
-      "why": "Workday acquires C1.ai, strengthening its agentic identity platform for people and agents.",
-      "source_url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-18"
-    },
-    {
-      "id": "v5",
-      "title": "Parallel Loop launches with $6.6M seed funding led by 3one4 Capital to bring enterprise AI transformation to Asia, Europe and the Middle East \u2014 Parallel Loop",
-      "domain": "parallelloop.ai",
-      "hours_ago": 99,
-      "velocity": 90,
-      "why": "New entrant secures seed funding to bring enterprise AI transformation to Asia, Europe, Middle East.",
-      "source_url": "https://parallelloop.ai/newsroom-parallel-loop-launch",
-      "sources": [
-        "exa"
-      ],
-      "category": "Forward Deployers",
-      "scan_date": "2026-10-18"
-    },
-    {
-      "id": "v6",
-      "title": "Uvi raises $7.5M to help AI agents learn business context and run at eight times lower cost - SiliconANGLE",
-      "domain": "siliconangle.com",
-      "hours_ago": 99,
-      "velocity": 90,
-      "why": "Funding enables AI agents to learn business context, reducing operational costs significantly.",
-      "source_url": "https://siliconangle.com/2026/10/14/uvi-raises-7-5m-help-ai-agents-learn-business-context/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-10-18"
-    },
-    {
-      "id": "v7",
-      "title": "Transparent, Traceable, Deterministic: Agentic Memory via Knowledge Graphs for ISWC 2026 - IBM Research",
-      "domain": "research.ibm.com",
-      "hours_ago": 1,
-      "velocity": 50,
-      "why": "IBM Research explores agentic memory via knowledge graphs for transparent, traceable AI.",
-      "source_url": "https://research.ibm.com/publications/transparent-traceable-deterministic-agentic-memory-via-knowledge-graphs",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-18"
     }
   ],
   "competitor_map": [
@@ -4256,6 +4256,82 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-11-01-1",
+      "scan_date": "2026-11-01",
+      "generated_at": "2026-11-01T04:57:45.495912+00:00",
+      "title": "Agentic AI ROI Demands Granular Measurement",
+      "insight": "The market is moving beyond general ROI claims for agentic AI, with a strong focus on developing granular frameworks to measure business value, identify where ROI stalls in pilots, and understand the true economic impact. Enterprises are increasingly demanding verifiable, outcome-driven results, pushing vendors to provide sophisticated tools and methodologies for quantifying agentic AI's impact and addressing deployment challenges related to reliability and integration complexity.",
+      "trend": "Enterprises are demanding greater accountability and measurable business value from AI investments, pushing vendors to provide sophisticated tools and methodologies for quantifying agentic AI's impact and addressing deployment challenges. Early enterprise deployments are showing task completion rates between 40-60%, well below vendor showcases, highlighting struggles with reliability and integration complexity. New frameworks emphasize counting verified work, pricing review and recovery, and tracking cost per verified completion.",
+      "category": "Transformation Titans",
+      "magnitude": 85,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Deloitte: Enterprise AI Enters an ROI Reckoning",
+        "Skan AI: Why Agentic AI ROI Stalls in Enterprise Pilots",
+        "Baker Tilly: Agentic AI ROI: How CFOs can measure business value",
+        "Elma: AI Outcome Pricing: Turn Agents Into Measurable ROI",
+        "The Diligence Stack: The E/AI Index V2: Where Enterprise AI Pays Off",
+        "Zentor: AI ROI Measurement Framework for AI Agents",
+        "SkySync: How to Measure the ROI of an AI Agent (the Framework We Use)",
+        "Druid AI: How to measure and prove AI agent ROI",
+        "Emergent: Agentic AI Hype Outpaces Real-World Results in 2026"
+      ],
+      "supersedes": "ins-2026-10-18-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-01-2",
+      "scan_date": "2026-11-01",
+      "generated_at": "2026-11-01T04:57:45.495912+00:00",
+      "title": "Forward Deployed Engineering Becomes a Strategic, Multi-Billion Dollar Category",
+      "insight": "Forward Deployed Engineering (FDE) has rapidly escalated into a strategic, multi-billion dollar category, with major cloud providers and foundational model developers making massive investments to embed FDE teams directly within enterprise customers. This signifies FDE as a critical competitive differentiator for accelerating AI agent deployment from pilot to production and ensuring tailored integration into complex client environments.",
+      "trend": "The inherent complexity of deploying AI agents in diverse enterprise settings, coupled with the need for rapid, outcome-driven integration, is driving massive investments in specialized human expertise. This formalization and capitalization of FDE roles are becoming essential for scaling AI solutions.",
+      "category": "Forward Deployers",
+      "magnitude": 95,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "AuxoAI Raises $20.7M to Scale Forward-Deployed Enterprise AI",
+        "AWS announced a $1 billion investment in a new Forward Deployed Engineering unit, embedding thousands of engineers with customers.",
+        "Microsoft introduced the Microsoft Frontier Company with a $2.5 billion investment, embedding 6,000 experts at customers.",
+        "OpenAI and Anthropic also launched their own FDE ventures with financial partners.",
+        "Salesforce is funding a team of 1,000 AI deployment specialists.",
+        "PC Tech Magazine: 7 Best Forward Deployed Engineering Companies",
+        "CTERA: Forward Deployed Engineer for Enterprise AI",
+        "Optywise: How Forward Deployed Engineers Build AI Products Faster"
+      ],
+      "supersedes": "ins-2026-10-18-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-01-3",
+      "scan_date": "2026-11-01",
+      "generated_at": "2026-11-01T04:57:45.495912+00:00",
+      "title": "Platform Giants Unveil Integrated Agentic AI Suites for Enterprise-Wide Deployment",
+      "insight": "Major enterprise platform providers are rolling out comprehensive, integrated agentic AI platforms designed to accelerate the implementation and management of AI agents directly within their core application ecosystems. These suites offer end-to-end governance, orchestration, and development tools, aiming to simplify adoption and ensure governed, enterprise-wide deployment of autonomous capabilities.",
+      "trend": "Established enterprise software vendors are leveraging their existing market dominance and deep integration capabilities to offer holistic agentic AI solutions. This strategy aims to simplify adoption, provide built-in governance, and ensure secure deployment for their vast customer bases, moving beyond point solutions to integrated platforms.",
+      "category": "Platform Gravity",
+      "magnitude": 90,
+      "sources": [
+        "exa",
+        "web"
+      ],
+      "evidence": [
+        "Oracle Unveils Agentic AI Platform to Accelerate Implementation of Oracle Fusion Cloud Applications",
+        "IBM watsonx Orchestrate advances enterprise AI agent management with new capabilities",
+        "Salesforce Agent Fabric Expands to AI Control",
+        "SAP is expanding enterprise AI with 'Joule Studio,' 'Joule Work,' and the 'SAP Business AI Platform,' enabling users to build agents across SAP and third-party systems with built-in controls.",
+        "Microsoft Copilot Studio, Google Gemini platform (evolution of Vertex AI), Amazon Bedrock AgentCore, and ServiceNow AI Agents are offering integrated solutions for enterprise agent deployment."
+      ],
+      "supersedes": "ins-2026-10-04-4",
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-10-18-1",
       "scan_date": "2026-10-18",
       "generated_at": "2026-10-18T03:32:55.638486+00:00",
@@ -4275,7 +4351,7 @@
         "https://www.file.ai/blog/why-fileai-is-moving-to-outcome-based-pricing"
       ],
       "supersedes": "ins-2026-10-11-4",
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-01-1"
     },
     {
       "id": "ins-2026-10-18-2",
@@ -4297,7 +4373,7 @@
         "https://star-knowledge.com/blog/forward-deployed-engineers-ai-powered-dedicated-teams/"
       ],
       "supersedes": null,
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-01-2"
     },
     {
       "id": "ins-2026-10-18-3",
@@ -4527,7 +4603,7 @@
         "Coforge Launches CXNova, an Agentic CX Orchestration Platform that Delivers Intelligent, Real-Time Customer Experiences"
       ],
       "supersedes": "ins-2026-09-27-2",
-      "superseded_by": "ins-2026-10-11-3"
+      "superseded_by": "ins-2026-11-01-3"
     },
     {
       "id": "ins-2026-10-04-5",
@@ -6638,6 +6714,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-11-01",
+      "generated_at": "2026-11-01T04:57:45.498351+00:00",
+      "events_scanned": 43,
+      "red_deltas": 0,
+      "new_insights": 3,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 316
+    },
     {
       "date": "2026-10-25",
       "generated_at": "2026-10-25T03:42:45.830529+00:00",

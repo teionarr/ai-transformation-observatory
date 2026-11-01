@@ -1,5 +1,81 @@
 [
   {
+    "id": "ins-2026-11-01-1",
+    "scan_date": "2026-11-01",
+    "generated_at": "2026-11-01T04:57:45.495912+00:00",
+    "title": "Agentic AI ROI Demands Granular Measurement",
+    "insight": "The market is moving beyond general ROI claims for agentic AI, with a strong focus on developing granular frameworks to measure business value, identify where ROI stalls in pilots, and understand the true economic impact. Enterprises are increasingly demanding verifiable, outcome-driven results, pushing vendors to provide sophisticated tools and methodologies for quantifying agentic AI's impact and addressing deployment challenges related to reliability and integration complexity.",
+    "trend": "Enterprises are demanding greater accountability and measurable business value from AI investments, pushing vendors to provide sophisticated tools and methodologies for quantifying agentic AI's impact and addressing deployment challenges. Early enterprise deployments are showing task completion rates between 40-60%, well below vendor showcases, highlighting struggles with reliability and integration complexity. New frameworks emphasize counting verified work, pricing review and recovery, and tracking cost per verified completion.",
+    "category": "Transformation Titans",
+    "magnitude": 85,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Deloitte: Enterprise AI Enters an ROI Reckoning",
+      "Skan AI: Why Agentic AI ROI Stalls in Enterprise Pilots",
+      "Baker Tilly: Agentic AI ROI: How CFOs can measure business value",
+      "Elma: AI Outcome Pricing: Turn Agents Into Measurable ROI",
+      "The Diligence Stack: The E/AI Index V2: Where Enterprise AI Pays Off",
+      "Zentor: AI ROI Measurement Framework for AI Agents",
+      "SkySync: How to Measure the ROI of an AI Agent (the Framework We Use)",
+      "Druid AI: How to measure and prove AI agent ROI",
+      "Emergent: Agentic AI Hype Outpaces Real-World Results in 2026"
+    ],
+    "supersedes": "ins-2026-10-18-1",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-11-01-2",
+    "scan_date": "2026-11-01",
+    "generated_at": "2026-11-01T04:57:45.495912+00:00",
+    "title": "Forward Deployed Engineering Becomes a Strategic, Multi-Billion Dollar Category",
+    "insight": "Forward Deployed Engineering (FDE) has rapidly escalated into a strategic, multi-billion dollar category, with major cloud providers and foundational model developers making massive investments to embed FDE teams directly within enterprise customers. This signifies FDE as a critical competitive differentiator for accelerating AI agent deployment from pilot to production and ensuring tailored integration into complex client environments.",
+    "trend": "The inherent complexity of deploying AI agents in diverse enterprise settings, coupled with the need for rapid, outcome-driven integration, is driving massive investments in specialized human expertise. This formalization and capitalization of FDE roles are becoming essential for scaling AI solutions.",
+    "category": "Forward Deployers",
+    "magnitude": 95,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "AuxoAI Raises $20.7M to Scale Forward-Deployed Enterprise AI",
+      "AWS announced a $1 billion investment in a new Forward Deployed Engineering unit, embedding thousands of engineers with customers.",
+      "Microsoft introduced the Microsoft Frontier Company with a $2.5 billion investment, embedding 6,000 experts at customers.",
+      "OpenAI and Anthropic also launched their own FDE ventures with financial partners.",
+      "Salesforce is funding a team of 1,000 AI deployment specialists.",
+      "PC Tech Magazine: 7 Best Forward Deployed Engineering Companies",
+      "CTERA: Forward Deployed Engineer for Enterprise AI",
+      "Optywise: How Forward Deployed Engineers Build AI Products Faster"
+    ],
+    "supersedes": "ins-2026-10-18-2",
+    "superseded_by": null
+  },
+  {
+    "id": "ins-2026-11-01-3",
+    "scan_date": "2026-11-01",
+    "generated_at": "2026-11-01T04:57:45.495912+00:00",
+    "title": "Platform Giants Unveil Integrated Agentic AI Suites for Enterprise-Wide Deployment",
+    "insight": "Major enterprise platform providers are rolling out comprehensive, integrated agentic AI platforms designed to accelerate the implementation and management of AI agents directly within their core application ecosystems. These suites offer end-to-end governance, orchestration, and development tools, aiming to simplify adoption and ensure governed, enterprise-wide deployment of autonomous capabilities.",
+    "trend": "Established enterprise software vendors are leveraging their existing market dominance and deep integration capabilities to offer holistic agentic AI solutions. This strategy aims to simplify adoption, provide built-in governance, and ensure secure deployment for their vast customer bases, moving beyond point solutions to integrated platforms.",
+    "category": "Platform Gravity",
+    "magnitude": 90,
+    "sources": [
+      "exa",
+      "web"
+    ],
+    "evidence": [
+      "Oracle Unveils Agentic AI Platform to Accelerate Implementation of Oracle Fusion Cloud Applications",
+      "IBM watsonx Orchestrate advances enterprise AI agent management with new capabilities",
+      "Salesforce Agent Fabric Expands to AI Control",
+      "SAP is expanding enterprise AI with 'Joule Studio,' 'Joule Work,' and the 'SAP Business AI Platform,' enabling users to build agents across SAP and third-party systems with built-in controls.",
+      "Microsoft Copilot Studio, Google Gemini platform (evolution of Vertex AI), Amazon Bedrock AgentCore, and ServiceNow AI Agents are offering integrated solutions for enterprise agent deployment."
+    ],
+    "supersedes": "ins-2026-10-04-4",
+    "superseded_by": null
+  },
+  {
     "id": "ins-2026-10-18-1",
     "scan_date": "2026-10-18",
     "generated_at": "2026-10-18T03:32:55.638486+00:00",
@@ -19,7 +95,7 @@
       "https://www.file.ai/blog/why-fileai-is-moving-to-outcome-based-pricing"
     ],
     "supersedes": "ins-2026-10-11-4",
-    "superseded_by": null
+    "superseded_by": "ins-2026-11-01-1"
   },
   {
     "id": "ins-2026-10-18-2",
@@ -41,7 +117,7 @@
       "https://star-knowledge.com/blog/forward-deployed-engineers-ai-powered-dedicated-teams/"
     ],
     "supersedes": null,
-    "superseded_by": null
+    "superseded_by": "ins-2026-11-01-2"
   },
   {
     "id": "ins-2026-10-18-3",
@@ -271,7 +347,7 @@
       "Coforge Launches CXNova, an Agentic CX Orchestration Platform that Delivers Intelligent, Real-Time Customer Experiences"
     ],
     "supersedes": "ins-2026-09-27-2",
-    "superseded_by": "ins-2026-10-11-3"
+    "superseded_by": "ins-2026-11-01-3"
   },
   {
     "id": "ins-2026-10-04-5",
