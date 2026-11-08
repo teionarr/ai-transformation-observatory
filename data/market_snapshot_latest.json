@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T04:57:45.498351+00:00",
-  "run_duration_seconds": 316,
+  "generated_at": "2026-11-08T04:59:55.953503+00:00",
+  "run_duration_seconds": 211,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-11-01T04:57:45.498351+00:00",
+      "last_call": "2026-11-08T04:59:55.953503+00:00",
       "status": "healthy"
     },
     {
@@ -31,8 +31,8 @@
       "name": "Firecrawl",
       "kind": "change-tracking scrape",
       "glyph": "flame",
-      "calls": 204,
-      "last_call": "2026-11-01T04:57:45.498351+00:00",
+      "calls": 201,
+      "last_call": "2026-11-08T04:59:55.953503+00:00",
       "status": "down"
     },
     {
@@ -40,8 +40,8 @@
       "name": "Gemini 2.5 Flash",
       "kind": "synthesis",
       "glyph": "diamond",
-      "calls": 1,
-      "last_call": "2026-11-01T04:57:45.498351+00:00",
+      "calls": 6,
+      "last_call": "2026-11-08T04:59:55.953503+00:00",
       "status": "down"
     },
     {
@@ -50,7 +50,7 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 3,
-      "last_call": "2026-11-01T04:57:45.498351+00:00",
+      "last_call": "2026-11-08T04:59:55.953503+00:00",
       "status": "healthy"
     }
   ],
@@ -152,104 +152,6 @@
       ],
       "category": "Agent Foundries",
       "scan_date": "2026-11-01"
-    },
-    {
-      "id": "v1",
-      "title": "Agent governance becomes the enterprise software battleground, as Salesforce pays $5.66 billion for Braze and ServiceNow ships a credential for AI agents | Via News",
-      "domain": "ai.via.news",
-      "hours_ago": 51,
-      "velocity": 98,
-      "why": "Platform players deepen agentic capabilities and market share through acquisitions and new offerings.",
-      "source_url": "https://ai.via.news/analysis/agent-governance-becomes-the-enterprise-software-battleground-as-salesforce",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-25"
-    },
-    {
-      "id": "v2",
-      "title": "AuxoAI raises $20.7M Series A to scale the Forward-Deployed AI company | AuxoAI | AuxoAI",
-      "domain": "www.auxoai.com",
-      "hours_ago": 123,
-      "velocity": 95,
-      "why": "Significant Series A funding validates the forward-deployed AI model for enterprise transformation.",
-      "source_url": "https://www.auxoai.com/newsroom/series-a-announcement",
-      "sources": [
-        "exa"
-      ],
-      "category": "Forward Deployers",
-      "scan_date": "2026-10-25"
-    },
-    {
-      "id": "v3",
-      "title": "Zoom acquires Onyx, adding open-source enterprise knowledge search to Zoom AI Services | Zoom",
-      "domain": "news.zoom.com",
-      "hours_ago": 51,
-      "velocity": 90,
-      "why": "Acquisition strengthens enterprise AI services, enhancing foundational knowledge for agentic capabilities.",
-      "source_url": "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-25"
-    },
-    {
-      "id": "v4",
-      "title": "Accenture Expands Enterprise Agentic AI Capabilities with AI Foundation and AI Factory",
-      "domain": "newsroom.accenture.com",
-      "hours_ago": 99,
-      "velocity": 75,
-      "why": "Global consultancies are expanding their offerings to drive enterprise agentic AI adoption.",
-      "source_url": "https://newsroom.accenture.com/blogs/2026/accenture-expands-enterprise-agentic-ai-capabilities-with-ai-foundation-and-ai-factory",
-      "sources": [
-        "exa"
-      ],
-      "category": "Transformation Titans",
-      "scan_date": "2026-10-25"
-    },
-    {
-      "id": "v5",
-      "title": "Cognizant and Google Cloud Expand Alliance to Accelerate Agentic Enterprise Transformation | Cognizant",
-      "domain": "investors.cognizant.com",
-      "hours_ago": 147,
-      "velocity": 70,
-      "why": "Strategic alliances between titans and platforms accelerate agentic AI adoption and deployment.",
-      "source_url": "https://investors.cognizant.com/news-and-events/news/news-details/2026/Cognizant-and-Google-Cloud-Expand-Alliance-to-Accelerate-Agentic-Enterprise-Transformation/default.aspx",
-      "sources": [
-        "exa"
-      ],
-      "category": "Transformation Titans",
-      "scan_date": "2026-10-25"
-    },
-    {
-      "id": "v6",
-      "title": "Oracle AI Agent Studio for Industry Applications Helps Accelerate Business Outcomes",
-      "domain": "www.oracle.com",
-      "hours_ago": 99,
-      "velocity": 65,
-      "why": "Platform providers are launching specialized tools to enable agentic AI development for industries.",
-      "source_url": "https://www.oracle.com/news/announcement/oracle-ai-agent-studio-for-industry-applications-helps-accelerate-business-outcomes-2026-10-21/",
-      "sources": [
-        "exa"
-      ],
-      "category": "Platform Gravity",
-      "scan_date": "2026-10-25"
-    },
-    {
-      "id": "v7",
-      "title": "Introducing AgentSpot: From Chatbots to Multiplayer AI",
-      "domain": "www.thoughtspot.com",
-      "hours_ago": 75,
-      "velocity": 60,
-      "why": "New platforms are emerging to evolve AI from chatbots to collaborative, multi-agent systems.",
-      "source_url": "https://www.thoughtspot.com/press-releases/introducing-agentspot-from-chatbots-to-multiplayer-ai",
-      "sources": [
-        "exa"
-      ],
-      "category": "Agent Foundries",
-      "scan_date": "2026-10-25"
     }
   ],
   "competitor_map": [
@@ -4256,6 +4158,90 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-11-08-1",
+      "scan_date": "2026-11-08",
+      "generated_at": "2026-11-08T04:59:55.950985+00:00",
+      "title": "M&A Surges for Agent Trust & Lifecycle Governance",
+      "insight": "Enterprise incumbents are aggressively acquiring specialized AI companies focused on agent observability, trust, and end-to-end governance, from release to runtime. This signifies a critical market shift towards ensuring the secure, reliable, and auditable operation of AI agents across their entire lifecycle.",
+      "trend": "As AI agents move from pilot to production and become embedded in critical enterprise workflows, the imperative for trust, transparency, and robust operational control escalates, driving strategic acquisitions to fill these crucial gaps.",
+      "category": "Platform Gravity",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "CrowdStrike to Acquire Fiddler to Deliver Agent Observability for AI Trust",
+        "Copado Acquires Valo.ai to Extend AI-Powered Governance from Release to Runtime",
+        "Saidot raises fresh funding to govern enterprise AI agents"
+      ],
+      "supersedes": "ins-2026-09-20-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-08-2",
+      "scan_date": "2026-11-08",
+      "generated_at": "2026-11-08T04:59:55.950985+00:00",
+      "title": "Outcome-Based Pricing Becomes AI Agent Market Mandate",
+      "insight": "Outcome-based pricing is rapidly solidifying as the mandatory commercial model for AI agent solutions, with vendors and enterprises alike recognizing the inadequacy of traditional pricing. This shift is driven by the need to directly align AI value with measurable business results across diverse vertical applications.",
+      "trend": "The market is maturing beyond early AI adoption, demanding clear, quantifiable ROI. Outcome-based models directly address this by shifting financial risk to vendors and incentivizing genuine business transformation, making it a prerequisite for enterprise-scale AI agent deployment.",
+      "category": "Transformation Titans",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Outcome-based pricing: Monetizing AI business value in telecom | Cognizant",
+        "No Result, No Charge: Outcome-Based Pricing and the Future of AI Monetization for Finance",
+        "Outcome-Based Pricing for AI Agents: Why SaaS Is Shifting From Seats to Results?",
+        "Priced to Lose: Why 'Add $20 a Month for AI' Is Not a Business Model"
+      ],
+      "supersedes": "ins-2026-10-18-1",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-08-3",
+      "scan_date": "2026-11-08",
+      "generated_at": "2026-11-08T04:59:55.950985+00:00",
+      "title": "Mega-Funding & M&A for Hyper-Specialized Vertical Agents",
+      "insight": "Highly specialized AI agents targeting specific enterprise functions (e.g., sales, CX, SRE, wealth management, coding) are attracting unprecedented funding rounds and becoming prime acquisition targets for incumbents. This indicates a strong market validation for deep, vertical solutions that deliver measurable outcomes.",
+      "trend": "Enterprises are prioritizing AI solutions that address concrete, high-value business problems within specific domains, leading to a surge in investment for agents capable of delivering immediate, tangible impact and seamless integration into existing vertical workflows.",
+      "category": "Vertical Specialists",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Nooks Secures $500 Million... Launches Node, the First AI Personal Assistant for Sales",
+        "Traversal Raises $120M with a $1 Billion Valuation to Keep Code Running With a Superintelligent AI Site Reliability Engineer",
+        "ZoomInfo Acquires DoubleO.ai to Strengthen AI Sales Agents",
+        "Five9 to Acquire Level AI, Advancing AI-Powered CX Platform",
+        "Temenos Acquires Additiv: Revolutionizing Wealth Management with AI-Driven Orchestration",
+        "Meta Acquires AI Coding Startup Conductor"
+      ],
+      "supersedes": "ins-2026-09-27-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-08-4",
+      "scan_date": "2026-11-08",
+      "generated_at": "2026-11-08T04:59:55.950985+00:00",
+      "title": "AI-Enabled FDE Units Scale Enterprise Transformation",
+      "insight": "Forward Deployed Engineering (FDE) models are evolving into specialized 'AI-enabled units' designed specifically to accelerate and scale AI transformation within client environments. This strategic shift by consulting giants and Big Tech emphasizes embedding AI expertise directly for rapid, tailored deployment and operationalization.",
+      "trend": "As AI adoption moves beyond pilots, the bottleneck shifts to effective deployment and integration into complex enterprise systems. AI-centric FDE models provide the necessary human-in-the-loop expertise to bridge this gap and ensure successful, scalable AI agent implementation.",
+      "category": "Forward Deployers",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Forward deployed units: IBM Consulting\u2019s field model for scaling AI and transformation",
+        "The rise of AI-enabled FDE teams | IBM",
+        "U.S. Big Tech Races to Embed AI Engineers Inside Client Firms - Seoul Economic Daily"
+      ],
+      "supersedes": "ins-2026-11-01-2",
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-11-01-1",
       "scan_date": "2026-11-01",
       "generated_at": "2026-11-01T04:57:45.495912+00:00",
@@ -4306,7 +4292,7 @@
         "Optywise: How Forward Deployed Engineers Build AI Products Faster"
       ],
       "supersedes": "ins-2026-10-18-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-08-4"
     },
     {
       "id": "ins-2026-11-01-3",
@@ -4351,7 +4337,7 @@
         "https://www.file.ai/blog/why-fileai-is-moving-to-outcome-based-pricing"
       ],
       "supersedes": "ins-2026-10-11-4",
-      "superseded_by": "ins-2026-11-01-1"
+      "superseded_by": "ins-2026-11-08-2"
     },
     {
       "id": "ins-2026-10-18-2",
@@ -4681,7 +4667,7 @@
         "73 Strings Acquires Callisto, Accelerating Investment Into Agentic AI For Private Markets"
       ],
       "supersedes": "ins-2026-09-06-3",
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-08-3"
     },
     {
       "id": "ins-2026-09-27-4",
@@ -4766,7 +4752,7 @@
         "Leviathan Matrix Launches TURABON to Govern What Agents Can Actually Do"
       ],
       "supersedes": "ins-2026-09-13-4",
-      "superseded_by": "ins-2026-09-27-2"
+      "superseded_by": "ins-2026-11-08-1"
     },
     {
       "id": "ins-2026-09-20-3",
@@ -6714,6 +6700,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-11-08",
+      "generated_at": "2026-11-08T04:59:55.953503+00:00",
+      "events_scanned": 514,
+      "red_deltas": 0,
+      "new_insights": 4,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 211
+    },
     {
       "date": "2026-11-01",
       "generated_at": "2026-11-01T04:57:45.498351+00:00",
