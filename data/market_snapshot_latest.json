@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T04:59:55.953503+00:00",
-  "run_duration_seconds": 211,
+  "generated_at": "2026-11-15T05:21:58.167808+00:00",
+  "run_duration_seconds": 142,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-11-08T04:59:55.953503+00:00",
+      "last_call": "2026-11-15T05:21:58.167808+00:00",
       "status": "healthy"
     },
     {
@@ -32,7 +32,7 @@
       "kind": "change-tracking scrape",
       "glyph": "flame",
       "calls": 201,
-      "last_call": "2026-11-08T04:59:55.953503+00:00",
+      "last_call": "2026-11-15T05:21:58.167808+00:00",
       "status": "down"
     },
     {
@@ -40,8 +40,8 @@
       "name": "Gemini 2.5 Flash",
       "kind": "synthesis",
       "glyph": "diamond",
-      "calls": 6,
-      "last_call": "2026-11-08T04:59:55.953503+00:00",
+      "calls": 4,
+      "last_call": "2026-11-15T05:21:58.167808+00:00",
       "status": "down"
     },
     {
@@ -50,7 +50,7 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 3,
-      "last_call": "2026-11-08T04:59:55.953503+00:00",
+      "last_call": "2026-11-15T05:21:58.167808+00:00",
       "status": "healthy"
     }
   ],
@@ -4158,6 +4158,88 @@
   ],
   "insights": [
     {
+      "id": "ins-2026-11-15-1",
+      "scan_date": "2026-11-15",
+      "generated_at": "2026-11-15T05:21:58.166063+00:00",
+      "title": "Outcome-Based Pricing Becomes De Facto Standard",
+      "insight": "Major enterprise vendors like Zendesk are explicitly shifting to 'pay-per-result' models for their AI agent platforms, signaling that outcome-based pricing is rapidly becoming the expected commercial standard rather than an experimental offering. This move is reinforced by widespread industry discussion and adoption frameworks.",
+      "trend": "The market is maturing, demanding direct alignment between AI agent value and measurable business outcomes, pushing vendors to assume more risk and guarantee performance.",
+      "category": "Digital Labor",
+      "magnitude": 95,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Zendesk moves to pay-per-result AI pricing with its new Outcome AI Platform (thenextweb.com)",
+        "IDC - What Is Outcome-Based Pricing? (www.idc.com)",
+        "Outcome-Based Pricing for AI Agents: How It Works (tekscape.ai)",
+        "Outcome-Based Pricing for AI: From Seats to Results | GeniOS (thegenios.com)"
+      ],
+      "supersedes": "ins-2026-11-08-2",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-15-2",
+      "scan_date": "2026-11-15",
+      "generated_at": "2026-11-15T05:21:58.166063+00:00",
+      "title": "AI-Specific FDE Services Formalize for Rapid Deployment",
+      "insight": "Forward Deployed Engineering (FDE) is evolving into a specialized, formal service category explicitly tailored for AI agent deployment, with dedicated agencies, job roles, and 'FDE as a Service' offerings emerging. This signifies a market need for specialized human expertise to accelerate the operationalization of AI agents in complex enterprise environments.",
+      "trend": "The complexity and bespoke nature of enterprise AI agent integration necessitate a dedicated, expert-driven deployment model to bridge the gap between AI capabilities and real-world business processes.",
+      "category": "Forward Deployers",
+      "magnitude": 85,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "FDE as a Service: Forward Deployed Engineering, Explained (www.paloalto-group.com)",
+        "Forward deployed engineer agency: 8 places to hire an FDE in 2026, compared (beyondelevation.com)",
+        "Forward Deployed Engineer, alliant AI Services (cdo.business.rice.edu)",
+        "Genesys Forward-Deployed Engineering Aims to Speed Agentic CX (futurumgroup.com)"
+      ],
+      "supersedes": "ins-2026-11-08-4",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-15-3",
+      "scan_date": "2026-11-15",
+      "generated_at": "2026-11-15T05:21:58.166063+00:00",
+      "title": "Cross-Platform Alliances Drive Industry-Specific Agent Ecosystems",
+      "insight": "Major technology titans like IBM and Microsoft are forming strategic alliances to co-develop AI agent platforms specifically designed for industry-specific transformations. This indicates a shift from single-vendor integrated suites to collaborative, cross-platform ecosystems that aim to deliver deeper, more tailored agentic solutions across vertical markets.",
+      "trend": "Enterprises require AI agents that seamlessly integrate across their existing, often heterogeneous, technology stacks, driving major platform providers to collaborate on interoperable, industry-focused solutions.",
+      "category": "Transformation Titans",
+      "magnitude": 90,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "IBM and Microsoft Announce a New AI Agent Platform Designed for Industry-Specific Transformation (newsroom.ibm.com)",
+        "IBM and Microsoft Announce a New AI Agent Platform Designed for Industry-Specific Transformation (www.prnewswire.com)"
+      ],
+      "supersedes": "ins-2026-11-01-3",
+      "superseded_by": null
+    },
+    {
+      "id": "ins-2026-11-15-4",
+      "scan_date": "2026-11-15",
+      "generated_at": "2026-11-15T05:21:58.166063+00:00",
+      "title": "Deep Investment in Agent Operational Control & Trust Infrastructure",
+      "insight": "Significant funding rounds are targeting companies building the critical infrastructure for agent operational control, trustworthiness, and reliability, including solutions for high-consequence environments, enterprise-wide action control, simulation for self-improving agents, and autonomous infrastructure. This reflects a market imperative to ensure agents are not just capable, but also governable, predictable, and safe in production.",
+      "trend": "As AI agents move into high-stakes enterprise operations, the market is prioritizing robust control planes, verifiable trust mechanisms, and resilient infrastructure to manage their autonomy and mitigate risks.",
+      "category": "Agent Foundries",
+      "magnitude": 88,
+      "sources": [
+        "exa"
+      ],
+      "evidence": [
+        "Lumbra Raises $25M Series A to Scale Agentic AI for High-Consequence Environments (www.businesswire.com)",
+        "Kindo Secures $57.6 Million to Expand Enterprise Control Over AI Agent Actions and Reduce Costs (www.prnewswire.com)",
+        "Plurai raises $13M to build the simulation infrastructure for trustworthy, self-improving AI agents (www.prnewswire.com)",
+        "Scalestack Raises New Funding... Acquires Alysio to Build the Autonomous Infrastructure for Enterprise Agents (www.prnewswire.com)"
+      ],
+      "supersedes": "ins-2026-11-08-1",
+      "superseded_by": null
+    },
+    {
       "id": "ins-2026-11-08-1",
       "scan_date": "2026-11-08",
       "generated_at": "2026-11-08T04:59:55.950985+00:00",
@@ -4175,7 +4257,7 @@
         "Saidot raises fresh funding to govern enterprise AI agents"
       ],
       "supersedes": "ins-2026-09-20-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-15-4"
     },
     {
       "id": "ins-2026-11-08-2",
@@ -4196,7 +4278,7 @@
         "Priced to Lose: Why 'Add $20 a Month for AI' Is Not a Business Model"
       ],
       "supersedes": "ins-2026-10-18-1",
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-15-1"
     },
     {
       "id": "ins-2026-11-08-3",
@@ -4239,7 +4321,7 @@
         "U.S. Big Tech Races to Embed AI Engineers Inside Client Firms - Seoul Economic Daily"
       ],
       "supersedes": "ins-2026-11-01-2",
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-15-2"
     },
     {
       "id": "ins-2026-11-01-1",
@@ -4315,7 +4397,7 @@
         "Microsoft Copilot Studio, Google Gemini platform (evolution of Vertex AI), Amazon Bedrock AgentCore, and ServiceNow AI Agents are offering integrated solutions for enterprise agent deployment."
       ],
       "supersedes": "ins-2026-10-04-4",
-      "superseded_by": null
+      "superseded_by": "ins-2026-11-15-3"
     },
     {
       "id": "ins-2026-10-18-1",
@@ -6700,6 +6782,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-11-15",
+      "generated_at": "2026-11-15T05:21:58.167808+00:00",
+      "events_scanned": 511,
+      "red_deltas": 0,
+      "new_insights": 4,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 142
+    },
     {
       "date": "2026-11-08",
       "generated_at": "2026-11-08T04:59:55.953503+00:00",
