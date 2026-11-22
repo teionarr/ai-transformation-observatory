@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T05:21:58.167808+00:00",
-  "run_duration_seconds": 142,
+  "generated_at": "2026-11-22T05:37:48.062941+00:00",
+  "run_duration_seconds": 158,
   "categories": [
     "Transformation Titans",
     "Forward Deployers",
@@ -23,7 +23,7 @@
       "kind": "neural search",
       "glyph": "hex",
       "calls": 59,
-      "last_call": "2026-11-15T05:21:58.167808+00:00",
+      "last_call": "2026-11-22T05:37:48.062941+00:00",
       "status": "healthy"
     },
     {
@@ -32,7 +32,7 @@
       "kind": "change-tracking scrape",
       "glyph": "flame",
       "calls": 201,
-      "last_call": "2026-11-15T05:21:58.167808+00:00",
+      "last_call": "2026-11-22T05:37:48.062941+00:00",
       "status": "down"
     },
     {
@@ -40,8 +40,8 @@
       "name": "Gemini 2.5 Flash",
       "kind": "synthesis",
       "glyph": "diamond",
-      "calls": 4,
-      "last_call": "2026-11-15T05:21:58.167808+00:00",
+      "calls": 6,
+      "last_call": "2026-11-22T05:37:48.062941+00:00",
       "status": "down"
     },
     {
@@ -50,7 +50,7 @@
       "kind": "grounded search",
       "glyph": "wave",
       "calls": 3,
-      "last_call": "2026-11-15T05:21:58.167808+00:00",
+      "last_call": "2026-11-22T05:37:48.062941+00:00",
       "status": "healthy"
     }
   ],
@@ -6782,6 +6782,16 @@
     }
   ],
   "scan_history": [
+    {
+      "date": "2026-11-22",
+      "generated_at": "2026-11-22T05:37:48.062941+00:00",
+      "events_scanned": 599,
+      "red_deltas": 0,
+      "new_insights": 0,
+      "new_competitors": 0,
+      "competitors_scanned": 200,
+      "duration_seconds": 158
+    },
     {
       "date": "2026-11-15",
       "generated_at": "2026-11-15T05:21:58.167808+00:00",
